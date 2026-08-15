@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kronosfusionenergy.com/mission/sitemap.xml
