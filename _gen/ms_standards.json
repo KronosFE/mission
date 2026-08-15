@@ -1,0 +1,2333 @@
+[
+ {
+  "slug": "what-high-standards-mean",
+  "title": "The Standard We Hold Ourselves To",
+  "cat": "high-standards",
+  "lede": "High standards at Kronos are a concrete practice: get the physics right, quantify what you do not know, and let anyone check the work.",
+  "body": [
+   [
+    "h2",
+    "A standard is a practice, not a slogan"
+   ],
+   [
+    "p",
+    "Kronos designs its machines digitally before any metal is cut. That makes the quality of the analysis the quality of the product. A high standard is therefore not an aspiration we hang on the wall; it is a set of practices we can point to on every number we publish: rigorous physics, an explicit error budget, verification that the code solves the equations, validation against reality where reality exists, reproducible pipelines, a frozen design point under change control, and predictions written before the test that could disprove them."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 700 250\" width=\"100%\" style=\"max-width:700px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The standards stack, from physics to public record\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"30\" y=\"30\" width=\"640\" height=\"34\" rx=\"5\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"350\" y=\"52\" font-size=\"12.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\">Physics &amp; mathematical rigor</text><rect x=\"30\" y=\"74\" width=\"640\" height=\"34\" rx=\"5\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"350\" y=\"96\" font-size=\"12.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\">Verification &amp; validation</text><rect x=\"30\" y=\"118\" width=\"640\" height=\"34\" rx=\"5\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"350\" y=\"140\" font-size=\"12.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\">Error budget &amp; uncertainty</text><rect x=\"30\" y=\"162\" width=\"640\" height=\"34\" rx=\"5\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"350\" y=\"184\" font-size=\"12.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\">Frozen design under change control</text><rect x=\"30\" y=\"206\" width=\"640\" height=\"34\" rx=\"5\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><text x=\"350\" y=\"228\" font-size=\"12.5\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\">Reproducible, public record + pre-registered predictions</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Why we start here"
+   ],
+   [
+    "p",
+    "Fusion has a long history of numbers that could not survive scrutiny. We think the antidote is boring and specific: state every assumption, carry every uncertainty, and mark the boundary between what simulation has settled and what only hardware can settle. The breeder (Hyperion) and the burner (Aegis / MetroVolt) are design and simulation studies today, not built machines, and we say so on every page."
+   ],
+   [
+    "p",
+    "The pages in this section describe each practice in turn: how we verify code, how we build an error budget, why we freeze a design point, how peer review and pre-registration work, and why we treat all of this as a moral commitment rather than a checkbox. Read together, they describe an organization that would rather be caught being careful than be caught being impressive, and that treats the analysis behind an unbuilt machine as the machine's first and most testable component."
+   ]
+  ],
+  "related": [
+   [
+    "physics-rigor",
+    "Physics Rigor"
+   ],
+   [
+    "verification-vs-validation",
+    "Verification vs Validation"
+   ],
+   [
+    "standards-as-moral-commitment",
+    "Standards as a Moral Commitment"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "physics-rigor",
+  "title": "Physics Rigor: Getting the Equations Right",
+  "cat": "high-standards",
+  "lede": "Before any result is trusted, the governing equations, their domain of validity, and their assumptions are written down explicitly.",
+  "body": [
+   [
+    "h2",
+    "The equations come first"
+   ],
+   [
+    "p",
+    "A fusion device couples plasma physics, electromagnetics, neutron transport, heat transfer, and structural mechanics. Rigor begins by naming which equations govern each part, in what regime they hold, and where we knowingly approximate. The breeder (Hyperion) is a D-T spherical tokamak with plasma current 9.86 MA, peak field 16.84 T (8 T on-axis), and negative triangularity delta -0.30; each of those is an input or output of a specific model, not a round number chosen for effect."
+   ],
+   [
+    "h3",
+    "Assumptions are stated, not buried"
+   ],
+   [
+    "p",
+    "Every model carries assumptions: a transport closure, an equation of state, a boundary condition, a materials property at temperature. We list them. A reader who disagrees with an assumption can see exactly which result it touches. The design figures for fusion power (88.7 MW) and scientific gain (Q_sci 3.424) are the outputs of a stated modelling chain, and the chain is the claim, not just the number at the end."
+   ],
+   [
+    "h3",
+    "Regime of validity is part of the result"
+   ],
+   [
+    "p",
+    "A model that is excellent inside its regime is worthless outside it. This is why the burner (Aegis / MetroVolt) is described with its plug operating regime stated as 166-830x beyond any operated device: we are explicit that the correlations we rely on are being extrapolated far past where they were measured, so the prediction is un-post-dictable today. Saying that plainly is part of getting the physics right."
+   ],
+   [
+    "p",
+    "Physics rigor is not the same as being conservative or optimistic. It is the discipline of matching each claim to the model that produced it, and never letting a number travel without the assumptions that made it true."
+   ]
+  ],
+  "related": [
+   [
+    "mathematical-rigor",
+    "Mathematical Rigor"
+   ],
+   [
+    "conservation-laws-as-checks",
+    "Conservation Laws as Checks"
+   ],
+   [
+    "citing-model-limits",
+    "Citing Model Limits"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "mathematical-rigor",
+  "title": "Mathematical Rigor and Where Approximations Live",
+  "cat": "high-standards",
+  "lede": "Rigor means knowing which steps are exact, which are approximate, and how large the approximation error can be.",
+  "body": [
+   [
+    "h2",
+    "Exact, approximate, and empirical"
+   ],
+   [
+    "p",
+    "Most engineering answers are built from three kinds of step: exact algebra, controlled approximations (truncated series, linearizations, discretizations), and empirical correlations fit to data. A rigorous result labels every step by kind, because the failure modes differ. Algebra fails by mistake; approximations fail when a small parameter stops being small; correlations fail outside the data they were fit to."
+   ],
+   [
+    "h3",
+    "Bounding the approximation, not hoping about it"
+   ],
+   [
+    "p",
+    "When we linearize or truncate, we estimate the neglected term rather than assume it vanishes. When we discretize a field, we test that the answer stops moving as the grid refines. The goal is a stated bound: this approximation contributes at most X to the final number. Without that bound, a clean-looking result is just an assertion."
+   ],
+   [
+    "h3",
+    "Notation and units discipline"
+   ],
+   [
+    "p",
+    "Ambiguous notation hides errors. We fix symbol conventions, carry units through every expression, and reject any intermediate result whose units do not close. Dimensional consistency is cheap and catches a surprising fraction of mistakes before they reach a figure."
+   ],
+   [
+    "p",
+    "Mathematical rigor also means resisting false precision. Reporting a derived quantity to more digits than the inputs justify is itself an error; the significant figures we print are chosen to match the uncertainty, not to look authoritative. A number that reads 3.424 is stated to that precision because the analysis supports it, not because more digits look better. When the rounding, the notation, and the bounded approximations are all in order, the mathematics stops being a place errors can hide and becomes a place a reviewer can trust to be exactly as accurate as it claims."
+   ]
+  ],
+  "related": [
+   [
+    "physics-rigor",
+    "Physics Rigor"
+   ],
+   [
+    "dimensional-analysis-discipline",
+    "Dimensional Analysis"
+   ],
+   [
+    "significant-figures-discipline",
+    "Significant Figures"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "dimensional-analysis-discipline",
+  "title": "Dimensional Analysis as a First Check",
+  "cat": "high-standards",
+  "lede": "Every equation must be dimensionally consistent; checking units is the fastest way to catch a wrong result before it spreads.",
+  "body": [
+   [
+    "h2",
+    "Units close, or the result is wrong"
+   ],
+   [
+    "p",
+    "Dimensional analysis is the cheapest form of verification we have. If the units on the two sides of an expression do not match, the expression is wrong, full stop, regardless of how physical the numbers look. We treat a units mismatch as a hard failure in review, not a rounding concern."
+   ],
+   [
+    "h3",
+    "Scaling arguments before detailed models"
+   ],
+   [
+    "p",
+    "Before running a detailed simulation, we estimate the answer from dimensional grouping and characteristic scales. If the detailed result disagrees with the scaling estimate by an order of magnitude, one of them is wrong and we find out which before trusting either. This is how a peak field of 16.84 T or a fusion power near 88.7 MW is first bracketed: the order of magnitude has to be defensible from scaling alone."
+   ],
+   [
+    "h3",
+    "Non-dimensional numbers travel; dimensional ones do not"
+   ],
+   [
+    "p",
+    "Plasma and engineering behaviour is governed by dimensionless groups. Framing a result in dimensionless form makes it comparable across machines and across scales, and exposes when a claim depends on an unstated dimensional coincidence. When we extrapolate the burner (Aegis / MetroVolt) plug regime, we do it in dimensionless terms and report how far outside measured ground the groups sit."
+   ],
+   [
+    "p",
+    "None of this replaces detailed analysis. It disciplines it. A result that survives dimensional and scaling checks has earned the right to be computed carefully; a result that fails them has not. Because it needs no simulation and no data, it is also the one check we can run on someone else's claim as easily as our own -- a wrong-dimensioned result is refutable on sight, whoever made it."
+   ]
+  ],
+  "related": [
+   [
+    "mathematical-rigor",
+    "Mathematical Rigor"
+   ],
+   [
+    "conservation-laws-as-checks",
+    "Conservation Laws as Checks"
+   ],
+   [
+    "benchmarking-against-known-cases",
+    "Benchmarking"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "conservation-laws-as-checks",
+  "title": "Conservation Laws as Sanity Checks",
+  "cat": "high-standards",
+  "lede": "Energy, particle, and momentum balances must close in every simulation; a leak in a conserved quantity is a defect, not noise.",
+  "body": [
+   [
+    "h2",
+    "Balances that must close"
+   ],
+   [
+    "p",
+    "Physical solvers must conserve what nature conserves. We check global energy, particle, charge, and momentum balances on every run and require them to close to a stated tolerance. A power balance that is off by a few percent is not acceptable slack; it is evidence that the model is doing something we have not accounted for."
+   ],
+   [
+    "h3",
+    "The power balance is the spine of the design"
+   ],
+   [
+    "p",
+    "For the breeder (Hyperion), the fusion power of 88.7 MW and the scientific gain Q_sci of 3.424 are two faces of one balance: power out versus power in. Those numbers only mean anything if the full accounting closes, including radiated power, conduction losses, and the heating power in the denominator of Q. We report the balance, not just the ratio."
+   ],
+   [
+    "h3",
+    "Tritium and helium accounting"
+   ],
+   [
+    "p",
+    "The breeder is credited with roughly 4 kg/yr of tritium-class product and about 1.97 kg/yr of helium-3, plus 14 MeV neutrons. Every one of those flows is a term in a species balance. The tritium breeding ratio is treated as a design lever across 1.1, 1.5, and 1.8 precisely because tritium self-sufficiency is a conservation question we have not closed on hardware, and we will not pretend otherwise."
+   ],
+   [
+    "p",
+    "Conservation checks are unglamorous and non-negotiable. They are the first thing we run and the first thing an outside reviewer should demand to see. A model that balances is not guaranteed correct, but a model that does not balance is guaranteed wrong, which is why the balance is the first gate a result must pass before any of its more interesting numbers are believed."
+   ]
+  ],
+  "related": [
+   [
+    "dimensional-analysis-discipline",
+    "Dimensional Analysis"
+   ],
+   [
+    "the-error-budget",
+    "The Error Budget"
+   ],
+   [
+    "tbr-as-a-lever",
+    "TBR as a Lever"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "verification-vs-validation",
+  "title": "Verification vs Validation",
+  "cat": "high-standards",
+  "lede": "Verification asks whether we solve the equations right; validation asks whether we solve the right equations. Both are required, and they are different.",
+  "body": [
+   [
+    "h2",
+    "Two different questions"
+   ],
+   [
+    "p",
+    "Verification and validation are often blurred together, and blurring them is where trust leaks out. <b>Verification</b> is a mathematics question: does the code correctly solve the equations we intended? <b>Validation</b> is a physics question: do those equations describe reality? A model can be perfectly verified and completely wrong, or physically sound but wrongly implemented."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 700 240\" width=\"100%\" style=\"max-width:700px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Verification loop versus validation against reality\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"40\" y=\"60\" width=\"240\" height=\"120\" rx=\"8\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><text x=\"160\" y=\"92\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"700\">VERIFICATION</text><text x=\"160\" y=\"116\" font-size=\"11.5\" fill=\"#8FA0B8\" text-anchor=\"middle\">code vs equations</text><text x=\"160\" y=\"136\" font-size=\"11.5\" fill=\"#8FA0B8\" text-anchor=\"middle\">exact solutions,</text><text x=\"160\" y=\"152\" font-size=\"11.5\" fill=\"#8FA0B8\" text-anchor=\"middle\">convergence, unit tests</text><rect x=\"420\" y=\"60\" width=\"240\" height=\"120\" rx=\"8\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"540\" y=\"92\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"700\">VALIDATION</text><text x=\"540\" y=\"116\" font-size=\"11.5\" fill=\"#8FA0B8\" text-anchor=\"middle\">equations vs reality</text><text x=\"540\" y=\"136\" font-size=\"11.5\" fill=\"#8FA0B8\" text-anchor=\"middle\">experiments, measured</text><text x=\"540\" y=\"152\" font-size=\"11.5\" fill=\"#8FA0B8\" text-anchor=\"middle\">data, gated by FOAK</text><line x1=\"280\" y1=\"120\" x2=\"420\" y2=\"120\" stroke=\"#D4AD5C\" stroke-width=\"2\"/><polygon points=\"420,120 408,114 408,126\" fill=\"#D4AD5C\"/><text x=\"350\" y=\"112\" font-size=\"10.5\" fill=\"#D4AD5C\" text-anchor=\"middle\">the gate</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Where each one lives today"
+   ],
+   [
+    "p",
+    "Verification we can do fully now: exact test cases, method-of-manufactured-solutions, convergence studies, and unit tests all run without any hardware. Validation is partial by necessity. Some sub-models validate against existing experiments and published data; the integrated machine cannot be validated until it exists. For the breeder that gate is first-of-a-kind (FOAK) first tritium around 2030."
+   ],
+   [
+    "h3",
+    "Why the distinction is a standard, not pedantry"
+   ],
+   [
+    "p",
+    "Calling a verified-but-unvalidated result a measurement is the single most common way fusion claims mislead. We keep the words separate so a reader always knows which evidence a number rests on. The burner (Aegis / MetroVolt) is, honestly, largely pre-validation: key regimes sit far beyond any operated device, so we present them as verified simulation, not validated performance."
+   ],
+   [
+    "p",
+    "Both halves are mandatory. Verification without validation is untethered mathematics; validation without verification is measuring the wrong thing carefully. We therefore report the two separately for every headline number, so a reader can always see whether a figure rests on a solved equation, a measured reality, or -- as with much of the burner today -- a verified simulation still waiting for the reality that would validate it."
+   ]
+  ],
+  "related": [
+   [
+    "verification-practice",
+    "Verification in Practice"
+   ],
+   [
+    "validation-practice",
+    "Validation in Practice"
+   ],
+   [
+    "simulation-vs-experiment",
+    "Simulation vs Experiment"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "verification-practice",
+  "title": "Verification: Are We Solving the Equations Right",
+  "cat": "high-standards",
+  "lede": "Verification uses exact solutions, manufactured solutions, and convergence studies to prove the code solves its equations correctly.",
+  "body": [
+   [
+    "h2",
+    "Proving the solver is faithful"
+   ],
+   [
+    "p",
+    "Verification is the part of quality assurance we can complete today, with no hardware, so we hold it to a strict standard. The question is narrow and answerable: given the equations we chose, does the code produce their correct solution?"
+   ],
+   [
+    "h3",
+    "Techniques we rely on"
+   ],
+   [
+    "ul",
+    [
+     "Exact solutions: run the solver on problems with closed-form answers and confirm it recovers them to tolerance.",
+     "Method of manufactured solutions: insert a chosen solution into the equations, derive the source term it implies, and check the code returns the chosen solution.",
+     "Convergence studies: refine the grid or timestep and confirm the error falls at the expected order.",
+     "Conservation checks: confirm conserved quantities close on every run.",
+     "Regression tests: lock known-good outputs so a code change that alters them is caught immediately."
+    ]
+   ],
+   [
+    "h3",
+    "Order of accuracy is a claim we test"
+   ],
+   [
+    "p",
+    "A scheme advertised as second-order should show error dropping by roughly four times when the grid is halved. If it does not, either the implementation has a bug or a boundary condition is spoiling the order. We measure the observed order rather than trusting the advertised one, and we report it."
+   ],
+   [
+    "p",
+    "Verification does not tell us whether a design will work in the world. It tells us that when we report a simulated Q_sci of 3.424 or a peak field of 16.84 T, the number is the true solution of the model we specified and not an artifact of a coarse grid or a coding slip. That is a precondition for every downstream claim."
+   ]
+  ],
+  "related": [
+   [
+    "verification-vs-validation",
+    "Verification vs Validation"
+   ],
+   [
+    "convergence-testing",
+    "Convergence Testing"
+   ],
+   [
+    "unit-tests-for-physics",
+    "Unit Tests for Physics Code"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "validation-practice",
+  "title": "Validation: Are We Solving the Right Equations",
+  "cat": "high-standards",
+  "lede": "Validation compares model predictions against measured reality; where reality does not yet exist, we say the claim is unvalidated.",
+  "body": [
+   [
+    "h2",
+    "Testing the model against the world"
+   ],
+   [
+    "p",
+    "Validation asks whether our equations describe nature. It requires data from experiments or operating machines, and it is where honesty about maturity matters most. We validate what we can, and we label what we cannot."
+   ],
+   [
+    "h3",
+    "Three tiers of validation status"
+   ],
+   [
+    "ul",
+    [
+     "Validated sub-models: components whose physics matches existing experiments and published measurements within stated uncertainty.",
+     "Partially constrained: sub-models anchored by adjacent data but extrapolated beyond it, carrying a larger, stated uncertainty.",
+     "Unvalidated: integrated machine performance that only the built device can settle."
+    ]
+   ],
+   [
+    "h3",
+    "The honest gates are validation statements"
+   ],
+   [
+    "p",
+    "The burner (Aegis / MetroVolt) gates are validation facts, not opinions. Its plug operating regime sits 166-830x beyond any operated device, so integrated performance is un-post-dictable today. Its plug coil is overstressed roughly 3-3.9x at the design bore, which is a structural validation failure against known material limits. We report these because a validation program that hides its failures is not a validation program."
+   ],
+   [
+    "h3",
+    "What FOAK validates"
+   ],
+   [
+    "p",
+    "For the breeder (Hyperion), first-of-a-kind first tritium around 2030 is the first integrated validation event: it is where tritium breeding, neutron output, and power balance meet measurement instead of model. Until then we make no hardware net-gain claim. Construction begins Q2 2027; the numbers we publish before that are verified simulation awaiting validation."
+   ],
+   [
+    "p",
+    "Validation is slow, expensive in time, and cannot be rushed by argument. Treating it as the arbiter, rather than persuasion, is the standard. The result is a status label on every claim, so a reader never has to guess whether a number has met reality: validated, partially constrained, or unvalidated and waiting for the machine that will settle it."
+   ]
+  ],
+  "related": [
+   [
+    "verification-vs-validation",
+    "Verification vs Validation"
+   ],
+   [
+    "simulation-vs-experiment",
+    "Simulation vs Experiment"
+   ],
+   [
+    "what-foak-will-prove",
+    "What FOAK Will Prove"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "the-error-budget",
+  "title": "The Error Budget",
+  "cat": "high-standards",
+  "lede": "An error budget lists every source of uncertainty and how much each contributes to the final number, so no claim travels without its bar.",
+  "body": [
+   [
+    "h2",
+    "Where the uncertainty comes from"
+   ],
+   [
+    "p",
+    "An error budget is a ledger. For any headline result, it enumerates the contributing uncertainties -- inputs, model form, discretization, correlations -- and shows how each propagates to the output. The point is to know not just how uncertain a number is, but why, and which term to attack to reduce it."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 700 230\" width=\"100%\" style=\"max-width:700px;display:block;margin:0 auto\" role=\"img\" aria-label=\"An error budget as contributions summing to a total bar\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><text x=\"40\" y=\"40\" font-size=\"12\" fill=\"#E7EBF2\" font-weight=\"700\">Contributions to output uncertainty (illustrative)</text><rect x=\"40\" y=\"60\" width=\"300\" height=\"22\" fill=\"#D4AD5C\"/><text x=\"350\" y=\"76\" font-size=\"11.5\" fill=\"#E7EBF2\">input parameters</text><rect x=\"40\" y=\"92\" width=\"200\" height=\"22\" fill=\"#B8935079\"/><text x=\"250\" y=\"108\" font-size=\"11.5\" fill=\"#E7EBF2\">correlation / model form</text><rect x=\"40\" y=\"124\" width=\"120\" height=\"22\" fill=\"#8FA0B8\"/><text x=\"170\" y=\"140\" font-size=\"11.5\" fill=\"#E7EBF2\">discretization</text><rect x=\"40\" y=\"156\" width=\"70\" height=\"22\" fill=\"#5c6b7f\"/><text x=\"120\" y=\"172\" font-size=\"11.5\" fill=\"#E7EBF2\">numerical / round-off</text><line x1=\"40\" y1=\"196\" x2=\"660\" y2=\"196\" stroke=\"#3a4655\" stroke-width=\"1\"/><text x=\"40\" y=\"216\" font-size=\"11\" fill=\"#8FA0B8\">bars combine in quadrature when independent; largest term is the one to reduce first</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Combining terms honestly"
+   ],
+   [
+    "p",
+    "Independent uncertainties combine in quadrature; correlated ones do not, and pretending they are independent understates the total. We track correlations where they matter and state when we have assumed independence. The dominant term usually decides where the next unit of effort should go."
+   ],
+   [
+    "h3",
+    "No number without a budget"
+   ],
+   [
+    "p",
+    "The standard is simple: a quantitative claim that cannot show its error budget is not ready to publish. When the budget is dominated by an unvalidated model form -- as it is for the burner plug regime -- the honest conclusion is that the central value is not yet meaningful, and we say that instead of quoting a tidy figure."
+   ],
+   [
+    "p",
+    "An error budget is also a to-do list. It tells us, before any hardware, which measurement at FOAK will most reduce what we do not know. Because it is a ledger rather than a single figure, the error budget can be checked line by line, argued with, and improved -- which is exactly the property a headline uncertainty should have if anyone is meant to rely on it. We build the budget before we quote the headline, not after, because a central value chosen first and justified later is how false precision enters a design and then proves nearly impossible to remove."
+   ]
+  ],
+  "related": [
+   [
+    "propagation-of-uncertainty",
+    "Propagating Uncertainty"
+   ],
+   [
+    "sensitivity-analysis",
+    "Sensitivity Analysis"
+   ],
+   [
+    "error-bars",
+    "Error Bars"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "propagation-of-uncertainty",
+  "title": "Propagating Uncertainty Through the Model",
+  "cat": "high-standards",
+  "lede": "Inputs carry uncertainty; a rigorous result carries it all the way to the output rather than dropping it at the first step.",
+  "body": [
+   [
+    "h2",
+    "Uncertainty in, uncertainty out"
+   ],
+   [
+    "p",
+    "A model with uncertain inputs produces an uncertain output, and the whole job is to carry that uncertainty faithfully rather than collapsing inputs to point values and reporting a false-precise answer. We propagate by linearized sensitivities where the response is smooth and by sampling (Monte Carlo) where it is not."
+   ],
+   [
+    "h3",
+    "Linear propagation and its Jacobian"
+   ],
+   [
+    "p",
+    "For small input variations the output covariance follows from the sensitivity (Jacobian) matrix acting on the input covariance. Off-diagonal terms encode how inputs move together; ignoring them can hide or invent uncertainty. A schematic covariance mapping makes the bookkeeping explicit:"
+   ],
+   [
+    "matrix",
+    [
+     "J",
+     [
+      [
+       "dQ/dn",
+       "dQ/dT"
+      ],
+      [
+       "dP/dn",
+       "dP/dT"
+      ]
+     ]
+    ]
+   ],
+   [
+    "p",
+    "Reading it plainly: each row is how one output (scientific gain Q, or fusion power P) responds to each input (density n, temperature T). The output uncertainty is this matrix applied to the input uncertainties, so a small, well-known input with a large sensitivity can dominate the budget."
+   ],
+   [
+    "h3",
+    "When linear is not enough"
+   ],
+   [
+    "p",
+    "Near thresholds, ignitions, or stress limits the response is nonlinear and linear propagation understates the tails. There we sample the full model. This matters for the burner plug: because it sits far outside measured ground, the output distribution is wide and skewed, and a single central value would misrepresent it."
+   ],
+   [
+    "p",
+    "Propagation is what turns a deterministic design point into an honest one. The frozen values -- Q_sci 3.424, plasma current 9.86 MA -- are central estimates; the propagated uncertainty around them is part of the same result. Carrying uncertainty end to end is more work than quoting a point value, and it is the difference between a design number a reader can weigh and a number that merely looks precise while hiding how little is actually pinned down."
+   ]
+  ],
+  "related": [
+   [
+    "the-error-budget",
+    "The Error Budget"
+   ],
+   [
+    "sensitivity-analysis",
+    "Sensitivity Analysis"
+   ],
+   [
+    "uncertainty-quantification",
+    "Uncertainty Quantification"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "sensitivity-analysis",
+  "title": "Sensitivity Analysis: Which Inputs Move the Answer",
+  "cat": "high-standards",
+  "lede": "Sensitivity analysis ranks inputs by how strongly they change a result, telling us where precision is worth buying and where it is not.",
+  "body": [
+   [
+    "h2",
+    "Not all inputs matter equally"
+   ],
+   [
+    "p",
+    "A design has many inputs, but usually only a few control the headline result. Sensitivity analysis finds them. We vary each input across its plausible range and measure the response, producing a ranked picture of what actually drives Q_sci, fusion power, or peak field."
+   ],
+   [
+    "h3",
+    "Local and global sensitivity"
+   ],
+   [
+    "p",
+    "Local sensitivity is the derivative at the design point: useful and cheap, but blind to interactions and to behaviour far from the point. Global sensitivity varies inputs together across their whole ranges and attributes output variance among them. We use local analysis for quick guidance and global analysis before trusting a conclusion, because interactions can dominate near thresholds."
+   ],
+   [
+    "h3",
+    "What sensitivity tells us to do"
+   ],
+   [
+    "ul",
+    [
+     "Buy precision where it pays: measure or pin down the high-sensitivity inputs first.",
+     "Stop polishing low-sensitivity inputs: extra digits there do not change the answer.",
+     "Flag fragile results: if a small input change flips a conclusion, the conclusion is not robust and we say so.",
+     "Design measurements: the FOAK instruments should target the quantities the design is most sensitive to."
+    ]
+   ],
+   [
+    "p",
+    "For the burner (Aegis / MetroVolt), sensitivity analysis is part of why the plug regime is such a stark gate: performance is extremely sensitive to conditions that sit 166-830x beyond any operated device, so the result cannot be pinned down until those conditions can be reached and measured. Sensitivity analysis does not soften a gate; it explains why the gate is where it is. In the end, sensitivity analysis is what turns a long list of inputs into a short list of the ones that decide the answer, and it tells FOAK instrumentation exactly which quantities are worth the effort of measuring first."
+   ]
+  ],
+  "related": [
+   [
+    "propagation-of-uncertainty",
+    "Propagating Uncertainty"
+   ],
+   [
+    "the-error-budget",
+    "The Error Budget"
+   ],
+   [
+    "extrapolation-honesty",
+    "Extrapolation Honesty"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "significant-figures-discipline",
+  "title": "Significant Figures and Honest Precision",
+  "cat": "high-standards",
+  "lede": "The number of digits we print matches the precision the analysis supports; extra digits are a form of overclaiming.",
+  "body": [
+   [
+    "h2",
+    "Digits are a claim about precision"
+   ],
+   [
+    "p",
+    "Every digit printed asserts that the digit is meaningful. Printing more digits than the uncertainty justifies is a small dishonesty that compounds, because it invites readers to treat a rough estimate as a measurement. We choose significant figures to reflect the error budget, not to look authoritative."
+   ],
+   [
+    "h3",
+    "Why some numbers carry more digits"
+   ],
+   [
+    "p",
+    "Q_sci is quoted as 3.424 and helium-3 output as about 1.97 kg/yr because those are outputs of a settled calculation with correspondingly small model spread. A quantity dominated by an unvalidated correlation gets fewer digits and an explicit range, because more digits would be fiction. The rule is consistency between the printed precision and the propagated uncertainty."
+   ],
+   [
+    "h3",
+    "Rounding is done once, at the end"
+   ],
+   [
+    "p",
+    "We carry full precision through intermediate steps and round only when reporting, so accumulated rounding does not distort a result. Rounding early and repeatedly can shift a final figure by more than its true uncertainty -- a self-inflicted error that a disciplined pipeline avoids."
+   ],
+   [
+    "h3",
+    "Ranges beat false central values"
+   ],
+   [
+    "p",
+    "When the honest state of knowledge is a range, we report the range. The burner availability figure of roughly 0.86 to 0.995 is written as a band on purpose: collapsing it to a single number would erase the very uncertainty that matters, which is that this is 30-100x short of hyperscale Tier III at 0.99982."
+   ],
+   [
+    "p",
+    "Precision discipline is quiet but load-bearing. It is how the reader can trust that a number means exactly as much as it appears to."
+   ]
+  ],
+  "related": [
+   [
+    "mathematical-rigor",
+    "Mathematical Rigor"
+   ],
+   [
+    "no-fudged-numbers",
+    "No Fudged Numbers"
+   ],
+   [
+    "error-bars",
+    "Error Bars"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "no-fudged-numbers",
+  "title": "No Fudged Numbers",
+  "cat": "high-standards",
+  "lede": "We never adjust a number to reach a nicer answer; when a result is inconvenient, we report the result and explain the inconvenience.",
+  "body": [
+   [
+    "h2",
+    "The one rule that underwrites the rest"
+   ],
+   [
+    "p",
+    "A fudged number is any figure nudged toward a desired conclusion rather than derived from the model and data. It is the failure that makes all other standards worthless, because once one number is adjusted for effect, no number can be trusted. Our rule is absolute: the analysis decides the value, and we publish what it says."
+   ],
+   [
+    "h3",
+    "How fudging usually happens"
+   ],
+   [
+    "ul",
+    [
+     "Choosing an input at the favourable end of its range without saying so.",
+     "Stopping a convergence study at the point that gives the wanted answer.",
+     "Widening a tolerance after the fact until a failing check passes.",
+     "Reporting the best of several runs as if it were typical.",
+     "Rounding in the convenient direction."
+    ]
+   ],
+   [
+    "p",
+    "Each of these is easy, tempting, and forbidden. The defenses against them are the other standards in this section: stated assumptions, convergence to a criterion set in advance, fixed tolerances, pre-registered predictions, and a reproducible record anyone can rerun."
+   ],
+   [
+    "h3",
+    "Inconvenient results stay in"
+   ],
+   [
+    "p",
+    "The burner gates are the proof of practice. A plug coil overstressed 3-3.9x, He-3 demand about 400x domestic supply per commercial unit, availability short of Tier III by 30-100x -- these are the opposite of flattering, and they are published exactly as computed. Keeping them is not modesty; it is the guarantee that the flattering numbers, like Q_sci 3.424, were computed the same honest way."
+   ],
+   [
+    "p",
+    "No fudged numbers is the promise that lets every other page in this section mean something. The rule is easy to state and hard to keep, because the pressure to fudge is strongest exactly when a number is inconvenient, which is exactly when keeping the rule matters most."
+   ]
+  ],
+  "related": [
+   [
+    "no-tuned-constants",
+    "No Tuned Constants"
+   ],
+   [
+    "significant-figures-discipline",
+    "Significant Figures"
+   ],
+   [
+    "standards-as-moral-commitment",
+    "Standards as a Moral Commitment"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "no-tuned-constants",
+  "title": "No Free Parameters Tuned to Fit",
+  "cat": "high-standards",
+  "lede": "A model with enough adjustable knobs can match anything; rigor means the constants are physical, sourced, and fixed before the result is computed.",
+  "body": [
+   [
+    "h2",
+    "The danger of adjustable knobs"
+   ],
+   [
+    "p",
+    "Any model with enough free parameters can be tuned to reproduce a desired outcome, which makes agreement meaningless. The discipline is to minimize free parameters, source every constant to physics or measured data, and fix them before running the case whose answer we care about."
+   ],
+   [
+    "h3",
+    "Fixed before the answer is known"
+   ],
+   [
+    "p",
+    "A constant chosen after seeing the target is not a constant; it is a fit. We set material properties, cross-sections, and closure coefficients from their sources first, then compute. If a result only works with a value nobody can justify from data, that is a finding about the model's weakness, not a knob to turn."
+   ],
+   [
+    "h3",
+    "Provenance for every constant"
+   ],
+   [
+    "p",
+    "Each constant carries a source: a measured property at a stated temperature, a published cross-section evaluation, or a first-principles value. When we must estimate a constant that is poorly known, we treat it as an uncertain input with a range and propagate it, rather than picking a convenient point value and hiding the choice."
+   ],
+   [
+    "p",
+    "This is why the tritium breeding ratio appears as a lever across 1.1, 1.5, and 1.8 rather than a single tuned figure: the honest state of knowledge is a range set by geometry and materials, and collapsing it to one flattering value would be exactly the tuning we forbid. Rigor here is refusing the easy fit even when it would make the story cleaner. A model whose constants are all sourced and fixed in advance can be wrong, but it cannot be secretly rigged, and that difference is the whole reason its agreement with data would mean anything."
+   ]
+  ],
+  "related": [
+   [
+    "no-fudged-numbers",
+    "No Fudged Numbers"
+   ],
+   [
+    "materials-property-provenance",
+    "Materials Property Provenance"
+   ],
+   [
+    "tbr-as-a-lever",
+    "TBR as a Lever"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "unit-tests-for-physics",
+  "title": "Unit Tests for Physics Code",
+  "cat": "high-standards",
+  "lede": "Small automated tests pin the behaviour of each function, so a change that breaks the physics is caught the moment it is introduced.",
+  "body": [
+   [
+    "h2",
+    "Testing the smallest pieces"
+   ],
+   [
+    "p",
+    "Physics code is code, and it earns the same discipline as any critical software. A unit test exercises a single function against a known answer -- a limit, an analytic case, a conservation identity -- and fails loudly if the function stops returning it. Thousands of these run automatically on every change."
+   ],
+   [
+    "h3",
+    "What good physics unit tests check"
+   ],
+   [
+    "ul",
+    [
+     "Known limits: does the function recover the analytic answer in a case with a closed form?",
+     "Symmetry and invariance: does it respect symmetries the physics demands?",
+     "Conservation: does it conserve what it should on a small controlled problem?",
+     "Boundary behaviour: does it handle edges, zeros, and extremes without silently returning nonsense?",
+     "Units: does the returned quantity carry the expected dimensions?"
+    ]
+   ],
+   [
+    "h3",
+    "Why this is a standard, not a nicety"
+   ],
+   [
+    "p",
+    "Integrated results like Q_sci 3.424 or fusion power 88.7 MW are built from many functions. If any one drifts unnoticed, the headline number is silently wrong and looks fine. Unit tests convert a silent drift into an immediate, located failure, which is the difference between catching a bug in an afternoon and shipping it in a paper."
+   ],
+   [
+    "p",
+    "Tests are also documentation: a well-written test states, in executable form, what a function is supposed to do. When a reviewer asks what a routine guarantees, the tests are the honest answer. The habit costs a little time on every change and repays it many times over, because the alternative is trusting that a large body of coupled physics code stayed correct on faith, which is not a standard at all."
+   ]
+  ],
+  "related": [
+   [
+    "verification-practice",
+    "Verification in Practice"
+   ],
+   [
+    "regression-testing-the-design",
+    "Regression Testing"
+   ],
+   [
+    "code-review-discipline",
+    "Code Review"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "regression-testing-the-design",
+  "title": "Regression Testing the Design",
+  "cat": "high-standards",
+  "lede": "Locked reference outputs mean any change that moves a headline number is flagged and explained before it is accepted.",
+  "body": [
+   [
+    "h2",
+    "Guarding the numbers that matter"
+   ],
+   [
+    "p",
+    "A regression test stores a known-good output and re-checks it after every change. If the number moves, the test fails, and the change cannot proceed until someone explains why the move is correct. This is how a frozen design point stays frozen in practice rather than in principle."
+   ],
+   [
+    "h3",
+    "From unit tests to integrated regressions"
+   ],
+   [
+    "p",
+    "Unit tests guard individual functions; regression tests guard end-to-end results. We keep reference cases whose outputs -- plasma current 9.86 MA, peak field 16.84 T, Q_sci 3.424 -- are pinned to tolerance. A refactor that leaves them unchanged is safe; one that shifts them is either a bug or a genuine design change that must go through change control."
+   ],
+   [
+    "h3",
+    "Tolerances set in advance"
+   ],
+   [
+    "p",
+    "Every regression test carries a tolerance chosen before the test is written, based on the expected numerical variation, not adjusted afterward to make a run pass. A failing regression is investigated, never silenced by loosening the bound -- loosening a tolerance to pass is a form of fudging, and it is treated as one."
+   ],
+   [
+    "p",
+    "Regression testing is what makes the frozen-design methodology enforceable. Without it, a design point is a claim about a moment; with it, the design point is a guarantee maintained continuously against the code that produces it. In effect, the regression suite is how a frozen number defends itself: it turns the freeze from a statement of intent into a condition the code must continuously satisfy or fail loudly."
+   ]
+  ],
+  "related": [
+   [
+    "unit-tests-for-physics",
+    "Unit Tests for Physics Code"
+   ],
+   [
+    "the-frozen-design-methodology",
+    "The Frozen-Design Methodology"
+   ],
+   [
+    "change-control",
+    "Change Control"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "code-review-discipline",
+  "title": "Code Review as a Standard",
+  "cat": "high-standards",
+  "lede": "No analysis code reaches a published result without a second person reading it; review catches what the author cannot see.",
+  "body": [
+   [
+    "h2",
+    "A second set of eyes, by default"
+   ],
+   [
+    "p",
+    "Authors are blind to their own assumptions. Code review makes a second person read the analysis before it can produce a published number, and the reviewer's job is not to admire it but to try to find where it is wrong. This is standard practice in safety-critical software, and design-and-simulation fusion is exactly that kind of work."
+   ],
+   [
+    "h3",
+    "What a reviewer checks"
+   ],
+   [
+    "ul",
+    [
+     "Correctness: does the code implement the equations it claims to?",
+     "Assumptions: are they stated, and are they appropriate for this case?",
+     "Numerics: are tolerances, grids, and timesteps justified?",
+     "Tests: are there unit and regression tests, and do they cover the risky paths?",
+     "Provenance: does every constant have a source?"
+    ]
+   ],
+   [
+    "h3",
+    "Review is about the work, not the person"
+   ],
+   [
+    "p",
+    "A healthy review culture treats a found defect as a success, because it was caught before it reached a reader. We separate the code from the coder: the standard is impersonal, applied the same way to everyone, so that finding a mistake is normal and welcome rather than an accusation."
+   ],
+   [
+    "p",
+    "Code review is the internal analogue of peer review. It catches the ordinary errors early so that external reviewers and the public record are arguing about substance -- the physics and the gates -- rather than about a bug that should never have survived. Making review the default, applied impersonally to everyone and every result, is what keeps it from becoming a formality reserved for work that already looks doubtful -- the review that matters most is the one on the result everybody assumed was fine."
+   ]
+  ],
+  "related": [
+   [
+    "unit-tests-for-physics",
+    "Unit Tests for Physics Code"
+   ],
+   [
+    "peer-review-standard",
+    "Peer Review"
+   ],
+   [
+    "the-review-before-publishing",
+    "The Internal Review Gate"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "reproducibility-discipline",
+  "title": "Reproducibility as a Discipline",
+  "cat": "high-standards",
+  "lede": "A result that cannot be reproduced is not yet a result; we build every analysis so that someone else can run it and get the same number.",
+  "body": [
+   [
+    "h2",
+    "Reproducible or it does not count"
+   ],
+   [
+    "p",
+    "Reproducibility is the property that another competent person, given our inputs and code, gets our output. We treat it as a precondition for a result to exist, not a courtesy added afterward. If we cannot reproduce our own number next year, we have no basis to ask anyone to believe it today."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 700 210\" width=\"100%\" style=\"max-width:700px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The reproducibility chain from inputs to a re-runnable result\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"20\" y=\"80\" width=\"120\" height=\"50\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"80\" y=\"110\" font-size=\"11.5\" fill=\"#E7EBF2\" text-anchor=\"middle\">inputs +</text><text x=\"80\" y=\"124\" font-size=\"11.5\" fill=\"#E7EBF2\" text-anchor=\"middle\">seeds</text><rect x=\"170\" y=\"80\" width=\"120\" height=\"50\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"230\" y=\"104\" font-size=\"11.5\" fill=\"#E7EBF2\" text-anchor=\"middle\">pinned</text><text x=\"230\" y=\"120\" font-size=\"11.5\" fill=\"#E7EBF2\" text-anchor=\"middle\">environment</text><rect x=\"320\" y=\"80\" width=\"120\" height=\"50\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"380\" y=\"104\" font-size=\"11.5\" fill=\"#E7EBF2\" text-anchor=\"middle\">versioned</text><text x=\"380\" y=\"120\" font-size=\"11.5\" fill=\"#E7EBF2\" text-anchor=\"middle\">code</text><rect x=\"470\" y=\"80\" width=\"120\" height=\"50\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"530\" y=\"110\" font-size=\"11.5\" fill=\"#E7EBF2\" text-anchor=\"middle\">same result</text><rect x=\"620\" y=\"80\" width=\"60\" height=\"50\" rx=\"6\" fill=\"none\" stroke=\"#D4AD5C\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><text x=\"650\" y=\"104\" font-size=\"10.5\" fill=\"#D4AD5C\" text-anchor=\"middle\">DOI</text><text x=\"650\" y=\"120\" font-size=\"10.5\" fill=\"#D4AD5C\" text-anchor=\"middle\">record</text><line x1=\"140\" y1=\"105\" x2=\"168\" y2=\"105\" stroke=\"#8FA0B8\" stroke-width=\"1.6\"/><line x1=\"290\" y1=\"105\" x2=\"318\" y2=\"105\" stroke=\"#8FA0B8\" stroke-width=\"1.6\"/><line x1=\"440\" y1=\"105\" x2=\"468\" y2=\"105\" stroke=\"#8FA0B8\" stroke-width=\"1.6\"/><line x1=\"590\" y1=\"105\" x2=\"618\" y2=\"105\" stroke=\"#D4AD5C\" stroke-width=\"1.6\"/></svg></figure>"
+   ],
+   [
+    "h3",
+    "What reproducibility requires in practice"
+   ],
+   [
+    "ul",
+    [
+     "Versioned code, so the exact program that made a number can be recovered.",
+     "Pinned environments, so libraries and compilers do not silently change the answer.",
+     "Recorded inputs and random seeds, so a run is deterministic.",
+     "A public archive with a permanent identifier, so the record does not depend on us."
+    ]
+   ],
+   [
+    "h3",
+    "Why we archive publicly"
+   ],
+   [
+    "p",
+    "Our papers, data, and analysis are deposited with permanent DOIs under open licenses so the record outlives any internal system and anyone can check it. Reproducibility that only works on our machines is a promise; reproducibility anyone can exercise is a proof."
+   ],
+   [
+    "p",
+    "Distinct from the honesty of labelling claims, this is the mechanical discipline that makes the labels checkable. None of this is exotic; it is ordinary software and record-keeping discipline applied with unusual seriousness, precisely because the results it protects will be weighed by people who were not in the room when they were produced. A reproducible record is the closest thing a design study has to a witness: it can be questioned long after the work is done, and it will answer the same way every time."
+   ]
+  ],
+  "related": [
+   [
+    "deterministic-pipelines",
+    "Deterministic Pipelines"
+   ],
+   [
+    "environment-pinning",
+    "Pinning the Environment"
+   ],
+   [
+    "reproducible-record",
+    "The Reproducible Record"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "deterministic-pipelines",
+  "title": "Deterministic Analysis Pipelines",
+  "cat": "high-standards",
+  "lede": "Given the same inputs, a pipeline must produce the same outputs every time; nondeterminism hides bugs and defeats reproducibility.",
+  "body": [
+   [
+    "h2",
+    "Same in, same out"
+   ],
+   [
+    "p",
+    "A deterministic pipeline returns identical outputs from identical inputs, run after run, machine after machine. Nondeterminism -- unseeded randomness, order-dependent parallel sums, uncontrolled timestamps -- means a result cannot be reproduced exactly, which means it cannot be fully checked. We design pipelines to be deterministic and treat any drift as a defect."
+   ],
+   [
+    "h3",
+    "Common sources of nondeterminism"
+   ],
+   [
+    "ul",
+    [
+     "Random number generators without fixed seeds.",
+     "Floating-point summation order changing under parallelism.",
+     "Hash or dictionary ordering leaking into results.",
+     "Wall-clock time or filesystem order used as an input.",
+     "Library versions changing underfoot."
+    ]
+   ],
+   [
+    "h3",
+    "Making runs bit-for-bit where it matters"
+   ],
+   [
+    "p",
+    "For headline results we pursue bit-for-bit reproducibility: fixed seeds, controlled reduction order, and pinned libraries. Where a method is inherently stochastic, we fix the seed and report the sampling uncertainty as part of the result, so even the randomness is reproducible and quantified."
+   ],
+   [
+    "p",
+    "Determinism is what lets a regression test mean something. If a pipeline can return a different Q_sci on two runs of the same case, no test can guard the number and no reviewer can confirm it. Determinism first, then everything else in the standards stack can rest on it. A deterministic pipeline is therefore not a convenience but a foundation: only once identical inputs reliably give identical outputs can a test guard a number, a reviewer confirm it, or an outside reader reproduce it. Where the physics is genuinely stochastic, we fix the seed and quote the sampling spread, so even the randomness is recorded and repeatable rather than a source of unexplained drift."
+   ]
+  ],
+  "related": [
+   [
+    "reproducibility-discipline",
+    "Reproducibility as a Discipline"
+   ],
+   [
+    "environment-pinning",
+    "Pinning the Environment"
+   ],
+   [
+    "regression-testing-the-design",
+    "Regression Testing"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "environment-pinning",
+  "title": "Pinning the Computational Environment",
+  "cat": "high-standards",
+  "lede": "A result depends on the exact software stack that produced it; we record and freeze that stack so the number can be recovered years later.",
+  "body": [
+   [
+    "h2",
+    "The stack is part of the result"
+   ],
+   [
+    "p",
+    "The same code can give different answers under different compilers, library versions, or hardware. A reproducible result therefore records not just the code but the environment: language versions, numerical libraries, and build flags. Without this, a number is reproducible only until the next routine update changes it without warning."
+   ],
+   [
+    "h3",
+    "How we pin"
+   ],
+   [
+    "ul",
+    [
+     "Explicit dependency manifests naming exact versions, not floating ranges.",
+     "Container or lockfile snapshots of the full stack.",
+     "Recorded compiler and build flags that affect numerics.",
+     "Notes on hardware where it changes results, such as floating-point behaviour."
+    ]
+   ],
+   [
+    "h3",
+    "Cold-reproduction as the test"
+   ],
+   [
+    "p",
+    "The real test of pinning is cold reproduction: a clean machine, the archived environment, the recorded inputs, and nothing else. If the headline numbers come back, the pinning worked. Our public deposits are built so this is possible for an outside reader, not just for us, which is a higher and more honest bar."
+   ],
+   [
+    "p",
+    "Pinning is unglamorous infrastructure, but it is what makes a decade-long design program coherent. When FOAK measurements arrive around 2030 and we compare them against a simulation frozen years earlier, that comparison is only meaningful if the frozen simulation can be re-run exactly as it was. Treating the software stack as part of the experimental apparatus -- something to record, freeze, and cite -- is what keeps a decade-long design program from silently drifting out from under its own past results. It is the difference between a number we can defend in 2030 and a number that merely used to be true on a machine we no longer have."
+   ]
+  ],
+  "related": [
+   [
+    "deterministic-pipelines",
+    "Deterministic Pipelines"
+   ],
+   [
+    "reproducibility-discipline",
+    "Reproducibility as a Discipline"
+   ],
+   [
+    "dois-permanent-record",
+    "DOIs and the Permanent Record"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "the-frozen-design-methodology",
+  "title": "The Frozen-Design Methodology",
+  "cat": "high-standards",
+  "lede": "At defined points we freeze a complete, self-consistent design so that everyone works from one set of numbers under formal change control.",
+  "body": [
+   [
+    "h2",
+    "One design point, held still"
+   ],
+   [
+    "p",
+    "A frozen design is a complete, internally consistent snapshot of the machine: every headline number, every input, every assumption, fixed at a moment and treated as the single source of truth until formally changed. Freezing prevents the slow drift where different documents quote slightly different figures and no one can say which is real."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 700 210\" width=\"100%\" style=\"max-width:700px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The freeze cycle: propose, review, freeze, change-controlled update\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><circle cx=\"120\" cy=\"105\" r=\"46\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><text x=\"120\" y=\"101\" font-size=\"11.5\" fill=\"#E7EBF2\" text-anchor=\"middle\">propose</text><text x=\"120\" y=\"117\" font-size=\"11.5\" fill=\"#E7EBF2\" text-anchor=\"middle\">design</text><circle cx=\"290\" cy=\"105\" r=\"46\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><text x=\"290\" y=\"101\" font-size=\"11.5\" fill=\"#E7EBF2\" text-anchor=\"middle\">review &amp;</text><text x=\"290\" y=\"117\" font-size=\"11.5\" fill=\"#E7EBF2\" text-anchor=\"middle\">verify</text><circle cx=\"460\" cy=\"105\" r=\"46\" fill=\"#D4AD5C\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><text x=\"460\" y=\"101\" font-size=\"11.5\" fill=\"#232C39\" text-anchor=\"middle\" font-weight=\"700\">FREEZE</text><text x=\"460\" y=\"117\" font-size=\"11\" fill=\"#232C39\" text-anchor=\"middle\">source of truth</text><circle cx=\"630\" cy=\"105\" r=\"46\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"630\" y=\"101\" font-size=\"11.5\" fill=\"#8FA0B8\" text-anchor=\"middle\">change</text><text x=\"630\" y=\"117\" font-size=\"11.5\" fill=\"#8FA0B8\" text-anchor=\"middle\">control</text><line x1=\"166\" y1=\"105\" x2=\"240\" y2=\"105\" stroke=\"#8FA0B8\" stroke-width=\"1.6\"/><line x1=\"336\" y1=\"105\" x2=\"410\" y2=\"105\" stroke=\"#8FA0B8\" stroke-width=\"1.6\"/><line x1=\"506\" y1=\"105\" x2=\"580\" y2=\"105\" stroke=\"#8FA0B8\" stroke-width=\"1.6\"/></svg></figure>"
+   ],
+   [
+    "h3",
+    "Why freeze at all"
+   ],
+   [
+    "p",
+    "Design is coupled: change the field and the current shifts, change the geometry and the breeding ratio moves. If numbers float freely, documents silently disagree and analyses built on last month's figure are silently invalid. A freeze guarantees that Q_sci 3.424, fusion power 88.7 MW, plasma current 9.86 MA, and peak field 16.84 T all describe the same machine at the same time."
+   ],
+   [
+    "h3",
+    "The freeze is dated and enumerated"
+   ],
+   [
+    "p",
+    "Each freeze is a specific, dated set of entries, so any claim can be traced to the freeze it came from. This is what lets us compare a future FOAK measurement against exactly the design that predicted it, rather than a moving target."
+   ],
+   [
+    "p",
+    "Freezing is not rigidity. It is the precondition for disciplined change: you can only control a change against a fixed baseline. A freeze is therefore not a claim that the design is finished; it is a claim that, as of a specific date, these particular numbers describe one coherent machine and can be tested as such. Everything downstream -- documents, analyses, predictions, and the eventual comparison with hardware -- inherits its integrity from that single, dated, reconcilable baseline."
+   ]
+  ],
+  "related": [
+   [
+    "why-freeze-a-design",
+    "Why We Freeze a Design"
+   ],
+   [
+    "change-control",
+    "Change Control"
+   ],
+   [
+    "traceability",
+    "Traceability"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "why-freeze-a-design",
+  "title": "Why We Freeze a Design Point",
+  "cat": "high-standards",
+  "lede": "Freezing turns a bag of loose figures into one coherent machine, so analysis, documents, and predictions all refer to the same thing.",
+  "body": [
+   [
+    "h2",
+    "Coherence is the whole point"
+   ],
+   [
+    "p",
+    "A design point is only meaningful if its numbers are mutually consistent. Fusion parameters are tightly coupled, so a figure updated in isolation can contradict five others without anyone noticing. Freezing forces the whole set to be reconciled at once, then held, so that every downstream use starts from a coherent machine rather than a snapshot of a work in progress."
+   ],
+   [
+    "h3",
+    "What breaks without a freeze"
+   ],
+   [
+    "ul",
+    [
+     "Documents drift: two decks quote two slightly different currents and both feel authoritative.",
+     "Analyses rot: a study built on a superseded field is invalid but still circulating.",
+     "Predictions blur: you cannot pre-register a prediction against a target that moves.",
+     "Comparisons fail: a later measurement cannot be checked against an undefined baseline."
+    ]
+   ],
+   [
+    "h3",
+    "Freezing enables falsifiability"
+   ],
+   [
+    "p",
+    "A pre-registered, falsifiable prediction requires a fixed prediction. You cannot honestly say a measurement would refute the design if the design can be edited after the fact. The freeze is what makes the prediction binding: the numbers were set, dated, and published before the test that could disprove them."
+   ],
+   [
+    "p",
+    "This is also why we resist the urge to keep polishing. Continuous quiet improvement feels virtuous but destroys accountability. A frozen, dated, imperfect design that anyone can check against reality is more honest than a perpetually updated one that can never be pinned down or refuted. The discipline, in short, is to choose a coherent and testable design over a perpetually improving but unaccountable one, because only the first kind can ever be honestly checked against the world."
+   ]
+  ],
+  "related": [
+   [
+    "the-frozen-design-methodology",
+    "The Frozen-Design Methodology"
+   ],
+   [
+    "change-control",
+    "Change Control"
+   ],
+   [
+    "what-makes-a-prediction-falsifiable",
+    "Falsifiable Predictions"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "change-control",
+  "title": "Change Control on Frozen Numbers",
+  "cat": "high-standards",
+  "lede": "A frozen number changes only through a documented process: propose, justify, review, re-verify, re-freeze, and record what moved and why.",
+  "body": [
+   [
+    "h2",
+    "Change is allowed; silent change is not"
+   ],
+   [
+    "p",
+    "Freezing a design does not forbid improvement. It forbids undocumented improvement. Any change to a frozen number goes through a defined path: a proposal with justification, review by someone other than the author, re-verification of everything the change touches, a new dated freeze, and a record of exactly what moved and why."
+   ],
+   [
+    "h3",
+    "Coupled changes are handled together"
+   ],
+   [
+    "p",
+    "Because parameters are coupled, a single edit is rarely single. Changing the peak field touches the current, the geometry, and the breeding ratio. Change control requires the full set to be re-reconciled, so a freeze never contains a change that broke three other numbers unnoticed."
+   ],
+   [
+    "h3",
+    "The change log is part of the record"
+   ],
+   [
+    "ul",
+    [
+     "What changed, from which value to which value.",
+     "Why, with the analysis or data that motivated it.",
+     "What else moved as a consequence.",
+     "Who reviewed it and when it was re-frozen."
+    ]
+   ],
+   [
+    "p",
+    "This log is not bureaucracy for its own sake. When a FOAK measurement around 2030 disagrees with a prediction, the change log tells us whether the prediction had been stable or had been drifting, which is central to interpreting the result honestly. A prediction edited toward the answer after the fact is worthless; a change log makes that impossible to hide."
+   ],
+   [
+    "p",
+    "Change control is how a living program keeps the integrity of a frozen one. Handled this way, change becomes an asset rather than a threat: the design can improve for years while every version of every number remains recoverable, sourced, and honestly comparable against whatever the hardware eventually shows."
+   ]
+  ],
+  "related": [
+   [
+    "the-frozen-design-methodology",
+    "The Frozen-Design Methodology"
+   ],
+   [
+    "why-freeze-a-design",
+    "Why We Freeze a Design"
+   ],
+   [
+    "traceability",
+    "Traceability"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "traceability",
+  "title": "Traceability: Every Number Has a Source",
+  "cat": "high-standards",
+  "lede": "Any figure we publish can be traced back through the analysis to its inputs and the freeze it belongs to.",
+  "body": [
+   [
+    "h2",
+    "From headline to origin"
+   ],
+   [
+    "p",
+    "Traceability means a reader can follow any published number backward: to the analysis that produced it, the inputs and constants it used, the code version that ran, and the dated freeze it belongs to. A number without this chain is an assertion; a number with it is evidence."
+   ],
+   [
+    "h3",
+    "The chain we maintain"
+   ],
+   [
+    "ul",
+    [
+     "Headline figure to the specific result file that computed it.",
+     "Result file to the code version and pinned environment.",
+     "Inputs and constants to their sources, with values and dates.",
+     "The whole set to the dated design freeze it belongs to.",
+     "The freeze to the public deposit and its permanent identifier."
+    ]
+   ],
+   [
+    "h3",
+    "Why it matters more later than now"
+   ],
+   [
+    "p",
+    "Traceability pays off across time. When FOAK first tritium arrives around 2030, a measurement is only useful against a prediction whose full provenance is known. If we cannot say precisely which inputs and which code produced the predicted number, we cannot say cleanly whether the measurement confirms or refutes it."
+   ],
+   [
+    "p",
+    "It also protects against a subtle failure: a number that everyone quotes but no one can source. Such orphan figures accumulate authority they never earned. Traceability kills them, because a figure that cannot be traced cannot be published, no matter how familiar it has become. Maintained consistently, traceability makes the entire body of work behave like a single, queryable object: pick any published figure, and the path from headline to origin is already laid out for whoever wants to check it."
+   ]
+  ],
+  "related": [
+   [
+    "change-control",
+    "Change Control"
+   ],
+   [
+    "reproducibility-discipline",
+    "Reproducibility as a Discipline"
+   ],
+   [
+    "materials-property-provenance",
+    "Materials Property Provenance"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "peer-review-standard",
+  "title": "Peer Review as a Standard",
+  "cat": "high-standards",
+  "lede": "We submit the work to independent experts whose job is to find its flaws, and we treat their objections as information, not attacks.",
+  "body": [
+   [
+    "h2",
+    "Outside experts, by design"
+   ],
+   [
+    "p",
+    "Internal review catches ordinary mistakes; peer review tests whether the work survives contact with independent experts who have no stake in the answer. We seek that scrutiny deliberately, through publication and deposit, because a result that only its authors believe is not yet a result the world should act on."
+   ],
+   [
+    "h3",
+    "What peer review adds"
+   ],
+   [
+    "p",
+    "A qualified outsider brings different assumptions, different failure intuitions, and no attachment to our conclusions. They will question a closure we took for granted, an extrapolation we grew comfortable with, or a gate we may have understated. Each of those questions is worth more than agreement, because agreement teaches nothing."
+   ],
+   [
+    "h3",
+    "How we respond to criticism"
+   ],
+   [
+    "ul",
+    [
+     "Take the objection literally and check whether it is right.",
+     "If it is right, fix the analysis and re-freeze, with the change logged.",
+     "If it is wrong, explain why in terms the critic can check, not by appeal to authority.",
+     "Never dismiss an objection because it is inconvenient."
+    ]
+   ],
+   [
+    "p",
+    "Peer review is not a stamp we collect; it is a process we invite. Publishing the burner gates plainly -- the overstressed plug coil, the regime beyond any device, the fuel-supply and availability shortfalls -- is partly an invitation for reviewers to check whether we got even the bad news right. We would rather be corrected in public than be wrong in private. We treat the arrival of a serious objection not as a setback but as the process working, because the only thing worse than being told we are wrong is being wrong and never told."
+   ]
+  ],
+  "related": [
+   [
+    "code-review-discipline",
+    "Code Review"
+   ],
+   [
+    "external-scrutiny",
+    "Inviting External Scrutiny"
+   ],
+   [
+    "inviting-refutation",
+    "Inviting Refutation"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "external-scrutiny",
+  "title": "Inviting External Scrutiny",
+  "cat": "high-standards",
+  "lede": "Open papers, open data, open licenses, and permanent identifiers exist so that anyone -- not only reviewers we choose -- can check the work.",
+  "body": [
+   [
+    "h2",
+    "Scrutiny should not need our permission"
+   ],
+   [
+    "p",
+    "Formal peer review depends on reviewers we or a journal select. We go further by making the work openly checkable by anyone: papers, the data behind them, and the analysis, deposited under open licenses with permanent identifiers. The standard is that a skeptic should be able to check us without asking us."
+   ],
+   [
+    "h3",
+    "The materials we make open"
+   ],
+   [
+    "ul",
+    [
+     "The papers describing each machine and its physics basis.",
+     "The data and analysis behind the headline numbers.",
+     "Permanent DOIs so the record is stable and citable.",
+     "Open licenses so others may reuse and re-run the work."
+    ]
+   ],
+   [
+    "h3",
+    "Why open scrutiny is stronger than private review"
+   ],
+   [
+    "p",
+    "A private reviewer can be tired, rushed, or outside their specialty. The open community is larger, more varied, and more persistent. Someone we never met, with exactly the right expertise, may find the flaw a formal reviewer missed. We prefer that outcome to a clean review that let an error survive."
+   ],
+   [
+    "p",
+    "This is the same commitment that governs our honest gates. We do not just tolerate scrutiny of the burner (Aegis / MetroVolt) and breeder (Hyperion) numbers; we build the record so scrutiny is easy, because the fastest way to earn trust in an unbuilt design is to hand skeptics the tools to test it themselves. Open scrutiny is slower to flatter and quicker to catch error than any private process, and for an unbuilt design that trade is exactly the one worth making."
+   ]
+  ],
+  "related": [
+   [
+    "peer-review-standard",
+    "Peer Review"
+   ],
+   [
+    "open-data-as-a-check",
+    "Open Data as a Check"
+   ],
+   [
+    "reader-verification-guide",
+    "Reader Verification Guide"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "the-pre-registered-predictions",
+  "title": "The Pre-Registered Predictions",
+  "cat": "high-standards",
+  "lede": "Before the machines are built, we publish specific numbers that the hardware will either confirm or refute, dated and frozen so we cannot move them later.",
+  "body": [
+   [
+    "h2",
+    "Predictions written before the test"
+   ],
+   [
+    "p",
+    "A pre-registered prediction is a specific claim, published and dated before the measurement that could disprove it, so it cannot be adjusted after the fact to match whatever the hardware shows. This is the strongest form of scientific honesty available to a design-and-simulation program, and we hold ourselves to it."
+   ],
+   [
+    "h3",
+    "What we have put on record"
+   ],
+   [
+    "p",
+    "The frozen breeder design point is itself a set of predictions: a spherical tokamak reaching Q_sci 3.424 and fusion power 88.7 MW at plasma current 9.86 MA and peak field 16.84 T (8 T on-axis), with negative triangularity delta -0.30, producing roughly 4 kg/yr tritium-class product and about 1.97 kg/yr helium-3 plus 14 MeV neutrons. First-of-a-kind first tritium around 2030 is the event that begins testing these against measurement."
+   ],
+   [
+    "h3",
+    "The gates are predictions too"
+   ],
+   [
+    "p",
+    "The burner (Aegis / MetroVolt) gates are pre-registered as well, as predictions of difficulty: a plug coil overstressed 3-3.9x at the design bore, an operating regime 166-830x beyond any device, He-3 demand about 400x domestic supply per commercial unit, and availability of roughly 0.86-0.995 against a Tier III bar of 0.99982. If future work resolves any of these, that resolution will be measured against the number we published, not a softened one."
+   ],
+   [
+    "p",
+    "Pre-registration only works if the prediction is fixed. That is why it depends on the frozen-design methodology and change control: the numbers were set, dated, and made public before the tests that will judge them."
+   ]
+  ],
+  "related": [
+   [
+    "what-makes-a-prediction-falsifiable",
+    "Falsifiable Predictions"
+   ],
+   [
+    "pre-registered-predictions",
+    "Pre-Registered Predictions"
+   ],
+   [
+    "the-frozen-design-methodology",
+    "The Frozen-Design Methodology"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "what-makes-a-prediction-falsifiable",
+  "title": "What Makes a Prediction Falsifiable",
+  "cat": "high-standards",
+  "lede": "A prediction is only scientific if there is a specific measurement that would prove it wrong; vague claims that survive any outcome are not predictions.",
+  "body": [
+   [
+    "h2",
+    "The test that could kill the claim"
+   ],
+   [
+    "p",
+    "A falsifiable prediction names, in advance, a measurement whose result would show the prediction is wrong. If no possible outcome could refute a claim, the claim carries no information -- it is compatible with everything, and therefore says nothing. Every headline number we publish is meant to be falsifiable in this sense."
+   ],
+   [
+    "h3",
+    "Ingredients of a falsifiable prediction"
+   ],
+   [
+    "ul",
+    [
+     "A specific quantity: not 'good performance' but a named number with units.",
+     "A stated uncertainty: the band inside which the prediction counts as confirmed.",
+     "A defined test: the measurement, and the conditions under which it is made.",
+     "A date it was fixed: so it cannot be edited after the result is known."
+    ]
+   ],
+   [
+    "h3",
+    "Applying the test to ourselves"
+   ],
+   [
+    "p",
+    "Q_sci 3.424 is falsifiable: FOAK will measure a gain, and a measurement well outside the predicted band with its uncertainty would refute the design. The tritium breeding ratio, carried as a lever across 1.1, 1.5, and 1.8, frames a falsifiable question about self-sufficiency that only integrated operation can settle. Naming the band and the test in advance is what makes these more than hopes."
+   ],
+   [
+    "p",
+    "Falsifiability is a discipline against comfort. It is tempting to phrase claims loosely enough that no result can embarrass them. We do the opposite on purpose, because a claim that risks being wrong is the only kind that can earn being believed. A field littered with unfalsifiable claims is a field where nothing can ever be settled; committing to specific, refutable numbers is how a design study earns the right to be argued with, and eventually, to be proven."
+   ]
+  ],
+  "related": [
+   [
+    "the-pre-registered-predictions",
+    "The Pre-Registered Predictions"
+   ],
+   [
+    "falsifiability",
+    "Falsifiability"
+   ],
+   [
+    "goal-vs-result",
+    "Goal vs Result"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "benchmarking-against-known-cases",
+  "title": "Benchmarking Against Known Solutions",
+  "cat": "high-standards",
+  "lede": "We test our tools on problems whose answers are already known before trusting them on problems whose answers are not.",
+  "body": [
+   [
+    "h2",
+    "Earn trust on the known before using it on the unknown"
+   ],
+   [
+    "p",
+    "A tool is only as trustworthy as its record on problems we can check. Before a solver is used for a design number, we run it against benchmarks with established answers -- analytic cases, published experiments, and standard test problems -- and confirm it reproduces them within tolerance. A tool that fails a known case has not earned the right to predict an unknown one."
+   ],
+   [
+    "h3",
+    "Kinds of benchmark"
+   ],
+   [
+    "ul",
+    [
+     "Analytic: problems with exact closed-form solutions.",
+     "Cross-code: comparison against an independent, established solver on the same problem.",
+     "Experimental: reproduction of published measurements from operating devices.",
+     "Community: standard benchmark suites others have documented."
+    ]
+   ],
+   [
+    "h3",
+    "Benchmarks bound the extrapolation"
+   ],
+   [
+    "p",
+    "Benchmarking also tells us how far we can trust a tool away from where it was checked. For the breeder (Hyperion), much of the physics sits within or near regimes that operating devices and their data can anchor. For the burner (Aegis / MetroVolt), the honest finding is that the plug regime is 166-830x beyond any operated device, so no benchmark reaches it -- which is precisely why we call that prediction un-post-dictable today rather than dressing it as validated."
+   ],
+   [
+    "p",
+    "A benchmark is a promise kept in advance: this tool behaved correctly where we could check, so here is exactly how much confidence its untested predictions deserve. Kept up as a standing suite rather than a one-time exercise, benchmarks also catch the day a trusted tool silently stops reproducing a case it used to pass -- the earliest warning that something downstream may now be wrong."
+   ]
+  ],
+  "related": [
+   [
+    "verification-practice",
+    "Verification in Practice"
+   ],
+   [
+    "cross-checking-independent-methods",
+    "Cross-Checking Methods"
+   ],
+   [
+    "extrapolation-honesty",
+    "Extrapolation Honesty"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "cross-checking-independent-methods",
+  "title": "Cross-Checking with Independent Methods",
+  "cat": "high-standards",
+  "lede": "When two different methods agree on a number, confidence rises; when they disagree, we have found something to understand before we publish.",
+  "body": [
+   [
+    "h2",
+    "Two roads to the same number"
+   ],
+   [
+    "p",
+    "A result computed one way can be wrong in a way its own checks never catch. Computing it a second time by an independent method -- different equations, different code, different approximations -- provides a check that shares no assumptions with the first. Agreement is strong evidence; disagreement is a discovery waiting to be resolved."
+   ],
+   [
+    "h3",
+    "What counts as independent"
+   ],
+   [
+    "p",
+    "Independence is the key word. Two methods that share the same library, the same closure, or the same author's blind spot are not really independent, and their agreement is less reassuring than it looks. We seek checks that differ at the level where errors hide: a detailed simulation against a reduced analytic model, or one code against another built on different foundations."
+   ],
+   [
+    "h3",
+    "Disagreement is a signal, not an embarrassment"
+   ],
+   [
+    "p",
+    "When methods disagree we do not average them into a comfortable middle. We find out why, because the reason is always informative: a bug, a broken assumption, or a regime where one method fails. Only after understanding the disagreement do we decide which result to trust, and we record the resolution."
+   ],
+   [
+    "p",
+    "This is why we track and surface internal reconciliations openly rather than hiding them. A known, stated discrepancy under active investigation is a sign of a healthy standard; a suspiciously clean number that no independent method has ever checked is the one to distrust. Two genuinely independent roads to the same number is among the strongest evidence a design study can offer short of hardware, and pursuing it deliberately -- rather than hoping one method got it right -- is what separates a checked result from an asserted one."
+   ]
+  ],
+  "related": [
+   [
+    "benchmarking-against-known-cases",
+    "Benchmarking"
+   ],
+   [
+    "conservation-laws-as-checks",
+    "Conservation Laws as Checks"
+   ],
+   [
+    "the-error-budget",
+    "The Error Budget"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "convergence-testing",
+  "title": "Convergence and Grid Independence",
+  "cat": "high-standards",
+  "lede": "A simulated number is only real if it stops changing as the grid and timestep are refined; otherwise we are reporting the mesh, not the physics.",
+  "body": [
+   [
+    "h2",
+    "Refine until the answer stops moving"
+   ],
+   [
+    "p",
+    "Any discretized simulation approximates a continuous problem on a finite grid. If the answer keeps changing as the grid refines, the reported number reflects the grid as much as the physics. Convergence testing refines resolution until the result stabilizes to within tolerance, and only then treats the number as meaningful."
+   ],
+   [
+    "h3",
+    "What we measure"
+   ],
+   [
+    "ul",
+    [
+     "Grid independence: the result changes negligibly under further spatial refinement.",
+     "Timestep independence: the result is stable under further temporal refinement.",
+     "Observed order: error falls at the rate the scheme promises.",
+     "A converged residual: iterative solvers reach a tight, pre-set stopping criterion."
+    ]
+   ],
+   [
+    "h3",
+    "Convergence and the error budget"
+   ],
+   [
+    "p",
+    "The residual discretization error at the chosen resolution is a line in the error budget, not something to ignore because it is small. We report it, so a reader knows how much of the uncertainty on a number like Q_sci 3.424 is numerical versus physical. A result quoted without evidence of convergence is incomplete."
+   ],
+   [
+    "p",
+    "Convergence testing also guards against a seductive failure: a coarse grid that happens to land on the desired answer. Refining past it would reveal the truth, so skipping the refinement is a way to fool oneself. We refine anyway, and report where the number settles, not where it first looked right. Shown alongside the result, a convergence study lets a reader confirm for themselves that a headline figure describes the physics and not the mesh -- a check that costs a plot and buys a great deal of trust."
+   ]
+  ],
+  "related": [
+   [
+    "verification-practice",
+    "Verification in Practice"
+   ],
+   [
+    "numerical-stability",
+    "Numerical Stability"
+   ],
+   [
+    "the-error-budget",
+    "The Error Budget"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "numerical-stability",
+  "title": "Numerical Stability and Conditioning",
+  "cat": "high-standards",
+  "lede": "A correct algorithm can still give a wrong answer if the problem is ill-conditioned or the scheme is unstable; we check for both.",
+  "body": [
+   [
+    "h2",
+    "Correct math, wrong number"
+   ],
+   [
+    "p",
+    "Even a verified algorithm can produce a wrong result if the problem is poorly conditioned or the numerical scheme is unstable. Conditioning measures how much the answer amplifies small input errors; stability measures whether errors grow as a computation proceeds. Both can turn a mathematically correct method into a source of nonsense, so we check them explicitly."
+   ],
+   [
+    "h3",
+    "Conditioning: sensitivity built into the problem"
+   ],
+   [
+    "p",
+    "An ill-conditioned problem amplifies tiny input or round-off errors into large output errors, no matter how good the algorithm. We estimate conditioning, and where it is poor we either reformulate the problem or carry extra precision and report the residual sensitivity. Pretending a well-behaved algorithm rescues an ill-conditioned problem is a mistake we design against."
+   ],
+   [
+    "h3",
+    "Stability: errors that grow"
+   ],
+   [
+    "p",
+    "An unstable scheme lets small errors compound until the solution is garbage, sometimes while still looking plausible for a while. We choose schemes with known stability properties for the regime, respect their limits (timestep bounds, for instance), and watch for the signatures of instability rather than trusting a run that finished without crashing."
+   ],
+   [
+    "p",
+    "Stability and conditioning are why 'the code ran and produced a number' is never sufficient. A number can be the smooth output of an unstable computation. The standard is to show the computation was well-conditioned and stable, so the clean-looking result is clean for the right reasons. Checking conditioning and stability is therefore not a separate specialty bolted onto the analysis; it is part of what it means to claim a computed number at all, because without it 'the code produced this value' and 'this value is right' are two different statements."
+   ]
+  ],
+  "related": [
+   [
+    "convergence-testing",
+    "Convergence Testing"
+   ],
+   [
+    "numerical-stability",
+    "Numerical Stability"
+   ],
+   [
+    "mathematical-rigor",
+    "Mathematical Rigor"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "engineering-margins",
+  "title": "Engineering Margins and Factors of Safety",
+  "cat": "high-standards",
+  "lede": "Real hardware must survive uncertainty and off-design conditions, so we design to margins and report when a design does not meet them.",
+  "body": [
+   [
+    "h2",
+    "Margin is honesty about uncertainty"
+   ],
+   [
+    "p",
+    "A margin, or factor of safety, is the gap between what a component must withstand and what it can withstand. It exists because loads, properties, and conditions are uncertain, and because real machines see off-design excursions. Choosing margins is not padding; it is quantifying how much we do not know and refusing to build to the edge of a guess."
+   ],
+   [
+    "h3",
+    "How margins are set"
+   ],
+   [
+    "ul",
+    [
+     "Larger where the physics or loads are less certain.",
+     "Larger where failure is severe or hard to inspect.",
+     "Tied to established design codes where they apply.",
+     "Stated explicitly, so a reviewer can judge whether they are adequate."
+    ]
+   ],
+   [
+    "h3",
+    "When a design fails its margin"
+   ],
+   [
+    "p",
+    "The standard is tested by what we do when a design does not meet its margin. The burner (Aegis / MetroVolt) plug coil is overstressed by roughly 3-3.9x at the design bore -- that is, the load exceeds capacity by several times, the opposite of a margin. We report that as a physics-and-engineering fact: infeasible as specified. We do not relax the allowable to make it pass, which would be exactly the fudging our standards forbid."
+   ],
+   [
+    "p",
+    "Margins are where scientific rigor meets buildability. A design that closes on paper but violates structural limits has not closed; it has only computed a number for a machine that cannot be built as drawn. Saying so is part of the standard. A margin is, in the end, a number that encodes humility: it is the amount by which we admit the world may differ from our model, sized to how much we actually trust that model rather than to how confident we would like to sound."
+   ]
+  ],
+  "related": [
+   [
+    "stress-and-load-standards",
+    "Structural Standards"
+   ],
+   [
+    "gate-plug-coil-overstressed",
+    "Plug Coil Overstressed"
+   ],
+   [
+    "no-fudged-numbers",
+    "No Fudged Numbers"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "stress-and-load-standards",
+  "title": "Structural Standards: Stating When Limits Are Exceeded",
+  "cat": "high-standards",
+  "lede": "A structure either stays within its material limits or it does not; when our analysis shows a limit exceeded, we say so plainly.",
+  "body": [
+   [
+    "h2",
+    "Limits are not negotiable"
+   ],
+   [
+    "p",
+    "A load-bearing component has limits set by its material and geometry: stresses, temperatures, and cycles it can survive. Structural rigor means computing the actual loads, comparing them against those limits with a margin, and treating an exceeded limit as a failure of the design rather than a number to explain away."
+   ],
+   [
+    "h3",
+    "The magnets are the hard case"
+   ],
+   [
+    "p",
+    "Fusion magnets carry extreme electromagnetic loads. The breeder (Hyperion) reaches a peak field of 16.84 T (8 T on-axis), and the burner (Aegis / MetroVolt) specifies a 26.49 T plug and 17 T throat. High fields mean high forces, and the structure must hold them. Reporting the field without reporting whether the structure survives it would be a half-truth."
+   ],
+   [
+    "h3",
+    "An honest failure, reported"
+   ],
+   [
+    "p",
+    "For the burner plug coil, our own analysis finds it overstressed by roughly 3-3.9x at the design bore. That is a clear structural verdict: not buildable as specified. We publish it because the alternative -- quoting the field and staying silent on the coil -- is precisely how impressive-sounding designs mislead. A field is only real if something can hold it."
+   ],
+   [
+    "p",
+    "Structural standards keep the physics honest against the world. A plasma parameter that requires an impossible magnet is not an achievement; it is a constraint we have to solve before the number means anything, and naming the constraint is the first step. Reporting an exceeded limit costs us a cleaner story and buys the reader something more valuable: the assurance that when we do say a structure closes, the statement was reached by the same unflinching accounting that produced the failures we published."
+   ]
+  ],
+  "related": [
+   [
+    "engineering-margins",
+    "Engineering Margins"
+   ],
+   [
+    "gate-plug-coil-overstressed",
+    "Plug Coil Overstressed"
+   ],
+   [
+    "peak-field-honesty",
+    "Peak Field Honesty"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "materials-property-provenance",
+  "title": "Materials Property Provenance",
+  "cat": "high-standards",
+  "lede": "Every material property in an analysis is sourced to measured data at the relevant conditions, not assumed or borrowed from a convenient regime.",
+  "body": [
+   [
+    "h2",
+    "Properties are data, not guesses"
+   ],
+   [
+    "p",
+    "A structural or thermal analysis is only as good as the material properties it uses. Strength, conductivity, and their behaviour under temperature, irradiation, and cycling all vary, and using a room-temperature value where an irradiated, cryogenic one belongs can flip a conclusion. We source every property to measured data at the conditions the component actually sees."
+   ],
+   [
+    "h3",
+    "Conditions the property must match"
+   ],
+   [
+    "ul",
+    [
+     "Temperature, from cryogenic magnet conditions to hot structural regions.",
+     "Irradiation, since 14 MeV neutron exposure changes materials over time.",
+     "Loading history, including cyclic and fatigue behaviour.",
+     "Manufacturing state, since real parts differ from ideal samples."
+    ]
+   ],
+   [
+    "h3",
+    "Where data runs out"
+   ],
+   [
+    "p",
+    "For some conditions -- particularly long-term behaviour under fusion-spectrum neutron irradiation -- measured data is limited. When we must extrapolate a property beyond its data, we treat it as an uncertain input with a stated range and propagate it, rather than picking a single convenient value. The honesty is in admitting where the property is known and where it is estimated."
+   ],
+   [
+    "p",
+    "Property provenance connects to traceability and to no-tuned-constants: a property is a constant in the analysis, and like every constant it carries a source. A design that depends on an unsourced or optimistic property has not been rigorously analyzed, however careful the surrounding mathematics. Sourcing properties honestly, and admitting where the data thins out, is what keeps a structural or thermal result from resting on an optimistic assumption dressed up as a fact -- the kind of hidden weakness no amount of surrounding rigor can rescue."
+   ]
+  ],
+  "related": [
+   [
+    "no-tuned-constants",
+    "No Tuned Constants"
+   ],
+   [
+    "traceability",
+    "Traceability"
+   ],
+   [
+    "radiological-honesty",
+    "Radiological Honesty"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "design-standards-and-codes",
+  "title": "Design Codes and Standards We Work Toward",
+  "cat": "high-standards",
+  "lede": "Established engineering codes encode hard-won lessons; we design toward them and are explicit about where fusion pushes past existing codes.",
+  "body": [
+   [
+    "h2",
+    "Standing on accumulated lessons"
+   ],
+   [
+    "p",
+    "Engineering codes and standards are compressed experience: rules written in response to real failures so they are not repeated. Designing toward recognized structural, pressure, nuclear, and quality standards means inheriting that experience rather than rediscovering it the hard way. We treat applicable codes as a floor, not an aspiration."
+   ],
+   [
+    "h3",
+    "Where fusion outruns existing codes"
+   ],
+   [
+    "p",
+    "Some fusion conditions have no settled code yet: combinations of field, neutron spectrum, and materials that existing standards were not written for. Where that happens we say so, work from the nearest applicable code with justified adaptation, and flag the gap rather than pretending a code covers a case it does not. An honest gap is safer than a borrowed rule applied out of its domain."
+   ],
+   [
+    "h3",
+    "Quality standards, not just design standards"
+   ],
+   [
+    "ul",
+    [
+     "Design codes for structures, magnets, and pressure boundaries.",
+     "Nuclear and radiological standards for tritium and 14 MeV neutron handling.",
+     "Quality-management practice governing how analysis and records are kept.",
+     "Documentation standards so the work is auditable."
+    ]
+   ],
+   [
+    "p",
+    "Working toward codes is part of the same commitment as verification and margins: it is how a design earns the right to be built, not just computed. And where the codes do not yet reach, saying so plainly is itself the standard, because the alternative is a false assurance dressed in a code number. Held together, working toward codes and being candid about their gaps are two halves of one honesty: we inherit the field's accumulated caution where it exists, and we flag, rather than fake, the places where fusion has moved past it."
+   ]
+  ],
+  "related": [
+   [
+    "stress-and-load-standards",
+    "Structural Standards"
+   ],
+   [
+    "documentation-standard",
+    "Documentation Standard"
+   ],
+   [
+    "the-ehs-connection",
+    "The EHS Connection"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "documentation-standard",
+  "title": "Documentation as an Engineering Standard",
+  "cat": "high-standards",
+  "lede": "Work that is not documented did not fully happen; we record assumptions, methods, and decisions so the analysis can be understood and audited.",
+  "body": [
+   [
+    "h2",
+    "The record is part of the work"
+   ],
+   [
+    "p",
+    "An analysis that lives only in someone's head or a stray script is fragile and unauditable. Documentation -- of assumptions, methods, inputs, decisions, and their reasons -- is what turns a calculation into knowledge that others can check, build on, and trust. We treat writing it down as part of doing the work, not an optional afterthought."
+   ],
+   [
+    "h3",
+    "What we document"
+   ],
+   [
+    "ul",
+    [
+     "Assumptions and their justification.",
+     "Methods, including numerical settings and tolerances.",
+     "Inputs and constants with their sources.",
+     "Decisions and the reasoning, including options rejected.",
+     "Known limitations and open questions."
+    ]
+   ],
+   [
+    "h3",
+    "Documenting the reasoning, not just the result"
+   ],
+   [
+    "p",
+    "The reason behind a choice matters as much as the choice. A future reviewer -- or our future selves comparing against a FOAK measurement around 2030 -- needs to know why a value was set, not merely what it is. Recording the reasoning is what lets a later question be answered honestly instead of reconstructed from guesswork."
+   ],
+   [
+    "p",
+    "Good documentation is also a defense against orphan numbers and quiet drift. If every figure carries its context, no figure can float free of its origin, and no assumption can be forgotten and then silently violated. The document is where traceability, change control, and reproducibility are actually written down. Written well, the documentation is where a design study becomes something other people can actually inherit, rather than a result that dies with the person who computed it. The test of good documentation is simple and unforgiving: could a competent stranger, months later, understand what was done, why, and how far to trust it, using only the record we left behind."
+   ]
+  ],
+  "related": [
+   [
+    "traceability",
+    "Traceability"
+   ],
+   [
+    "version-control-everything",
+    "Version Control"
+   ],
+   [
+    "design-standards-and-codes",
+    "Design Codes"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "version-control-everything",
+  "title": "Version Control for Analyses and Documents",
+  "cat": "high-standards",
+  "lede": "Code, inputs, and documents live under version control so every result can be tied to the exact state that produced it.",
+  "body": [
+   [
+    "h2",
+    "A recoverable history of everything"
+   ],
+   [
+    "p",
+    "Version control keeps a complete, recoverable history of the work: who changed what, when, and why. Applied to code, inputs, and documents alike, it means any published result can be tied to the exact state that produced it, and any change can be examined, reverted, or reproduced. It is the mechanical backbone of traceability and change control."
+   ],
+   [
+    "h3",
+    "What we keep under version control"
+   ],
+   [
+    "ul",
+    [
+     "Analysis code and the tests that guard it.",
+     "Input files, configurations, and pinned environment manifests.",
+     "Design documents and the frozen design point.",
+     "The change history, with reasons attached to each change."
+    ]
+   ],
+   [
+    "h3",
+    "Ties to the rest of the standard"
+   ],
+   [
+    "p",
+    "Version control is what makes the frozen-design methodology enforceable in practice. A freeze is a tagged, recoverable state; a change is a reviewed commit; a regression test runs against a known version. Without a version history, 'the number we froze last year' is a memory; with one, it is a state anyone can check out and re-run exactly."
+   ],
+   [
+    "p",
+    "It also underwrites reproducibility across the long timeline of a fusion program. Between the Q2 2027 construction start and FOAK first tritium around 2030 and the NOAK and BOAK machines that follow, the analysis will evolve. Version control is how we keep every stage recoverable, so a later measurement can be compared against precisely the design that predicted it. Kept comprehensively, the version history is the substrate every other standard writes to: the freeze is a tag in it, the change log is its record, and the reproducible result is a state anyone can check out and run again."
+   ]
+  ],
+  "related": [
+   [
+    "reproducibility-discipline",
+    "Reproducibility as a Discipline"
+   ],
+   [
+    "change-control",
+    "Change Control"
+   ],
+   [
+    "documentation-standard",
+    "Documentation Standard"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "the-review-before-publishing",
+  "title": "The Internal Review Gate Before Publishing",
+  "cat": "high-standards",
+  "lede": "Nothing goes public until it clears an internal gate: verification done, error budget stated, claims labelled, and the record reproducible.",
+  "body": [
+   [
+    "h2",
+    "A checklist that must pass"
+   ],
+   [
+    "p",
+    "Before any number reaches the public, it passes an internal gate designed to catch what individual diligence misses. The gate is a checklist applied the same way every time, so quality does not depend on who happened to prepare the result or how rushed the week was."
+   ],
+   [
+    "h3",
+    "What the gate requires"
+   ],
+   [
+    "ul",
+    [
+     "Verification complete: convergence shown, tests passing, conservation closed.",
+     "Error budget stated: uncertainties enumerated and propagated.",
+     "Claims labelled: each number marked as verified simulation or validated measurement.",
+     "Provenance intact: every figure traceable to inputs, code version, and freeze.",
+     "Reproducible: the result re-runs from the archived environment.",
+     "Gates surfaced: honest limitations stated, not buried."
+    ]
+   ],
+   [
+    "h3",
+    "The gate protects the reader"
+   ],
+   [
+    "p",
+    "The point of the gate is that the reader inherits the checking. When we publish Q_sci 3.424 or the burner gates, the reader should be able to assume the internal work was done -- because it was, and because the record lets them confirm it. A gate that can be skipped under pressure is not a gate, so it is applied uniformly, including to inconvenient results and tight deadlines."
+   ],
+   [
+    "p",
+    "This internal gate is the private counterpart of peer review and open scrutiny. It is where we try hardest to find our own errors, precisely so that what reaches the public record is worthy of the trust we are asking for. Applied without exception, the gate is also a promise about pressure: that a tight deadline or an exciting result never becomes a reason to publish something that has not been checked the way everything else was."
+   ]
+  ],
+  "related": [
+   [
+    "code-review-discipline",
+    "Code Review"
+   ],
+   [
+    "peer-review-standard",
+    "Peer Review"
+   ],
+   [
+    "what-we-will-not-claim",
+    "What We Will Not Claim"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "rigor-under-uncertainty",
+  "title": "Rigor When the Physics Is Not Settled",
+  "cat": "high-standards",
+  "lede": "Where the science is genuinely open, rigor means stating the uncertainty precisely, not manufacturing false confidence or false despair.",
+  "body": [
+   [
+    "h2",
+    "Rigor does not require certainty"
+   ],
+   [
+    "p",
+    "Some of the physics we depend on is not settled, and rigor does not mean pretending otherwise. It means characterizing what we do not know as carefully as what we do: bounding the uncertainty, framing the open question sharply, and refusing both false confidence and false despair. An honest 'we do not yet know, and here is how much' is a rigorous statement."
+   ],
+   [
+    "h3",
+    "Two failure modes to avoid"
+   ],
+   [
+    "p",
+    "Overconfidence collapses a genuine range to a flattering point value and hides the risk. Overcaution inflates uncertainty until no decision can be made and every number is drowned in caveats. Both are failures of rigor. The discipline is to state the uncertainty as it actually is -- no smaller, no larger -- and let it be that size."
+   ],
+   [
+    "h3",
+    "Our open questions, framed not hidden"
+   ],
+   [
+    "p",
+    "The clearest examples are our own. Tritium self-sufficiency is genuinely open, which is why the breeding ratio is carried as a lever across 1.1, 1.5, and 1.8 rather than asserted. The burner plug regime sits 166-830x beyond any operated device, so its integrated performance is un-post-dictable today. These are stated as sharp open questions with quantified distance from settled ground, which is what rigor under uncertainty looks like."
+   ],
+   [
+    "p",
+    "Framing an open question well is itself a contribution. A precisely stated uncertainty tells everyone -- including future experiments and outside reviewers -- exactly what a measurement would resolve, which is more useful than a confident number that was never entitled to its confidence."
+   ]
+  ],
+  "related": [
+   [
+    "humility-about-what-we-dont-know",
+    "Humility About the Unknown"
+   ],
+   [
+    "extrapolation-honesty",
+    "Extrapolation Honesty"
+   ],
+   [
+    "sensitivity-analysis",
+    "Sensitivity Analysis"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "the-cost-of-a-wrong-number",
+  "title": "The Real Cost of a Wrong Number",
+  "cat": "high-standards",
+  "lede": "In an engineered system a single wrong number propagates into every decision built on it; rigor is cheaper than the failure it prevents.",
+  "body": [
+   [
+    "h2",
+    "Errors do not stay put"
+   ],
+   [
+    "p",
+    "A wrong number in a coupled engineering design does not stay contained. It propagates into every figure derived from it, every decision that trusted those figures, and every document that quoted them. The effort of catching an error early is small compared with the effort of unwinding everything built on it once it has spread -- which is the practical case for rigor, before any moral one."
+   ],
+   [
+    "h3",
+    "How a single error spreads"
+   ],
+   [
+    "ul",
+    [
+     "Downstream calculations inherit the error silently.",
+     "Design choices lock in around the wrong value.",
+     "Documents propagate it until it looks authoritative by repetition.",
+     "A later measurement disagrees, and now the whole chain is suspect."
+    ]
+   ],
+   [
+    "h3",
+    "Why the standards pay for themselves"
+   ],
+   [
+    "p",
+    "Verification, error budgets, regression tests, and review all cost time up front. They are worth it because the alternative -- discovering a foundational error late -- costs far more, and in a program aiming at built hardware around 2030 it can cost trust that is hard to rebuild. Catching a wrong Q or a wrong load in review is inexpensive; catching it after a machine is designed around it is not."
+   ],
+   [
+    "p",
+    "This is the unromantic argument for high standards, and it stands even for someone who cares nothing for scientific virtue. Rigor is the cheapest insurance available against the compounding cost of a wrong number. The moral case, made elsewhere in this section, sits on top of a plain engineering one. The compounding is the whole danger: an error caught in review is a corrected line, while the same error caught after a machine is designed around it is a question about everything that touched it."
+   ]
+  ],
+  "related": [
+   [
+    "no-fudged-numbers",
+    "No Fudged Numbers"
+   ],
+   [
+    "error-bars",
+    "Error Bars"
+   ],
+   [
+    "standards-as-moral-commitment",
+    "Standards as a Moral Commitment"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "standards-as-moral-commitment",
+  "title": "Standards as a Moral Commitment",
+  "cat": "high-standards",
+  "lede": "High standards are not only good engineering; they are a promise to everyone who will rely on this work that we told them the truth about it.",
+  "body": [
+   [
+    "h2",
+    "More than process"
+   ],
+   [
+    "p",
+    "Everything in this section can be read as method: verification, error budgets, frozen designs, reproducibility, review. But method is not why we hold to it under pressure. We hold to it because people will make decisions -- about energy, about safety, about where to place their trust -- based on what we publish, and getting it right is an obligation to them, not a preference of ours."
+   ],
+   [
+    "h3",
+    "Who relies on the work"
+   ],
+   [
+    "ul",
+    [
+     "Scientists who cite our results and build on them.",
+     "Engineers who will one day build to these designs.",
+     "The public, whose trust in fusion is a shared and depletable resource.",
+     "Our future selves, who must live with what we claimed today."
+    ]
+   ],
+   [
+    "h3",
+    "Why the gates are the proof"
+   ],
+   [
+    "p",
+    "The honest thing to do with an inconvenient result is to publish it, and we do. The burner (Aegis / MetroVolt) gates -- an overstressed plug coil, a regime beyond any device, a fuel supply that does not yet exist at terrestrial scale, availability short of Tier III -- are not comfortable, and they are on the record exactly as computed. Reporting them costs us the easy story. Keeping the easy story would cost the truth, and the truth is not ours to spend."
+   ],
+   [
+    "p",
+    "This is why a wrong number matters beyond its engineering cost. Fusion asks for patience and trust across many years, from Q2 2027 construction through FOAK first tritium around 2030 and the machines beyond. That trust is only warranted if the numbers were honest when no one was checking. High standards are how we keep that promise, and treating them as a moral commitment rather than a process is what makes them hold when it would be easier to let them slip."
+   ]
+  ],
+  "related": [
+   [
+    "what-high-standards-mean",
+    "The Standard We Hold Ourselves To"
+   ],
+   [
+    "no-fudged-numbers",
+    "No Fudged Numbers"
+   ],
+   [
+    "the-cost-of-a-wrong-number",
+    "The Cost of a Wrong Number"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ }
+]

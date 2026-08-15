@@ -1,0 +1,2199 @@
+[
+ {
+  "slug": "energy-access-as-a-human-need",
+  "title": "Energy Access as a Human Need",
+  "cat": "building-for-humanity",
+  "lede": "Reliable energy is not a luxury layered on top of a good life; it is the substrate that makes most of a good life possible.",
+  "body": [
+   [
+    "h2",
+    "Why energy sits underneath everything"
+   ],
+   [
+    "p",
+    "Almost every human need above bare survival is met more easily with energy: clean water pumped and treated, food refrigerated, homes warmed and cooled, clinics lit and equipped, information moved. When energy is scarce or unreliable, each of these becomes harder and more expensive in time and labor. When it is abundant and clean, they become ordinary. That is why Kronos frames its work as building for people, not only for a grid."
+   ],
+   [
+    "p",
+    "This is a claim about direction, not a promise of arrival. Both Kronos machines are today <b>design and simulation studies</b>. The breeder (Hyperion) and the burner (Aegis / MetroVolt) have not demonstrated hardware net gain, and we make no such claim before first-of-a-kind (FOAK) operation, targeted for first tritium around 2030 with construction beginning Q2 2027."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 440 210' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Energy underpins human development'><rect x='24' y='150' width='90' height='40' rx='5' fill='#232C39'/><text x='69' y='175' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Energy</text><rect x='140' y='150' width='96' height='40' rx='5' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='188' y='175' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Water, food</text><rect x='262' y='150' width='96' height='40' rx='5' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='310' y='175' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Health, work</text><line x1='114' y1='170' x2='140' y2='170' stroke='#232C39' stroke-width='2'/><line x1='236' y1='170' x2='262' y2='170' stroke='#232C39' stroke-width='2'/><text x='230' y='40' fill='#232C39' font-family='Georgia,serif' font-size='14' text-anchor='middle'>Access compounds upward</text><path d='M60 120 L220 60 L380 40' fill='none' stroke='#D4AD5C' stroke-width='2.5'/><circle cx='60' cy='120' r='4' fill='#232C39'/><circle cx='220' cy='60' r='4' fill='#232C39'/><circle cx='380' cy='40' r='4' fill='#232C39'/></svg>"
+   ],
+   [
+    "h3",
+    "Access compounds"
+   ],
+   [
+    "ul",
+    [
+     "Energy for water treatment reduces water-borne disease",
+     "Energy for cold chains cuts food loss and protects vaccines",
+     "Energy for clinics keeps diagnostics and refrigeration running",
+     "Energy for connectivity extends education and work"
+    ]
+   ],
+   [
+    "p",
+    "None of these effects is unique to fusion. They follow from any clean, firm, affordable-to-operate source. Fusion is one candidate among several — advanced fission, geothermal, renewables plus storage — and we hold that view plainly. The distinctive appeal of fusion is fuel abundance and no combustion, which we treat as structural physics, not marketing. See <a href=./energy-and-human-development.html>energy and human development</a> and <a href=./who-fusion-serves.html>who fusion serves</a>."
+   ]
+  ],
+  "related": [
+   [
+    "energy-and-human-development",
+    "Energy & Development"
+   ],
+   [
+    "who-fusion-serves",
+    "Who Fusion Serves"
+   ],
+   [
+    "the-energy-poverty-problem",
+    "Energy Poverty"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "energy-and-human-development",
+  "title": "Energy and Human Development",
+  "cat": "building-for-humanity",
+  "lede": "Across history, expansions in usable energy have tracked expansions in health, learning, and opportunity — with important caveats about how gains are shared.",
+  "body": [
+   [
+    "h2",
+    "A durable correlation"
+   ],
+   [
+    "p",
+    "Measures of human development — life expectancy, child survival, schooling, income — rise steeply as societies move from very low to moderate energy use, then flatten at high levels. The steep part of that curve is where access matters most, and where hundreds of millions of people still live. A clean firm source that can be sited near demand could help move communities up that curve without the pollution that accompanied earlier industrialization."
+   ],
+   [
+    "p",
+    "We state the caveat honestly: correlation is not a guarantee. Energy is necessary but not sufficient for development, and the benefits depend on governance, infrastructure, and equity. Fusion cannot deliver those on its own, and we do not claim it can."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 440 210' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Energy underpins human development'><rect x='24' y='150' width='90' height='40' rx='5' fill='#232C39'/><text x='69' y='175' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Energy</text><rect x='140' y='150' width='96' height='40' rx='5' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='188' y='175' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Water, food</text><rect x='262' y='150' width='96' height='40' rx='5' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='310' y='175' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Health, work</text><line x1='114' y1='170' x2='140' y2='170' stroke='#232C39' stroke-width='2'/><line x1='236' y1='170' x2='262' y2='170' stroke='#232C39' stroke-width='2'/><text x='230' y='40' fill='#232C39' font-family='Georgia,serif' font-size='14' text-anchor='middle'>Access compounds upward</text><path d='M60 120 L220 60 L380 40' fill='none' stroke='#D4AD5C' stroke-width='2.5'/><circle cx='60' cy='120' r='4' fill='#232C39'/><circle cx='220' cy='60' r='4' fill='#232C39'/><circle cx='380' cy='40' r='4' fill='#232C39'/></svg>"
+   ],
+   [
+    "h3",
+    "Where fusion could contribute"
+   ],
+   [
+    "p",
+    "If the physics and engineering close, the breeder (Hyperion) and burner (Aegis / MetroVolt) are studied as steady thermal and electric sources — the firm tier that complements variable renewables. That contribution is conditional on results we are still working to earn. Hyperion's design point is Q_sci 3.424 at 88.7 MW fusion power in simulation; that is a modeled figure, not a measured plant output."
+   ],
+   [
+    "p",
+    "The honest framing: fusion is a bet on the top of the energy supply, aimed at making clean firm power more available over the long run. It is not a fix for the distribution problems that decide who actually benefits."
+   ],
+   [
+    "p",
+    "Related: <a href=./the-uplift-case.html>the uplift case</a> and <a href=./energy-equity-and-fairness.html>energy equity</a>."
+   ]
+  ],
+  "related": [
+   [
+    "the-uplift-case",
+    "The Uplift Case"
+   ],
+   [
+    "energy-equity-and-fairness",
+    "Energy Equity"
+   ],
+   [
+    "energy-access-as-a-human-need",
+    "Energy Access"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "energy-poverty-and-fusion",
+  "title": "Energy Poverty and Fusion's Long Bet",
+  "cat": "building-for-humanity",
+  "lede": "Roughly hundreds of millions of people still lack reliable electricity; fusion is a long-horizon bet, not a near-term answer to that gap.",
+  "body": [
+   [
+    "h2",
+    "The gap that persists"
+   ],
+   [
+    "p",
+    "Energy poverty is not only the absence of a grid connection. It includes unreliable supply, unaffordable operation, and dependence on burning wood, dung, charcoal, or kerosene indoors — which harms lungs, especially of women and children. The nearest-term remedies are practical and known: distributed solar, better grids, cleaner cooking. Fusion does not compete with those and should not be sold as if it did."
+   ],
+   [
+    "p",
+    "We say this directly because overpromising on fusion would do harm. The machines are <b>design and simulation studies</b>; the earliest milestone is first-of-a-kind (FOAK) first tritium around 2030, with commercial-scale contribution far beyond that. Anyone who needs power this decade needs the technologies that exist this decade."
+   ],
+   [
+    "h3",
+    "Where a long bet still matters"
+   ],
+   [
+    "ul",
+    [
+     "Firm clean power is hardest to supply at the tail — cold, dark, still weeks",
+     "A dense, weather-independent source could serve growing demand without new combustion",
+     "Fuel from seawater and bred isotopes is not geographically concentrated the way fossil deposits are"
+    ]
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 460 120' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Generational timeline'><line x1='30' y1='70' x2='430' y2='70' stroke='#232C39' stroke-width='2'/><circle cx='70' cy='70' r='6' fill='#D4AD5C'/><text x='70' y='55' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>Q2 2027</text><text x='70' y='95' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>build begins</text><circle cx='190' cy='70' r='6' fill='#D4AD5C'/><text x='190' y='55' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>~2030</text><text x='190' y='95' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>FOAK tritium</text><circle cx='320' cy='70' r='6' fill='#232C39'/><text x='320' y='55' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>later</text><text x='320' y='95' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>NOAK / BOAK</text><circle cx='410' cy='70' r='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='410' y='55' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>decades</text></svg>"
+   ],
+   [
+    "p",
+    "So the honest position is twofold: fusion is not the tool for today's energy poverty, and fusion could still matter for the energy abundance of people not yet born. Both statements are true at once. See <a href=./a-generational-project.html>a generational project</a> and <a href=./the-energy-poverty-problem.html>the energy-poverty problem</a> in the environment section."
+   ]
+  ],
+  "related": [
+   [
+    "a-generational-project",
+    "A Generational Project"
+   ],
+   [
+    "the-energy-poverty-problem",
+    "Energy Poverty (Env)"
+   ],
+   [
+    "who-fusion-serves",
+    "Who Fusion Serves"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "abundance-without-combustion",
+  "title": "Abundance Without Combustion",
+  "cat": "building-for-humanity",
+  "lede": "The appeal of fusion is a large, steady energy supply that never lights a fire — no smoke, no carbon dioxide at the point of generation.",
+  "body": [
+   [
+    "h2",
+    "What 'abundance' should and should not mean"
+   ],
+   [
+    "p",
+    "'Abundance' is an easy word to abuse. We use it narrowly: fusion fuels are widely available, and the reaction releases energy without oxidizing carbon. Deuterium comes from water; tritium can be bred; the burner's helium-3 is the hard case (more below). None of this means energy will be free, unlimited, or effortless. It means the fuel is not a scarce, concentrated deposit fought over across borders."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 460 150' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Fuel abundance chain'><rect x='16' y='55' width='110' height='40' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='71' y='72' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Deuterium</text><text x='71' y='88' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>from seawater</text><rect x='175' y='55' width='110' height='40' rx='6' fill='#232C39'/><text x='230' y='72' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Fusion reaction</text><text x='230' y='88' fill='#D4AD5C' font-family='Georgia,serif' font-size='10' text-anchor='middle'>design study</text><rect x='334' y='55' width='110' height='40' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='389' y='72' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Heat / isotopes</text><text x='389' y='88' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>for people</text><line x1='126' y1='75' x2='175' y2='75' stroke='#232C39' stroke-width='2'/><line x1='285' y1='75' x2='334' y2='75' stroke='#232C39' stroke-width='2'/></svg>"
+   ],
+   [
+    "h3",
+    "Combustion is the thing we are trying to leave behind"
+   ],
+   [
+    "p",
+    "Burning fuels has powered modern life and also filled the air with particulates and greenhouse gases. A source that produces heat by fusing light nuclei rather than burning carbon breaks that link at the physics level. The breeder (Hyperion) is a D-T spherical tokamak; the burner (Aegis / MetroVolt) is a D-3He tandem mirror. Neither combusts anything."
+   ],
+   [
+    "p",
+    "The honest limit: fuel abundance does not make a plant. Both machines are design studies. The burner in particular faces a fuel-supply gate — a commercial unit's helium-3 demand runs about <b>400 times</b> domestic supply, which is why bred and lunar helium-3 matter and why we do not pretend the fuel exists at terrestrial scale today."
+   ],
+   [
+    "p",
+    "So abundance here is a property of the fuel and the reaction, held against engineering realities we describe plainly. See <a href=./what-abundance-actually-means.html>what abundance actually means</a> and <a href=./fusion-fuel-and-abundance.html>fusion fuel and abundance</a>."
+   ]
+  ],
+  "related": [
+   [
+    "what-abundance-actually-means",
+    "What Abundance Means"
+   ],
+   [
+    "fusion-fuel-and-abundance",
+    "Fusion Fuel"
+   ],
+   [
+    "helium-3-and-quantum-futures",
+    "Helium-3 Futures"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "who-fusion-serves",
+  "title": "Who Fusion Serves",
+  "cat": "building-for-humanity",
+  "lede": "A grounded look at the people and systems a mature fusion supply could serve — and the honest limits on each.",
+  "body": [
+   [
+    "h2",
+    "Naming the beneficiaries plainly"
+   ],
+   [
+    "p",
+    "It is easy to say a technology serves 'humanity' and mean nothing by it. We prefer to name concrete users and be honest about how far off each is. A mature fusion supply, if the physics and engineering close, could serve several groups — none guaranteed, all conditional."
+   ],
+   [
+    "h3",
+    "Concrete users"
+   ],
+   [
+    "ul",
+    [
+     "Grids that need firm clean power for the hours renewables cannot cover",
+     "Data centers and industry that need steady, dense, sited power (the MetroVolt housing)",
+     "Fixed defense installations that need resilient on-site generation (the Aegis housing, fixed installations, not naval)",
+     "Medicine and science that need neutrons and isotopes the breeder can produce",
+     "Communities exposed to fuel-price shocks and combustion pollution"
+    ]
+   ],
+   [
+    "p",
+    "Two of these are nearer than the rest. The breeder (Hyperion) is studied to produce a tritium class product on the order of 4 kg/yr, about 1.97 kg/yr of helium-3, and 14 MeV neutrons — outputs useful to medicine and science well before any large power fleet exists. Electricity at scale is the longer horizon."
+   ],
+   [
+    "p",
+    "We do not claim fusion serves everyone, soon, or on its own. It is one contribution to a clean firm energy system, with the earliest concrete service being isotopes and neutrons rather than bulk power. See <a href=./neutrons-in-service-of-people.html>neutrons in service of people</a> and <a href=./serving-defense-and-civilian-needs.html>serving defense and civilian needs</a>."
+   ]
+  ],
+  "related": [
+   [
+    "neutrons-in-service-of-people",
+    "Neutrons for People"
+   ],
+   [
+    "serving-defense-and-civilian-needs",
+    "Defense & Civilian"
+   ],
+   [
+    "medical-isotopes-for-humanity",
+    "Medical Isotopes"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "energy-equity-and-fairness",
+  "title": "Energy Equity and Fairness",
+  "cat": "building-for-humanity",
+  "lede": "Who gets clean firm power, and on what terms, is a question of fairness that technology alone does not answer.",
+  "body": [
+   [
+    "h2",
+    "Technology sets the ceiling, not the distribution"
+   ],
+   [
+    "p",
+    "A cleaner, more abundant energy source raises what is possible. It does not decide who receives it. History shows powerful energy technologies can widen gaps as easily as close them, depending on who owns them and who is near them. We hold this honestly: fusion could serve equity or bypass it, and the outcome turns on choices outside the physics."
+   ],
+   [
+    "p",
+    "Kronos's engineering choices touch equity only at the edges we control: designing in the open so knowledge is shared, publishing data others can build on, and being candid about limits so no community is misled into depending on power that is not yet real."
+   ],
+   [
+    "h3",
+    "What fairness asks of us"
+   ],
+   [
+    "ul",
+    [
+     "Do not overstate readiness to communities who need power now",
+     "Share methods and data openly rather than hoarding them",
+     "State the honest gates so risk is not silently transferred to others",
+     "Design for siting near demand, which can reduce transmission inequities"
+    ]
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 440 200' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Balancing promise and candor'><line x1='220' y1='30' x2='220' y2='150' stroke='#232C39' stroke-width='3'/><line x1='110' y1='60' x2='330' y2='60' stroke='#232C39' stroke-width='3'/><line x1='110' y1='60' x2='90' y2='110' stroke='#232C39' stroke-width='1.5'/><line x1='110' y1='60' x2='150' y2='110' stroke='#232C39' stroke-width='1.5'/><line x1='330' y1='60' x2='310' y2='110' stroke='#232C39' stroke-width='1.5'/><line x1='330' y1='60' x2='350' y2='110' stroke='#232C39' stroke-width='1.5'/><rect x='80' y='110' width='120' height='26' rx='5' fill='#232C39'/><text x='140' y='128' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Aspiration</text><rect x='290' y='110' width='120' height='26' rx='5' fill='#232C39'/><text x='350' y='128' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Candor</text><rect x='190' y='150' width='60' height='16' rx='3' fill='#232C39'/></svg>"
+   ],
+   [
+    "p",
+    "The deepest equity questions — ownership, pricing, access — are not ours to settle here, and we deliberately keep economics out of this account. What we can offer is candor and openness, which are prerequisites for a fair conversation about a technology this consequential. See <a href=./energy-and-human-dignity.html>energy and human dignity</a> and <a href=./designing-for-the-commons.html>designing for the commons</a>."
+   ]
+  ],
+  "related": [
+   [
+    "energy-and-human-dignity",
+    "Energy & Dignity"
+   ],
+   [
+    "designing-for-the-commons",
+    "Designing for the Commons"
+   ],
+   [
+    "energy-and-the-global-south",
+    "The Global South"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "the-long-arc-of-energy-transitions",
+  "title": "The Long Arc of Energy Transitions",
+  "cat": "building-for-humanity",
+  "lede": "Energy transitions take decades and overlap; fusion, if it works, would be a slow addition, not a sudden replacement.",
+  "body": [
+   [
+    "h2",
+    "Transitions are slow and additive"
+   ],
+   [
+    "p",
+    "Wood gave way to coal, coal shared the stage with oil and gas, and low-carbon sources are now growing alongside all of them. Each shift took decades, and older sources rarely vanished — they were displaced gradually as new ones proved themselves and scaled. A realistic view of fusion places it in this pattern: a source that, if it works, joins the mix over decades rather than replacing anything overnight."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 460 120' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Generational timeline'><line x1='30' y1='70' x2='430' y2='70' stroke='#232C39' stroke-width='2'/><circle cx='70' cy='70' r='6' fill='#D4AD5C'/><text x='70' y='55' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>Q2 2027</text><text x='70' y='95' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>build begins</text><circle cx='190' cy='70' r='6' fill='#D4AD5C'/><text x='190' y='55' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>~2030</text><text x='190' y='95' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>FOAK tritium</text><circle cx='320' cy='70' r='6' fill='#232C39'/><text x='320' y='55' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>later</text><text x='320' y='95' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>NOAK / BOAK</text><circle cx='410' cy='70' r='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='410' y='55' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>decades</text></svg>"
+   ],
+   [
+    "p",
+    "This tempers both hope and impatience. It is why we describe the breeder's timeline concretely — construction from Q2 2027, FOAK first tritium around 2030, then NOAK and BOAK — and refuse to imply a finished fleet is near. It is also why the near-term climate work of renewables, efficiency, and grids matters regardless of how fusion progresses."
+   ],
+   [
+    "h3",
+    "Why the long arc still justifies the work"
+   ],
+   [
+    "ul",
+    [
+     "The hardest firm-power problems are decades-long problems",
+     "Building the knowledge base now shortens the arc for those who follow",
+     "Open results compound: each corrected design helps the next team"
+    ]
+   ],
+   [
+    "p",
+    "Patience is not passivity. The discipline is to do rigorous, honest work now so that if fusion earns its place, it arrives sooner and more trustworthy. See <a href=./a-generational-project.html>a generational project</a> and <a href=./building-for-people-not-yet-born.html>building for people not yet born</a>."
+   ]
+  ],
+  "related": [
+   [
+    "a-generational-project",
+    "A Generational Project"
+   ],
+   [
+    "building-for-people-not-yet-born",
+    "For People Not Yet Born"
+   ],
+   [
+    "the-long-now-perspective",
+    "The Long Now"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "why-fusion-is-humanitys-dream",
+  "title": "Why Fusion Is Humanity's Dream",
+  "cat": "building-for-humanity",
+  "lede": "Powering ourselves the way stars do is an old aspiration; naming it honestly means separating the dream from the unfinished engineering.",
+  "body": [
+   [
+    "h2",
+    "An old and specific aspiration"
+   ],
+   [
+    "p",
+    "The dream is concrete: draw energy from the same reaction that lights the sun, using fuel from water and rock, without combustion or long-lived heavy-element waste. It has drawn scientists for generations because it promises a clean, dense, fuel-abundant source. We share that aspiration. We also insist on keeping it separate from claims about what any machine has actually done."
+   ],
+   [
+    "p",
+    "The dream is not proof. Both Kronos machines are design and simulation studies. Saying 'fusion is humanity's dream' is a statement about why the work is worth doing, not evidence that it is finished. Conflating the two is the exact overreach we try to avoid."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 460 150' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Fuel abundance chain'><rect x='16' y='55' width='110' height='40' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='71' y='72' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Deuterium</text><text x='71' y='88' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>from seawater</text><rect x='175' y='55' width='110' height='40' rx='6' fill='#232C39'/><text x='230' y='72' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Fusion reaction</text><text x='230' y='88' fill='#D4AD5C' font-family='Georgia,serif' font-size='10' text-anchor='middle'>design study</text><rect x='334' y='55' width='110' height='40' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='389' y='72' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Heat / isotopes</text><text x='389' y='88' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>for people</text><line x1='126' y1='75' x2='175' y2='75' stroke='#232C39' stroke-width='2'/><line x1='285' y1='75' x2='334' y2='75' stroke='#232C39' stroke-width='2'/></svg>"
+   ],
+   [
+    "h3",
+    "What is genuinely dream-worthy"
+   ],
+   [
+    "ul",
+    [
+     "Fuel that is not a concentrated, contested deposit",
+     "Energy release without carbon oxidation",
+     "The prospect of firm clean power sited near where people live",
+     "Byproducts — neutrons, helium-3, tritium — useful to medicine and science"
+    ]
+   ],
+   [
+    "p",
+    "The dream earns respect precisely by being held to hard evidence. We honor it by publishing openly, stating the gates, and refusing net-gain claims before FOAK. A dream defended with candor is more durable than one defended with hype. See <a href=./the-honest-promise.html>the honest promise</a> and <a href=./humility-in-a-grand-mission.html>humility in a grand mission</a>."
+   ]
+  ],
+  "related": [
+   [
+    "the-honest-promise",
+    "The Honest Promise"
+   ],
+   [
+    "humility-in-a-grand-mission",
+    "Humility in the Mission"
+   ],
+   [
+    "powering-an-advanced-society-cleanly",
+    "Powering Society Cleanly"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "powering-an-advanced-society-cleanly",
+  "title": "Powering an Advanced Society Cleanly",
+  "cat": "building-for-humanity",
+  "lede": "An advanced society's appetite for energy keeps growing; the question is whether that growth can be met without combustion.",
+  "body": [
+   [
+    "h2",
+    "Demand is not going away"
+   ],
+   [
+    "p",
+    "Computation, electrified transport, industrial heat, water treatment, and rising living standards all pull energy demand upward. Efficiency helps but does not reverse the trend. An honest account of the future assumes society will want more usable energy, not less — which makes the cleanliness of that energy the decisive question."
+   ],
+   [
+    "p",
+    "Fusion is attractive here because its cleanliness is structural: no carbon combustion, fuel that is abundant, and no long-lived actinide waste stream. The breeder (Hyperion) and burner (Aegis / MetroVolt) are studied as steady sources for exactly the demand that is hardest to serve cleanly — dense, continuous, sited near load, such as the MetroVolt data-center housing."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 440 210' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Energy underpins human development'><rect x='24' y='150' width='90' height='40' rx='5' fill='#232C39'/><text x='69' y='175' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Energy</text><rect x='140' y='150' width='96' height='40' rx='5' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='188' y='175' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Water, food</text><rect x='262' y='150' width='96' height='40' rx='5' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='310' y='175' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Health, work</text><line x1='114' y1='170' x2='140' y2='170' stroke='#232C39' stroke-width='2'/><line x1='236' y1='170' x2='262' y2='170' stroke='#232C39' stroke-width='2'/><text x='230' y='40' fill='#232C39' font-family='Georgia,serif' font-size='14' text-anchor='middle'>Access compounds upward</text><path d='M60 120 L220 60 L380 40' fill='none' stroke='#D4AD5C' stroke-width='2.5'/><circle cx='60' cy='120' r='4' fill='#232C39'/><circle cx='220' cy='60' r='4' fill='#232C39'/><circle cx='380' cy='40' r='4' fill='#232C39'/></svg>"
+   ],
+   [
+    "h3",
+    "The honest counterweight"
+   ],
+   [
+    "p",
+    "Cleanliness in principle is not performance in practice. The burner faces a real availability gate: modeled availability of roughly 0.86 to 0.995 against hyperscale Tier III's 0.99982 — a 30-to-100-fold gap in downtime. That means the burner is not a sole Tier-III source today, and we say so rather than implying data centers can rely on it now."
+   ],
+   [
+    "p",
+    "So 'powering society cleanly' is a direction we are working toward under stated constraints, not a capability we claim to have. See <a href=./cooling-and-a-warming-world.html>cooling and a warming world</a> and <a href=./letting-the-planet-heal.html>letting the planet heal</a>."
+   ]
+  ],
+  "related": [
+   [
+    "cooling-and-a-warming-world",
+    "Cooling a Warming World"
+   ],
+   [
+    "letting-the-planet-heal",
+    "Letting the Planet Heal"
+   ],
+   [
+    "data-centers-and-clean-power",
+    "Data Centers"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "letting-the-planet-heal",
+  "title": "Letting the Planet Heal While We Build",
+  "cat": "building-for-humanity",
+  "lede": "The aspiration is a society that keeps advancing while pressure on the biosphere falls — a healing that clean firm power could help make room for.",
+  "body": [
+   [
+    "h2",
+    "Advance and heal at the same time"
+   ],
+   [
+    "p",
+    "The usual framing pits human progress against planetary health. The more hopeful possibility is that they can move together if the energy underneath progress stops harming the biosphere. A clean, firm, fuel-abundant source would remove one of the largest sources of that harm — combustion — from the base of the system, giving natural systems room to recover."
+   ],
+   [
+    "p",
+    "We are careful not to overstate this. Fusion does not clean rivers, restore forests, or reverse emissions already in the atmosphere. It could reduce the flow of new harm from the energy sector, which is a meaningful contribution, not a cure. And it is conditional: the machines are design and simulation studies, not built plants."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 460 220' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Open-science flywheel serving people'><circle cx='230' cy='110' r='78' fill='none' stroke='#232C39' stroke-width='2'/><circle cx='230' cy='32' r='7' fill='#D4AD5C'/><circle cx='308' cy='110' r='7' fill='#D4AD5C'/><circle cx='230' cy='188' r='7' fill='#D4AD5C'/><circle cx='152' cy='110' r='7' fill='#D4AD5C'/><text x='230' y='20' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Publish openly</text><text x='398' y='114' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Invite refutation</text><text x='230' y='208' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Correct the design</text><text x='72' y='114' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Earn trust</text><text x='230' y='116' fill='#232C39' font-family='Georgia,serif' font-size='13' text-anchor='middle'>People benefit</text></svg>"
+   ],
+   [
+    "h3",
+    "What 'healing' honestly means here"
+   ],
+   [
+    "ul",
+    [
+     "Less new carbon added at the point of generation",
+     "No routine combustion pollution from the source",
+     "Fuel that does not require expanding extractive frontiers the way fossil deposits do",
+     "Small land footprint per unit of firm energy"
+    ]
+   ],
+   [
+    "p",
+    "The healing is something the planet does; our part is to stop adding to the wound. That is a humbler claim than 'saving the Earth,' and a truer one. See <a href=./the-healed-earth-aspiration.html>the healed-Earth aspiration</a> and <a href=./from-scarcity-to-stewardship.html>from scarcity to stewardship</a>."
+   ]
+  ],
+  "related": [
+   [
+    "the-healed-earth-aspiration",
+    "Healed-Earth Aspiration"
+   ],
+   [
+    "from-scarcity-to-stewardship",
+    "Scarcity to Stewardship"
+   ],
+   [
+    "energy-and-the-biosphere",
+    "Energy & Biosphere"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "energy-density-and-human-flourishing",
+  "title": "Energy Density and Human Flourishing",
+  "cat": "building-for-humanity",
+  "lede": "Dense energy sources free land and labor for other human purposes; fusion fuel is among the densest known.",
+  "body": [
+   [
+    "h2",
+    "Why density matters to people"
+   ],
+   [
+    "p",
+    "Energy density is not an abstraction. A source that packs enormous energy into little fuel and little land leaves more of both for farms, homes, habitat, and everything else people value. Diffuse sources can be clean and vital, yet they ask for more space and materials per unit of firm output. Density is one axis on which fusion is genuinely distinctive."
+   ],
+   [
+    "p",
+    "The fusion of light nuclei releases on the order of a million times more energy per unit mass than chemical combustion. That is why a small mass of fuel corresponds to a large amount of energy, and why fusion plants are studied with modest fuel logistics compared with combustion at the same output."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 460 150' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Fuel abundance chain'><rect x='16' y='55' width='110' height='40' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='71' y='72' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Deuterium</text><text x='71' y='88' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>from seawater</text><rect x='175' y='55' width='110' height='40' rx='6' fill='#232C39'/><text x='230' y='72' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Fusion reaction</text><text x='230' y='88' fill='#D4AD5C' font-family='Georgia,serif' font-size='10' text-anchor='middle'>design study</text><rect x='334' y='55' width='110' height='40' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='389' y='72' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Heat / isotopes</text><text x='389' y='88' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>for people</text><line x1='126' y1='75' x2='175' y2='75' stroke='#232C39' stroke-width='2'/><line x1='285' y1='75' x2='334' y2='75' stroke='#232C39' stroke-width='2'/></svg>"
+   ],
+   [
+    "h3",
+    "Flourishing needs room"
+   ],
+   [
+    "ul",
+    [
+     "Less land per unit of firm power leaves more for nature and food",
+     "Small fuel mass means low transport and storage burden",
+     "Siting near demand can reduce sprawling transmission corridors"
+    ]
+   ],
+   [
+    "p",
+    "We keep this honest. Density is a property of the reaction, established physics, but it does not by itself deliver a working plant, and the machines remain design and simulation studies. Density is a reason the dream is worth chasing, held alongside the gates that remain open. See <a href=./land-and-footprint.html>land and footprint</a> and <a href=./abundance-without-combustion.html>abundance without combustion</a>."
+   ]
+  ],
+  "related": [
+   [
+    "land-and-footprint",
+    "Land & Footprint"
+   ],
+   [
+    "abundance-without-combustion",
+    "No Combustion"
+   ],
+   [
+    "what-abundance-actually-means",
+    "What Abundance Means"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "the-uplift-case",
+  "title": "The Uplift Case, Stated Plainly",
+  "cat": "building-for-humanity",
+  "lede": "The case that clean firm power lifts human wellbeing is strong at the low end of the energy ladder and weaker as a grand claim.",
+  "body": [
+   [
+    "h2",
+    "Where uplift is real"
+   ],
+   [
+    "p",
+    "For communities near the bottom of the energy ladder, additional reliable power translates into measurable gains: safer childbirth in lit and equipped clinics, refrigerated medicine, pumped clean water, longer school and work hours. These are not speculative; they are documented wherever reliable electricity arrives. Any clean firm source that reaches such communities can contribute to this uplift."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 440 210' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Energy underpins human development'><rect x='24' y='150' width='90' height='40' rx='5' fill='#232C39'/><text x='69' y='175' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Energy</text><rect x='140' y='150' width='96' height='40' rx='5' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='188' y='175' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Water, food</text><rect x='262' y='150' width='96' height='40' rx='5' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='310' y='175' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Health, work</text><line x1='114' y1='170' x2='140' y2='170' stroke='#232C39' stroke-width='2'/><line x1='236' y1='170' x2='262' y2='170' stroke='#232C39' stroke-width='2'/><text x='230' y='40' fill='#232C39' font-family='Georgia,serif' font-size='14' text-anchor='middle'>Access compounds upward</text><path d='M60 120 L220 60 L380 40' fill='none' stroke='#D4AD5C' stroke-width='2.5'/><circle cx='60' cy='120' r='4' fill='#232C39'/><circle cx='220' cy='60' r='4' fill='#232C39'/><circle cx='380' cy='40' r='4' fill='#232C39'/></svg>"
+   ],
+   [
+    "h3",
+    "Where the claim gets thin"
+   ],
+   [
+    "p",
+    "At the high end of the ladder, more energy yields diminishing wellbeing returns, and the constraints become social rather than technical. So 'fusion uplifts humanity' is strongest as a statement about extending access, and weakest as a blanket promise. We prefer the strong, specific version and reject the grand, vague one."
+   ],
+   [
+    "p",
+    "We also hold the timing honestly. The breeder's earliest concrete service is neutrons and isotopes for medicine and science, not bulk electricity; large-scale power that could reach underserved grids is a longer horizon, and the machines are design and simulation studies today."
+   ],
+   [
+    "p",
+    "So the uplift case is genuine, bounded, and largely downstream of choices about distribution that technology does not make. See <a href=./energy-and-human-development.html>energy and human development</a> and <a href=./medical-isotopes-for-humanity.html>medical isotopes for humanity</a>."
+   ]
+  ],
+  "related": [
+   [
+    "energy-and-human-development",
+    "Energy & Development"
+   ],
+   [
+    "medical-isotopes-for-humanity",
+    "Medical Isotopes"
+   ],
+   [
+    "energy-equity-and-fairness",
+    "Energy Equity"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "energy-for-clean-water",
+  "title": "Energy for Clean Water",
+  "cat": "building-for-humanity",
+  "lede": "Treating, pumping, and desalinating water is energy-intensive; clean firm power could make safe water less costly in energy and pollution.",
+  "body": [
+   [
+    "h2",
+    "Water is an energy problem"
+   ],
+   [
+    "p",
+    "Delivering safe water at scale means moving, filtering, treating, and sometimes desalinating it — all energy-intensive. Where that energy comes from burning fuels, clean water and clean air trade against each other. A clean firm source breaks that trade-off: the same water services with far less pollution and no carbon combustion at the point of generation."
+   ],
+   [
+    "p",
+    "Desalination in particular is limited less by technology than by the energy it demands. A dense, steady, low-emission source of heat and electricity is well matched to it. The breeder (Hyperion) and burner (Aegis / MetroVolt) are studied as steady thermal and electric sources of exactly this kind — if the physics and engineering close."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 440 210' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Energy underpins human development'><rect x='24' y='150' width='90' height='40' rx='5' fill='#232C39'/><text x='69' y='175' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Energy</text><rect x='140' y='150' width='96' height='40' rx='5' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='188' y='175' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Water, food</text><rect x='262' y='150' width='96' height='40' rx='5' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='310' y='175' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Health, work</text><line x1='114' y1='170' x2='140' y2='170' stroke='#232C39' stroke-width='2'/><line x1='236' y1='170' x2='262' y2='170' stroke='#232C39' stroke-width='2'/><text x='230' y='40' fill='#232C39' font-family='Georgia,serif' font-size='14' text-anchor='middle'>Access compounds upward</text><path d='M60 120 L220 60 L380 40' fill='none' stroke='#D4AD5C' stroke-width='2.5'/><circle cx='60' cy='120' r='4' fill='#232C39'/><circle cx='220' cy='60' r='4' fill='#232C39'/><circle cx='380' cy='40' r='4' fill='#232C39'/></svg>"
+   ],
+   [
+    "h3",
+    "The honest boundary"
+   ],
+   [
+    "ul",
+    [
+     "Fusion plants are design and simulation studies, not built water utilities",
+     "No net-gain claim is made before FOAK (~2030 first tritium)",
+     "Water access also depends on infrastructure and governance fusion cannot supply"
+    ]
+   ],
+   [
+    "p",
+    "The connection between fusion and water is real and physical, but it is a future contribution conditional on results we are still earning. See <a href=./water-and-fusion.html>water and fusion</a> and <a href=./energy-for-food-and-agriculture.html>energy for food and agriculture</a>."
+   ]
+  ],
+  "related": [
+   [
+    "water-and-fusion",
+    "Water & Fusion"
+   ],
+   [
+    "energy-for-food-and-agriculture",
+    "Energy for Food"
+   ],
+   [
+    "energy-access-as-a-human-need",
+    "Energy Access"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "energy-for-food-and-agriculture",
+  "title": "Energy for Food and Agriculture",
+  "cat": "building-for-humanity",
+  "lede": "Modern food systems run on energy — for irrigation, fertilizer, cold chains, and processing — and much of it still comes from combustion.",
+  "body": [
+   [
+    "h2",
+    "The hidden energy in food"
+   ],
+   [
+    "p",
+    "Behind a plate of food sits energy for irrigation pumps, for the ammonia synthesis that makes nitrogen fertilizer, for refrigeration that prevents spoilage, and for transport and processing. Much of that energy is fossil-derived today. Cleaning the energy base of agriculture would cut emissions and pollution across a system that feeds everyone."
+   ],
+   [
+    "p",
+    "Clean firm power and clean industrial heat are the relevant contributions. Fertilizer synthesis and food processing need steady, dense energy — the kind the breeder (Hyperion) and burner (Aegis / MetroVolt) are studied to provide. This is a plausible long-run role, not a present capability."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 460 150' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Fuel abundance chain'><rect x='16' y='55' width='110' height='40' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='71' y='72' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Deuterium</text><text x='71' y='88' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>from seawater</text><rect x='175' y='55' width='110' height='40' rx='6' fill='#232C39'/><text x='230' y='72' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Fusion reaction</text><text x='230' y='88' fill='#D4AD5C' font-family='Georgia,serif' font-size='10' text-anchor='middle'>design study</text><rect x='334' y='55' width='110' height='40' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='389' y='72' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Heat / isotopes</text><text x='389' y='88' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>for people</text><line x1='126' y1='75' x2='175' y2='75' stroke='#232C39' stroke-width='2'/><line x1='285' y1='75' x2='334' y2='75' stroke='#232C39' stroke-width='2'/></svg>"
+   ],
+   [
+    "h3",
+    "Stated with care"
+   ],
+   [
+    "p",
+    "Agriculture's problems — soil, water, land use, equity of access to food — are mostly not energy problems, and fusion touches only the energy layer. We do not claim it fixes hunger or farming. It could reduce the emissions and pollution embedded in food's energy supply, if the machines reach useful scale after FOAK."
+   ],
+   [
+    "p",
+    "That is a bounded, honest contribution to a system far larger than any energy technology. See <a href=./energy-for-clean-water.html>energy for clean water</a> and <a href=./the-uplift-case.html>the uplift case</a>."
+   ]
+  ],
+  "related": [
+   [
+    "energy-for-clean-water",
+    "Energy for Water"
+   ],
+   [
+    "the-uplift-case",
+    "The Uplift Case"
+   ],
+   [
+    "decarbonizing-hard-to-abate",
+    "Hard-to-Abate"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "energy-for-health-systems",
+  "title": "Energy for Health Systems",
+  "cat": "building-for-humanity",
+  "lede": "Clinics and hospitals depend on uninterrupted power; they also depend, increasingly, on isotopes a fusion breeder could help supply.",
+  "body": [
+   [
+    "h2",
+    "Two ways fusion touches health"
+   ],
+   [
+    "p",
+    "The first is ordinary and vital: health systems need reliable electricity for lighting, refrigeration, diagnostics, ventilation, and surgery. Power interruptions in clinics cost lives. A clean firm source contributes to health the same way it contributes to any critical facility — by being there when needed, without combustion pollution that itself harms health."
+   ],
+   [
+    "p",
+    "The second is more specific to fusion. The breeder (Hyperion) is studied to produce 14 MeV neutrons and isotopes — a tritium class product on the order of 4 kg/yr and about 1.97 kg/yr of helium-3. Neutrons drive the production of medical isotopes used in imaging and treatment, and this is an output the breeder could offer well before any large power fleet exists."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 440 210' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Energy underpins human development'><rect x='24' y='150' width='90' height='40' rx='5' fill='#232C39'/><text x='69' y='175' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Energy</text><rect x='140' y='150' width='96' height='40' rx='5' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='188' y='175' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Water, food</text><rect x='262' y='150' width='96' height='40' rx='5' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='310' y='175' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Health, work</text><line x1='114' y1='170' x2='140' y2='170' stroke='#232C39' stroke-width='2'/><line x1='236' y1='170' x2='262' y2='170' stroke='#232C39' stroke-width='2'/><text x='230' y='40' fill='#232C39' font-family='Georgia,serif' font-size='14' text-anchor='middle'>Access compounds upward</text><path d='M60 120 L220 60 L380 40' fill='none' stroke='#D4AD5C' stroke-width='2.5'/><circle cx='60' cy='120' r='4' fill='#232C39'/><circle cx='220' cy='60' r='4' fill='#232C39'/><circle cx='380' cy='40' r='4' fill='#232C39'/></svg>"
+   ],
+   [
+    "h3",
+    "The honest frame"
+   ],
+   [
+    "ul",
+    [
+     "The breeder is a design and simulation study; isotope output is modeled, not yet produced",
+     "Medical isotope supply also depends on separation, logistics, and regulation beyond the reactor",
+     "Reliable clinic power is available from many clean sources today, not fusion alone"
+    ]
+   ],
+   [
+    "p",
+    "Health is where fusion's near-term human value is most concrete, through neutrons and isotopes rather than bulk power. See <a href=./medical-isotopes-for-humanity.html>medical isotopes for humanity</a> and <a href=./neutrons-in-service-of-people.html>neutrons in service of people</a>."
+   ]
+  ],
+  "related": [
+   [
+    "medical-isotopes-for-humanity",
+    "Medical Isotopes"
+   ],
+   [
+    "neutrons-in-service-of-people",
+    "Neutrons for People"
+   ],
+   [
+    "neutrons-for-medicine-and-the-planet",
+    "Neutrons & Medicine"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "cooling-and-a-warming-world",
+  "title": "Cooling in a Warming World",
+  "cat": "building-for-humanity",
+  "lede": "As the climate warms, demand for cooling rises — a need that can either drive more emissions or, with clean firm power, be met without them.",
+  "body": [
+   [
+    "h2",
+    "A dangerous feedback"
+   ],
+   [
+    "p",
+    "Cooling is becoming a matter of survival in more places each decade. But if the electricity for air conditioning and refrigeration comes from combustion, cooling drives the very warming that makes it necessary — a feedback that worsens over time. Breaking that loop requires the cooling to run on clean power."
+   ],
+   [
+    "p",
+    "This is squarely in the firm-power role fusion is studied for: steady demand, often at night and through heat waves when it is most acute, in dense urban areas near where people live. A clean source that runs regardless of weather is well matched to cooling loads that peak exactly when strain is highest."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 440 210' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Energy underpins human development'><rect x='24' y='150' width='90' height='40' rx='5' fill='#232C39'/><text x='69' y='175' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Energy</text><rect x='140' y='150' width='96' height='40' rx='5' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='188' y='175' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Water, food</text><rect x='262' y='150' width='96' height='40' rx='5' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='310' y='175' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Health, work</text><line x1='114' y1='170' x2='140' y2='170' stroke='#232C39' stroke-width='2'/><line x1='236' y1='170' x2='262' y2='170' stroke='#232C39' stroke-width='2'/><text x='230' y='40' fill='#232C39' font-family='Georgia,serif' font-size='14' text-anchor='middle'>Access compounds upward</text><path d='M60 120 L220 60 L380 40' fill='none' stroke='#D4AD5C' stroke-width='2.5'/><circle cx='60' cy='120' r='4' fill='#232C39'/><circle cx='220' cy='60' r='4' fill='#232C39'/><circle cx='380' cy='40' r='4' fill='#232C39'/></svg>"
+   ],
+   [
+    "h3",
+    "Kept honest"
+   ],
+   [
+    "p",
+    "Fusion cannot help with today's heat waves; the machines are design and simulation studies with FOAK first tritium targeted around 2030 and scale far beyond. Present cooling demand must be met by the clean sources available now. Fusion's relevance is to the growing cooling demand of coming decades, if it earns its place."
+   ],
+   [
+    "p",
+    "The point is structural: cooling need not accelerate warming if its energy is clean and firm. See <a href=./powering-an-advanced-society-cleanly.html>powering society cleanly</a> and <a href=./grid-resilience-and-climate-adaptation.html>grid resilience</a>."
+   ]
+  ],
+  "related": [
+   [
+    "powering-an-advanced-society-cleanly",
+    "Powering Society Cleanly"
+   ],
+   [
+    "grid-resilience-and-climate-adaptation",
+    "Grid Resilience"
+   ],
+   [
+    "resilience-for-communities",
+    "Community Resilience"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "firm-power-for-the-underserved",
+  "title": "Firm Power for the Underserved",
+  "cat": "building-for-humanity",
+  "lede": "The communities with the least reliable power stand to gain most from firm clean supply — and are also least able to wait for unproven technology.",
+  "body": [
+   [
+    "h2",
+    "The double bind"
+   ],
+   [
+    "p",
+    "Communities with unreliable grids or none at all would benefit most from clean firm power. They are also the least able to bear the risk of betting on technology that does not yet work. This tension shapes how we talk about fusion and the underserved: the potential benefit is real, and the responsibility not to overpromise is heightened, not lowered, by their need."
+   ],
+   [
+    "p",
+    "So the honest counsel is that near-term energy access for underserved communities should come from the clean, firm-adjacent technologies available now — distributed solar with storage, better grids, geothermal where it fits. Fusion is a long-horizon addition to the firm tier, not a reason to wait."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 460 120' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Generational timeline'><line x1='30' y1='70' x2='430' y2='70' stroke='#232C39' stroke-width='2'/><circle cx='70' cy='70' r='6' fill='#D4AD5C'/><text x='70' y='55' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>Q2 2027</text><text x='70' y='95' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>build begins</text><circle cx='190' cy='70' r='6' fill='#D4AD5C'/><text x='190' y='55' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>~2030</text><text x='190' y='95' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>FOAK tritium</text><circle cx='320' cy='70' r='6' fill='#232C39'/><text x='320' y='55' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>later</text><text x='320' y='95' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>NOAK / BOAK</text><circle cx='410' cy='70' r='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='410' y='55' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>decades</text></svg>"
+   ],
+   [
+    "h3",
+    "What we can responsibly offer now"
+   ],
+   [
+    "ul",
+    [
+     "Open data and methods anyone can learn from and build on",
+     "Candor about timelines so no community plans around power that is not real",
+     "A design aimed at siting near demand, which can help places far from large grids"
+    ]
+   ],
+   [
+    "p",
+    "Serving the underserved starts with not misleading them. If fusion earns its place, its firm clean output could reach communities that current firm sources cannot serve cleanly. Until then, honesty is the service. See <a href=./energy-poverty-and-fusion.html>energy poverty and fusion</a> and <a href=./energy-equity-and-fairness.html>energy equity</a>."
+   ]
+  ],
+  "related": [
+   [
+    "energy-poverty-and-fusion",
+    "Energy Poverty"
+   ],
+   [
+    "energy-equity-and-fairness",
+    "Energy Equity"
+   ],
+   [
+    "energy-and-the-global-south",
+    "The Global South"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "distributed-and-centralized-uplift",
+  "title": "Distributed and Centralized: Both Serve People",
+  "cat": "building-for-humanity",
+  "lede": "Uplift comes from both distributed clean power and large firm sources; fusion belongs to the second, complementing rather than replacing the first.",
+  "body": [
+   [
+    "h2",
+    "Not a rivalry"
+   ],
+   [
+    "p",
+    "Debates about energy sometimes pit distributed generation against centralized plants as if only one can serve people. The honest view is that both do, in different roles. Distributed solar and storage bring power close and fast; large firm sources cover the loads and hours that distribution alone struggles with. A humane energy system uses both."
+   ],
+   [
+    "p",
+    "Fusion is a centralized, firm contribution. The breeder (Hyperion) and burner (Aegis / MetroVolt) are studied as steady, dense sources sited near demand — the MetroVolt housing for data centers, the Aegis housing for fixed defense installations. They complement variable renewables rather than competing with them."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 440 210' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Energy underpins human development'><rect x='24' y='150' width='90' height='40' rx='5' fill='#232C39'/><text x='69' y='175' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Energy</text><rect x='140' y='150' width='96' height='40' rx='5' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='188' y='175' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Water, food</text><rect x='262' y='150' width='96' height='40' rx='5' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='310' y='175' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Health, work</text><line x1='114' y1='170' x2='140' y2='170' stroke='#232C39' stroke-width='2'/><line x1='236' y1='170' x2='262' y2='170' stroke='#232C39' stroke-width='2'/><text x='230' y='40' fill='#232C39' font-family='Georgia,serif' font-size='14' text-anchor='middle'>Access compounds upward</text><path d='M60 120 L220 60 L380 40' fill='none' stroke='#D4AD5C' stroke-width='2.5'/><circle cx='60' cy='120' r='4' fill='#232C39'/><circle cx='220' cy='60' r='4' fill='#232C39'/><circle cx='380' cy='40' r='4' fill='#232C39'/></svg>"
+   ],
+   [
+    "h3",
+    "Why say this plainly"
+   ],
+   [
+    "ul",
+    [
+     "Overselling fusion as a replacement for renewables would be false and harmful",
+     "Distributed clean power is the near-term workhorse for access",
+     "Firm sources like fusion address the hardest tail of the demand curve"
+    ]
+   ],
+   [
+    "p",
+    "We hold no view that fusion is superior to renewables; they solve different parts of the same problem. Serving people means getting the mix right, not championing one technology. See <a href=./firm-power-vs-intermittency.html>firm vs. intermittent</a> and <a href=./who-fusion-serves.html>who fusion serves</a>."
+   ]
+  ],
+  "related": [
+   [
+    "firm-power-vs-intermittency",
+    "Firm vs. Intermittent"
+   ],
+   [
+    "who-fusion-serves",
+    "Who Fusion Serves"
+   ],
+   [
+    "why-firm-power-matters",
+    "Why Firm Power"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "what-fusion-cannot-fix",
+  "title": "What Fusion Cannot Fix",
+  "cat": "building-for-humanity",
+  "lede": "An honest mission names its limits; here are human problems fusion does not solve, even if every gate closes.",
+  "body": [
+   [
+    "h2",
+    "Limits are part of honesty"
+   ],
+   [
+    "p",
+    "A mission that only lists benefits is a sales pitch. Building for humanity means also stating plainly what fusion cannot do, so no one over-relies on it. Even a fully working fusion plant would leave most human problems untouched."
+   ],
+   [
+    "h3",
+    "Beyond fusion's reach"
+   ],
+   [
+    "ul",
+    [
+     "It does not distribute power fairly — ownership and policy decide that",
+     "It does not remove carbon already in the atmosphere",
+     "It does not fix water, soil, or biodiversity loss directly",
+     "It does not resolve conflict, poverty, or governance failures",
+     "It does not deliver near-term energy access; those needs are for today's technologies"
+    ]
+   ],
+   [
+    "p",
+    "And there are limits within fusion itself. The machines are design and simulation studies. The burner faces gates we state without softening: plug coils overstressed roughly 3 to 3.9 times at the design bore, an operating regime 166 to 830 times beyond any existing device, helium-3 demand about 400 times domestic supply, and availability short of Tier III by 30 to 100 times. These are physics findings, not economics."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 440 200' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Balancing promise and candor'><line x1='220' y1='30' x2='220' y2='150' stroke='#232C39' stroke-width='3'/><line x1='110' y1='60' x2='330' y2='60' stroke='#232C39' stroke-width='3'/><line x1='110' y1='60' x2='90' y2='110' stroke='#232C39' stroke-width='1.5'/><line x1='110' y1='60' x2='150' y2='110' stroke='#232C39' stroke-width='1.5'/><line x1='330' y1='60' x2='310' y2='110' stroke='#232C39' stroke-width='1.5'/><line x1='330' y1='60' x2='350' y2='110' stroke='#232C39' stroke-width='1.5'/><rect x='80' y='110' width='120' height='26' rx='5' fill='#232C39'/><text x='140' y='128' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Aspiration</text><rect x='290' y='110' width='120' height='26' rx='5' fill='#232C39'/><text x='350' y='128' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Candor</text><rect x='190' y='150' width='60' height='16' rx='3' fill='#232C39'/></svg>"
+   ],
+   [
+    "p",
+    "Naming these limits is not pessimism; it is the discipline that lets the genuine contributions be believed. See <a href=./what-fusion-cannot-do-yet.html>what fusion cannot do yet</a> and <a href=./the-honest-promise.html>the honest promise</a>."
+   ]
+  ],
+  "related": [
+   [
+    "what-fusion-cannot-do-yet",
+    "Cannot Do Yet"
+   ],
+   [
+    "the-honest-promise",
+    "The Honest Promise"
+   ],
+   [
+    "humility-in-a-grand-mission",
+    "Humility"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "energy-and-human-dignity",
+  "title": "Energy and Human Dignity",
+  "cat": "building-for-humanity",
+  "lede": "Beyond measurable outcomes, reliable clean energy supports something harder to quantify: the dignity of not living in scarcity.",
+  "body": [
+   [
+    "h2",
+    "Dignity is a real, if unmeasured, stake"
+   ],
+   [
+    "p",
+    "Statistics on health and income capture much of energy's value, but not all of it. There is a dignity in a lit home, a charged phone, a refrigerator that keeps food safe, a fan in the heat — in not organizing one's whole day around the absence of power. This is harder to measure and no less real, and it is part of why energy access matters morally, not only economically."
+   ],
+   [
+    "p",
+    "Clean energy adds a further dimension: the dignity of not paying for one's power with one's lungs. Combustion pollution falls hardest on the poor, near roads, plants, and cookfires. A source that produces energy without burning anything removes a burden that has always landed unevenly."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 440 210' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Energy underpins human development'><rect x='24' y='150' width='90' height='40' rx='5' fill='#232C39'/><text x='69' y='175' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Energy</text><rect x='140' y='150' width='96' height='40' rx='5' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='188' y='175' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Water, food</text><rect x='262' y='150' width='96' height='40' rx='5' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='310' y='175' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Health, work</text><line x1='114' y1='170' x2='140' y2='170' stroke='#232C39' stroke-width='2'/><line x1='236' y1='170' x2='262' y2='170' stroke='#232C39' stroke-width='2'/><text x='230' y='40' fill='#232C39' font-family='Georgia,serif' font-size='14' text-anchor='middle'>Access compounds upward</text><path d='M60 120 L220 60 L380 40' fill='none' stroke='#D4AD5C' stroke-width='2.5'/><circle cx='60' cy='120' r='4' fill='#232C39'/><circle cx='220' cy='60' r='4' fill='#232C39'/><circle cx='380' cy='40' r='4' fill='#232C39'/></svg>"
+   ],
+   [
+    "h3",
+    "How this shapes the work"
+   ],
+   [
+    "p",
+    "Dignity as a value asks us to be honest about what we can deliver and when. Promising dignity through power that is not yet real would itself be undignifying. The machines are design and simulation studies; the respect we can offer now is candor, open data, and refusal to overclaim."
+   ],
+   [
+    "p",
+    "Building for humanity, at its root, is building so that fewer lives are shaped by the absence of energy. See <a href=./the-moral-weight-of-energy-choices.html>the moral weight of energy choices</a> and <a href=./energy-equity-and-fairness.html>energy equity</a>."
+   ]
+  ],
+  "related": [
+   [
+    "the-moral-weight-of-energy-choices",
+    "Moral Weight"
+   ],
+   [
+    "energy-equity-and-fairness",
+    "Energy Equity"
+   ],
+   [
+    "the-moral-case-for-clean-energy",
+    "Moral Case"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "the-moral-weight-of-energy-choices",
+  "title": "The Moral Weight of Energy Choices",
+  "cat": "building-for-humanity",
+  "lede": "Energy decisions distribute benefit and harm across people and generations; that weight is a reason for candor, not grand claims.",
+  "body": [
+   [
+    "h2",
+    "Choices with long shadows"
+   ],
+   [
+    "p",
+    "Every large energy choice sends benefits to some and costs to others, often across long distances and long times. Combustion has powered enormous progress while imposing pollution and climate harm on people who did not choose it, including those not yet born. Recognizing this weight is the beginning of an honest energy ethics."
+   ],
+   [
+    "p",
+    "Fusion's moral appeal is that its structural harms are lower: no carbon combustion, abundant fuel, no long-lived actinide waste stream. But moral weight also demands candor about what is unproven. To imply readiness we have not earned would transfer risk onto others who trusted the claim — the same pattern that makes overpromising harmful."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 440 200' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Balancing promise and candor'><line x1='220' y1='30' x2='220' y2='150' stroke='#232C39' stroke-width='3'/><line x1='110' y1='60' x2='330' y2='60' stroke='#232C39' stroke-width='3'/><line x1='110' y1='60' x2='90' y2='110' stroke='#232C39' stroke-width='1.5'/><line x1='110' y1='60' x2='150' y2='110' stroke='#232C39' stroke-width='1.5'/><line x1='330' y1='60' x2='310' y2='110' stroke='#232C39' stroke-width='1.5'/><line x1='330' y1='60' x2='350' y2='110' stroke='#232C39' stroke-width='1.5'/><rect x='80' y='110' width='120' height='26' rx='5' fill='#232C39'/><text x='140' y='128' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Aspiration</text><rect x='290' y='110' width='120' height='26' rx='5' fill='#232C39'/><text x='350' y='128' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Candor</text><rect x='190' y='150' width='60' height='16' rx='3' fill='#232C39'/></svg>"
+   ],
+   [
+    "h3",
+    "What the weight asks of us"
+   ],
+   [
+    "ul",
+    [
+     "State the honest gates so risk is visible, not hidden",
+     "Refuse net-gain claims before FOAK demonstrates them",
+     "Publish openly so the record can be checked by anyone",
+     "Keep economics out of a mission account, so the ethics stay clear of the sell"
+    ]
+   ],
+   [
+    "p",
+    "Taking the moral weight seriously is why this microsite reads as sober rather than triumphant. The stakes are too real for hype. See <a href=./the-moral-case-for-clean-energy.html>the moral case for clean energy</a> and <a href=./the-honest-promise.html>the honest promise</a>."
+   ]
+  ],
+  "related": [
+   [
+    "the-moral-case-for-clean-energy",
+    "Moral Case"
+   ],
+   [
+    "the-honest-promise",
+    "The Honest Promise"
+   ],
+   [
+    "energy-and-human-dignity",
+    "Energy & Dignity"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "a-generational-project",
+  "title": "A Generational Project",
+  "cat": "building-for-humanity",
+  "lede": "Fusion is measured in decades; treating it as a generational project changes how we build — for durability, not for a quick win.",
+  "body": [
+   [
+    "h2",
+    "Long by nature"
+   ],
+   [
+    "p",
+    "From construction beginning Q2 2027 to FOAK first tritium around 2030, then NOAK and BOAK, and only later any commercial fleet, fusion unfolds over decades. Pretending otherwise would distort the work. Accepting it changes the discipline: we build a record and a design meant to outlast any single team, funding cycle, or milestone."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 460 120' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Generational timeline'><line x1='30' y1='70' x2='430' y2='70' stroke='#232C39' stroke-width='2'/><circle cx='70' cy='70' r='6' fill='#D4AD5C'/><text x='70' y='55' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>Q2 2027</text><text x='70' y='95' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>build begins</text><circle cx='190' cy='70' r='6' fill='#D4AD5C'/><text x='190' y='55' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>~2030</text><text x='190' y='95' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>FOAK tritium</text><circle cx='320' cy='70' r='6' fill='#232C39'/><text x='320' y='55' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>later</text><text x='320' y='95' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>NOAK / BOAK</text><circle cx='410' cy='70' r='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='410' y='55' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>decades</text></svg>"
+   ],
+   [
+    "h3",
+    "What generational thinking demands"
+   ],
+   [
+    "ul",
+    [
+     "Frozen-design discipline so results are comparable across years",
+     "Open data and permanent records (Zenodo DOIs) that survive the team",
+     "Pre-registered, falsifiable predictions so future readers can check us",
+     "Honest gates documented, so the next generation inherits problems clearly stated"
+    ]
+   ],
+   [
+    "p",
+    "This is why the mission emphasizes reproducibility and openness over announcements. A generational project is a relay: each team's honest, checkable work is the baton. The value of doing it well now is that those who follow start from solid ground rather than corrected hype."
+   ],
+   [
+    "p",
+    "It also asks for patience without complacency — rigorous effort today for benefits that may accrue to people we will never meet. See <a href=./building-for-people-not-yet-born.html>building for people not yet born</a> and <a href=./the-long-now-perspective.html>the long-now perspective</a>."
+   ]
+  ],
+  "related": [
+   [
+    "building-for-people-not-yet-born",
+    "For People Not Yet Born"
+   ],
+   [
+    "the-long-now-perspective",
+    "The Long Now"
+   ],
+   [
+    "the-long-arc-of-energy-transitions",
+    "The Long Arc"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "building-for-people-not-yet-born",
+  "title": "Building for People Not Yet Born",
+  "cat": "building-for-humanity",
+  "lede": "The clearest beneficiaries of fusion may be people not yet born; building for them means leaving an honest, usable record.",
+  "body": [
+   [
+    "h2",
+    "Beneficiaries we will not meet"
+   ],
+   [
+    "p",
+    "If fusion becomes a durable part of the clean energy system, most of its benefit accrues to future generations. That reframes the work as a kind of inheritance. The question becomes not only 'what can we prove now?' but 'what will we leave that others can build on?'"
+   ],
+   [
+    "p",
+    "An honest record is the most valuable thing to leave. Overstated claims decay into wasted effort as others discover the gap. Openly published data, stated limits, and reproducible methods compound instead — each becoming a foundation the next team does not have to re-lay."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 460 220' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Open-science flywheel serving people'><circle cx='230' cy='110' r='78' fill='none' stroke='#232C39' stroke-width='2'/><circle cx='230' cy='32' r='7' fill='#D4AD5C'/><circle cx='308' cy='110' r='7' fill='#D4AD5C'/><circle cx='230' cy='188' r='7' fill='#D4AD5C'/><circle cx='152' cy='110' r='7' fill='#D4AD5C'/><text x='230' y='20' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Publish openly</text><text x='398' y='114' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Invite refutation</text><text x='230' y='208' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Correct the design</text><text x='72' y='114' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Earn trust</text><text x='230' y='116' fill='#232C39' font-family='Georgia,serif' font-size='13' text-anchor='middle'>People benefit</text></svg>"
+   ],
+   [
+    "h3",
+    "The inheritance we aim to leave"
+   ],
+   [
+    "ul",
+    [
+     "Papers and open data with permanent identifiers",
+     "Clearly documented honest gates and open questions",
+     "Pre-registered predictions that can be judged right or wrong",
+     "A frozen design others can extend or refute"
+    ]
+   ],
+   [
+    "p",
+    "This is also why we refuse to inflate the present. Future readers are the strictest reviewers: they will know whether our predictions held. Building for them means being the kind of ancestor whose records can be trusted. See <a href=./a-generational-project.html>a generational project</a> and <a href=./open-science-as-a-gift.html>open science as a gift</a>."
+   ]
+  ],
+  "related": [
+   [
+    "a-generational-project",
+    "A Generational Project"
+   ],
+   [
+    "open-science-as-a-gift",
+    "Open Science as a Gift"
+   ],
+   [
+    "the-long-now-perspective",
+    "The Long Now"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "medical-isotopes-for-humanity",
+  "title": "Medical Isotopes for Humanity",
+  "cat": "building-for-humanity",
+  "lede": "The breeder's neutrons and isotopes could serve medicine — a concrete human benefit available earlier than bulk electricity.",
+  "body": [
+   [
+    "h2",
+    "Fusion's nearest human service"
+   ],
+   [
+    "p",
+    "Long before any fusion power fleet, a breeder can produce something medicine already needs: neutrons and isotopes. The breeder (Hyperion) is studied to yield 14 MeV neutrons, a tritium class product on the order of 4 kg/yr, and about 1.97 kg/yr of helium-3. Neutron irradiation is a route to medical isotopes used in imaging and cancer treatment, where supply is often fragile."
+   ],
+   [
+    "p",
+    "This matters because it makes fusion's human value concrete and early, rather than deferred to a distant power grid. Isotope and neutron services do not require net electrical gain; they require a working neutron source, which is closer to hand than a commercial power plant."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 460 150' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Fuel abundance chain'><rect x='16' y='55' width='110' height='40' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='71' y='72' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Deuterium</text><text x='71' y='88' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>from seawater</text><rect x='175' y='55' width='110' height='40' rx='6' fill='#232C39'/><text x='230' y='72' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Fusion reaction</text><text x='230' y='88' fill='#D4AD5C' font-family='Georgia,serif' font-size='10' text-anchor='middle'>design study</text><rect x='334' y='55' width='110' height='40' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='389' y='72' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Heat / isotopes</text><text x='389' y='88' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>for people</text><line x1='126' y1='75' x2='175' y2='75' stroke='#232C39' stroke-width='2'/><line x1='285' y1='75' x2='334' y2='75' stroke='#232C39' stroke-width='2'/></svg>"
+   ],
+   [
+    "h3",
+    "The honest boundaries"
+   ],
+   [
+    "ul",
+    [
+     "Hyperion is a design and simulation study; isotope yields are modeled",
+     "Medical supply also depends on separation, handling, and regulation beyond the reactor",
+     "Other neutron sources exist; fusion would be an addition, not a monopoly"
+    ]
+   ],
+   [
+    "p",
+    "Still, this is where 'building for humanity' stops being abstract. A reliable neutron and isotope supply is a direct good, and it is among the first things a breeder could offer. See <a href=./neutrons-in-service-of-people.html>neutrons in service of people</a> and <a href=./tritium-for-medicine-and-science.html>tritium for medicine and science</a>."
+   ]
+  ],
+  "related": [
+   [
+    "neutrons-in-service-of-people",
+    "Neutrons for People"
+   ],
+   [
+    "tritium-for-medicine-and-science",
+    "Tritium for Science"
+   ],
+   [
+    "neutrons-for-medicine-and-the-planet",
+    "Neutrons & Medicine"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "neutrons-in-service-of-people",
+  "title": "Neutrons in Service of People",
+  "cat": "building-for-humanity",
+  "lede": "14 MeV fusion neutrons are a tool, not just a byproduct — useful for medicine, materials science, and detection.",
+  "body": [
+   [
+    "h2",
+    "A byproduct worth using"
+   ],
+   [
+    "p",
+    "The breeder (Hyperion) produces 14 MeV neutrons as an intrinsic part of the D-T reaction. Rather than treat these only as a shielding challenge, they can be put to work. High-energy neutrons drive isotope production, probe the interior of materials, and support detection and analysis techniques used across science and industry."
+   ],
+   [
+    "p",
+    "This reframes part of the mission. A fusion machine need not wait for net electrical gain to be useful; a reliable, intense neutron source is valuable in its own right. It is one reason the breeder's earliest human contributions are in medicine and science rather than bulk power."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 460 150' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Fuel abundance chain'><rect x='16' y='55' width='110' height='40' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='71' y='72' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Deuterium</text><text x='71' y='88' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>from seawater</text><rect x='175' y='55' width='110' height='40' rx='6' fill='#232C39'/><text x='230' y='72' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Fusion reaction</text><text x='230' y='88' fill='#D4AD5C' font-family='Georgia,serif' font-size='10' text-anchor='middle'>design study</text><rect x='334' y='55' width='110' height='40' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='389' y='72' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Heat / isotopes</text><text x='389' y='88' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>for people</text><line x1='126' y1='75' x2='175' y2='75' stroke='#232C39' stroke-width='2'/><line x1='285' y1='75' x2='334' y2='75' stroke='#232C39' stroke-width='2'/></svg>"
+   ],
+   [
+    "h3",
+    "Uses that serve people"
+   ],
+   [
+    "ul",
+    [
+     "Production of medical isotopes for imaging and therapy",
+     "Non-destructive testing of materials and components",
+     "Neutron science: probing structures fields other probes cannot",
+     "Detection and characterization applications"
+    ]
+   ],
+   [
+    "p",
+    "The honest note: Hyperion is a design and simulation study, and its neutron output is modeled at 88.7 MW fusion power in the frozen design point, not measured in hardware. The neutrons must also be handled and shielded carefully — a real engineering burden we do not minimize. Used well, though, they are a genuine service. See <a href=./medical-isotopes-for-humanity.html>medical isotopes for humanity</a> and <a href=./neutrons-for-medicine-and-the-planet.html>neutrons and medicine</a>."
+   ]
+  ],
+  "related": [
+   [
+    "medical-isotopes-for-humanity",
+    "Medical Isotopes"
+   ],
+   [
+    "neutrons-for-medicine-and-the-planet",
+    "Neutrons & Medicine"
+   ],
+   [
+    "energy-for-health-systems",
+    "Health Systems"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "helium-3-and-quantum-futures",
+  "title": "Helium-3 and Quantum Futures",
+  "cat": "building-for-humanity",
+  "lede": "Helium-3 is scarce and strategically valuable for cryogenics and quantum technology; the breeder is studied to produce it.",
+  "body": [
+   [
+    "h2",
+    "A scarce isotope with real uses"
+   ],
+   [
+    "p",
+    "Helium-3 is rare on Earth and valued for uses that have nothing to do with power generation: ultra-low-temperature cryogenics, certain detectors, and cooling for quantum computing hardware. Its scarcity constrains fields that depend on it. The breeder (Hyperion) is studied to produce about 1.97 kg/yr of helium-3 alongside its tritium class output."
+   ],
+   [
+    "p",
+    "We are careful about how we frame this. Helium-3's strategic value is not a revenue claim — economics are outside this account — but a statement that a scarce, useful isotope could become less scarce. That serves researchers and technologies that are currently supply-limited."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 460 150' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Fuel abundance chain'><rect x='16' y='55' width='110' height='40' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='71' y='72' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Deuterium</text><text x='71' y='88' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>from seawater</text><rect x='175' y='55' width='110' height='40' rx='6' fill='#232C39'/><text x='230' y='72' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Fusion reaction</text><text x='230' y='88' fill='#D4AD5C' font-family='Georgia,serif' font-size='10' text-anchor='middle'>design study</text><rect x='334' y='55' width='110' height='40' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='389' y='72' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Heat / isotopes</text><text x='389' y='88' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>for people</text><line x1='126' y1='75' x2='175' y2='75' stroke='#232C39' stroke-width='2'/><line x1='285' y1='75' x2='334' y2='75' stroke='#232C39' stroke-width='2'/></svg>"
+   ],
+   [
+    "h3",
+    "The tie to the burner's fuel gate"
+   ],
+   [
+    "p",
+    "There is a second reason helium-3 matters. The burner (Aegis / MetroVolt) runs on D-3He and faces a hard fuel gate: a commercial unit's helium-3 demand is on the order of 400 times domestic supply. That is precisely why breeder-bred helium-3, and eventually lunar helium-3, are part of the long-term picture. We state the gate plainly rather than assuming the fuel exists."
+   ],
+   [
+    "p",
+    "So helium-3 links near-term science service to the burner's distant fuel question. Both are held honestly. See <a href=./the-space-faring-species-question.html>the space-faring question</a> and <a href=./helium-3-and-the-planet.html>helium-3 and the planet</a>."
+   ]
+  ],
+  "related": [
+   [
+    "the-space-faring-species-question",
+    "Space-Faring Question"
+   ],
+   [
+    "helium-3-and-the-planet",
+    "He-3 & Planet"
+   ],
+   [
+    "tritium-for-medicine-and-science",
+    "Tritium for Science"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "tritium-for-medicine-and-science",
+  "title": "Tritium for Medicine and Science",
+  "cat": "building-for-humanity",
+  "lede": "Beyond fueling fusion, tritium has established uses in science, medicine, and safety; the breeder is studied to produce it.",
+  "body": [
+   [
+    "h2",
+    "A dual-purpose product"
+   ],
+   [
+    "p",
+    "Tritium is the fuel a D-T fusion reaction needs, and the breeder is studied to produce a tritium class output on the order of 4 kg/yr. But tritium also has established uses outside fusion: as a tracer in biomedical research, in certain detection and lighting applications, and in fields where a controlled, low-energy beta emitter is useful. A reliable supply serves those uses too."
+   ],
+   [
+    "p",
+    "This matters to the mission because tritium is the one bankable product in the near-term sense — the output whose demand and handling are best understood. We keep the economics of that out of this account, but the physical fact stands: a breeder could supply an isotope that both fuels future fusion and serves current science."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 460 150' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Fuel abundance chain'><rect x='16' y='55' width='110' height='40' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='71' y='72' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Deuterium</text><text x='71' y='88' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>from seawater</text><rect x='175' y='55' width='110' height='40' rx='6' fill='#232C39'/><text x='230' y='72' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Fusion reaction</text><text x='230' y='88' fill='#D4AD5C' font-family='Georgia,serif' font-size='10' text-anchor='middle'>design study</text><rect x='334' y='55' width='110' height='40' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='389' y='72' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Heat / isotopes</text><text x='389' y='88' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>for people</text><line x1='126' y1='75' x2='175' y2='75' stroke='#232C39' stroke-width='2'/><line x1='285' y1='75' x2='334' y2='75' stroke='#232C39' stroke-width='2'/></svg>"
+   ],
+   [
+    "h3",
+    "Held honestly"
+   ],
+   [
+    "ul",
+    [
+     "Hyperion is a design and simulation study; 4 kg/yr class is a modeled figure",
+     "Tritium is radioactive and must be handled with strict containment",
+     "The breeder's own tritium self-sufficiency (its breeding ratio) is an open question we treat as a design lever across 1.1, 1.5, and 1.8"
+    ]
+   ],
+   [
+    "p",
+    "So tritium is where fusion's fuel cycle and its service to science meet — a real product with real handling requirements, stated without inflation. See <a href=./the-tritium-cycle-and-the-planet.html>the tritium cycle</a> and <a href=./tritium-self-sufficiency.html>tritium self-sufficiency</a>."
+   ]
+  ],
+  "related": [
+   [
+    "the-tritium-cycle-and-the-planet",
+    "Tritium Cycle"
+   ],
+   [
+    "tritium-self-sufficiency",
+    "Self-Sufficiency"
+   ],
+   [
+    "medical-isotopes-for-humanity",
+    "Medical Isotopes"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "the-space-faring-species-question",
+  "title": "The Space-Faring Species Question",
+  "cat": "building-for-humanity",
+  "lede": "Lunar helium-3 links fusion to spaceflight; we treat that link as a long-horizon possibility, stated with restraint.",
+  "body": [
+   [
+    "h2",
+    "Where fusion and space meet"
+   ],
+   [
+    "p",
+    "The burner (Aegis / MetroVolt) runs on D-3He, and helium-3 is scarce on Earth but thought to be more available in lunar regolith. This creates a genuine link between fusion energy and a space-faring future: a mature D-3He economy would benefit from off-world helium-3. It is one of the more speculative parts of the mission, and we mark it as such."
+   ],
+   [
+    "p",
+    "The honest chain of dependencies is long. The burner faces a fuel gate — helium-3 demand on the order of 400 times domestic supply per commercial unit — which is why bred and lunar sources are discussed at all. But lunar extraction at scale does not exist, and we do not assume it. This is a possibility we name, not a plan we rely on."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 460 120' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Generational timeline'><line x1='30' y1='70' x2='430' y2='70' stroke='#232C39' stroke-width='2'/><circle cx='70' cy='70' r='6' fill='#D4AD5C'/><text x='70' y='55' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>Q2 2027</text><text x='70' y='95' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>build begins</text><circle cx='190' cy='70' r='6' fill='#D4AD5C'/><text x='190' y='55' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>~2030</text><text x='190' y='95' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>FOAK tritium</text><circle cx='320' cy='70' r='6' fill='#232C39'/><text x='320' y='55' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>later</text><text x='320' y='95' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>NOAK / BOAK</text><circle cx='410' cy='70' r='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='410' y='55' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>decades</text></svg>"
+   ],
+   [
+    "h3",
+    "Restraint about a grand idea"
+   ],
+   [
+    "ul",
+    [
+     "Lunar helium-3 mining is not demonstrated at any relevant scale",
+     "The burner itself is a design and simulation study with open gates",
+     "Breeder-bred helium-3 (~1.97 kg/yr modeled) is the nearer, terrestrial route"
+    ]
+   ],
+   [
+    "p",
+    "The space-faring frame is inspiring, and precisely because it is inspiring we discipline it with caveats. Fusion as humanity's dream can include the stars without pretending the ladder there is built. See <a href=./helium-3-and-quantum-futures.html>helium-3 and quantum futures</a> and <a href=./gate-helium3-demand-vs-supply.html>the helium-3 supply gate</a>."
+   ]
+  ],
+  "related": [
+   [
+    "helium-3-and-quantum-futures",
+    "Helium-3 Futures"
+   ],
+   [
+    "gate-helium3-demand-vs-supply",
+    "He-3 Supply Gate"
+   ],
+   [
+    "why-fusion-is-humanitys-dream",
+    "Humanity's Dream"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "energy-and-the-global-south",
+  "title": "Energy and the Global South",
+  "cat": "building-for-humanity",
+  "lede": "The largest future growth in energy demand is in the Global South; how it is met will shape both wellbeing and emissions.",
+  "body": [
+   [
+    "h2",
+    "Where the demand curve rises fastest"
+   ],
+   [
+    "p",
+    "Most future growth in energy demand will come from regions still climbing the development ladder, largely in the Global South. Whether that demand is met with combustion or clean sources is one of the most consequential questions of the century — for the people gaining access and for the shared atmosphere."
+   ],
+   [
+    "p",
+    "Fusion's honest relevance here is long-horizon. Near-term access is best served by distributed renewables, storage, and improved grids, which are available now. Fusion could contribute later to the firm clean tier, especially where dense, weather-independent power near demand is hard to supply otherwise."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 440 210' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Energy underpins human development'><rect x='24' y='150' width='90' height='40' rx='5' fill='#232C39'/><text x='69' y='175' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Energy</text><rect x='140' y='150' width='96' height='40' rx='5' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='188' y='175' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Water, food</text><rect x='262' y='150' width='96' height='40' rx='5' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='310' y='175' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Health, work</text><line x1='114' y1='170' x2='140' y2='170' stroke='#232C39' stroke-width='2'/><line x1='236' y1='170' x2='262' y2='170' stroke='#232C39' stroke-width='2'/><text x='230' y='40' fill='#232C39' font-family='Georgia,serif' font-size='14' text-anchor='middle'>Access compounds upward</text><path d='M60 120 L220 60 L380 40' fill='none' stroke='#D4AD5C' stroke-width='2.5'/><circle cx='60' cy='120' r='4' fill='#232C39'/><circle cx='220' cy='60' r='4' fill='#232C39'/><circle cx='380' cy='40' r='4' fill='#232C39'/></svg>"
+   ],
+   [
+    "h3",
+    "What responsibility looks like"
+   ],
+   [
+    "ul",
+    [
+     "Do not present fusion as a near-term answer to access needs it cannot meet",
+     "Share methods and open data so capability is not locked to wealthy institutions",
+     "Design for siting near demand, which can help places far from large grids"
+    ]
+   ],
+   [
+    "p",
+    "We are wary of any framing where a distant, wealthy program claims to be building for regions it is not accountable to. What we can honestly offer is open knowledge and candor, so that if fusion matures, its knowledge base is shared rather than gated. See <a href=./energy-equity-and-fairness.html>energy equity</a> and <a href=./firm-power-for-the-underserved.html>firm power for the underserved</a>."
+   ]
+  ],
+  "related": [
+   [
+    "energy-equity-and-fairness",
+    "Energy Equity"
+   ],
+   [
+    "firm-power-for-the-underserved",
+    "For the Underserved"
+   ],
+   [
+    "designing-for-the-commons",
+    "Designing for the Commons"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "energy-security-and-peace",
+  "title": "Energy Security and Peace",
+  "cat": "building-for-humanity",
+  "lede": "Concentrated fuel deposits have driven conflict; fuel that is widely available and not geographically concentrated could ease one source of tension.",
+  "body": [
+   [
+    "h2",
+    "Fuel geography and conflict"
+   ],
+   [
+    "p",
+    "Access to concentrated energy deposits has shaped alliances, dependencies, and conflicts for over a century. Energy security — having a supply not at the mercy of a distant supplier — is a genuine national and human concern. Part of fusion's appeal is that its fuels are not concentrated the way oil and gas fields are."
+   ],
+   [
+    "p",
+    "Deuterium is in seawater everywhere. Tritium can be bred. This does not make fusion a guarantee of peace — technologies and materials can be contested for many reasons — but it removes one specific driver: the scramble for scarce, geographically fixed deposits. That is a modest, real contribution to energy security."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 460 150' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Fuel abundance chain'><rect x='16' y='55' width='110' height='40' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='71' y='72' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Deuterium</text><text x='71' y='88' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>from seawater</text><rect x='175' y='55' width='110' height='40' rx='6' fill='#232C39'/><text x='230' y='72' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Fusion reaction</text><text x='230' y='88' fill='#D4AD5C' font-family='Georgia,serif' font-size='10' text-anchor='middle'>design study</text><rect x='334' y='55' width='110' height='40' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='389' y='72' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Heat / isotopes</text><text x='389' y='88' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>for people</text><line x1='126' y1='75' x2='175' y2='75' stroke='#232C39' stroke-width='2'/><line x1='285' y1='75' x2='334' y2='75' stroke='#232C39' stroke-width='2'/></svg>"
+   ],
+   [
+    "h3",
+    "Stated with limits"
+   ],
+   [
+    "ul",
+    [
+     "The burner's helium-3 is an exception: scarce and, for now, strategically constrained",
+     "Fusion machines are design and simulation studies, not deployed infrastructure",
+     "Security depends on many factors technology does not control"
+    ]
+   ],
+   [
+    "p",
+    "We also note that one housing, Aegis, is for fixed defense installations — resilient on-site clean power. That is an honest part of the picture, and it is about resilience and clean supply, not offensive capability. Widely available fuel is a quiet contribution to stability, claimed without overreach. See <a href=./resilience-for-communities.html>resilience for communities</a> and <a href=./serving-defense-and-civilian-needs.html>defense and civilian needs</a>."
+   ]
+  ],
+  "related": [
+   [
+    "resilience-for-communities",
+    "Community Resilience"
+   ],
+   [
+    "serving-defense-and-civilian-needs",
+    "Defense & Civilian"
+   ],
+   [
+    "abundance-without-combustion",
+    "No Combustion"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "resilience-for-communities",
+  "title": "Resilience for Communities",
+  "cat": "building-for-humanity",
+  "lede": "Firm power that keeps running through storms, heat, and grid stress is a form of resilience communities increasingly need.",
+  "body": [
+   [
+    "h2",
+    "Resilience as a human value"
+   ],
+   [
+    "p",
+    "As extreme weather grows more common, the ability to keep essential services running through disruption becomes a matter of safety. Hospitals, water systems, shelters, and communications need power that does not fail when the weather turns. A firm, weather-independent source sited near demand contributes directly to that resilience."
+   ],
+   [
+    "p",
+    "Fusion is studied for exactly this firm role. The breeder (Hyperion) and burner (Aegis / MetroVolt) are steady sources by design, not dependent on wind or sun in the moment. If they reach useful operation, they could anchor the resilient core of a local energy system, complementing renewables that carry the bulk of clean generation."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 440 210' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Energy underpins human development'><rect x='24' y='150' width='90' height='40' rx='5' fill='#232C39'/><text x='69' y='175' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Energy</text><rect x='140' y='150' width='96' height='40' rx='5' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='188' y='175' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Water, food</text><rect x='262' y='150' width='96' height='40' rx='5' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='310' y='175' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Health, work</text><line x1='114' y1='170' x2='140' y2='170' stroke='#232C39' stroke-width='2'/><line x1='236' y1='170' x2='262' y2='170' stroke='#232C39' stroke-width='2'/><text x='230' y='40' fill='#232C39' font-family='Georgia,serif' font-size='14' text-anchor='middle'>Access compounds upward</text><path d='M60 120 L220 60 L380 40' fill='none' stroke='#D4AD5C' stroke-width='2.5'/><circle cx='60' cy='120' r='4' fill='#232C39'/><circle cx='220' cy='60' r='4' fill='#232C39'/><circle cx='380' cy='40' r='4' fill='#232C39'/></svg>"
+   ],
+   [
+    "h3",
+    "The honest caveats"
+   ],
+   [
+    "ul",
+    [
+     "These are design and simulation studies; no plant provides resilience today",
+     "The burner's modeled availability (0.86-0.995) is below hyperscale Tier III (0.99982)",
+     "Resilience also depends on grid design, storage, and planning beyond any single source"
+    ]
+   ],
+   [
+    "p",
+    "So resilience is a role fusion is aimed at, under stated constraints, not one it fills now. Today's resilience must come from today's technologies. Fusion's contribution is a future one, described plainly. See <a href=./grid-resilience-and-climate-adaptation.html>grid resilience</a> and <a href=./why-firm-power-matters.html>why firm power matters</a>."
+   ]
+  ],
+  "related": [
+   [
+    "grid-resilience-and-climate-adaptation",
+    "Grid Resilience"
+   ],
+   [
+    "why-firm-power-matters",
+    "Why Firm Power"
+   ],
+   [
+    "cooling-and-a-warming-world",
+    "Cooling"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "serving-defense-and-civilian-needs",
+  "title": "Serving Defense and Civilian Needs",
+  "cat": "building-for-humanity",
+  "lede": "The burner's two housings serve fixed defense installations (Aegis) and data centers (MetroVolt); both are clean-power roles, stated plainly.",
+  "body": [
+   [
+    "h2",
+    "One machine, two homes"
+   ],
+   [
+    "p",
+    "The burner (Aegis / MetroVolt) is a single D-3He tandem-mirror design studied in two housings for two kinds of user. Aegis is for fixed defense installations — resilient, on-site clean power for bases and critical facilities. MetroVolt is for data centers, which need dense, steady power close to load. Both are about supplying clean firm power where it is hard to supply otherwise."
+   ],
+   [
+    "p",
+    "We are precise about Aegis: it is fixed installations, not naval, and its purpose is clean resilient generation, not weaponry. Naming the defense application honestly is part of candor; obscuring it would not be. Clean power for defense infrastructure is a legitimate civilian-adjacent need, and we treat it as such."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 440 210' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Energy underpins human development'><rect x='24' y='150' width='90' height='40' rx='5' fill='#232C39'/><text x='69' y='175' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Energy</text><rect x='140' y='150' width='96' height='40' rx='5' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='188' y='175' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Water, food</text><rect x='262' y='150' width='96' height='40' rx='5' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='310' y='175' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Health, work</text><line x1='114' y1='170' x2='140' y2='170' stroke='#232C39' stroke-width='2'/><line x1='236' y1='170' x2='262' y2='170' stroke='#232C39' stroke-width='2'/><text x='230' y='40' fill='#232C39' font-family='Georgia,serif' font-size='14' text-anchor='middle'>Access compounds upward</text><path d='M60 120 L220 60 L380 40' fill='none' stroke='#D4AD5C' stroke-width='2.5'/><circle cx='60' cy='120' r='4' fill='#232C39'/><circle cx='220' cy='60' r='4' fill='#232C39'/><circle cx='380' cy='40' r='4' fill='#232C39'/></svg>"
+   ],
+   [
+    "h3",
+    "The same gates apply to both housings"
+   ],
+   [
+    "ul",
+    [
+     "Plug coils overstressed ~3 to 3.9x at the design bore",
+     "Operating regime 166 to 830x beyond any existing device",
+     "Helium-3 demand ~400x domestic supply per commercial unit",
+     "Availability 0.86-0.995 vs hyperscale Tier III 0.99982"
+    ]
+   ],
+   [
+    "p",
+    "These are physics findings that hold regardless of housing, and we do not soften them for either user. The burner is a design and simulation study. Serving both defense and civilian needs means serving both with the same honesty. See <a href=./defense-installations-and-clean-power.html>defense installations</a> and <a href=./data-centers-and-clean-power.html>data centers</a>."
+   ]
+  ],
+  "related": [
+   [
+    "defense-installations-and-clean-power",
+    "Defense Installations"
+   ],
+   [
+    "data-centers-and-clean-power",
+    "Data Centers"
+   ],
+   [
+    "burner-honest-status",
+    "Burner Status"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "the-honest-promise",
+  "title": "The Honest Promise",
+  "cat": "building-for-humanity",
+  "lede": "What Kronos actually promises is narrow and keepable: rigorous work, open data, stated limits — not a guaranteed clean-energy future.",
+  "body": [
+   [
+    "h2",
+    "A promise we can keep"
+   ],
+   [
+    "p",
+    "Grand promises about fusion have a long history of not being kept, and each broken one erodes trust in the field. So we keep our promise narrow enough to honor. We do not promise cheap limitless power by a date. We promise rigorous design and simulation, open publication, honest gates, and predictions that can be checked."
+   ],
+   [
+    "p",
+    "This is deliberately less exciting than the usual pitch, and more durable. A narrow promise kept builds the credibility that a broad promise broken destroys. It is also the only kind of promise honest to make about machines that are still design and simulation studies with FOAK first tritium targeted around 2030."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 440 200' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Balancing promise and candor'><line x1='220' y1='30' x2='220' y2='150' stroke='#232C39' stroke-width='3'/><line x1='110' y1='60' x2='330' y2='60' stroke='#232C39' stroke-width='3'/><line x1='110' y1='60' x2='90' y2='110' stroke='#232C39' stroke-width='1.5'/><line x1='110' y1='60' x2='150' y2='110' stroke='#232C39' stroke-width='1.5'/><line x1='330' y1='60' x2='310' y2='110' stroke='#232C39' stroke-width='1.5'/><line x1='330' y1='60' x2='350' y2='110' stroke='#232C39' stroke-width='1.5'/><rect x='80' y='110' width='120' height='26' rx='5' fill='#232C39'/><text x='140' y='128' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Aspiration</text><rect x='290' y='110' width='120' height='26' rx='5' fill='#232C39'/><text x='350' y='128' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Candor</text><rect x='190' y='150' width='60' height='16' rx='3' fill='#232C39'/></svg>"
+   ],
+   [
+    "h3",
+    "The actual commitments"
+   ],
+   [
+    "ul",
+    [
+     "Publish the design, data, and code openly, with permanent identifiers",
+     "State the honest gates plainly, including the four burner gates",
+     "Make no hardware net-gain claim before FOAK",
+     "Pre-register falsifiable predictions and report results either way"
+    ]
+   ],
+   [
+    "p",
+    "If fusion earns its place, these commitments are how it will have earned it — in public, checkably, without inflation. The promise is not a clean-energy future delivered; it is honest work done in the open toward one. See <a href=./why-fusion-is-humanitys-dream.html>humanity's dream</a> and <a href=./humility-in-a-grand-mission.html>humility in a grand mission</a>."
+   ]
+  ],
+  "related": [
+   [
+    "why-fusion-is-humanitys-dream",
+    "Humanity's Dream"
+   ],
+   [
+    "humility-in-a-grand-mission",
+    "Humility"
+   ],
+   [
+    "what-we-will-not-claim",
+    "What We Won't Claim"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "designing-for-the-commons",
+  "title": "Designing for the Commons",
+  "cat": "building-for-humanity",
+  "lede": "Treating fusion knowledge as a shared commons — published, licensed openly, reproducible — is how the work serves more than one company.",
+  "body": [
+   [
+    "h2",
+    "Knowledge as shared infrastructure"
+   ],
+   [
+    "p",
+    "A technology meant to serve humanity should not lock its foundational knowledge behind closed doors. Kronos treats its physics results, data, and methods as a commons: published openly, deposited with permanent identifiers (Zenodo DOIs), and released under open licenses so others can inspect, reuse, and challenge them. This is a design choice about who the work is for."
+   ],
+   [
+    "p",
+    "The reasoning is practical as well as ethical. Fusion is too large a problem for any one team. Open results let independent groups check our claims, reuse our methods, and advance the field faster than any single company could alone. The commons is how the mission outruns the company."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 460 220' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Open-science flywheel serving people'><circle cx='230' cy='110' r='78' fill='none' stroke='#232C39' stroke-width='2'/><circle cx='230' cy='32' r='7' fill='#D4AD5C'/><circle cx='308' cy='110' r='7' fill='#D4AD5C'/><circle cx='230' cy='188' r='7' fill='#D4AD5C'/><circle cx='152' cy='110' r='7' fill='#D4AD5C'/><text x='230' y='20' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Publish openly</text><text x='398' y='114' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Invite refutation</text><text x='230' y='208' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Correct the design</text><text x='72' y='114' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Earn trust</text><text x='230' y='116' fill='#232C39' font-family='Georgia,serif' font-size='13' text-anchor='middle'>People benefit</text></svg>"
+   ],
+   [
+    "h3",
+    "What we place in the commons"
+   ],
+   [
+    "ul",
+    [
+     "Published papers describing the frozen designs and their limits",
+     "Open data and code that reproduce the key results",
+     "Pre-registered predictions that anyone can later judge",
+     "Clearly documented honest gates and open questions"
+    ]
+   ],
+   [
+    "p",
+    "We keep economics out of the commons account deliberately; the shared thing is knowledge, not a sales case. Designing for the commons means the benefit of a correct result reaches everyone, and the cost of a wrong one is caught early by many eyes. See <a href=./open-science-as-a-gift.html>open science as a gift</a> and <a href=./why-we-publish-openly.html>why we publish openly</a>."
+   ]
+  ],
+  "related": [
+   [
+    "open-science-as-a-gift",
+    "Open Science as a Gift"
+   ],
+   [
+    "why-we-publish-openly",
+    "Why We Publish"
+   ],
+   [
+    "the-shared-knowledge-flywheel",
+    "Knowledge Flywheel"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "open-science-as-a-gift",
+  "title": "Open Science as a Gift to Humanity",
+  "cat": "building-for-humanity",
+  "lede": "Publishing openly is a form of giving: the work's value spreads beyond those who paid to produce it.",
+  "body": [
+   [
+    "h2",
+    "The economics-free case for giving knowledge away"
+   ],
+   [
+    "p",
+    "When a result is published openly, its usefulness is not consumed by the giver. A hundred teams can build on the same open dataset without diminishing it. In that specific sense, open science is a gift that costs the giver little to share and can benefit many — one of the few things where generosity and progress fully align."
+   ],
+   [
+    "p",
+    "Kronos publishes its fusion physics openly for this reason. The breeder and burner design studies, their data, and their methods are placed where others can use them. We do not treat the foundational science as a moat, because the mission is not served by hoarding what could help the whole field advance."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 460 220' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Open-science flywheel serving people'><circle cx='230' cy='110' r='78' fill='none' stroke='#232C39' stroke-width='2'/><circle cx='230' cy='32' r='7' fill='#D4AD5C'/><circle cx='308' cy='110' r='7' fill='#D4AD5C'/><circle cx='230' cy='188' r='7' fill='#D4AD5C'/><circle cx='152' cy='110' r='7' fill='#D4AD5C'/><text x='230' y='20' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Publish openly</text><text x='398' y='114' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Invite refutation</text><text x='230' y='208' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Correct the design</text><text x='72' y='114' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Earn trust</text><text x='230' y='116' fill='#232C39' font-family='Georgia,serif' font-size='13' text-anchor='middle'>People benefit</text></svg>"
+   ],
+   [
+    "h3",
+    "What makes it a real gift"
+   ],
+   [
+    "ul",
+    [
+     "Permanent identifiers so the record does not disappear",
+     "Open licenses so reuse is legally clear, not merely tolerated",
+     "Reproducibility so the gift actually works in others' hands",
+     "Honest limits, so recipients are not misled by what they receive"
+    ]
+   ],
+   [
+    "p",
+    "A gift of knowledge is only real if the recipient can use it and trust it. That is why openness and honesty travel together in this mission: an open but inflated record would be a poisoned gift. See <a href=./why-we-publish-openly.html>why we publish openly</a> and <a href=./designing-for-the-commons.html>designing for the commons</a>."
+   ]
+  ],
+  "related": [
+   [
+    "why-we-publish-openly",
+    "Why We Publish"
+   ],
+   [
+    "designing-for-the-commons",
+    "The Commons"
+   ],
+   [
+    "the-shared-knowledge-flywheel",
+    "Knowledge Flywheel"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "why-we-publish-openly",
+  "title": "Why We Publish Openly",
+  "cat": "building-for-humanity",
+  "lede": "Open publication is both a service to the field and a discipline on ourselves — it invites the scrutiny that keeps claims honest.",
+  "body": [
+   [
+    "h2",
+    "Two reasons at once"
+   ],
+   [
+    "p",
+    "Publishing openly serves others, and it disciplines us. It serves others by making methods and data reusable. It disciplines us because anything published openly can be checked, and knowing that a result will face scrutiny changes how carefully it is made. Openness is not only generosity; it is a commitment to being caught if we are wrong."
+   ],
+   [
+    "p",
+    "This is why open publication belongs in a mission about building for humanity. A closed program can drift into believing its own optimistic figures. An open one is held to account by anyone willing to reproduce the work. The scrutiny is the point, not a side effect."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 460 220' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Open-science flywheel serving people'><circle cx='230' cy='110' r='78' fill='none' stroke='#232C39' stroke-width='2'/><circle cx='230' cy='32' r='7' fill='#D4AD5C'/><circle cx='308' cy='110' r='7' fill='#D4AD5C'/><circle cx='230' cy='188' r='7' fill='#D4AD5C'/><circle cx='152' cy='110' r='7' fill='#D4AD5C'/><text x='230' y='20' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Publish openly</text><text x='398' y='114' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Invite refutation</text><text x='230' y='208' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Correct the design</text><text x='72' y='114' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Earn trust</text><text x='230' y='116' fill='#232C39' font-family='Georgia,serif' font-size='13' text-anchor='middle'>People benefit</text></svg>"
+   ],
+   [
+    "h3",
+    "How openness keeps us honest"
+   ],
+   [
+    "ul",
+    [
+     "Published gates cannot be walked back without notice",
+     "Open data lets independent readers rerun the analysis",
+     "Pre-registered predictions expose us to being proven wrong",
+     "Permanent records make the timeline of claims auditable"
+    ]
+   ],
+   [
+    "p",
+    "The result is a body of work meant to be trusted because it can be tested, not because it is asserted confidently. For a technology as consequential as fusion, that is the only trust worth having. See <a href=./open-science-as-a-gift.html>open science as a gift</a> and <a href=./inviting-refutation.html>inviting refutation</a>."
+   ]
+  ],
+  "related": [
+   [
+    "open-science-as-a-gift",
+    "Open Science as a Gift"
+   ],
+   [
+    "inviting-refutation",
+    "Inviting Refutation"
+   ],
+   [
+    "reproducible-record",
+    "Reproducible Record"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "the-shared-knowledge-flywheel",
+  "title": "The Shared-Knowledge Flywheel",
+  "cat": "building-for-humanity",
+  "lede": "Publish, invite refutation, correct the design, earn trust — a loop in which each turn makes the work more useful to people.",
+  "body": [
+   [
+    "h2",
+    "A loop that compounds"
+   ],
+   [
+    "p",
+    "Open science is not a single act but a cycle. A result is published; others try to refute or reproduce it; the design is corrected where they succeed; trust accrues where it survives; and the improved, trusted result is published again. Each turn of this loop leaves the work more useful and more credible than the last."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 460 220' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Open-science flywheel serving people'><circle cx='230' cy='110' r='78' fill='none' stroke='#232C39' stroke-width='2'/><circle cx='230' cy='32' r='7' fill='#D4AD5C'/><circle cx='308' cy='110' r='7' fill='#D4AD5C'/><circle cx='230' cy='188' r='7' fill='#D4AD5C'/><circle cx='152' cy='110' r='7' fill='#D4AD5C'/><text x='230' y='20' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Publish openly</text><text x='398' y='114' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Invite refutation</text><text x='230' y='208' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Correct the design</text><text x='72' y='114' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Earn trust</text><text x='230' y='116' fill='#232C39' font-family='Georgia,serif' font-size='13' text-anchor='middle'>People benefit</text></svg>"
+   ],
+   [
+    "h3",
+    "Why the loop serves people"
+   ],
+   [
+    "p",
+    "The flywheel matters to a humanity-facing mission because it is how honest progress actually happens in a field this hard. No single team can get fusion right in one pass. The loop distributes the checking across many minds and compounds partial results into a durable base others can rely on."
+   ],
+   [
+    "ul",
+    [
+     "Publish openly — data, code, and the frozen design",
+     "Invite refutation — pre-registered, falsifiable predictions",
+     "Correct the design — including publishing negative results",
+     "Earn trust — so the next result is believed on evidence, not assertion"
+    ]
+   ],
+   [
+    "p",
+    "Crucially, the flywheel only turns if we are willing to be wrong in public. A loop that only ever confirms itself is not science; it is marketing. The willingness to publish a failed prediction is what keeps the wheel honest. See <a href=./publishing-negative-results.html>publishing negative results</a> and <a href=./the-open-science-flywheel.html>the open-science flywheel</a>."
+   ]
+  ],
+  "related": [
+   [
+    "publishing-negative-results",
+    "Negative Results"
+   ],
+   [
+    "the-open-science-flywheel",
+    "Open-Science Flywheel"
+   ],
+   [
+    "why-we-publish-openly",
+    "Why We Publish"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "humility-in-a-grand-mission",
+  "title": "Humility in a Grand Mission",
+  "cat": "building-for-humanity",
+  "lede": "A mission this large is a temptation to grandiosity; humility is the discipline that keeps it honest and worth trusting.",
+  "body": [
+   [
+    "h2",
+    "The temptation of scale"
+   ],
+   [
+    "p",
+    "Talking about powering humanity and healing the planet invites grandiosity. The larger the mission, the easier it is to slip from what is true into what is inspiring, and to mistake the second for the first. Humility is the deliberate corrective: holding the aspiration while refusing to let it inflate the claims."
+   ],
+   [
+    "p",
+    "Concretely, humility means saying that both machines are design and simulation studies, that the burner has four hard gates we cannot yet clear, that the breeder's tritium self-sufficiency is an open question treated as a design lever, and that we make no net-gain claim before FOAK. None of these admissions diminishes the mission; they make it believable."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 440 200' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Balancing promise and candor'><line x1='220' y1='30' x2='220' y2='150' stroke='#232C39' stroke-width='3'/><line x1='110' y1='60' x2='330' y2='60' stroke='#232C39' stroke-width='3'/><line x1='110' y1='60' x2='90' y2='110' stroke='#232C39' stroke-width='1.5'/><line x1='110' y1='60' x2='150' y2='110' stroke='#232C39' stroke-width='1.5'/><line x1='330' y1='60' x2='310' y2='110' stroke='#232C39' stroke-width='1.5'/><line x1='330' y1='60' x2='350' y2='110' stroke='#232C39' stroke-width='1.5'/><rect x='80' y='110' width='120' height='26' rx='5' fill='#232C39'/><text x='140' y='128' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Aspiration</text><rect x='290' y='110' width='120' height='26' rx='5' fill='#232C39'/><text x='350' y='128' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Candor</text><rect x='190' y='150' width='60' height='16' rx='3' fill='#232C39'/></svg>"
+   ],
+   [
+    "h3",
+    "What humility looks like in practice"
+   ],
+   [
+    "ul",
+    [
+     "State limits before benefits when both are true",
+     "Prefer 'if the physics closes' to 'when we deliver'",
+     "Credit other clean technologies rather than claiming primacy",
+     "Let open data and predictions, not confident language, carry the weight"
+    ]
+   ],
+   [
+    "p",
+    "Humility is not the opposite of ambition; it is ambition disciplined by evidence. The dream of fusion deserves to be pursued, and it deserves not to be oversold. See <a href=./the-honest-promise.html>the honest promise</a> and <a href=./what-we-will-not-claim.html>what we will not claim</a>."
+   ]
+  ],
+  "related": [
+   [
+    "the-honest-promise",
+    "The Honest Promise"
+   ],
+   [
+    "what-we-will-not-claim",
+    "What We Won't Claim"
+   ],
+   [
+    "why-fusion-is-humanitys-dream",
+    "Humanity's Dream"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "from-scarcity-to-stewardship",
+  "title": "From Scarcity to Stewardship",
+  "cat": "building-for-humanity",
+  "lede": "The move from fighting over scarce fuel to stewarding an abundant one changes the human relationship with energy.",
+  "body": [
+   [
+    "h2",
+    "A different relationship with energy"
+   ],
+   [
+    "p",
+    "For most of history, energy has meant scarcity — deposits to find, control, and defend. Abundant, widely available fuel would shift the frame from scarcity toward stewardship: the question becomes not who controls the fuel but how well we manage the systems that use it. That is a healthier relationship, though not an automatic one."
+   ],
+   [
+    "p",
+    "Fusion fuels point in this direction. Deuterium is in seawater, tritium can be bred, and the reaction burns nothing. The scarce exception is the burner's helium-3, which is exactly why breeding and, distantly, lunar sources are discussed honestly rather than assumed. Even the abundance story has a scarce chapter we do not hide."
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 460 150' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Fuel abundance chain'><rect x='16' y='55' width='110' height='40' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='71' y='72' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Deuterium</text><text x='71' y='88' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>from seawater</text><rect x='175' y='55' width='110' height='40' rx='6' fill='#232C39'/><text x='230' y='72' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Fusion reaction</text><text x='230' y='88' fill='#D4AD5C' font-family='Georgia,serif' font-size='10' text-anchor='middle'>design study</text><rect x='334' y='55' width='110' height='40' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='389' y='72' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Heat / isotopes</text><text x='389' y='88' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>for people</text><line x1='126' y1='75' x2='175' y2='75' stroke='#232C39' stroke-width='2'/><line x1='285' y1='75' x2='334' y2='75' stroke='#232C39' stroke-width='2'/></svg>"
+   ],
+   [
+    "h3",
+    "Stewardship is a choice, not a guarantee"
+   ],
+   [
+    "ul",
+    [
+     "Abundant fuel removes one driver of conflict, not all of them",
+     "Stewardship of clean systems still requires care in materials and waste",
+     "The machines are design and simulation studies; abundance is potential, not delivered"
+    ]
+   ],
+   [
+    "p",
+    "Stewardship is the mindset a post-scarcity energy source would invite, and the one we try to practice now in how we handle materials, data, and claims. See <a href=./from-extraction-to-stewardship.html>from extraction to stewardship</a> and <a href=./letting-the-planet-heal.html>letting the planet heal</a>."
+   ]
+  ],
+  "related": [
+   [
+    "from-extraction-to-stewardship",
+    "Extraction to Stewardship"
+   ],
+   [
+    "letting-the-planet-heal",
+    "Letting the Planet Heal"
+   ],
+   [
+    "abundance-without-combustion",
+    "No Combustion"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "what-abundance-actually-means",
+  "title": "What Abundance Actually Means",
+  "cat": "building-for-humanity",
+  "lede": "Energy 'abundance' is easy to romanticize; here is the precise, bounded meaning we stand behind.",
+  "body": [
+   [
+    "h2",
+    "Precision against a loaded word"
+   ],
+   [
+    "p",
+    "'Energy abundance' can mean anything from a fair aspiration to an empty slogan. We fix its meaning narrowly. Abundance here refers to fuel that is widely available and a reaction that releases large energy without combustion — not free energy, not unlimited energy, and not energy without engineering constraints."
+   ],
+   [
+    "h3",
+    "What it does mean"
+   ],
+   [
+    "ul",
+    [
+     "Fuel not confined to scarce, contested geographic deposits",
+     "Very high energy per unit fuel mass, by the physics of fusing light nuclei",
+     "No carbon combustion, so cleaner output at the point of generation",
+     "Byproducts — neutrons, tritium, helium-3 — that are useful rather than only waste"
+    ]
+   ],
+   [
+    "h3",
+    "What it does not mean"
+   ],
+   [
+    "ul",
+    [
+     "Not free: building and running plants is demanding (details kept out of this account)",
+     "Not unlimited: real plants have real output limits",
+     "Not proven: both machines are design and simulation studies",
+     "Not without a scarce input: the burner's helium-3 is a genuine supply gate (~400x domestic)"
+    ]
+   ],
+   [
+    "html",
+    "<svg viewBox='0 0 460 150' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Fuel abundance chain'><rect x='16' y='55' width='110' height='40' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='71' y='72' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Deuterium</text><text x='71' y='88' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>from seawater</text><rect x='175' y='55' width='110' height='40' rx='6' fill='#232C39'/><text x='230' y='72' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Fusion reaction</text><text x='230' y='88' fill='#D4AD5C' font-family='Georgia,serif' font-size='10' text-anchor='middle'>design study</text><rect x='334' y='55' width='110' height='40' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='389' y='72' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Heat / isotopes</text><text x='389' y='88' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>for people</text><line x1='126' y1='75' x2='175' y2='75' stroke='#232C39' stroke-width='2'/><line x1='285' y1='75' x2='334' y2='75' stroke='#232C39' stroke-width='2'/></svg>"
+   ],
+   [
+    "p",
+    "Held this precisely, abundance is a defensible claim about fuel and physics rather than a promise about outcomes. That precision is what lets the word survive contact with the honest gates. See <a href=./abundance-without-combustion.html>abundance without combustion</a> and <a href=./fusion-fuel-and-abundance.html>fusion fuel and abundance</a>."
+   ]
+  ],
+  "related": [
+   [
+    "abundance-without-combustion",
+    "No Combustion"
+   ],
+   [
+    "fusion-fuel-and-abundance",
+    "Fusion Fuel"
+   ],
+   [
+    "energy-density-and-human-flourishing",
+    "Energy Density"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ }
+]

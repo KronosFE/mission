@@ -1,0 +1,35 @@
+{
+  "route": "mission",
+  "title": "The Kronos Mission",
+  "short": "Mission",
+  "kicker": "MISSION · HIGH STANDARDS",
+  "headline": "Doing the right thing, in the open.",
+  "tagline": "How Kronos operates and why — high scientific and mathematical standards, honesty about what the technology is and is not, designing in the open, and building to uplift humanity.",
+  "hero_clip": "a5-purpose.mp4",
+  "cats": {
+    "high-standards": [
+      "High Standards",
+      "Physics and mathematical rigor; verification and reproducibility as an ethic."
+    ],
+    "honesty-transparency": [
+      "Honesty & Transparency",
+      "The honest gates, never overclaiming, correcting the record."
+    ],
+    "designing-in-the-open": [
+      "Designing in the Open",
+      "Open papers, open data and DOIs, open licenses — we say it and we do it."
+    ],
+    "environment-and-planet": [
+      "Environment & the Planet",
+      "The clean-planet case and the healed-Earth endgame."
+    ],
+    "building-for-humanity": [
+      "Building for Humanity",
+      "Energy access, uplift, and who fusion serves."
+    ],
+    "impact": [
+      "Impact",
+      "An honest look at the effect on people, on AI and compute, and on society."
+    ]
+  }
+}

@@ -1,0 +1,2459 @@
+[
+ {
+  "slug": "the-honest-case-for-impact",
+  "title": "The Honest Case for Impact",
+  "cat": "impact",
+  "lede": "If the physics closes, the effect of firm clean power reaches people, grids, compute, and geopolitics; here is that case stated without triumph.",
+  "body": [
+   [
+    "h2",
+    "What impact means here"
+   ],
+   [
+    "p",
+    "Energy touches almost everything a society does: how people work, how communities are built, how information is processed, how nations relate. A source of <b>firm clean power</b> would ripple through all of it. This section of the mission looks honestly at those ripples — the good ones, the hard ones, and the ones that depend on results we have not yet earned."
+   ],
+   [
+    "p",
+    "The first thing to say plainly: both Kronos machines are today <b>design and simulation studies</b>. The breeder (Hyperion) and the burner (Aegis / MetroVolt) have not demonstrated hardware net gain, and we make no such claim before first-of-a-kind (FOAK) operation, targeted for first tritium around 2030. Every impact described here is conditional on physics and engineering that we are still working to close."
+   ],
+   [
+    "h3",
+    "Why we resist triumphalism"
+   ],
+   [
+    "p",
+    "Energy transitions are slow, contested, and full of unintended effects. New power sources have displaced workers, reshaped landscapes, and shifted geopolitical fault lines — not always for the better. A serious account of impact has to hold the promise and the cost in the same view."
+   ],
+   [
+    "ul",
+    [
+     "The promise: dispatchable low-carbon power sited near demand, useful to grids, industry, and compute",
+     "The condition: none of it is real until the machines are built and measured",
+     "The responsibility: openness, honest timelines, and respect for the communities and workers affected"
+    ]
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 300\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Open-science flywheel connecting publication, checking, and trust\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><circle cx=\"340\" cy=\"150\" r=\"118\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.2\" stroke-dasharray=\"4 5\"/><g font-size=\"12\" fill=\"#E7EBF2\" text-anchor=\"middle\"><rect x=\"270\" y=\"18\" width=\"140\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"340\" y=\"43\">Publish design + data</text><rect x=\"470\" y=\"130\" width=\"140\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"540\" y=\"155\">Others can check</text><rect x=\"270\" y=\"242\" width=\"140\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"340\" y=\"267\">Errors surface early</text><rect x=\"70\" y=\"130\" width=\"140\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"140\" y=\"155\">Trust is earned</text></g><g stroke=\"#E2C57E\" stroke-width=\"1.8\" fill=\"none\"><path d=\"M414 46 A118 118 0 0 1 512 132\" marker-end=\"url(#ah)\"/><path d=\"M540 174 A118 118 0 0 1 414 254\" marker-end=\"url(#ah)\"/><path d=\"M266 262 A118 118 0 0 1 150 174\" marker-end=\"url(#ah)\"/><path d=\"M168 128 A118 118 0 0 1 266 46\" marker-end=\"url(#ah)\"/></g><defs><marker id=\"ah\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0 0 L6 3 L0 6 z\" fill=\"#E2C57E\"/></marker></defs></svg></figure>"
+   ],
+   [
+    "p",
+    "The pages that follow break the impact into people and communities, AI and compute, the grid, and the geopolitics of energy — each written to the same standard of candor as the rest of this site. Where a claim depends on an open gate, we link to the gate. See also <a href=./the-weight-of-the-claim.html>the weight of the claim</a>."
+   ]
+  ],
+  "related": [
+   [
+    "the-weight-of-the-claim",
+    "The weight of the claim"
+   ],
+   [
+    "jobs-and-the-workforce",
+    "Jobs and the workforce"
+   ],
+   [
+    "powering-the-ai-era-responsibly",
+    "Powering the AI era responsibly"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "jobs-and-the-workforce",
+  "title": "Jobs and the Workforce",
+  "cat": "impact",
+  "lede": "Building and running a fusion fleet would need skilled people across many trades; we describe that honestly, without inflated employment claims.",
+  "body": [
+   [
+    "h2",
+    "Who builds and runs these machines"
+   ],
+   [
+    "p",
+    "A fusion program is a manufacturing and operations program. Superconducting magnets, vacuum systems, tritium handling, precision fabrication, controls, and long-term operations all demand skilled labor. If the breeder (Hyperion) fleet and later burner (Aegis / MetroVolt) units are built, they would draw on machinists, welders, electricians, cryogenics technicians, radiation-protection staff, software and controls engineers, and plant operators."
+   ],
+   [
+    "p",
+    "We will not publish a headline job number. Employment estimates for pre-hardware programs are easy to inflate and hard to defend. What we can say honestly is the <b>shape</b> of the workforce: capital-intensive construction phases followed by long, steady operations, with a manufacturing base that grows only if the fleet grows."
+   ],
+   [
+    "h3",
+    "Skills that transfer"
+   ],
+   [
+    "ul",
+    [
+     "Nuclear and conventional power plant operations",
+     "Aerospace and precision manufacturing (magnets, structures)",
+     "Semiconductor and cryogenics supply chains",
+     "Grid and high-voltage engineering",
+     "Radiation safety and health physics"
+    ]
+   ],
+   [
+    "p",
+    "Much of this overlaps with existing energy and advanced-manufacturing trades, which matters for a <a href=./the-just-transition.html>just transition</a>: workers leaving contracting fossil sectors have adjacent skills. But the overlap is partial. Tritium systems and superconducting magnet work are specialized, and the training pipeline for them is thin today."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "No jobs exist until machines are built, and the machines are not built. Construction of the first breeder is targeted to begin in Q2 2027; a mature fleet, if the physics closes, is years beyond that. Workforce impact is real only on that timeline, and only if FOAK proves out. We would rather under-promise here than repeat the pattern of energy projects that pledged employment they could not deliver."
+   ],
+   [
+    "p",
+    "See <a href=./skills-and-training.html>skills and training</a> and <a href=./supply-chain-and-industry.html>supply chain and industry</a>."
+   ]
+  ],
+  "related": [
+   [
+    "the-just-transition",
+    "The just transition"
+   ],
+   [
+    "skills-and-training",
+    "Skills and training"
+   ],
+   [
+    "communities-and-siting",
+    "Communities and siting"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "communities-and-siting",
+  "title": "Communities and Siting",
+  "cat": "impact",
+  "lede": "Where a plant is built shapes who benefits and who bears the burden; siting must be done with consent, not imposed.",
+  "body": [
+   [
+    "h2",
+    "A plant is a neighbor for decades"
+   ],
+   [
+    "p",
+    "A power plant reshapes the community around it for its whole operating life and beyond. Traffic during construction, permanent jobs, tax base, land use, water, emergency planning, and the simple fact of living near a nuclear facility all fall on the host community. The history of energy siting includes places that were promised benefit and left with burden. That record deserves respect, not repetition."
+   ],
+   [
+    "p",
+    "Fusion has a real siting advantage worth stating plainly and no further: it carries <b>no risk of a runaway chain reaction</b> and produces no long-lived high-level waste of the fission kind. The breeder (Hyperion) does produce 14 MeV neutrons and tritium, which are regulated hazards requiring containment, monitoring, and trained staff. Honest siting means describing both the reduced risks and the remaining ones."
+   ],
+   [
+    "h3",
+    "What consent-based siting looks like"
+   ],
+   [
+    "ul",
+    [
+     "Early, plain-language engagement before decisions are locked",
+     "Independent monitoring the community can see",
+     "A real ability to say no, not a ceremonial comment period",
+     "Benefit that stays local, not extracted elsewhere"
+    ]
+   ],
+   [
+    "p",
+    "Fusion's relatively compact footprint and the option to site near demand (see <a href=./siting-near-demand.html>siting near demand</a>) can reduce the transmission and land burden that large remote plants impose. That is a genuine advantage for some communities and irrelevant to others; it depends on local context."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "These are design-stage machines. No community hosts a Kronos plant today, and the first host community for the FOAK breeder does not yet exist. When it does, the standard above is the one we intend to be held to. Getting siting right is a test of whether a clean-energy program actually serves the people nearest to it."
+   ],
+   [
+    "p",
+    "See <a href=./local-benefit-and-consent.html>local benefit and consent</a> and <a href=./land-and-footprint.html>land and footprint</a>."
+   ]
+  ],
+  "related": [
+   [
+    "local-benefit-and-consent",
+    "Local benefit and consent"
+   ],
+   [
+    "siting-near-demand",
+    "Siting near demand"
+   ],
+   [
+    "jobs-and-the-workforce",
+    "Jobs and the workforce"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "skills-and-training",
+  "title": "Skills and Training",
+  "cat": "impact",
+  "lede": "A fusion fleet cannot outrun its talent pipeline; the honest constraint is people, not just physics.",
+  "body": [
+   [
+    "h2",
+    "The pipeline is a real bottleneck"
+   ],
+   [
+    "p",
+    "It is tempting to treat a fusion program as a physics problem with an engineering tail. In practice, the people who can build and safely run these machines are scarce. Tritium handling, superconducting magnet fabrication and quench protection, plasma controls, and fusion-grade radiation protection are specialties with few practitioners and thin teaching pipelines."
+   ],
+   [
+    "p",
+    "If a breeder (Hyperion) fleet scales, the binding constraint may be trained people as much as hardware. This is not a reason for pessimism; it is a reason for early, deliberate investment in training — and for honesty that a program cannot grow faster than it can teach."
+   ],
+   [
+    "h3",
+    "Where training would come from"
+   ],
+   [
+    "ul",
+    [
+     "University plasma physics and nuclear engineering programs",
+     "Community and technical colleges for trades: welding, cryogenics, controls",
+     "Utility and naval nuclear operator traditions adapted to fusion",
+     "On-the-job apprenticeship at the FOAK and NOAK units themselves"
+    ]
+   ],
+   [
+    "p",
+    "The first-of-a-kind machine has a role beyond proving physics: it is also where the first generation of fusion operators and technicians learns the craft. That is one reason FOAK matters far beyond its own output — it seeds the workforce for everything after it."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "We publish design and simulation work openly (see the <a href=./the-open-science-flywheel.html>open-science flywheel</a>) partly so that the knowledge needed to train people is not locked inside one company. Open methods make the field teachable. But no amount of openness substitutes for the years it takes to build hands-on competence, and we do not pretend otherwise."
+   ],
+   [
+    "p",
+    "See <a href=./jobs-and-the-workforce.html>jobs and the workforce</a> and <a href=./supply-chain-and-industry.html>supply chain and industry</a>."
+   ]
+  ],
+  "related": [
+   [
+    "jobs-and-the-workforce",
+    "Jobs and the workforce"
+   ],
+   [
+    "supply-chain-and-industry",
+    "Supply chain and industry"
+   ],
+   [
+    "the-open-science-flywheel",
+    "The open-science flywheel"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "supply-chain-and-industry",
+  "title": "Supply Chain and Industry",
+  "cat": "impact",
+  "lede": "Fusion depends on real industrial capacity — superconductors, lithium, precision fabrication — and those chains are constrained today.",
+  "body": [
+   [
+    "h2",
+    "Fusion is a materials-and-manufacturing problem"
+   ],
+   [
+    "p",
+    "Behind the plasma physics sits a supply chain. The breeder (Hyperion) needs high-temperature superconducting (REBCO) tape for magnets that reach a peak field of 16.84 T, lithium for tritium breeding, structural materials that tolerate a 14 MeV neutron flux, and precision-fabricated vacuum and cryogenic systems. The burner (Aegis / MetroVolt) pushes magnets harder still, with a 26.49 T plug specification that is part of why one of its gates is open."
+   ],
+   [
+    "p",
+    "Several of these inputs are constrained. REBCO tape production is growing but not yet at fleet scale. Lithium demand competes with batteries. Rare-earth and specialty-metal chains have geopolitical concentration. A fusion industry does not stand alone; it competes for and helps build shared industrial capacity."
+   ],
+   [
+    "h3",
+    "What this means for impact"
+   ],
+   [
+    "ul",
+    [
+     "Scaling a fleet requires scaling suppliers, not just building reactors",
+     "Superconductor and cryogenics demand could anchor advanced-manufacturing regions",
+     "Material dependencies create the same sovereignty questions as any strategic industry",
+     "Design discipline (frozen canon) lets suppliers plan against stable specifications"
+    ]
+   ],
+   [
+    "p",
+    "Publishing frozen, stable designs helps a supply chain: vendors can tool up against numbers that do not drift. See <a href=./frozen-design-discipline.html>frozen-design discipline</a>. That is a modest, real benefit of the open, disciplined approach."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "None of these chains exist at fusion-fleet scale yet, because no fusion fleet exists. The industrial base would have to be built alongside the machines, over years. Claims that a fusion economy is imminent ignore how long it takes to stand up superconductor, lithium, and fabrication capacity. We treat that lead time as a fact to plan around, not a detail to gloss."
+   ],
+   [
+    "p",
+    "See <a href=./critical-materials-and-dependence.html>critical materials and dependence</a> and <a href=./fuel-supply-and-sovereignty.html>fuel supply and sovereignty</a>."
+   ]
+  ],
+  "related": [
+   [
+    "critical-materials-and-dependence",
+    "Critical materials and dependence"
+   ],
+   [
+    "frozen-design-discipline",
+    "Frozen-design discipline"
+   ],
+   [
+    "fuel-supply-and-sovereignty",
+    "Fuel supply and sovereignty"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "the-just-transition",
+  "title": "The Just Transition",
+  "cat": "impact",
+  "lede": "Clean power that leaves fossil-sector workers and regions behind is not a success; the transition has to be fair to be durable.",
+  "body": [
+   [
+    "h2",
+    "Who wins and who is left"
+   ],
+   [
+    "p",
+    "Decarbonization moves work away from coal, gas, and oil regions. Whether that move is fair determines whether it holds politically and morally. A clean-energy source that concentrates its benefits in a few affluent places while stranding fossil communities repeats an old injustice under a new banner."
+   ],
+   [
+    "p",
+    "Fusion's workforce overlaps meaningfully with fossil and conventional-nuclear power operations: plant operators, high-voltage engineers, welders, radiation-protection staff, and controls specialists. That overlap is an opportunity to route displaced workers into new work — but only if programs are built deliberately to do so. Overlap does not create transition on its own."
+   ],
+   [
+    "h3",
+    "Conditions for a fair transition"
+   ],
+   [
+    "ul",
+    [
+     "Siting some plants in regions losing fossil employment, where it makes engineering sense",
+     "Retraining that credits existing skills rather than restarting from zero",
+     "Timelines that let communities plan, not sudden closures",
+     "Local ownership of the benefit, per <a href=./local-benefit-and-consent.html>local benefit and consent</a>"
+    ]
+   ],
+   [
+    "p",
+    "We state a limit honestly: engineering constraints, not fairness alone, decide where a plant can go. Grid connection, water, geology, and proximity to demand all bind. A just transition works within those constraints; it cannot override physics."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "This is aspiration measured against a machine that is not built. Fusion cannot deliver a just transition it has not yet earned the right to attempt. What we can commit to now is the standard: if and when a fleet is built, fairness to affected workers and regions is a design goal, not an afterthought. See <a href=./who-benefits-and-who-decides.html>who benefits and who decides</a>."
+   ]
+  ],
+  "related": [
+   [
+    "who-benefits-and-who-decides",
+    "Who benefits and who decides"
+   ],
+   [
+    "jobs-and-the-workforce",
+    "Jobs and the workforce"
+   ],
+   [
+    "communities-and-siting",
+    "Communities and siting"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "local-benefit-and-consent",
+  "title": "Local Benefit and Consent",
+  "cat": "impact",
+  "lede": "A host community should be able to see the benefit, verify the safety, and genuinely decline; anything less is imposition.",
+  "body": [
+   [
+    "h2",
+    "Consent is more than a signature"
+   ],
+   [
+    "p",
+    "Energy infrastructure has too often been sited on the least powerful communities with the weakest ability to refuse. A clean-energy program that inherits that pattern inherits its injustice. Real consent means a community understands what it is hosting, can independently verify the claims, sees benefit that stays local, and retains a genuine ability to say no."
+   ],
+   [
+    "p",
+    "Openness is directly relevant here. Because Kronos publishes its designs, data, and honest gates (see the <a href=./the-open-science-flywheel.html>open-science flywheel</a>), a host community's own experts — or independent ones it trusts — can check the safety and performance claims rather than take them on faith. Verification is a precondition of meaningful consent."
+   ],
+   [
+    "h3",
+    "What local benefit can include"
+   ],
+   [
+    "ul",
+    [
+     "Durable operations employment and local training",
+     "Firm power for local industry and services",
+     "Independent, community-visible environmental and radiological monitoring",
+     "For the burner housings, on-site power for defense installations (Aegis) or data centers (MetroVolt) that host them"
+    ]
+   ],
+   [
+    "p",
+    "We are careful not to overstate. A single plant is not an economic transformation, and we will not put figures on local benefit that we cannot defend. The honest promise is a good neighbor, verifiable safety, and steady work — not prosperity delivered from outside."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "No community hosts a Kronos machine today. This page describes a standard, not a track record. The test of the standard comes when the first FOAK breeder needs a home. We would rather be judged against a clearly stated commitment than against vague goodwill."
+   ],
+   [
+    "p",
+    "See <a href=./communities-and-siting.html>communities and siting</a> and <a href=./reader-verification-guide.html>the reader verification guide</a>."
+   ]
+  ],
+  "related": [
+   [
+    "communities-and-siting",
+    "Communities and siting"
+   ],
+   [
+    "the-just-transition",
+    "The just transition"
+   ],
+   [
+    "the-open-science-flywheel",
+    "The open-science flywheel"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "powering-the-ai-era-responsibly",
+  "title": "Powering the AI Era Responsibly",
+  "cat": "impact",
+  "lede": "Compute demand is rising fast; meeting it with firm clean power is a worthy goal and a claim we have not yet earned.",
+  "body": [
+   [
+    "h2",
+    "The compute-energy collision"
+   ],
+   [
+    "p",
+    "Training and serving large AI models consumes a great deal of electricity, and demand is growing quickly. Data centers increasingly need power that is <b>firm</b> (available around the clock), <b>clean</b> (low-carbon), and ideally <b>near the load</b> (to avoid transmission constraints). That is a demanding combination, and it is exactly the niche fusion is often proposed to fill."
+   ],
+   [
+    "p",
+    "The burner housing named MetroVolt is studied specifically as a generator for data centers. That framing is honest about intent and honest about status: MetroVolt is a design and simulation study, not a product. It is subject to the same open gates as the rest of the burner program, including the availability gate that matters enormously for compute (see below)."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 170\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"An honest gate between claim and demonstration\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"30\" y=\"60\" width=\"290\" height=\"46\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><rect x=\"360\" y=\"60\" width=\"290\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"175\" y=\"88\" font-size=\"12\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\">Powering the AI era — on paper</text><text x=\"505\" y=\"88\" font-size=\"12\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\">Powering it in hardware — unproven</text><line x1=\"340\" y1=\"40\" x2=\"340\" y2=\"126\" stroke=\"#E2C57E\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"45\" r=\"5\" fill=\"#E2C57E\"/><text x=\"340\" y=\"32\" font-size=\"11\" fill=\"#E2C57E\" text-anchor=\"middle\" font-weight=\"700\">THE GATE</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Why responsibly is the load-bearing word"
+   ],
+   [
+    "ul",
+    [
+     "Efficiency gains help but are outpaced by demand growth",
+     "Firm clean power reduces the pressure to run data centers on fossil backup",
+     "Siting generation near compute reduces grid strain",
+     "None of this is real until the machine is built and measured"
+    ]
+   ],
+   [
+    "p",
+    "There is a real risk of a convenient story here: AI needs power, fusion makes power, therefore fusion solves AI's energy problem. We reject that shortcut. Fusion is one candidate among firm clean sources, it is unbuilt, and the burner's reliability against hyperscale standards is an open question. Responsible means saying so."
+   ],
+   [
+    "p",
+    "See <a href=./the-compute-energy-problem.html>the compute-energy problem</a>, <a href=./metrovolt-and-data-centers-honest.html>MetroVolt and data centers, honestly</a>, and <a href=./availability-and-hyperscale-reliability.html>availability and hyperscale reliability</a>."
+   ]
+  ],
+  "related": [
+   [
+    "the-compute-energy-problem",
+    "The compute-energy problem"
+   ],
+   [
+    "metrovolt-and-data-centers-honest",
+    "MetroVolt and data centers, honestly"
+   ],
+   [
+    "availability-and-hyperscale-reliability",
+    "Availability and hyperscale reliability"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "the-compute-energy-problem",
+  "title": "The Compute-Energy Problem",
+  "cat": "impact",
+  "lede": "AI compute is becoming a first-order load on the grid; describing the problem accurately matters more than promising to solve it.",
+  "body": [
+   [
+    "h2",
+    "A new kind of demand"
+   ],
+   [
+    "p",
+    "For most of the grid's history, large point loads were industrial: smelters, refineries, chemical plants. AI data centers are a new entrant in the same class — large, concentrated, and only narrowly flexible in time. Unlike a factory that runs a shift, a training cluster can draw heavily and continuously for weeks, and it is flexible only in narrow ways."
+   ],
+   [
+    "p",
+    "This creates three coupled pressures: total energy, peak power, and location. A region can have enough annual energy and still lack the local firm capacity to serve a new gigawatt-scale campus without straining transmission. That is why the conversation has shifted from generation in the abstract to firm power sited near the load."
+   ],
+   [
+    "h3",
+    "Why efficiency alone will not close it"
+   ],
+   [
+    "p",
+    "Model and hardware efficiency have improved substantially, but demand has grown faster. When a resource becomes more efficient and therefore cheaper to use, use often expands — a familiar pattern. Efficiency is necessary and good; treating it as sufficient is a mistake. See <a href=./efficiency-is-not-enough.html>efficiency is not enough</a>."
+   ],
+   [
+    "ul",
+    [
+     "Total energy: rising with model scale and adoption",
+     "Peak power: concentrated campuses stress local capacity",
+     "Location: transmission cannot always follow demand quickly",
+     "Timing: compute is only partly flexible"
+    ]
+   ],
+   [
+    "h3",
+    "Where fusion could fit, and the honest limit"
+   ],
+   [
+    "p",
+    "Firm clean power sited near compute is a plausible answer to all three pressures at once, which is why the burner (Aegis / MetroVolt) is studied for this role. But the burner is unbuilt, and its ability to meet the extreme uptime that data centers require is an open gate, not a settled result. Naming the problem precisely is more useful than overclaiming a solution."
+   ],
+   [
+    "p",
+    "See <a href=./powering-the-ai-era-responsibly.html>powering the AI era responsibly</a> and <a href=./data-centers-and-firm-power.html>data centers and firm power</a>."
+   ]
+  ],
+  "related": [
+   [
+    "powering-the-ai-era-responsibly",
+    "Powering the AI era responsibly"
+   ],
+   [
+    "efficiency-is-not-enough",
+    "Efficiency is not enough"
+   ],
+   [
+    "data-centers-and-firm-power",
+    "Data centers and firm power"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "data-centers-and-firm-power",
+  "title": "Data Centers and Firm Power",
+  "cat": "impact",
+  "lede": "Compute campuses want power that never stops; matching that need against an unbuilt machine requires unusual candor.",
+  "body": [
+   [
+    "h2",
+    "What a data center actually needs"
+   ],
+   [
+    "p",
+    "A hyperscale data center is among the most demanding electricity customers that exists. It wants power that is continuous, high-quality, and extraordinarily reliable, and it increasingly wants that power to be low-carbon to meet emissions commitments. Firm clean power is a near-perfect description of the ideal supply — and a description that no fusion machine yet meets."
+   ],
+   [
+    "p",
+    "The burner housing MetroVolt is designed around this customer. It uses direct energy conversion of a D-3He plasma and carries a low neutron fraction of 5.44%, which is attractive for a generator sited close to sensitive equipment and people. Those are design properties of a simulation study, stated as such."
+   ],
+   [
+    "h3",
+    "The reliability gap, stated plainly"
+   ],
+   [
+    "p",
+    "The hardest requirement is uptime. Hyperscale Tier III operations target availability around 0.99982. The burner's studied availability sits in the range 0.86 to 0.995 — roughly 30 to 100 times more downtime than a Tier III facility tolerates. On current analysis, the burner is <b>not a sole Tier-III-grade source</b>. That is a physics-and-engineering finding, not a marketing footnote."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 170\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"An honest gate between claim and demonstration\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"30\" y=\"60\" width=\"290\" height=\"46\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><rect x=\"360\" y=\"60\" width=\"290\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"175\" y=\"88\" font-size=\"12\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\">Firm power on paper</text><text x=\"505\" y=\"88\" font-size=\"12\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\">Tier III uptime — 30–100x short today</text><line x1=\"340\" y1=\"40\" x2=\"340\" y2=\"126\" stroke=\"#E2C57E\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"45\" r=\"5\" fill=\"#E2C57E\"/><text x=\"340\" y=\"32\" font-size=\"11\" fill=\"#E2C57E\" text-anchor=\"middle\" font-weight=\"700\">THE GATE</text></svg></figure>"
+   ],
+   [
+    "ul",
+    [
+     "Firm, clean, sited near load: the right shape of supply",
+     "Low neutron fraction (5.44%): favorable for co-siting",
+     "Availability 0.86–0.995 vs Tier III 0.99982: the open gap",
+     "Best case near term: one firm source in a diversified supply, not the only one"
+    ]
+   ],
+   [
+    "p",
+    "The honest role for an early burner near compute is as a contributor to a diversified firm-power mix, not as the single source a data center bets its uptime on. See <a href=./availability-and-hyperscale-reliability.html>availability and hyperscale reliability</a> and <a href=./metrovolt-and-data-centers-honest.html>MetroVolt and data centers, honestly</a>."
+   ]
+  ],
+  "related": [
+   [
+    "availability-and-hyperscale-reliability",
+    "Availability and hyperscale reliability"
+   ],
+   [
+    "metrovolt-and-data-centers-honest",
+    "MetroVolt and data centers, honestly"
+   ],
+   [
+    "the-compute-energy-problem",
+    "The compute-energy problem"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "metrovolt-and-data-centers-honest",
+  "title": "MetroVolt and Data Centers, Honestly",
+  "cat": "impact",
+  "lede": "MetroVolt is the burner in a data-center housing — a design study with four open gates, described without softening.",
+  "body": [
+   [
+    "h2",
+    "What MetroVolt is"
+   ],
+   [
+    "p",
+    "MetroVolt is not a separate machine. It is the burner (a D-3He tandem-mirror generator) packaged for a specific customer: data centers. The same physics defines it as defines the Aegis housing — a 26.49 T plug, a 17 T throat, direct energy conversion, and a neutron fraction of 5.44%. The name reflects intended use, not a distinct technology."
+   ],
+   [
+    "p",
+    "Because MetroVolt is the burner, it inherits the burner's four honest gates. We restate them here rather than bury them, because a data-center operator evaluating this concept deserves the unvarnished picture."
+   ],
+   [
+    "h3",
+    "The four gates, applied to MetroVolt"
+   ],
+   [
+    "ul",
+    [
+     "Plug coil overstressed roughly 3–3.9x at the design bore — infeasible as specified",
+     "Plug operating regime 166–830x beyond any existing device — not post-dictable today",
+     "He-3 fuel demand ~400x domestic supply per commercial unit — gated on fuel that does not exist at terrestrial scale",
+     "Availability 0.86–0.995 vs hyperscale Tier III 0.99982 — 30–100x short on downtime"
+    ]
+   ],
+   [
+    "p",
+    "Two of these bear directly on the data-center use case. The fuel gate means commercial-scale operation depends on a He-3 supply that would have to come from breeder breeding or lunar sources (see <a href=./helium-3-supply-and-strategy.html>helium-3 supply and strategy</a>). The availability gate means MetroVolt is not, today, a sole reliability source for a Tier III facility."
+   ],
+   [
+    "h3",
+    "Why we publish this"
+   ],
+   [
+    "p",
+    "It would be easy to present MetroVolt as a finished data-center solution. We do not, because the gates are real and because a customer misled about reliability or fuel would discover the truth in operation, not the brochure. Honesty here is also self-interest: trust earned by candor outlasts a sale won by overclaiming."
+   ],
+   [
+    "p",
+    "See <a href=./defense-installations-honest.html>Aegis and defense installations, honestly</a> and <a href=./data-centers-and-firm-power.html>data centers and firm power</a>."
+   ]
+  ],
+  "related": [
+   [
+    "data-centers-and-firm-power",
+    "Data centers and firm power"
+   ],
+   [
+    "defense-installations-honest",
+    "Aegis, honestly"
+   ],
+   [
+    "helium-3-supply-and-strategy",
+    "Helium-3 supply and strategy"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "availability-and-hyperscale-reliability",
+  "title": "Availability and Hyperscale Reliability",
+  "cat": "impact",
+  "lede": "The gap between the burner's studied uptime and what data centers require is one of its four honest gates.",
+  "body": [
+   [
+    "h2",
+    "The number that decides the use case"
+   ],
+   [
+    "p",
+    "For most power customers, occasional downtime is an inconvenience. For a hyperscale data center, it can mean lost training runs, dropped services, and cascading failures. Tier III facilities target availability near 0.99982 — minutes of unplanned downtime per year. The burner (Aegis / MetroVolt), in current design and simulation studies, sits at an availability of 0.86 to 0.995."
+   ],
+   [
+    "p",
+    "That range is 30 to 100 times more downtime than a Tier III standard allows. It is not a rounding issue; it is the difference between a source you can build a data center's uptime guarantee on and one you cannot. We state it as a gate, not a caveat."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 170\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"An honest gate between claim and demonstration\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"30\" y=\"60\" width=\"290\" height=\"46\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><rect x=\"360\" y=\"60\" width=\"290\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"175\" y=\"88\" font-size=\"12\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\">Availability 0.86–0.995 (studied)</text><text x=\"505\" y=\"88\" font-size=\"12\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\">Tier III 0.99982 (required)</text><line x1=\"340\" y1=\"40\" x2=\"340\" y2=\"126\" stroke=\"#E2C57E\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"45\" r=\"5\" fill=\"#E2C57E\"/><text x=\"340\" y=\"32\" font-size=\"11\" fill=\"#E2C57E\" text-anchor=\"middle\" font-weight=\"700\">THE GATE</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Why fusion uptime is hard"
+   ],
+   [
+    "ul",
+    [
+     "Plasma sustainment, magnet systems, and thermal cycling all introduce failure modes",
+     "Fuel handling and vacuum systems add maintenance demand",
+     "Early machines lack the operational history that drives reliability engineering",
+     "A first-of-a-kind is where these problems are found, not where they are already solved"
+    ]
+   ],
+   [
+    "h3",
+    "The honest reading"
+   ],
+   [
+    "p",
+    "On current analysis the burner is not a sole Tier-III-grade source. That does not make it useless to compute — as one firm source in a diversified supply, or for loads that tolerate more downtime, it could still contribute. But the claim that fusion powers hyperscale AI, full stop, is not supported by the numbers today. Closing this gate is future work, and we do not pretend it is done."
+   ],
+   [
+    "p",
+    "See the <a href=./gate-availability-vs-tier-iii.html>availability gate</a> and <a href=./the-honest-gates-and-impact.html>the honest gates and impact</a>."
+   ]
+  ],
+  "related": [
+   [
+    "gate-availability-vs-tier-iii",
+    "The availability gate"
+   ],
+   [
+    "metrovolt-and-data-centers-honest",
+    "MetroVolt, honestly"
+   ],
+   [
+    "the-honest-gates-and-impact",
+    "The honest gates and impact"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "efficiency-is-not-enough",
+  "title": "Efficiency Is Not Enough",
+  "cat": "impact",
+  "lede": "Compute keeps getting more efficient and using more energy anyway; honest impact accounting starts by admitting that.",
+  "body": [
+   [
+    "h2",
+    "The rebound we keep rediscovering"
+   ],
+   [
+    "p",
+    "Every generation of computing hardware does more work per unit of energy, and each generation of AI models has found ways to compress capability into fewer operations. Yet total energy used by computing keeps climbing. When a resource gets cheaper to use, we tend to use far more of it — a rebound effect observed across technologies for over a century."
+   ],
+   [
+    "p",
+    "This matters for how we talk about fusion and AI. It would be comfortable to argue that efficiency will tame compute demand and fusion will mop up the rest. Neither half is safe to assume. Efficiency has not flattened demand, and fusion is unbuilt."
+   ],
+   [
+    "h3",
+    "What follows honestly"
+   ],
+   [
+    "ul",
+    [
+     "Efficiency is necessary and should be pursued aggressively",
+     "Efficiency alone has not, historically, reduced total demand",
+     "New clean firm capacity is likely needed regardless of efficiency gains",
+     "Any such capacity, including fusion, must clear its own gates first"
+    ]
+   ],
+   [
+    "p",
+    "There is a discipline here that mirrors our approach to physics: do not credit a favorable trend with more than it has delivered. Just as we refuse to claim net gain before FOAK, we refuse to claim that efficiency will absorb compute growth. Both are hopeful stories that the evidence does not yet support."
+   ],
+   [
+    "h3",
+    "The constructive version"
+   ],
+   [
+    "p",
+    "The useful framing is a portfolio: aggressive efficiency, smarter scheduling of flexible compute, and new firm clean generation, with fusion as one unproven candidate in the generation tier. That is less satisfying than a single silver bullet and considerably more likely to be true."
+   ],
+   [
+    "p",
+    "See <a href=./the-compute-energy-problem.html>the compute-energy problem</a> and <a href=./powering-the-ai-era-responsibly.html>powering the AI era responsibly</a>."
+   ]
+  ],
+  "related": [
+   [
+    "the-compute-energy-problem",
+    "The compute-energy problem"
+   ],
+   [
+    "powering-the-ai-era-responsibly",
+    "Powering the AI era responsibly"
+   ],
+   [
+    "powering-the-ai-era-responsibly",
+    "Powering the AI era responsibly"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "impact-on-the-grid",
+  "title": "Impact on the Grid",
+  "cat": "impact",
+  "lede": "Firm, dispatchable, siteable power changes what a grid can do; we describe the mechanism, not a miracle.",
+  "body": [
+   [
+    "h2",
+    "What the grid needs from new sources"
+   ],
+   [
+    "p",
+    "A decarbonizing grid is increasingly rich in variable renewables and increasingly short on firm capacity that runs regardless of weather. The hardest hours to serve are not the average ones — they are the cold, still, cloudy stretches at the tail of the distribution, when demand is high and wind and solar are low. Filling that tail is where firm clean power earns its place."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 240\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Firm power filling the tail that storage and variable renewables leave\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><line x1=\"60\" y1=\"200\" x2=\"640\" y2=\"200\" stroke=\"#8FA0B8\" stroke-width=\"1.2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"200\" stroke=\"#8FA0B8\" stroke-width=\"1.2\"/><text x=\"350\" y=\"228\" font-size=\"11.5\" fill=\"#8FA0B8\" text-anchor=\"middle\">hours across a cold, still week</text><text x=\"26\" y=\"120\" font-size=\"11.5\" fill=\"#8FA0B8\" text-anchor=\"middle\" transform=\"rotate(-90 26 120)\">demand</text><path d=\"M60 70 L640 70\" stroke=\"#D4AD5C\" stroke-width=\"1.6\" stroke-dasharray=\"6 4\"/><text x=\"620\" y=\"62\" font-size=\"10.5\" fill=\"#D4AD5C\" text-anchor=\"end\">demand line</text><path d=\"M60 200 L60 150 L140 150 L140 120 L220 120 L220 165 L300 165 L300 110 L380 110 L380 175 L460 175 L460 130 L540 130 L540 160 L640 160 L640 200 Z\" fill=\"#28323f\" stroke=\"#6f8199\" stroke-width=\"1\"/><text x=\"150\" y=\"185\" font-size=\"10.5\" fill=\"#8FA0B8\">variable + storage</text><path d=\"M60 70 L640 70 L640 200 L60 200 Z\" fill=\"none\"/><g fill=\"#E2C57E\" opacity=\"0.30\"><path d=\"M140 120 L220 120 L220 70 L140 70 Z\"/><path d=\"M300 110 L380 110 L380 70 L300 70 Z\"/><path d=\"M460 130 L540 130 L540 70 L460 70 Z\"/></g><text x=\"340\" y=\"52\" font-size=\"11.5\" fill=\"#E2C57E\" text-anchor=\"middle\" font-weight=\"600\">firm clean power fills the gap</text></svg></figure>"
+   ],
+   [
+    "p",
+    "The breeder (Hyperion) and burner (Aegis / MetroVolt) are studied as steady, dispatchable sources. Steady output complements variable renewables rather than competing with them: renewables provide bulk low-carbon energy when available, firm sources cover the gaps. This is a systems argument, not a claim that fusion replaces the rest of the grid. The value of a firm source rises precisely in the hours that are hardest and most expensive to serve any other way."
+   ],
+   [
+    "h3",
+    "Properties that matter to a grid operator"
+   ],
+   [
+    "ul",
+    [
+     "Dispatchable and weather-independent output",
+     "Compact footprint, siteable near demand centers",
+     "Steady inertia-providing generation that supports stability",
+     "No dependence on fuel weather or seasonal storage cycles"
+    ]
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "None of this is demonstrated in hardware. A grid operator cannot dispatch a simulation. The value described here is conditional on FOAK proving the physics and on later units proving reliability. We make no net-gain claim before FOAK, and we do not ask grid planners to count on capacity that does not yet exist."
+   ],
+   [
+    "p",
+    "See <a href=./firm-power-and-grid-stability.html>firm power and grid stability</a>, <a href=./siting-near-demand.html>siting near demand</a>, and <a href=./why-firm-power-matters.html>why firm power matters</a>."
+   ]
+  ],
+  "related": [
+   [
+    "firm-power-and-grid-stability",
+    "Firm power and grid stability"
+   ],
+   [
+    "siting-near-demand",
+    "Siting near demand"
+   ],
+   [
+    "transmission-and-congestion",
+    "Transmission and congestion"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "firm-power-and-grid-stability",
+  "title": "Firm Power and Grid Stability",
+  "cat": "impact",
+  "lede": "Beyond energy, a grid needs stability services; steady thermal generation can provide some, if it is built.",
+  "body": [
+   [
+    "h2",
+    "Energy is not the only thing a grid buys"
+   ],
+   [
+    "p",
+    "A power system needs more than kilowatt-hours. It needs frequency regulation, voltage support, and inertia — the physical resistance to sudden frequency change that large spinning generators provide. As synchronous fossil plants retire, some of these services become scarcer and must be supplied another way."
+   ],
+   [
+    "p",
+    "A fusion plant that drives a conventional steam or gas turbine cycle, as the breeder (Hyperion) would, provides rotating inertia and dispatchable output naturally. The burner's direct energy conversion is different and provides stability services through power electronics rather than rotating mass. Both can contribute to stability; the mechanisms differ and matter."
+   ],
+   [
+    "h3",
+    "Stability contributions, honestly scoped"
+   ],
+   [
+    "ul",
+    [
+     "Inertia from rotating generation (breeder thermal cycle)",
+     "Dispatchable ramping to follow net load",
+     "Voltage and frequency support within plant capability",
+     "Reduced reliance on weather-correlated resources during stress events"
+    ]
+   ],
+   [
+    "p",
+    "We are careful not to overstate. Grid stability is a system property, not a single plant's achievement. A handful of fusion units does not stabilize a continental grid; a diverse mix of resources does. Fusion could be one contributor to that mix if the machines are built and behave as designed."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "These are properties of design studies. No Kronos plant provides a single stability service today. The relevant question for a grid planner is not what a simulation offers but what a demonstrated machine offers, and that evidence begins at FOAK, not before. See <a href=./impact-on-the-grid.html>impact on the grid</a>."
+   ]
+  ],
+  "related": [
+   [
+    "impact-on-the-grid",
+    "Impact on the grid"
+   ],
+   [
+    "grid-resilience-and-security",
+    "Grid resilience and security"
+   ],
+   [
+    "why-firm-power-matters",
+    "Why firm power matters"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "siting-near-demand",
+  "title": "Siting Near Demand",
+  "cat": "impact",
+  "lede": "A compact source you can build close to the load reduces transmission burden — a real advantage worth stating precisely.",
+  "body": [
+   [
+    "h2",
+    "Why proximity matters"
+   ],
+   [
+    "p",
+    "Much of the difficulty in modern grids is not generation but transmission: getting power from where it is cheap to make to where it is needed, across lines that take a decade to permit and build. Large remote renewable and nuclear plants often wait years for transmission. A generation source that can sit near the load sidesteps part of that problem."
+   ],
+   [
+    "p",
+    "Fusion's relatively compact footprint makes near-demand siting plausible. The burner housings are explicit about this: Aegis for fixed defense installations and MetroVolt for data centers are both concepts for generating power at the point of use, rather than shipping it across a congested grid."
+   ],
+   [
+    "h3",
+    "What near-demand siting can reduce"
+   ],
+   [
+    "ul",
+    [
+     "New long-distance transmission and its permitting timelines",
+     "Line losses over distance",
+     "Exposure to transmission congestion and outages",
+     "Land taken for transmission corridors"
+    ]
+   ],
+   [
+    "p",
+    "This is a genuine advantage, and we state it without inflation. It does not eliminate the grid — most demand will still be served by the bulk system — and it does not remove local siting constraints like water, cooling, and community consent. Near-demand generation trades a transmission problem for a local-siting problem, which is sometimes the better trade and sometimes not."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "No burner is built, and near-demand siting for the burner depends on the same open gates as everything else about it, including availability and fuel supply. The advantage is real in principle and unproven in practice. See <a href=./transmission-and-congestion.html>transmission and congestion</a> and <a href=./communities-and-siting.html>communities and siting</a>."
+   ]
+  ],
+  "related": [
+   [
+    "transmission-and-congestion",
+    "Transmission and congestion"
+   ],
+   [
+    "communities-and-siting",
+    "Communities and siting"
+   ],
+   [
+    "impact-on-the-grid",
+    "Impact on the grid"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "transmission-and-congestion",
+  "title": "Transmission and Congestion",
+  "cat": "impact",
+  "lede": "The grid's bottleneck is often wires, not generation; firm siteable power addresses part of that, and not all of it.",
+  "body": [
+   [
+    "h2",
+    "The wires problem"
+   ],
+   [
+    "p",
+    "In many regions the constraint on adding clean power is not how much can be generated but how much can be moved. Interconnection queues stretch for years, and new transmission lines face permitting timelines that can exceed a decade. This is one of the least glamorous and most decisive facts about the energy transition."
+   ],
+   [
+    "p",
+    "Generation that can be sited near demand relieves part of this pressure by not requiring long new lines to reach the load. That is the systems logic behind studying the burner (Aegis / MetroVolt) as point-of-use generation and behind the breeder's compact footprint. Less power that must travel far means less new transmission that must be built."
+   ],
+   [
+    "h3",
+    "What it does and does not solve"
+   ],
+   [
+    "ul",
+    [
+     "Reduces need for new long-distance transmission to serve specific loads",
+     "Does not fix congestion on the existing bulk system",
+     "Does not remove local interconnection and distribution constraints",
+     "Complements, rather than replaces, transmission investment"
+    ]
+   ],
+   [
+    "p",
+    "We resist the tidy story that distributed firm generation makes the transmission problem disappear. The bulk grid still carries most power, still needs upgrading, and still constrains renewables sited far from demand. Near-demand fusion, if built, is one tool among many for a problem that no single tool solves."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "This benefit is contingent twice over: on the machines being built, and on them being siteable near demand once their real footprint, cooling, and safety envelopes are known from hardware rather than simulation. We describe the mechanism and mark the contingency. See <a href=./siting-near-demand.html>siting near demand</a> and <a href=./impact-on-the-grid.html>impact on the grid</a>."
+   ]
+  ],
+  "related": [
+   [
+    "siting-near-demand",
+    "Siting near demand"
+   ],
+   [
+    "impact-on-the-grid",
+    "Impact on the grid"
+   ],
+   [
+    "grid-resilience-and-security",
+    "Grid resilience and security"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "grid-resilience-and-security",
+  "title": "Grid Resilience and Security",
+  "cat": "impact",
+  "lede": "Distributed firm power can make a grid harder to disrupt; that resilience is a benefit and, for some uses, a responsibility.",
+  "body": [
+   [
+    "h2",
+    "Resilience as a property of the whole system"
+   ],
+   [
+    "p",
+    "A grid dependent on a few large plants and long transmission lines has concentrated points of failure — to weather, accident, or attack. Distributed firm generation sited near critical loads can reduce that concentration: if one node fails, others carry on, and critical facilities can be islanded from a stressed grid."
+   ],
+   [
+    "p",
+    "This is part of why the burner housing Aegis is framed around fixed defense installations — facilities that need power to keep working when the wider grid is disrupted. On-site firm generation is a resilience measure. It is also a responsibility, because power that critical carries an obligation to be reliable and secure, which returns us to the availability gate."
+   ],
+   [
+    "h3",
+    "What resilience requires"
+   ],
+   [
+    "ul",
+    [
+     "Diverse, distributed sources rather than a few concentrated ones",
+     "Local generation that can island critical loads during grid stress",
+     "Reliable operation — which, for the burner, is an open gate today",
+     "Physical and cyber security appropriate to critical infrastructure"
+    ]
+   ],
+   [
+    "p",
+    "We hold two things together. Firm distributed power genuinely improves resilience. And a source studied at 0.86–0.995 availability is not yet the reliability backbone a critical facility would depend on alone. Resilience from diversity is real; resilience from a single unproven source is not."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "Resilience benefits are properties of a fleet that does not exist. For the near term, fusion is a candidate contributor to a resilient mix, not a standalone guarantee. Framing it otherwise would be exactly the overclaim this site exists to avoid. See <a href=./defense-installations-honest.html>Aegis, honestly</a> and <a href=./availability-and-hyperscale-reliability.html>availability and hyperscale reliability</a>."
+   ]
+  ],
+  "related": [
+   [
+    "defense-installations-honest",
+    "Aegis, honestly"
+   ],
+   [
+    "availability-and-hyperscale-reliability",
+    "Availability and hyperscale reliability"
+   ],
+   [
+    "the-geopolitics-of-energy",
+    "The geopolitics of energy"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "the-geopolitics-of-energy",
+  "title": "The Geopolitics of Energy",
+  "cat": "impact",
+  "lede": "Energy sources shape power between nations; fusion could shift some dependencies while creating new ones, and honesty requires naming both.",
+  "body": [
+   [
+    "h2",
+    "Energy has always been geopolitical"
+   ],
+   [
+    "p",
+    "Who controls fuel, who controls the technology to use it, and who controls the materials to build it have shaped alliances and conflicts for over a century. Oil and gas geography drew borders and toppled governments. Any new energy source enters this history, and it would be naive to imagine fusion floats above it."
+   ],
+   [
+    "p",
+    "Fusion's most cited geopolitical promise is fuel: deuterium is abundant and widely distributed, and a source that runs on it is less exposed to fuel-supply coercion than one running on traded hydrocarbons. That promise is real for the deuterium side. It is incomplete, because the machines depend on more than deuterium."
+   ],
+   [
+    "h3",
+    "New dependencies fusion would create"
+   ],
+   [
+    "ul",
+    [
+     "Tritium and lithium for breeding (the breeder addresses part of this by breeding tritium)",
+     "Helium-3 for the burner — scarce terrestrially, ~400x short of demand per unit",
+     "High-temperature superconductors (REBCO) and specialty materials with concentrated supply",
+     "The engineering and workforce base to build and operate the machines"
+    ]
+   ],
+   [
+    "p",
+    "So the honest picture is a shift in dependencies, not their elimination. Fusion could reduce exposure to hydrocarbon geopolitics while introducing exposure to superconductor, lithium, and — for the burner — helium-3 supply. Whether that is a net improvement depends on how those new chains are governed."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "This is a discussion of an energy source that is not yet built. Geopolitical effects arrive only if fusion is deployed at scale, which is years away at best. We describe plausible dynamics, not predictions. See <a href=./energy-security-and-sovereignty.html>energy security and sovereignty</a> and <a href=./fuel-supply-and-sovereignty.html>fuel supply and sovereignty</a>."
+   ]
+  ],
+  "related": [
+   [
+    "energy-security-and-sovereignty",
+    "Energy security and sovereignty"
+   ],
+   [
+    "fuel-supply-and-sovereignty",
+    "Fuel supply and sovereignty"
+   ],
+   [
+    "critical-materials-and-dependence",
+    "Critical materials and dependence"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "energy-security-and-sovereignty",
+  "title": "Energy Security and Sovereignty",
+  "cat": "impact",
+  "lede": "Fuel that is abundant and domestic reduces coercion; the qualifier is which fuel, and the burner's is scarce.",
+  "body": [
+   [
+    "h2",
+    "What energy security means"
+   ],
+   [
+    "p",
+    "A nation is energy-secure when its power supply cannot easily be cut off or priced as a weapon by others. Dependence on imported hydrocarbons has repeatedly proven to be a strategic vulnerability. A source running on abundant, domestically available fuel improves security by removing that leverage."
+   ],
+   [
+    "p",
+    "The breeder (Hyperion) runs on deuterium and bred tritium. Deuterium is abundant and widely available; tritium is bred in the machine itself from lithium, subject to the open questions about achieving self-sufficiency (see <a href=./tritium-self-sufficiency.html>tritium self-sufficiency</a>). To the extent the breeder closes its tritium cycle, its fuel security is genuinely strong."
+   ],
+   [
+    "h3",
+    "Where the burner complicates the story"
+   ],
+   [
+    "ul",
+    [
+     "Deuterium: abundant, secure",
+     "Tritium (breeder): bred on-site, subject to breeding-ratio questions",
+     "Helium-3 (burner): scarce terrestrially, ~400x short of demand per commercial unit",
+     "Implication: the burner's fuel security depends on solving a supply problem that does not yet have a terrestrial solution"
+    ]
+   ],
+   [
+    "p",
+    "This is why the two machines are strategically linked. The breeder can breed helium-3 as a product (a design target of about 1.97 kg/yr), and lunar helium-3 is a longer-term possibility. Both are why the burner's fuel question is not simply dismissed — and why it remains an open gate, not a solved input."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "Energy sovereignty from fusion is a property of a built, fueled fleet, not of today's design studies. For the burner in particular, claiming fuel security while the He-3 supply gate is open would be dishonest. We name the deuterium strength and the helium-3 gap in the same breath. See <a href=./helium-3-supply-and-strategy.html>helium-3 supply and strategy</a>."
+   ]
+  ],
+  "related": [
+   [
+    "fuel-supply-and-sovereignty",
+    "Fuel supply and sovereignty"
+   ],
+   [
+    "tritium-self-sufficiency",
+    "Tritium self-sufficiency"
+   ],
+   [
+    "helium-3-supply-and-strategy",
+    "Helium-3 supply and strategy"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "fuel-supply-and-sovereignty",
+  "title": "Fuel Supply and Sovereignty",
+  "cat": "impact",
+  "lede": "Deuterium is everywhere; tritium is bred; helium-3 is scarce — the sovereignty story differs sharply by fuel.",
+  "body": [
+   [
+    "h2",
+    "Three fuels, three very different pictures"
+   ],
+   [
+    "p",
+    "Fusion is often described as running on seawater, which is true for the deuterium component and misleading if left there. The breeder and burner use different fuel cycles with very different supply and sovereignty properties, and conflating them produces exactly the overclaim this site avoids."
+   ],
+   [
+    "h3",
+    "Deuterium"
+   ],
+   [
+    "p",
+    "Deuterium is extracted from water and is abundant and globally distributed. No nation can corner it. For the deuterium input, the sovereignty story is as good as energy gets."
+   ],
+   [
+    "h3",
+    "Tritium (breeder)"
+   ],
+   [
+    "p",
+    "Tritium is scarce and short-lived in nature, so the breeder (Hyperion) breeds its own from lithium, with the tritium breeding ratio treated as a design lever across 1.1, 1.5, and 1.8. Whether a real machine achieves self-sufficiency is an open engineering question. If it does, the breeder's fuel is effectively domestic. Lithium supply, however, is a separate and concentrated dependency."
+   ],
+   [
+    "h3",
+    "Helium-3 (burner)"
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 210\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Helium-3 demand far exceeds terrestrial supply\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><text x=\"120\" y=\"30\" font-size=\"12\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\">Terrestrial He-3 supply</text><rect x=\"90\" y=\"150\" width=\"60\" height=\"20\" fill=\"#28323f\" stroke=\"#8FA0B8\" stroke-width=\"1.2\"/><text x=\"520\" y=\"30\" font-size=\"12\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\">Demand per commercial burner</text><rect x=\"420\" y=\"55\" width=\"200\" height=\"115\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><text x=\"520\" y=\"118\" font-size=\"13\" fill=\"#E2C57E\" text-anchor=\"middle\" font-weight=\"700\">~400x</text><text x=\"520\" y=\"188\" font-size=\"10.5\" fill=\"#8FA0B8\" text-anchor=\"middle\">gated on supply that does not exist at scale</text><text x=\"120\" y=\"188\" font-size=\"10.5\" fill=\"#8FA0B8\" text-anchor=\"middle\">a byproduct trickle today</text></svg></figure>"
+   ],
+   [
+    "p",
+    "Helium-3 is the hard case. Terrestrial supply is a byproduct trickle, while a single commercial burner would demand roughly 400 times domestic supply. This is one of the burner's four honest gates: it is gated on a fuel that does not exist at terrestrial scale. The routes to fuel it — breeding He-3 in the breeder and, longer term, lunar He-3 — are why the two machines and even space resources are strategically connected."
+   ],
+   [
+    "p",
+    "See <a href=./helium-3-supply-and-strategy.html>helium-3 supply and strategy</a>, <a href=./critical-materials-and-dependence.html>critical materials and dependence</a>, and <a href=./tritium-self-sufficiency.html>tritium self-sufficiency</a>."
+   ]
+  ],
+  "related": [
+   [
+    "helium-3-supply-and-strategy",
+    "Helium-3 supply and strategy"
+   ],
+   [
+    "critical-materials-and-dependence",
+    "Critical materials and dependence"
+   ],
+   [
+    "energy-security-and-sovereignty",
+    "Energy security and sovereignty"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "helium-3-supply-and-strategy",
+  "title": "Helium-3 Supply and Strategy",
+  "cat": "impact",
+  "lede": "The burner needs a fuel that barely exists on Earth; the honest response is to name the gap and the two routes that might close it.",
+  "body": [
+   [
+    "h2",
+    "A fuel that does not exist at scale"
+   ],
+   [
+    "p",
+    "The burner (Aegis / MetroVolt) fuses deuterium and helium-3. Helium-3 is extraordinarily scarce on Earth — recovered mainly as a byproduct of tritium decay in weapons stockpiles, a small and non-scalable trickle. A single commercial burner would demand on the order of 400 times current domestic supply. This is a hard physical fact and one of the machine's four honest gates."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 210\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Helium-3 demand far exceeds terrestrial supply\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><text x=\"120\" y=\"30\" font-size=\"12\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\">Terrestrial He-3 supply</text><rect x=\"90\" y=\"150\" width=\"60\" height=\"20\" fill=\"#28323f\" stroke=\"#8FA0B8\" stroke-width=\"1.2\"/><text x=\"520\" y=\"30\" font-size=\"12\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\">Demand per commercial burner</text><rect x=\"420\" y=\"55\" width=\"200\" height=\"115\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><text x=\"520\" y=\"118\" font-size=\"13\" fill=\"#E2C57E\" text-anchor=\"middle\" font-weight=\"700\">~400x</text><text x=\"520\" y=\"188\" font-size=\"10.5\" fill=\"#8FA0B8\" text-anchor=\"middle\">gated on supply that does not exist at scale</text><text x=\"120\" y=\"188\" font-size=\"10.5\" fill=\"#8FA0B8\" text-anchor=\"middle\">a byproduct trickle today</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Route one: breed it"
+   ],
+   [
+    "p",
+    "The breeder (Hyperion) is a source of helium-3 by design, targeting about 1.97 kg/yr per unit alongside its tritium output (tritium arising in part from decay). A fleet of breeders could seed a helium-3 supply that does not otherwise exist. This is the nearer-term route and the strongest reason the two machines are treated as one strategy rather than two products."
+   ],
+   [
+    "h3",
+    "Route two: lunar helium-3"
+   ],
+   [
+    "p",
+    "The lunar regolith holds helium-3 deposited by the solar wind over billions of years. Extracting it is a serious undertaking, dependent on space infrastructure that is itself early. We list it honestly as a long-horizon possibility, not a plan with a date. Treating lunar He-3 as imminent would be exactly the kind of overclaim we refuse."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "Until one of these routes delivers helium-3 at scale, the burner's commercial operation is gated. We do not present a fuel supply that is unsolved as if it were solved. The strategy is to close the gate through breeding first and space resources later — and to say plainly that it is not closed today. See <a href=./the-honest-gates-and-impact.html>the honest gates and impact</a> and the <a href=./gate-helium3-demand-vs-supply.html>helium-3 gate</a>."
+   ]
+  ],
+  "related": [
+   [
+    "fuel-supply-and-sovereignty",
+    "Fuel supply and sovereignty"
+   ],
+   [
+    "the-honest-gates-and-impact",
+    "The honest gates and impact"
+   ],
+   [
+    "gate-helium3-demand-vs-supply",
+    "The helium-3 gate"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "defense-installations-honest",
+  "title": "Aegis and Defense Installations, Honestly",
+  "cat": "impact",
+  "lede": "Aegis is the burner in a housing for fixed defense installations — not naval — and it carries the same open gates.",
+  "body": [
+   [
+    "h2",
+    "What Aegis is, and is not"
+   ],
+   [
+    "p",
+    "Aegis is the burner (a D-3He tandem-mirror generator) packaged for <b>fixed defense installations</b>. It is not a naval reactor, not a mobile system, and not a weapon. The use case is on-site firm power for critical facilities that need to keep operating when the wider grid is stressed or cut. Stating what it is not is as important as stating what it is."
+   ],
+   [
+    "p",
+    "The appeal for defense siting is straightforward: firm power generated on-site improves resilience and reduces dependence on vulnerable transmission. The burner's low neutron fraction of 5.44% and direct energy conversion are relevant design properties for a compact installed generator. All of this is a design and simulation study."
+   ],
+   [
+    "h3",
+    "The gates apply here too"
+   ],
+   [
+    "ul",
+    [
+     "Plug coil overstressed ~3–3.9x at the design bore — infeasible as specified",
+     "Plug regime 166–830x beyond any device — not post-dictable today",
+     "He-3 demand ~400x domestic supply per unit — fuel gated",
+     "Availability 0.86–0.995 — short of the highest reliability standards"
+    ]
+   ],
+   [
+    "p",
+    "A defense customer evaluating on-site power needs these facts, not a reassurance. Critical infrastructure is precisely where an overclaimed reliability figure would do the most harm. So we present the availability gate to defense users with the same candor as to data-center users."
+   ],
+   [
+    "h3",
+    "The responsibility of the domain"
+   ],
+   [
+    "p",
+    "Power for defense installations sits near questions of security and dual-use. We address those in <a href=./responsibility-and-dual-use.html>responsibility and dual-use</a> and note the non-weapon, energy-only intent of the program plainly. See also <a href=./grid-resilience-and-security.html>grid resilience and security</a>."
+   ]
+  ],
+  "related": [
+   [
+    "metrovolt-and-data-centers-honest",
+    "MetroVolt, honestly"
+   ],
+   [
+    "responsibility-and-dual-use",
+    "Responsibility and dual-use"
+   ],
+   [
+    "grid-resilience-and-security",
+    "Grid resilience and security"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "critical-materials-and-dependence",
+  "title": "Critical Materials and Dependence",
+  "cat": "impact",
+  "lede": "Fusion trades hydrocarbon dependence for dependence on superconductors, lithium, and specialty metals — concentrated supply chains of their own.",
+  "body": [
+   [
+    "h2",
+    "New materials, familiar concentration"
+   ],
+   [
+    "p",
+    "A clean-energy technology is only as sovereign as its material inputs. Fusion reduces exposure to traded hydrocarbons but leans heavily on materials whose supply is geographically concentrated: high-temperature superconductor (REBCO) tape, lithium for breeding, rare-earth elements, and specialty structural alloys that tolerate neutron flux."
+   ],
+   [
+    "p",
+    "The breeder's magnets reach a peak field of 16.84 T and the burner's plug specification is 26.49 T; both depend on REBCO at volumes the industry does not yet produce. Lithium for tritium breeding competes with battery demand. These are the same kinds of concentration risks that make any strategic industry a geopolitical question."
+   ],
+   [
+    "h3",
+    "Where the dependence sits"
+   ],
+   [
+    "ul",
+    [
+     "REBCO superconductor: production growing, not yet at fleet scale, geographically concentrated",
+     "Lithium: contested with electrification, concentrated processing",
+     "Rare earths and specialty metals: known chokepoints",
+     "Neutron-tolerant structural materials: limited qualified suppliers"
+    ]
+   ],
+   [
+    "p",
+    "We do not claim fusion is materially self-sufficient. It is not. What we can say is that these dependencies are visible, plannable, and shared with other clean technologies, which means investment in these chains benefits the broader transition, not only fusion. Frozen, published designs help suppliers plan against stable specifications."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "At fleet scale these dependencies could become significant. At today's scale — zero built machines — they are a planning concern, not an operating one. We flag them now precisely so they are not discovered later, and because pretending fusion escapes material geopolitics would be false. See <a href=./supply-chain-and-industry.html>supply chain and industry</a> and <a href=./the-geopolitics-of-energy.html>the geopolitics of energy</a>."
+   ]
+  ],
+  "related": [
+   [
+    "supply-chain-and-industry",
+    "Supply chain and industry"
+   ],
+   [
+    "the-geopolitics-of-energy",
+    "The geopolitics of energy"
+   ],
+   [
+    "fuel-supply-and-sovereignty",
+    "Fuel supply and sovereignty"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "responsibility-and-dual-use",
+  "title": "Responsibility and Dual-Use",
+  "cat": "impact",
+  "lede": "A machine that produces neutrons and tritium carries obligations; we state the safeguards mindset plainly and without evasion.",
+  "body": [
+   [
+    "h2",
+    "Why dual-use has to be addressed"
+   ],
+   [
+    "p",
+    "The breeder (Hyperion) produces 14 MeV neutrons and tritium. Neutrons can transmute materials and tritium is a controlled substance. A technology with these outputs sits near questions of proliferation, safety, and security, and a serious program addresses them directly rather than hoping they go unnoticed."
+   ],
+   [
+    "p",
+    "We state the intent clearly: this is an energy and isotope program, not a weapons program. But intent is not a safeguard. The safeguard is design, accounting, regulation, and openness — the same discipline that governs any facility handling nuclear materials. Fusion's proliferation profile differs from fission's, but it is not zero, and we do not describe it as zero."
+   ],
+   [
+    "h3",
+    "What responsible handling requires"
+   ],
+   [
+    "ul",
+    [
+     "Rigorous material accounting for tritium and any bred isotopes",
+     "Regulatory engagement appropriate to byproduct materials",
+     "Physical and cyber security for facilities and materials",
+     "Transparency about outputs so oversight is possible"
+    ]
+   ],
+   [
+    "p",
+    "Openness cuts both ways here, and we take it seriously. We publish physics and design, not operational details that would aid misuse. The <a href=./the-open-science-flywheel.html>open-science flywheel</a> is about verifiability of scientific claims, bounded by responsibility about sensitive specifics. Candor about capability does not mean a manual for harm."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "These obligations attach to machines that are not yet built, but the mindset has to be present from the design stage, not retrofitted after. Naming dual-use honestly — rather than waving it away — is part of what it means to build a nuclear-adjacent technology responsibly. See <a href=./the-weight-of-the-claim.html>the weight of the claim</a>."
+   ]
+  ],
+  "related": [
+   [
+    "the-weight-of-the-claim",
+    "The weight of the claim"
+   ],
+   [
+    "defense-installations-honest",
+    "Aegis, honestly"
+   ],
+   [
+    "radiological-honesty",
+    "Radiological honesty"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "energy-and-human-development",
+  "title": "Energy and Human Development",
+  "cat": "impact",
+  "lede": "Access to reliable energy tracks closely with health, education, and opportunity; firm clean power could extend that reach, if it is built.",
+  "body": [
+   [
+    "h2",
+    "The development-energy link"
+   ],
+   [
+    "p",
+    "Across the world, access to reliable electricity correlates strongly with health outcomes, educational attainment, and economic opportunity. Hospitals need power that does not fail. Clean water needs pumping. Modern education increasingly needs connectivity. Energy poverty is not an abstraction; it is a daily constraint on hundreds of millions of lives."
+   ],
+   [
+    "p",
+    "Firm clean power that can be sited near where people live could, in principle, extend reliable electricity without the emissions that made fossil development a climate problem. That is a genuine aspiration and one worth naming. It is also one fusion has not earned the right to promise."
+   ],
+   [
+    "h3",
+    "The honest limits"
+   ],
+   [
+    "ul",
+    [
+     "Fusion is capital- and skill-intensive, not obviously suited to the least-served regions first",
+     "Early units will serve grids and large loads, not remote villages",
+     "Deployment at development-relevant scale is decades away at best",
+     "Simpler distributed clean technologies may serve energy access sooner"
+    ]
+   ],
+   [
+    "p",
+    "We resist a comfortable narrative in which fusion lifts the developing world. The near-term reality is that first units serve industrialized grids and large loads. If fusion matures, its contribution to broad energy access is a long-horizon possibility, not a near-term deliverable, and other technologies will likely reach underserved communities first."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "This page describes what firm clean power could mean for development, conditioned heavily on the machines being built and on a deployment path that does not yet exist. The moral pull of energy access is real; the temptation to borrow its urgency for an unbuilt machine is one we try to resist. See <a href=./the-energy-poverty-problem.html>the energy poverty problem</a>."
+   ]
+  ],
+  "related": [
+   [
+    "equity-of-access",
+    "Equity of access"
+   ],
+   [
+    "the-energy-poverty-problem",
+    "The energy poverty problem"
+   ],
+   [
+    "what-fusion-wont-fix",
+    "What fusion won't fix"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "equity-of-access",
+  "title": "Equity of Access",
+  "cat": "impact",
+  "lede": "New energy technologies tend to reach the powerful first; a clean-energy program should be honest about that pattern and its own place in it.",
+  "body": [
+   [
+    "h2",
+    "Who gets it first"
+   ],
+   [
+    "p",
+    "New, capital-intensive technologies almost always reach wealthy, well-connected users before anyone else. Early fusion units will serve industrialized grids, large industrial loads, defense installations, and data centers — not the communities with the least access to reliable power. This is a pattern worth naming rather than obscuring behind universalist language."
+   ],
+   [
+    "p",
+    "There is nothing dishonorable about early adopters funding a technology's maturation; that is how many technologies eventually become widespread and affordable. But it becomes dishonest when a program borrows the moral weight of universal energy access while its actual near-term customers are the already-powered."
+   ],
+   [
+    "h3",
+    "Holding the tension honestly"
+   ],
+   [
+    "ul",
+    [
+     "Early customers are grids, industry, defense, and compute — not the under-served",
+     "Maturation funded by early adopters can lower barriers over time",
+     "Whether broad access follows depends on choices, not on the technology alone",
+     "Simpler clean technologies may serve equity goals sooner and better"
+    ]
+   ],
+   [
+    "p",
+    "We will not claim fusion is a solution to global energy inequity. At best it is a long-horizon contributor whose equity impact depends entirely on deliberate choices about deployment, licensing, and openness. Publishing openly is one such choice: it keeps the underlying knowledge from being enclosed by a single actor."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "Equity is a matter of decisions made over decades by many parties, not a property a machine possesses. We can commit to the standard — openness, honesty about who benefits first, no borrowed moral urgency — while admitting the outcome is not ours alone to determine. See <a href=./who-benefits-and-who-decides.html>who benefits and who decides</a>."
+   ]
+  ],
+  "related": [
+   [
+    "who-benefits-and-who-decides",
+    "Who benefits and who decides"
+   ],
+   [
+    "energy-and-human-development",
+    "Energy and human development"
+   ],
+   [
+    "the-just-transition",
+    "The just transition"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "the-energy-poverty-problem",
+  "title": "The Energy Poverty Problem",
+  "cat": "impact",
+  "lede": "Hundreds of millions lack reliable power; fusion's honest relationship to that problem is indirect and long-term.",
+  "body": [
+   [
+    "h2",
+    "The scale of the problem"
+   ],
+   [
+    "p",
+    "A large share of the world's population lives with unreliable electricity or none at all. The consequences are concrete: refrigeration for medicine, lighting for study, power for clinics and water systems. Energy poverty is one of the most consequential inequities of the modern era, and any energy technology is fairly asked what it does about it."
+   ],
+   [
+    "p",
+    "The honest answer for fusion is: not much directly, and not soon. Fusion is capital-intensive, skill-intensive, and grid-scale. Its near-term deployment serves industrialized grids and large loads, not off-grid or weak-grid communities. The technologies most likely to reduce energy poverty in the next decade are distributed solar, storage, and grid extension — not fusion."
+   ],
+   [
+    "h3",
+    "The indirect connection"
+   ],
+   [
+    "ul",
+    [
+     "Firm clean power can strengthen grids that under-served communities eventually connect to",
+     "Displacing fossil generation on major grids reduces the climate burden that falls hardest on the poor",
+     "Open knowledge keeps advanced energy technology from being enclosed",
+     "Direct energy-access impact from fusion is a long-horizon possibility at most"
+    ]
+   ],
+   [
+    "p",
+    "We include this page precisely because it would be easy and dishonest to imply fusion answers energy poverty. It does not, in any near term. Its contribution, if any, is indirect: strengthening the systems and reducing the emissions that shape the context in which energy poverty is fought."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "Claiming a clean-energy mission while ignoring the people with the least energy would be a moral evasion. Claiming fusion solves their problem would be a factual one. We try to avoid both. See <a href=./energy-and-human-development.html>energy and human development</a> and <a href=./what-fusion-wont-fix.html>what fusion won't fix</a>."
+   ]
+  ],
+  "related": [
+   [
+    "energy-and-human-development",
+    "Energy and human development"
+   ],
+   [
+    "equity-of-access",
+    "Equity of access"
+   ],
+   [
+    "what-fusion-wont-fix",
+    "What fusion won't fix"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "what-fusion-wont-fix",
+  "title": "What Fusion Won't Fix",
+  "cat": "impact",
+  "lede": "A clean, firm power source is powerful and limited; naming what it cannot do is part of honest impact.",
+  "body": [
+   [
+    "h2",
+    "The limits of even a good answer"
+   ],
+   [
+    "p",
+    "Suppose the physics closes and fusion becomes a mature source of firm clean power. It would still leave large problems untouched. Impact honesty means listing them as plainly as the benefits, because a technology sold as a cure-all breeds the disillusionment that follows every over-promise."
+   ],
+   [
+    "h3",
+    "What fusion does not address"
+   ],
+   [
+    "ul",
+    [
+     "Emissions from agriculture, land use, industrial process chemistry, and much of transport",
+     "The transmission and distribution bottlenecks that constrain all generation",
+     "Material and mineral demands of the broader transition",
+     "Energy access for off-grid and weak-grid communities in the near term",
+     "The political and institutional work of actually decarbonizing"
+    ]
+   ],
+   [
+    "p",
+    "Even in electricity, fusion is one firm-power candidate among several — advanced fission, geothermal, and long-duration storage among them. It does not replace renewables; it complements them. A grid does not run on any single source, and a decarbonized world will not either."
+   ],
+   [
+    "h3",
+    "Why we say this"
+   ],
+   [
+    "p",
+    "There is a recurring failure mode in energy: a promising technology is presented as the answer, funding and attention concentrate, the technology under-delivers against an inflated promise, and the backlash sets back the whole field. Naming limits is insurance against that pattern. Fusion is better served by accurate expectations than by inflated ones."
+   ],
+   [
+    "h3",
+    "The honest frame"
+   ],
+   [
+    "p",
+    "Fusion, if it works, is a valuable piece of a large and difficult puzzle. It is not the puzzle solved. Holding that frame — significant but partial, promising but unproven — is the same discipline we apply to every physics claim on this site. See <a href=./avoiding-triumphalism.html>avoiding triumphalism</a> and <a href=./no-free-energy.html>no free energy</a>."
+   ]
+  ],
+  "related": [
+   [
+    "avoiding-triumphalism",
+    "Avoiding triumphalism"
+   ],
+   [
+    "what-fusion-cannot-do-yet",
+    "What fusion cannot do yet"
+   ],
+   [
+    "the-honest-case-for-impact",
+    "The honest case for impact"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "openness-as-a-public-good",
+  "title": "Openness as a Public Good",
+  "cat": "impact",
+  "lede": "Publishing designs, data, and honest gates makes the impact checkable by others — the difference between a claim and a shared record.",
+  "body": [
+   [
+    "h2",
+    "Why openness is an impact, not just a method"
+   ],
+   [
+    "p",
+    "How a program handles knowledge is itself a societal effect. A clean-energy technology developed entirely behind closed doors asks the public to trust assertions it cannot verify. A program that publishes its designs, data, methods, and honest gates gives regulators, communities, competitors, and independent scientists the ability to check — and to build on — the work."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 300\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Open-science flywheel connecting publication, checking, and trust\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><circle cx=\"340\" cy=\"150\" r=\"118\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.2\" stroke-dasharray=\"4 5\"/><g font-size=\"12\" fill=\"#E7EBF2\" text-anchor=\"middle\"><rect x=\"270\" y=\"18\" width=\"140\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"340\" y=\"43\">Publish design + data</text><rect x=\"470\" y=\"130\" width=\"140\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"540\" y=\"155\">Others can check</text><rect x=\"270\" y=\"242\" width=\"140\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"340\" y=\"267\">Errors surface early</text><rect x=\"70\" y=\"130\" width=\"140\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"140\" y=\"155\">Trust is earned</text></g><g stroke=\"#E2C57E\" stroke-width=\"1.8\" fill=\"none\"><path d=\"M414 46 A118 118 0 0 1 512 132\" marker-end=\"url(#ah)\"/><path d=\"M540 174 A118 118 0 0 1 414 254\" marker-end=\"url(#ah)\"/><path d=\"M266 262 A118 118 0 0 1 150 174\" marker-end=\"url(#ah)\"/><path d=\"M168 128 A118 118 0 0 1 266 46\" marker-end=\"url(#ah)\"/></g><defs><marker id=\"ah\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0 0 L6 3 L0 6 z\" fill=\"#E2C57E\"/></marker></defs></svg></figure>"
+   ],
+   [
+    "p",
+    "Kronos publishes its physics and design work with permanent identifiers (Zenodo DOIs), open licenses, and a reproducible analysis record, and it pre-registers falsifiable predictions before results are in. This is not decoration. It means the impact claims on this very site can be interrogated by anyone with the expertise to do so."
+   ],
+   [
+    "h3",
+    "What openness enables downstream"
+   ],
+   [
+    "ul",
+    [
+     "Regulators can assess claims against published evidence",
+     "Host communities can commission independent checks (see <a href=./local-benefit-and-consent.html>local benefit and consent</a>)",
+     "The field advances faster when methods are shared, not siloed",
+     "Errors surface early, when they are cheap to fix"
+    ]
+   ],
+   [
+    "p",
+    "There is a bounded exception, taken seriously: sensitive or dual-use operational detail is withheld responsibly (see <a href=./responsibility-and-dual-use.html>responsibility and dual-use</a>). Openness about scientific claims is not the same as a blueprint for misuse, and we distinguish them deliberately."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "Openness does not make an unbuilt machine work. It makes the claims about that machine honest and checkable, which is a real public good in a field with a long history of hype. We treat verifiability as part of the impact, not separate from it. See the <a href=./the-open-science-flywheel.html>open-science flywheel</a> and the <a href=./reader-verification-guide.html>reader verification guide</a>."
+   ]
+  ],
+  "related": [
+   [
+    "the-open-science-flywheel",
+    "The open-science flywheel"
+   ],
+   [
+    "responsibility-and-dual-use",
+    "Responsibility and dual-use"
+   ],
+   [
+    "reader-verification-guide",
+    "Reader verification guide"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "the-pace-of-deployment-honest",
+  "title": "The Pace of Deployment, Honestly",
+  "cat": "impact",
+  "lede": "Even successful energy technologies scale over decades; impact that arrives slowly is still impact, but it is not the impact of a headline.",
+  "body": [
+   [
+    "h2",
+    "Energy scales slowly"
+   ],
+   [
+    "p",
+    "History is unambiguous: energy transitions take decades. New sources have needed twenty to fifty years to move from first demonstration to meaningful share of supply, constrained by capital, supply chains, workforce, permitting, and the sheer physical scale of the energy system. Fusion will not be exempt from this."
+   ],
+   [
+    "p",
+    "The Kronos timeline reflects that reality rather than fighting it. Breeder (Hyperion) construction is targeted to begin in Q2 2027, with first-of-a-kind first tritium around 2030, followed by NOAK and BOAK units. A meaningful fleet, if the physics closes, is years beyond that. Impact at the scale that matters for grids or geopolitics is a multi-decade proposition."
+   ],
+   [
+    "h3",
+    "What slow scaling means for impact"
+   ],
+   [
+    "ul",
+    [
+     "Near-term societal impact is modest by necessity",
+     "Workforce, supply chain, and community effects grow only as the fleet grows",
+     "Geopolitical and grid-scale effects are long-horizon, not imminent",
+     "Patience is a feature of honesty, not a failure of ambition"
+    ]
+   ],
+   [
+    "p",
+    "There is a temptation to compress the timeline in the telling, to imply that impact is around the corner. We resist it. Overstating pace is one of the most common and most damaging forms of energy hype, because it sets expectations that reality then falsifies, discrediting the field."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "We make no net-gain claim before FOAK, and we make no scale-impact claim before a fleet exists. The right way to read every impact page here is on the timeline the machines actually admit, not the one a press cycle would prefer. See <a href=./honest-timeline.html>the honest timeline</a> and <a href=./what-foak-will-prove.html>what FOAK will prove</a>."
+   ]
+  ],
+  "related": [
+   [
+    "honest-timeline",
+    "The honest timeline"
+   ],
+   [
+    "what-foak-will-prove",
+    "What FOAK will prove"
+   ],
+   [
+    "avoiding-triumphalism",
+    "Avoiding triumphalism"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "who-benefits-and-who-decides",
+  "title": "Who Benefits and Who Decides",
+  "cat": "impact",
+  "lede": "Impact is shaped by who holds the decisions; a clean-energy program should be honest that technology alone does not distribute its own benefits.",
+  "body": [
+   [
+    "h2",
+    "Technology does not distribute itself"
+   ],
+   [
+    "p",
+    "It is comfortable to speak of what a technology will do for the world, as if the doing were automatic. It is not. Who benefits from an energy source — which communities host it, which workers build it, which customers it serves first, who profits and who bears risk — is decided by people, institutions, and policy, not by physics."
+   ],
+   [
+    "p",
+    "This matters because the same machine can widen or narrow inequality depending on how it is deployed. Firm clean power could strengthen struggling regions or concentrate advantage in already-powerful hands. The technology is compatible with both outcomes. The outcome is a choice, and pretending otherwise lets the choice go unexamined."
+   ],
+   [
+    "h3",
+    "Decisions that shape who benefits"
+   ],
+   [
+    "ul",
+    [
+     "Siting: which communities host plants and on what terms",
+     "Workforce: whether displaced workers are routed into new work",
+     "Customers: whether early units serve broad or narrow interests",
+     "Knowledge: whether the underlying science is open or enclosed"
+    ]
+   ],
+   [
+    "p",
+    "Kronos can commit to some of these directly — openness of the science, honesty in siting and claims. Others depend on partners, regulators, and policy well beyond any single company. We try to be clear about which is which, rather than claiming credit for outcomes we do not control."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "We will not present fusion as inherently equitable or inherently concentrating. It is neither. What we can offer is transparency about the decisions and a stated standard for the ones within our reach. See <a href=./equity-of-access.html>equity of access</a> and <a href=./the-just-transition.html>the just transition</a>."
+   ]
+  ],
+  "related": [
+   [
+    "equity-of-access",
+    "Equity of access"
+   ],
+   [
+    "the-just-transition",
+    "The just transition"
+   ],
+   [
+    "openness-as-a-public-good",
+    "Openness as a public good"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "the-honest-gates-and-impact",
+  "title": "The Honest Gates and Impact",
+  "cat": "impact",
+  "lede": "Every impact claim inherits the machines' open gates; here is how the four burner gates and the breeder's open questions bound what we can promise.",
+  "body": [
+   [
+    "h2",
+    "Impact cannot exceed what the physics allows"
+   ],
+   [
+    "p",
+    "Impact pages describe what firm clean power could do for people, compute, grids, and geopolitics. All of it is bounded by the same honest gates that bound every physics claim on this site. An impact promise that ignores an open gate is not a promise; it is an overclaim. So we collect the gates here and tie each to the impact it limits."
+   ],
+   [
+    "h3",
+    "The four burner gates and what they bound"
+   ],
+   [
+    "ul",
+    [
+     "Plug coil overstressed ~3–3.9x at the design bore — infeasible as specified: bounds every burner impact claim at the design point",
+     "Plug regime 166–830x beyond any device — not post-dictable today: bounds confidence in burner performance",
+     "He-3 demand ~400x domestic supply per unit — fuel gated: bounds burner deployment and its energy-security story",
+     "Availability 0.86–0.995 vs Tier III 0.99982 — 30–100x short: bounds the data-center and critical-infrastructure claims directly"
+    ]
+   ],
+   [
+    "h3",
+    "The breeder's open questions"
+   ],
+   [
+    "p",
+    "The breeder (Hyperion) has its own honest questions, chief among them tritium self-sufficiency. The breeding ratio is treated as a design lever across 1.1, 1.5, and 1.8, and whether a real machine closes its own tritium cycle is unsettled. That bounds the breeder's fuel-sovereignty claim and its role as a helium-3 source."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 170\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"An honest gate between claim and demonstration\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"30\" y=\"60\" width=\"290\" height=\"46\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><rect x=\"360\" y=\"60\" width=\"290\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"175\" y=\"88\" font-size=\"12\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\">Impact on paper</text><text x=\"505\" y=\"88\" font-size=\"12\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\">Impact in hardware — gated by physics</text><line x1=\"340\" y1=\"40\" x2=\"340\" y2=\"126\" stroke=\"#E2C57E\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"45\" r=\"5\" fill=\"#E2C57E\"/><text x=\"340\" y=\"32\" font-size=\"11\" fill=\"#E2C57E\" text-anchor=\"middle\" font-weight=\"700\">THE GATE</text></svg></figure>"
+   ],
+   [
+    "p",
+    "And above all: no hardware net-gain claim before FOAK, targeted for first tritium around 2030. Every impact described on this site is conditional on results we have not yet earned. That is not a disclaimer bolted on; it is the frame the whole section is written inside."
+   ],
+   [
+    "p",
+    "See <a href=./honest-gates-overview.html>honest gates overview</a> and <a href=./the-weight-of-the-claim.html>the weight of the claim</a>."
+   ]
+  ],
+  "related": [
+   [
+    "the-weight-of-the-claim",
+    "The weight of the claim"
+   ],
+   [
+    "availability-and-hyperscale-reliability",
+    "Availability and hyperscale reliability"
+   ],
+   [
+    "helium-3-supply-and-strategy",
+    "Helium-3 supply and strategy"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "the-weight-of-the-claim",
+  "title": "The Weight of the Claim",
+  "cat": "impact",
+  "lede": "Promising the world clean energy is a serious thing to say; the responsibility is to say only what we can defend.",
+  "body": [
+   [
+    "h2",
+    "Words about energy carry weight"
+   ],
+   [
+    "p",
+    "To tell people you can help solve the energy and climate problem is to make a claim that shapes decisions — where capital goes, what regulators plan for, what communities hope for, what other paths get less attention. A claim that large deserves a proportionate standard of evidence and honesty. Making it lightly is a kind of harm."
+   ],
+   [
+    "p",
+    "This is the ethical core of the impact section. Fusion has a long history of promises that outran results, and each broken promise made the next honest team less believable. We would rather earn a smaller reputation slowly than borrow a large one on credit we cannot repay."
+   ],
+   [
+    "h3",
+    "What the weight demands"
+   ],
+   [
+    "ul",
+    [
+     "Claim only what the evidence supports — and today the machines are design and simulation studies",
+     "State the gates plainly, including the four burner gates and the breeder's tritium question",
+     "Make no hardware net-gain claim before FOAK",
+     "Publish openly so the claims can be checked, not just believed"
+    ]
+   ],
+   [
+    "p",
+    "The discipline is the same one that runs through the whole site: frozen designs, pre-registered predictions, reproducible records, honest gates. Impact is where that discipline meets the public, and where the temptation to overclaim is strongest, because the stakes and the emotions are highest."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "We do not know that fusion will work at the scale the world needs. We are working to find out, in the open, and we will report what we find whether or not it flatters us. The responsible version of a large claim is a conditional one, stated with its conditions intact. See <a href=./avoiding-triumphalism.html>avoiding triumphalism</a> and <a href=./the-honest-case-for-impact.html>the honest case for impact</a>."
+   ]
+  ],
+  "related": [
+   [
+    "avoiding-triumphalism",
+    "Avoiding triumphalism"
+   ],
+   [
+    "the-honest-gates-and-impact",
+    "The honest gates and impact"
+   ],
+   [
+    "the-honest-case-for-impact",
+    "The honest case for impact"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "avoiding-triumphalism",
+  "title": "Avoiding Triumphalism",
+  "cat": "impact",
+  "lede": "Excitement is fair; triumphalism is not, because the machines are unbuilt and the field has been burned by hype before.",
+  "body": [
+   [
+    "h2",
+    "The difference between excitement and triumph"
+   ],
+   [
+    "p",
+    "It is legitimate to be excited about a candidate for firm clean power. It is not legitimate to speak as though it has already arrived. Triumphalism — the language of breakthroughs achieved, revolutions delivered, problems solved — describes a world that does not yet exist, and every time the field indulges it, the correction that follows costs credibility."
+   ],
+   [
+    "p",
+    "We work under a plain rule about language: no breakthrough talk, no revolution talk, no claiming as done what is still being attempted. The machines are design and simulation studies. We make no hardware net-gain claim before FOAK. Impact is conditional. These are not hedges added for legal comfort; they are the accurate description."
+   ],
+   [
+    "h3",
+    "How triumphalism creeps in"
+   ],
+   [
+    "ul",
+    [
+     "Present tense for future results (“fusion powers data centers” rather than “could, if built”)",
+     "Selective emphasis on benefits while gates go unmentioned",
+     "Borrowing the moral urgency of climate to imply imminence",
+     "Round, confident numbers where honest ranges belong"
+    ]
+   ],
+   [
+    "p",
+    "Guarding against these is ongoing work, not a solved problem. It is easy to slip into the confident register the topic invites. The discipline is to keep pulling claims back to what the evidence supports — and to link every hopeful statement to the gate that qualifies it."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "Restraint is not pessimism. We think fusion is worth serious effort, or we would not be doing it. We simply refuse to let the effort be described as an achievement it has not become. See <a href=./avoiding-hype.html>avoiding hype</a> and <a href=./the-cost-of-overclaiming.html>the cost of overclaiming</a>."
+   ]
+  ],
+  "related": [
+   [
+    "the-weight-of-the-claim",
+    "The weight of the claim"
+   ],
+   [
+    "what-fusion-wont-fix",
+    "What fusion won't fix"
+   ],
+   [
+    "the-cost-of-overclaiming",
+    "The cost of overclaiming"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "the-cost-of-overclaiming",
+  "title": "The Cost of Overclaiming",
+  "cat": "impact",
+  "lede": "Every inflated promise in this field is paid for later by the next honest team; the impact of overclaiming is itself an impact.",
+  "body": [
+   [
+    "h2",
+    "Hype is not free"
+   ],
+   [
+    "p",
+    "When an energy program promises more than it delivers, the bill does not disappear — it is paid by others. Investors grow wary of the whole field. Regulators discount the next set of claims. The public learns to hear “fusion” as “always thirty years away.” Overclaiming is not a victimless optimism; it is a transfer of cost onto everyone who comes after."
+   ],
+   [
+    "p",
+    "This is a real societal impact, and it belongs in an honest impact section. A program that treats its own credibility carelessly damages the shared credibility of the field it depends on. Guarding against overclaim is therefore not only an internal virtue; it is a responsibility to the ecosystem."
+   ],
+   [
+    "h3",
+    "Who pays for a broken promise"
+   ],
+   [
+    "ul",
+    [
+     "The next team, whose honest claims are met with earned skepticism",
+     "Regulators and communities who learn to distrust the category",
+     "The climate effort, which loses time to disillusionment cycles",
+     "The public, whose hope is a resource that can be spent and not refunded"
+    ]
+   ],
+   [
+    "p",
+    "Our defense against this is structural, not merely attitudinal: frozen designs, pre-registered falsifiable predictions, a reproducible record, open data, and honest gates stated plainly. These make it harder to overclaim without being caught — including by ourselves. That is the point of building the discipline into the process."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "We will get things wrong; every research program does. The commitment is not to be infallible but to correct the record when we are wrong, in the open, rather than let an inflated claim stand. See <a href=./correcting-the-record.html>correcting the record</a> and <a href=./avoiding-triumphalism.html>avoiding triumphalism</a>."
+   ]
+  ],
+  "related": [
+   [
+    "avoiding-triumphalism",
+    "Avoiding triumphalism"
+   ],
+   [
+    "the-weight-of-the-claim",
+    "The weight of the claim"
+   ],
+   [
+    "cost-of-overclaiming",
+    "Cost of overclaiming"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "honest-timelines-and-public-trust",
+  "title": "Honest Timelines and Public Trust",
+  "cat": "impact",
+  "lede": "A realistic schedule, stated and kept, is one of the most honest things an energy program can offer the public.",
+  "body": [
+   [
+    "h2",
+    "Timelines are promises"
+   ],
+   [
+    "p",
+    "When a program states a date, the public and its partners plan around it. A slipped or inflated timeline is a broken promise, and fusion's reputation for perpetually receding dates is a direct result of decades of optimistic schedules that reality did not honor. A realistic timeline, plainly stated, is a form of respect."
+   ],
+   [
+    "p",
+    "The Kronos schedule is deliberately concrete and deliberately unhurried: breeder (Hyperion) construction targeted to begin Q2 2027, FOAK first tritium around 2030, then NOAK and BOAK. No net-gain claim before FOAK. A fleet at grid or geopolitical scale is a multi-decade horizon. We would rather state a date we can defend than one that flatters the present."
+   ],
+   [
+    "h3",
+    "Why we do not compress it"
+   ],
+   [
+    "ul",
+    [
+     "Compressed timelines set expectations reality then falsifies",
+     "Broken schedules erode trust for the whole field, not just one team",
+     "Honest dates let partners, regulators, and communities plan realistically",
+     "Under-promising and delivering builds credibility that hype cannot"
+    ]
+   ],
+   [
+    "p",
+    "There is real pressure to compress — competitive, financial, and rhetorical. Resisting it is part of the discipline. A timeline is not a marketing instrument; it is a commitment, and it should be treated with the seriousness of one."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "Even honest timelines slip; research is uncertain. If ours does, the responsibility is to say so promptly and explain why, rather than let an old date stand as if still valid. Trust is built by how a program handles the schedule it cannot keep as much as the one it can. See <a href=./honest-timeline.html>the honest timeline</a> and <a href=./the-pace-of-deployment-honest.html>the pace of deployment</a>."
+   ]
+  ],
+  "related": [
+   [
+    "honest-timeline",
+    "The honest timeline"
+   ],
+   [
+    "the-pace-of-deployment-honest",
+    "The pace of deployment"
+   ],
+   [
+    "the-weight-of-the-claim",
+    "The weight of the claim"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "long-term-stewardship-of-a-fleet",
+  "title": "Long-Term Stewardship of a Fleet",
+  "cat": "impact",
+  "lede": "A power plant is a decades-long commitment; the responsibility extends to operation, materials, and eventual decommissioning.",
+  "body": [
+   [
+    "h2",
+    "The commitment does not end at start-up"
+   ],
+   [
+    "p",
+    "Building a plant is the beginning of a relationship measured in decades. Operations, maintenance, material accountability, workforce continuity, and eventual decommissioning are all part of the commitment. A program that thinks only to first power, and not to the full life of the machine, has not thought responsibly."
+   ],
+   [
+    "p",
+    "Fusion's stewardship profile has genuine advantages worth stating precisely. There is no long-lived high-level waste of the fission kind and no risk of runaway reaction. But the breeder (Hyperion) does activate structural materials under 14 MeV neutron flux and does handle tritium, both of which require careful lifecycle management, monitoring, and end-of-life planning."
+   ],
+   [
+    "h3",
+    "What stewardship spans"
+   ],
+   [
+    "ul",
+    [
+     "Decades of safe, monitored operation",
+     "Material accountability for tritium and bred isotopes",
+     "Management of neutron-activated structures over the machine's life",
+     "Decommissioning planned from the design stage, not improvised at the end"
+    ]
+   ],
+   [
+    "p",
+    "Designing for the end at the beginning is a discipline, not an afterthought. Activation of materials depends on choices made in design; those choices shape the waste and decommissioning burden a community inherits. Stewardship starts on the drawing board and in the simulation, which is where the machines are today."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "No Kronos plant has been operated or decommissioned, so this is a stated intent, not a demonstrated record. What we can commit to now is that lifecycle and end-of-life thinking are part of the design work, not deferred. See <a href=./decommissioning-thinking.html>decommissioning thinking</a> and <a href=./lifecycle-thinking.html>lifecycle thinking</a>."
+   ]
+  ],
+  "related": [
+   [
+    "decommissioning-thinking",
+    "Decommissioning thinking"
+   ],
+   [
+    "lifecycle-thinking",
+    "Lifecycle thinking"
+   ],
+   [
+    "communities-and-siting",
+    "Communities and siting"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "measuring-impact-honestly",
+  "title": "Measuring Impact Honestly",
+  "cat": "impact",
+  "lede": "Impact claims deserve the same evidentiary discipline as physics claims: real metrics, honest ranges, and no credit for the unbuilt.",
+  "body": [
+   [
+    "h2",
+    "Apply the physics standard to impact"
+   ],
+   [
+    "p",
+    "This site holds physics claims to a strict standard: measured versus simulated, honest ranges, pre-registered predictions, reproducible records. Impact claims deserve the same rigor. Too often, social and economic impact is asserted with round numbers and no method. We would rather say less, measured well, than more, measured loosely."
+   ],
+   [
+    "p",
+    "That means several refusals. We do not publish headline job numbers for an unbuilt program. We do not translate physics into economic figures — this site carries no economics by design. We do not credit fusion with impacts that depend on choices beyond our control. And we mark every impact claim with the gate or condition it depends on."
+   ],
+   [
+    "h3",
+    "What honest impact measurement looks like"
+   ],
+   [
+    "ul",
+    [
+     "Describe the shape and mechanism of an effect, not invented magnitudes",
+     "State conditions and gates alongside every claim",
+     "Distinguish what the technology does from what deployment choices decide",
+     "Report effects that can be observed, once there is something to observe"
+    ]
+   ],
+   [
+    "p",
+    "Once machines exist, impact becomes measurable: actual employment, actual grid contribution, actual community effects, actual material use. Until then, honest impact work is mostly about describing mechanisms and naming conditions accurately — and resisting the pull to quantify what cannot yet be measured."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "The most honest thing this section can say is that most of its subject matter is not yet measurable, because the machines are not yet built. Treating that limitation openly — rather than papering over it with confident figures — is itself the standard. See <a href=./measurement-language.html>measurement language</a> and <a href=./the-honest-gates-and-impact.html>the honest gates and impact</a>."
+   ]
+  ],
+  "related": [
+   [
+    "measurement-language",
+    "Measurement language"
+   ],
+   [
+    "the-honest-gates-and-impact",
+    "The honest gates and impact"
+   ],
+   [
+    "the-honest-case-for-impact",
+    "The honest case for impact"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "the-responsibility-of-building",
+  "title": "The Responsibility of Building",
+  "cat": "impact",
+  "lede": "Choosing to build a nuclear-adjacent energy technology is choosing a long chain of obligations; we try to name them all.",
+  "body": [
+   [
+    "h2",
+    "Building is a moral act, not only a technical one"
+   ],
+   [
+    "p",
+    "To design and, if the physics closes, build machines that produce neutrons, handle tritium, and generate power at scale is to take on responsibility across many domains at once: to the workers who build them, the communities that host them, the grid that depends on them, the public that must trust them, and the field whose credibility is affected by how we behave."
+   ],
+   [
+    "p",
+    "This page gathers the threads of the impact section into a single account of responsibility. None of the obligations can be waved away by good intentions, and none of them are optional for a program that wants to be trusted with something this consequential."
+   ],
+   [
+    "h3",
+    "The chain of obligations"
+   ],
+   [
+    "ul",
+    [
+     "To workers: honest employment expectations and a fair transition",
+     "To communities: consent, verifiable safety, and local benefit",
+     "To customers: candid reliability and fuel realities, including the burner gates",
+     "To the grid and public: firm power that is actually firm, or an honest account of why it is not yet",
+     "To the field: no overclaiming that spends shared credibility",
+     "To the future: stewardship, decommissioning, and open knowledge"
+    ]
+   ],
+   [
+    "p",
+    "The instruments we use to meet these obligations are the same throughout: openness, frozen designs, pre-registered predictions, reproducible records, honest gates, realistic timelines, and a refusal to claim net gain before FOAK. Responsibility is not a separate program from the science; it is the science conducted honestly and made public."
+   ],
+   [
+    "h3",
+    "The honest caveat"
+   ],
+   [
+    "p",
+    "We are at the beginning. These are design and simulation studies, and most of the responsibilities described here attach to machines not yet built. Stating them now — before we could be forced to — is the point. It is how a program earns the right to be trusted with what it hopes to build. See <a href=./the-weight-of-the-claim.html>the weight of the claim</a> and <a href=./the-honest-case-for-impact.html>the honest case for impact</a>."
+   ]
+  ],
+  "related": [
+   [
+    "the-weight-of-the-claim",
+    "The weight of the claim"
+   ],
+   [
+    "the-honest-case-for-impact",
+    "The honest case for impact"
+   ],
+   [
+    "long-term-stewardship-of-a-fleet",
+    "Long-term stewardship of a fleet"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ }
+]

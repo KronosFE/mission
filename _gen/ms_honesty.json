@@ -1,0 +1,3141 @@
+[
+ {
+  "slug": "honest-gates-overview",
+  "title": "The Honest Gates",
+  "cat": "honesty-transparency",
+  "lede": "An honest gate is the line between what Kronos has solved on paper and what only hardware can prove — and we say which side each claim lives on.",
+  "body": [
+   [
+    "h2",
+    "What an honest gate is"
+   ],
+   [
+    "p",
+    "Kronos designs its machines digitally before building them. That produces two very different kinds of statement: results that follow from physics models we can publish and reproduce, and results that only real hardware can settle. An <b>honest gate</b> is the explicit boundary between the two. Every quantitative claim we make is labelled by which side of the gate it sits on."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 220\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The honest gate between simulation and hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"30\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><rect x=\"350\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"180\" y=\"118\" font-size=\"12.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Design & simulation — solved on paper</text><text x=\"500\" y=\"118\" font-size=\"12.5\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\" >Hardware — must be measured</text><line x1=\"340\" y1=\"70\" x2=\"340\" y2=\"160\" stroke=\"#E2C57E\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"75\" r=\"5\" fill=\"#E2C57E\"/><text x=\"340\" y=\"60\" font-size=\"11\" fill=\"#E2C57E\" text-anchor=\"middle\" font-weight=\"700\" >THE GATE</text><text x=\"340\" y=\"180\" font-size=\"11.5\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"600\" >FOAK first tritium ~2030</text><text x=\"180\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >claims allowed today</text><text x=\"500\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >no net-gain claim before this</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Why we draw the line in public"
+   ],
+   [
+    "p",
+    "A simulated design point and a measurement are not the same evidence, even when they carry the same units. Blurring them is the most common way fusion communication misleads — often without intending to. By naming the gate, a reader can immediately tell a computed target from an achieved value, and hold us to the right standard for each."
+   ],
+   [
+    "h3",
+    "The gates are falsifiable"
+   ],
+   [
+    "p",
+    "Each gate is tied to a concrete future observation: first tritium from the first-of-a-kind (FOAK) breeder (Hyperion) around 2030, plasma current reaching its design value, breeding ratio measured in a real blanket. When hardware data arrive, the claim on the paper side is either confirmed, corrected, or retired. The gate is not rhetoric; it is a standing bet against reality."
+   ],
+   [
+    "p",
+    "This page family walks through each gate, what is solved today, what is not, and the language discipline we use so the two never get confused."
+   ]
+  ],
+  "related": [
+   [
+    "solved-on-paper-vs-hardware",
+    "Paper vs Hardware"
+   ],
+   [
+    "design-targets-vs-measurements",
+    "Targets vs Measurements"
+   ],
+   [
+    "never-claiming-net-gain-before-foak",
+    "No Net-Gain Before FOAK"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "solved-on-paper-vs-hardware",
+  "title": "Solved on Paper vs Needs Hardware",
+  "cat": "honesty-transparency",
+  "lede": "Which parts of the Kronos design are settled by published, reproducible calculation, and which parts remain open until a machine is built and measured.",
+  "body": [
+   [
+    "h2",
+    "Two categories of knowledge"
+   ],
+   [
+    "p",
+    "We keep an explicit inventory of what is solved on paper and what needs hardware. The first category contains everything a verified physics model can produce: equilibrium and stability of the breeder (Hyperion) plasma, the scientific gain design point of Q_sci 3.424 at 88.7 MW fusion power, the 9.86 MA plasma current target, the 16.84 T peak field, and the neutron and isotope yields those imply."
+   ],
+   [
+    "h3",
+    "Solved on paper (today)"
+   ],
+   [
+    "ul",
+    [
+     "Plasma equilibrium and the negative-triangularity (delta -0.30) shaping",
+     "The scientific-gain design point and its power balance under our model assumptions",
+     "Neutron transport and the tritium / helium-3 yield <i>given</i> a blanket model",
+     "Engineering layouts, magnet loads, and reproducible sensitivity scans"
+    ]
+   ],
+   [
+    "h3",
+    "Needs hardware (not yet settled)"
+   ],
+   [
+    "ul",
+    [
+     "Whether the built plasma actually reaches the design current and confinement",
+     "The real tritium breeding ratio in a physical blanket",
+     "Component lifetime under 14 MeV neutron fluence",
+     "Net-gain of any kind — no machine has been built"
+    ]
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 560 256\" width=\"100%\" style=\"max-width:560px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Ladder of claims from verified model to hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"40\" y=\"40\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#8FA0B8\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"58\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Achieved on hardware</text><text x=\"56\" y=\"73\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >not yet — no machine built</text><text x=\"506\" y=\"66\" font-size=\"18\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"92\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4A05C\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"110\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_engineering (net electric)</text><text x=\"56\" y=\"125\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >design target only</text><text x=\"506\" y=\"118\" font-size=\"18\" fill=\"#D4A05C\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"144\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.4\" /><text x=\"56\" y=\"162\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_scientific = 3.424 (breeder)</text><text x=\"56\" y=\"177\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >simulated design point</text><text x=\"506\" y=\"170\" font-size=\"18\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >✓</text><rect x=\"40\" y=\"196\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#7FB08A\" stroke-width=\"1.4\" /><text x=\"56\" y=\"214\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Physics model verified</text><text x=\"56\" y=\"229\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >reproducible, published</text><text x=\"506\" y=\"222\" font-size=\"18\" fill=\"#7FB08A\" text-anchor=\"middle\" font-weight=\"700\" >✓</text></svg></figure>"
+   ],
+   [
+    "p",
+    "The honest position is that the paper side is strong, published, and reproducible, and the hardware side is genuinely open. Progress means moving items across the gate one measurement at a time, and updating the record when we do."
+   ]
+  ],
+  "related": [
+   [
+    "honest-gates-overview",
+    "The Honest Gates"
+   ],
+   [
+    "what-a-design-study-is",
+    "What a Design Study Is"
+   ],
+   [
+    "reproducible-record",
+    "The Reproducible Record"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "never-claiming-net-gain-before-foak",
+  "title": "No Net-Gain Claim Before FOAK",
+  "cat": "honesty-transparency",
+  "lede": "Kronos will not claim any form of net gain from hardware before the first-of-a-kind machine is built and measured — because no machine exists yet.",
+  "body": [
+   [
+    "h2",
+    "The rule"
+   ],
+   [
+    "p",
+    "Kronos makes no claim of hardware net gain — scientific or engineering — before the first-of-a-kind (FOAK) breeder (Hyperion) exists and is measured. Construction begins Q2 2027; first tritium is targeted around 2030. Until a machine produces data, every gain figure we publish is a <b>design point from simulation</b>, and we say so every time."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 700 170\" width=\"100%\" style=\"max-width:700px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Honest timeline of the breeder program\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><line x1=\"60\" y1=\"90\" x2=\"640\" y2=\"90\" stroke=\"#8FA0B8\" stroke-width=\"2\"/><circle cx=\"80\" cy=\"90\" r=\"7\" fill=\"#D4AD5C\"/><text x=\"80\" y=\"72\" font-size=\"12\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >Q2 2027</text><text x=\"80\" y=\"112\" font-size=\"11\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Construction begins</text><circle cx=\"300\" cy=\"90\" r=\"7\" fill=\"#E2C57E\"/><text x=\"300\" y=\"72\" font-size=\"12\" fill=\"#E2C57E\" text-anchor=\"middle\" font-weight=\"700\" >~2030</text><text x=\"300\" y=\"112\" font-size=\"11\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >FOAK first tritium</text><circle cx=\"470\" cy=\"90\" r=\"7\" fill=\"#8FA0B8\"/><text x=\"470\" y=\"72\" font-size=\"12\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"700\" >then</text><text x=\"470\" y=\"112\" font-size=\"11\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >NOAK</text><circle cx=\"600\" cy=\"90\" r=\"7\" fill=\"#8FA0B8\"/><text x=\"600\" y=\"72\" font-size=\"12\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"700\" >then</text><text x=\"600\" y=\"112\" font-size=\"11\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >BOAK</text><rect x=\"285\" y=\"120\" width=\"360\" height=\"30\" rx=\"5\" fill=\"none\" stroke=\"#D4A05C\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><text x=\"465\" y=\"140\" font-size=\"11.5\" fill=\"#D4A05C\" text-anchor=\"middle\" font-weight=\"600\" >no hardware net-gain claim before FOAK</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Why this rule matters"
+   ],
+   [
+    "p",
+    "Net gain is the single most abused claim in fusion. There is a large gap between a simulated Q and a measured one, and a further gap between scientific gain and net-electric gain after recirculating power. Announcing hardware results before hardware exists would be dishonest even if the underlying model were perfect, because a model is not a measurement."
+   ],
+   [
+    "h3",
+    "What we do say"
+   ],
+   [
+    "ul",
+    [
+     "The breeder design point is Q_sci 3.424 in simulation — a target, not a result",
+     "The breeder is a foundry: its product is tritium, helium-3, and neutrons, which need fusion gain, not net-electric output",
+     "The burner (Aegis / MetroVolt) is designed toward net-electric via direct energy conversion, and that remains a design goal"
+    ]
+   ],
+   [
+    "p",
+    "When FOAK data arrive, we will state exactly what was measured, with uncertainty, and reconcile it against the design point in public — whether it confirms us or not."
+   ]
+  ],
+  "related": [
+   [
+    "q-sci-vs-q-eng",
+    "Q_sci vs Q_eng"
+   ],
+   [
+    "design-targets-vs-measurements",
+    "Targets vs Measurements"
+   ],
+   [
+    "honest-timeline",
+    "The Honest Timeline"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "design-targets-vs-measurements",
+  "title": "Design Targets vs Measurements",
+  "cat": "honesty-transparency",
+  "lede": "A design target is what a verified model predicts the machine should do; a measurement is what a built machine actually does. Kronos never lets the words blur.",
+  "body": [
+   [
+    "h2",
+    "Same units, different evidence"
+   ],
+   [
+    "p",
+    "The breeder design point — Q_sci 3.424, 88.7 MW fusion power, 9.86 MA plasma current, 16.84 T peak field — is a set of <b>design targets</b>. They are computed from physics models we publish and that others can reproduce. A measurement is a number that comes out of a physical instrument on a built machine. Kronos has design targets today and no hardware measurements, because construction begins in 2027."
+   ],
+   [
+    "h3",
+    "Language discipline"
+   ],
+   [
+    "p",
+    "We reserve verbs for the right side of the gate. Design points are <i>computed</i>, <i>predicted</i>, <i>targeted</i>, or <i>simulated</i>. Only hardware results are <i>measured</i>, <i>achieved</i>, or <i>demonstrated</i>. If a sentence about Kronos uses an achievement verb for a number that came from a solver, that sentence is wrong and we correct it."
+   ],
+   [
+    "truth",
+    [
+     [
+      "Statement",
+      "Correct verb"
+     ],
+     [
+      [
+       "Q_sci 3.424 from our solver",
+       "predicted / simulated"
+      ],
+      [
+       "88.7 MW in the design model",
+       "design target"
+      ],
+      [
+       "First tritium in 2030 from FOAK",
+       "will be measured"
+      ],
+      [
+       "Any 2026 hardware gain",
+       "does not exist"
+      ]
+     ]
+    ]
+   ],
+   [
+    "h3",
+    "Why not just say the number?"
+   ],
+   [
+    "p",
+    "Because the same number means different things depending on where it came from. A reader deciding whether to trust, fund, or build on our work needs to know if they are looking at a hypothesis or a result. Stripping that context out makes a number look stronger than the evidence behind it — which is exactly the failure mode we refuse."
+   ],
+   [
+    "p",
+    "This discipline is checked mechanically in our build: pages are scanned for achievement language attached to design values."
+   ]
+  ],
+  "related": [
+   [
+    "never-claiming-net-gain-before-foak",
+    "No Net-Gain Before FOAK"
+   ],
+   [
+    "measurement-language",
+    "Measurement Language"
+   ],
+   [
+    "simulated-projected-achieved",
+    "Simulated / Projected / Achieved"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "correcting-the-record",
+  "title": "Correcting the Record When We Are Wrong",
+  "cat": "honesty-transparency",
+  "lede": "When a Kronos number or claim turns out to be wrong, we correct it in public, in the same place it was published, and say what changed and why.",
+  "body": [
+   [
+    "h2",
+    "Corrections are part of the method"
+   ],
+   [
+    "p",
+    "A design program run in the open will be wrong sometimes. The honest response is not to hide it but to correct it where people can see it. Kronos publishes to permanent, versioned records — papers with DOIs and open datasets — precisely so that a correction is traceable rather than silent."
+   ],
+   [
+    "h3",
+    "How a correction works"
+   ],
+   [
+    "ul",
+    [
+     "The error is stated plainly, not buried in a footnote",
+     "A new version is deposited with a new DOI; the old version stays visible with a note",
+     "The reason for the change is given — a model fix, a reconciliation, new data",
+     "Downstream pages and figures that used the old number are updated"
+    ]
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 270\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The open-science honesty flywheel\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><circle cx=\"340\" cy=\"130\" r=\"86\" fill=\"none\" stroke=\"#D4AD5C\" stroke-width=\"1.4\" stroke-dasharray=\"3 5\"/><circle cx=\"340\" cy=\"44\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"340\" y=\"42\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Design in</text><text x=\"340\" y=\"55\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >the open</text><circle cx=\"426\" cy=\"130\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"426\" y=\"128\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Publish papers</text><text x=\"426\" y=\"141\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >+ open data</text><circle cx=\"340\" cy=\"216\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"340\" y=\"214\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Invite</text><text x=\"340\" y=\"227\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >refutation</text><circle cx=\"254\" cy=\"130\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"254\" y=\"128\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Correct &</text><text x=\"254\" y=\"141\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >re-run</text><text x=\"340\" y=\"134\" font-size=\"11\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >OPEN-SCIENCE</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Corrections we have flagged"
+   ],
+   [
+    "p",
+    "We keep internal reconciliation flags open rather than quietly picking the more flattering value — for example reconciling a local versus net tritium breeding ratio framing, and reconciling neutron-fraction figures reported at different points in the design. An open flag is more honest than a premature resolution."
+   ],
+   [
+    "p",
+    "A field that treats every correction as an embarrassment teaches people to bury mistakes. We treat corrections as evidence the process is working: reality pushed back, and we listened."
+   ]
+  ],
+  "related": [
+   [
+    "publishing-negative-results",
+    "Publishing Negative Results"
+   ],
+   [
+    "dois-permanent-record",
+    "DOIs & the Permanent Record"
+   ],
+   [
+    "inviting-refutation",
+    "Inviting Refutation"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "publishing-negative-results",
+  "title": "Publishing Negative Results",
+  "cat": "honesty-transparency",
+  "lede": "Kronos publishes findings that go against its own preferred conclusion, because a design study that only reports good news is not a study.",
+  "body": [
+   [
+    "h2",
+    "The whole result, not the flattering half"
+   ],
+   [
+    "p",
+    "A negative result is a finding that a hoped-for outcome does not hold under honest assumptions. These are the most valuable and most-often-hidden results in any engineering field. Kronos publishes them, including ones that complicate our own machines."
+   ],
+   [
+    "h3",
+    "Examples we hold in the open"
+   ],
+   [
+    "ul",
+    [
+     "That neither machine reaches net power today — the breeder is a supported platform whose product is isotopes and neutrons, and the burner remains plug-gated",
+     "That the burner's magnetic well is a genuine constraint at feasible parameters, with a named plug-density requirement caveat",
+     "That tritium self-sufficiency depends on a breeding ratio that must be measured, not assumed"
+    ]
+   ],
+   [
+    "h3",
+    "Why publish against yourself"
+   ],
+   [
+    "p",
+    "Because the alternative is to let a reader discover the caveat later, at higher cost, and rightly conclude they were misled. A negative result published early is a gift to everyone building in the same direction — including competitors — and it is the price of asking to be taken seriously."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 220\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The honest gate between simulation and hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"30\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><rect x=\"350\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"180\" y=\"118\" font-size=\"12.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Where a positive result is solid</text><text x=\"500\" y=\"118\" font-size=\"12.5\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\" >Where the honest answer is 'not yet'</text><line x1=\"340\" y1=\"70\" x2=\"340\" y2=\"160\" stroke=\"#E2C57E\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"75\" r=\"5\" fill=\"#E2C57E\"/><text x=\"340\" y=\"60\" font-size=\"11\" fill=\"#E2C57E\" text-anchor=\"middle\" font-weight=\"700\" >THE GATE</text><text x=\"340\" y=\"180\" font-size=\"11.5\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"600\" >the caveat lives here, stated plainly</text><text x=\"180\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >claims allowed today</text><text x=\"500\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >no net-gain claim before this</text></svg></figure>"
+   ],
+   [
+    "p",
+    "We also pre-register predictions so that a later negative result cannot be quietly reinterpreted as what we expected all along. If reality disagrees with a registered prediction, the prediction was wrong, and we say so."
+   ]
+  ],
+  "related": [
+   [
+    "correcting-the-record",
+    "Correcting the Record"
+   ],
+   [
+    "pre-registered-predictions",
+    "Pre-Registered Predictions"
+   ],
+   [
+    "plug-density-caveat",
+    "The Plug-Density Caveat"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "avoiding-hype",
+  "title": "Avoiding Hype",
+  "cat": "honesty-transparency",
+  "lede": "Kronos states what its technology is and is not, without breakthrough language, countdowns to unlimited energy, or verbs the evidence cannot carry.",
+  "body": [
+   [
+    "h2",
+    "Hype is a communication failure"
+   ],
+   [
+    "p",
+    "Hype is the practice of describing a hoped-for future as if it were a present fact. In fusion it usually takes the form of achievement verbs attached to simulations, round-number energy promises with no conditions, and adjectives that carry no information. Kronos treats these as errors, not style."
+   ],
+   [
+    "h3",
+    "Words we do not use"
+   ],
+   [
+    "ul",
+    [
+     "'Breakthrough', 'revolutionary', 'game-changing' — they assert importance instead of showing it",
+     "'Unlimited', 'limitless', 'too cheap to measure' — no real machine is any of these",
+     "'Solved', 'achieved', 'demonstrated' for anything that came from a solver, not hardware",
+     "Filler that hides the seams — we say what happened, not how smooth it felt"
+    ]
+   ],
+   [
+    "h3",
+    "What we say instead"
+   ],
+   [
+    "p",
+    "We give the number, its source, its uncertainty, and its conditions. 'The breeder design point is Q_sci 3.424 in simulation, targeting 88.7 MW; construction begins 2027 and first tritium is targeted around 2030' is a complete, honest sentence. It is less exciting than a headline, and it is true, which is the point."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 175\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Low-neutron spectrum, not aneutronic\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"40\" y=\"70\" width=\"600\" height=\"34\" rx=\"4\" fill=\"#28323f\" stroke=\"rgba(231,235,242,.18)\"/><rect x=\"40\" y=\"70\" width=\"33\" height=\"34\" rx=\"4\" fill=\"#D4A05C\"/><text x=\"56\" y=\"92\" font-size=\"11\" fill=\"#232C39\" text-anchor=\"middle\" font-weight=\"700\" >5.44%</text><text x=\"360\" y=\"92\" font-size=\"12\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >charged-particle energy — direct conversion</text><text x=\"340\" y=\"50\" font-size=\"12.5\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >Burner (Aegis / MetroVolt): D-3He, LOW-neutron</text><text x=\"72\" y=\"128\" font-size=\"10.5\" fill=\"#D4A05C\" text-anchor=\"middle\" font-weight=\"400\" >neutrons</text><text x=\"340\" y=\"150\" font-size=\"11.5\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\" >Low-neutron is not zero-neutron. We never say aneutronic.</text></svg></figure>"
+   ],
+   [
+    "p",
+    "Restraint is not modesty for its own sake. Overclaiming has a cost: it borrows credibility from the future and spends it now, and when the future arrives short, the whole field pays the bill."
+   ]
+  ],
+  "related": [
+   [
+    "cost-of-overclaiming",
+    "The Cost of Overclaiming"
+   ],
+   [
+    "avoiding-breakthrough-language",
+    "Breakthrough Language"
+   ],
+   [
+    "measurement-language",
+    "Measurement Language"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "honest-competitive-framing",
+  "title": "Honest Competitive Framing",
+  "cat": "honesty-transparency",
+  "lede": "When Kronos compares itself to other approaches, it grades everyone on the same ruler, cites public sources, and credits rivals' real strengths.",
+  "body": [
+   [
+    "h2",
+    "Comparison on one ruler"
+   ],
+   [
+    "p",
+    "Honest competitive framing means every option — ours and others' — is scored on the same criteria, from public sources, with the same standard of evidence. A comparison that quietly holds competitors to a harder test than it holds us is advocacy dressed as analysis."
+   ],
+   [
+    "h3",
+    "Our rules for competitive claims"
+   ],
+   [
+    "ul",
+    [
+     "Every cell traces to a public, citable source — lawsuit-safe and reader-checkable",
+     "Rivals are scored on their stated design points, not caricatures of them",
+     "We distinguish scientific gain (Q_sci) from engineering / net-electric gain when comparing devices",
+     "We name our own open questions in the same table as everyone else's"
+    ]
+   ],
+   [
+    "h3",
+    "Our honest wedge"
+   ],
+   [
+    "p",
+    "Our distinctive position is not that we have beaten the physics others are still working on. It is that the breeder (Hyperion) sells materials — tritium, helium-3, and neutron services — which need fusion gain, not net-electric output. That decouples early value from the net-electric milestone that the whole field, ourselves included, has not reached. Stated that way it is a real advantage; stated as 'we win' it would be false."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 560 256\" width=\"100%\" style=\"max-width:560px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Ladder of claims from verified model to hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"40\" y=\"40\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#8FA0B8\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"58\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Achieved on hardware</text><text x=\"56\" y=\"73\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >not yet — no machine built</text><text x=\"506\" y=\"66\" font-size=\"18\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"92\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4A05C\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"110\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_engineering (net electric)</text><text x=\"56\" y=\"125\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >design target only</text><text x=\"506\" y=\"118\" font-size=\"18\" fill=\"#D4A05C\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"144\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.4\" /><text x=\"56\" y=\"162\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_scientific = 3.424 (breeder)</text><text x=\"56\" y=\"177\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >simulated design point</text><text x=\"506\" y=\"170\" font-size=\"18\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >✓</text><rect x=\"40\" y=\"196\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#7FB08A\" stroke-width=\"1.4\" /><text x=\"56\" y=\"214\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Physics model verified</text><text x=\"56\" y=\"229\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >reproducible, published</text><text x=\"506\" y=\"222\" font-size=\"18\" fill=\"#7FB08A\" text-anchor=\"middle\" font-weight=\"700\" >✓</text></svg></figure>"
+   ],
+   [
+    "p",
+    "Crediting a competitor's genuine strength costs nothing and buys the reader's trust. A comparison in which we win every row is not a comparison; it is a poster."
+   ]
+  ],
+  "related": [
+   [
+    "comparing-like-with-like",
+    "Comparing Like with Like"
+   ],
+   [
+    "honest-about-competitor-strengths",
+    "Competitors' Strengths"
+   ],
+   [
+    "q-sci-vs-q-eng",
+    "Q_sci vs Q_eng"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "low-neutron-not-aneutronic",
+  "title": "Low-Neutron, Not Aneutronic",
+  "cat": "honesty-transparency",
+  "lede": "The burner (Aegis / MetroVolt) runs D-3He at a 5.44% neutron fraction — low-neutron, not aneutronic. Kronos never uses the word aneutronic.",
+  "body": [
+   [
+    "h2",
+    "A precise word for a real property"
+   ],
+   [
+    "p",
+    "D-3He fusion is often marketed as 'aneutronic', meaning without neutrons. That is not accurate. Even a pure D-3He plasma produces neutrons from unavoidable D-D side reactions, and any real device carries some deuterium-deuterium activity. The Kronos burner design carries a <b>neutron fraction of 5.44%</b> of fusion power. That is low, and it is not zero."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 175\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Low-neutron spectrum, not aneutronic\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"40\" y=\"70\" width=\"600\" height=\"34\" rx=\"4\" fill=\"#28323f\" stroke=\"rgba(231,235,242,.18)\"/><rect x=\"40\" y=\"70\" width=\"33\" height=\"34\" rx=\"4\" fill=\"#D4A05C\"/><text x=\"56\" y=\"92\" font-size=\"11\" fill=\"#232C39\" text-anchor=\"middle\" font-weight=\"700\" >5.44%</text><text x=\"360\" y=\"92\" font-size=\"12\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >charged-particle energy — direct conversion</text><text x=\"340\" y=\"50\" font-size=\"12.5\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >Burner (Aegis / MetroVolt): D-3He, LOW-neutron</text><text x=\"72\" y=\"128\" font-size=\"10.5\" fill=\"#D4A05C\" text-anchor=\"middle\" font-weight=\"400\" >neutrons</text><text x=\"340\" y=\"150\" font-size=\"11.5\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\" >Low-neutron is not zero-neutron. We never say aneutronic.</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Why the distinction is load-bearing"
+   ],
+   [
+    "p",
+    "Calling a machine aneutronic implies no neutron shielding, no material activation, and no neutron-driven component wear. A 5.44% neutron fraction means all three still matter, just less than in a D-T machine. Shielding and lifetime engineering are still required. A reader who believed 'aneutronic' would size those systems wrong."
+   ],
+   [
+    "h3",
+    "What low-neutron does buy"
+   ],
+   [
+    "ul",
+    [
+     "A large majority of fusion energy appears as charged particles, enabling direct energy conversion",
+     "Lower neutron flux than D-T means reduced activation and longer component life",
+     "Less tritium handling in the burner than in the breeder"
+    ]
+   ],
+   [
+    "p",
+    "Low-neutron is a genuine advantage of the D-3He burner. It is strong enough that we do not need to exaggerate it into 'aneutronic'. The honest word is more useful, because engineers can act on it."
+   ]
+  ],
+  "related": [
+   [
+    "neutron-fraction-honesty",
+    "The 5.44% Neutron Fraction"
+   ],
+   [
+    "direct-energy-conversion-honesty",
+    "Direct Energy Conversion, Honestly"
+   ],
+   [
+    "avoiding-hype",
+    "Avoiding Hype"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "q-sci-vs-q-eng",
+  "title": "Q_scientific vs Q_engineering",
+  "cat": "honesty-transparency",
+  "lede": "Q_sci compares fusion power to heating power; Q_eng compares net electricity to everything the plant draws. Kronos reports the breeder's Q_sci and does not conflate the two.",
+  "body": [
+   [
+    "h2",
+    "Two different ratios"
+   ],
+   [
+    "p",
+    "Fusion gain has more than one meaning and the difference decides whether a claim is honest. <b>Q_scientific</b> is fusion power divided by the power injected to heat the plasma. <b>Q_engineering</b> is net electrical output divided by all electrical power the plant consumes — magnets, heating, cryogenics, and balance-of-plant. Q_eng is always the harder threshold."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 560 256\" width=\"100%\" style=\"max-width:560px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Ladder of claims from verified model to hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"40\" y=\"40\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#8FA0B8\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"58\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Achieved on hardware</text><text x=\"56\" y=\"73\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >not yet — no machine built</text><text x=\"506\" y=\"66\" font-size=\"18\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"92\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4A05C\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"110\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_engineering (net electric)</text><text x=\"56\" y=\"125\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >design target only</text><text x=\"506\" y=\"118\" font-size=\"18\" fill=\"#D4A05C\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"144\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.4\" /><text x=\"56\" y=\"162\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_scientific = 3.424 (breeder)</text><text x=\"56\" y=\"177\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >simulated design point</text><text x=\"506\" y=\"170\" font-size=\"18\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >✓</text><rect x=\"40\" y=\"196\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#7FB08A\" stroke-width=\"1.4\" /><text x=\"56\" y=\"214\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Physics model verified</text><text x=\"56\" y=\"229\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >reproducible, published</text><text x=\"506\" y=\"222\" font-size=\"18\" fill=\"#7FB08A\" text-anchor=\"middle\" font-weight=\"700\" >✓</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "What Kronos reports"
+   ],
+   [
+    "p",
+    "The breeder (Hyperion) design point is <b>Q_sci 3.424</b> in simulation. That is a scientific-gain figure, and we always label it as such. It is not a claim of net electricity. The breeder does not need net-electric gain to deliver value, because its product is isotopes and neutrons, which the fusion power itself produces."
+   ],
+   [
+    "h3",
+    "The burner's ambition"
+   ],
+   [
+    "p",
+    "The burner (Aegis / MetroVolt) is designed toward net-electric output using direct energy conversion of charged particles. That is an engineering-gain goal, and it remains a design goal — not a measured result, and gated on physics we describe honestly elsewhere."
+   ],
+   [
+    "p",
+    "Whenever we cite a Q, we say which Q, from what source. A Q_sci figure quoted as if it were Q_eng is one of the most common ways fusion numbers mislead, and we guard against it deliberately."
+   ]
+  ],
+  "related": [
+   [
+    "never-claiming-net-gain-before-foak",
+    "No Net-Gain Before FOAK"
+   ],
+   [
+    "design-targets-vs-measurements",
+    "Targets vs Measurements"
+   ],
+   [
+    "honest-competitive-framing",
+    "Honest Competitive Framing"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "open-gates-list",
+  "title": "The Open Gates: What Is Not Settled",
+  "cat": "honesty-transparency",
+  "lede": "A standing list of the physics and engineering questions Kronos considers genuinely open — the honest inventory of what hardware still has to decide.",
+  "body": [
+   [
+    "h2",
+    "The open inventory"
+   ],
+   [
+    "p",
+    "Honesty is easier to check when the open questions are written down. Kronos maintains an explicit list of gates that remain unsettled. These are not rhetorical hedges; each is a concrete thing a built machine will decide one way or the other."
+   ],
+   [
+    "h3",
+    "Breeder (Hyperion) open gates"
+   ],
+   [
+    "ul",
+    [
+     "Whether the built plasma reaches the 9.86 MA current and confinement of the design point",
+     "The real tritium breeding ratio in a physical blanket — treated as a lever across 1.1 / 1.5 / 1.8, measured value unknown",
+     "First-wall and component lifetime under 14 MeV neutron fluence",
+     "Availability and duty cycle of a sustained D-T plasma"
+    ]
+   ],
+   [
+    "h3",
+    "Burner (Aegis / MetroVolt) open gates"
+   ],
+   [
+    "ul",
+    [
+     "Whether a stable magnetic well exists at feasible beta — the central plug-density caveat",
+     "Achieving and holding the 26.49 T plug and 17 T throat fields",
+     "Net-electric closure through direct energy conversion at the 5.44% neutron fraction"
+    ]
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 220\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The honest gate between simulation and hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"30\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><rect x=\"350\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"180\" y=\"118\" font-size=\"12.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Design side — modelled</text><text x=\"500\" y=\"118\" font-size=\"12.5\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\" >Hardware side — open</text><line x1=\"340\" y1=\"70\" x2=\"340\" y2=\"160\" stroke=\"#E2C57E\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"75\" r=\"5\" fill=\"#E2C57E\"/><text x=\"340\" y=\"60\" font-size=\"11\" fill=\"#E2C57E\" text-anchor=\"middle\" font-weight=\"700\" >THE GATE</text><text x=\"340\" y=\"180\" font-size=\"11.5\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"600\" >each open gate resolves here</text><text x=\"180\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >claims allowed today</text><text x=\"500\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >no net-gain claim before this</text></svg></figure>"
+   ],
+   [
+    "p",
+    "We would rather publish a long list of honest unknowns than a short list of premature certainties. When a gate closes — in either direction — this inventory is updated and the change is dated."
+   ]
+  ],
+  "related": [
+   [
+    "honest-gates-overview",
+    "The Honest Gates"
+   ],
+   [
+    "plug-density-caveat",
+    "The Plug-Density Caveat"
+   ],
+   [
+    "tbr-as-a-lever",
+    "TBR as a Design Lever"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "tbr-as-a-lever",
+  "title": "Tritium Breeding Ratio as a Design Lever",
+  "cat": "honesty-transparency",
+  "lede": "Kronos reports the breeder's tritium breeding ratio as a scanned range — 1.1, 1.5, 1.8 — not a single flattering number, because the real value must be measured.",
+  "body": [
+   [
+    "h2",
+    "Why TBR is a range, not a fact"
+   ],
+   [
+    "p",
+    "The tritium breeding ratio (TBR) is how much tritium a D-T machine's blanket breeds per tritium consumed. Above 1.0 the machine can sustain its own fuel and produce a surplus. The real TBR of a physical blanket depends on geometry, materials, and neutron transport that only a built blanket settles. So Kronos treats TBR as a <b>design lever</b> and reports it across a range."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 245\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"TBR scanned across 1.1, 1.5 and 1.8\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><text x=\"340\" y=\"28\" font-size=\"12.5\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >Tritium breeding ratio — treated as a design LEVER, not a fact</text><rect x=\"82\" y=\"113\" width=\"76\" height=\"77\" rx=\"4\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"120\" y=\"205\" font-size=\"12\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >TBR 1.1</text><text x=\"120\" y=\"108\" font-size=\"12\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >1.1</text><rect x=\"302\" y=\"85\" width=\"76\" height=\"105\" rx=\"4\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"340\" y=\"205\" font-size=\"12\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >TBR 1.5</text><text x=\"340\" y=\"80\" font-size=\"12\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >1.5</text><rect x=\"522\" y=\"64\" width=\"76\" height=\"126\" rx=\"4\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"560\" y=\"205\" font-size=\"12\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >TBR 1.8</text><text x=\"560\" y=\"59\" font-size=\"12\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >1.8</text><line x1=\"60\" y1=\"120\" x2=\"620\" y2=\"120\" stroke=\"#8FA0B8\" stroke-width=\"1\" stroke-dasharray=\"4 4\"/><text x=\"624\" y=\"124\" font-size=\"10.5\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >1.0 = self-sufficiency</text><text x=\"340\" y=\"230\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >We report the range and its assumptions, not one flattering number.</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "What the scan shows honestly"
+   ],
+   [
+    "ul",
+    [
+     "TBR 1.1 — a conservative, near-self-sufficient case",
+     "TBR 1.5 — a mid case with meaningful surplus for products and startup inventory",
+     "TBR 1.8 — an optimistic case; we flag it as such, and note a local-versus-net reconciliation is open"
+    ]
+   ],
+   [
+    "h3",
+    "The discipline"
+   ],
+   [
+    "p",
+    "Reporting a single high TBR would make the tritium and helium-3 product story look settled when it is not. Reporting the range, with assumptions, lets a reader see how sensitive the product outputs — the ~4 kg/yr tritium class and ~1.97 kg/yr helium-3 — are to a number nobody has yet measured in a physical Kronos blanket."
+   ],
+   [
+    "p",
+    "When a blanket is built and its breeding is measured, the scan collapses to a value with error bars, and the range is retired in public."
+   ]
+  ],
+  "related": [
+   [
+    "tritium-self-sufficiency",
+    "Tritium Self-Sufficiency, Honestly"
+   ],
+   [
+    "open-gates-list",
+    "The Open Gates"
+   ],
+   [
+    "uncertainty-quantification",
+    "Uncertainty, Stated"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "plug-density-caveat",
+  "title": "The Plug-Density Caveat",
+  "cat": "honesty-transparency",
+  "lede": "The burner design carries a genuine open constraint: the tandem-mirror plug requires a density condition Kronos states plainly rather than assuming away.",
+  "body": [
+   [
+    "h2",
+    "A caveat we refuse to hide"
+   ],
+   [
+    "p",
+    "The burner (Aegis / MetroVolt) is a D-3He tandem-mirror generator. Tandem mirrors confine plasma with high-field magnetic 'plugs' — 26.49 T at the plug, 17 T at the throat. Whether those plugs hold the central plasma at feasible parameters depends on a demanding plug-density requirement. This is a real physics constraint, and it is the burner's central open gate."
+   ],
+   [
+    "h3",
+    "What the caveat says"
+   ],
+   [
+    "p",
+    "Our own phase-2 closure work is explicit that at feasible beta the burner does not clearly establish the magnetic well it needs, and that the closing design point depends on a plug-density condition that must be demonstrated, not assumed. Publishing a burner performance figure without this caveat would overstate how settled the machine is."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 220\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The honest gate between simulation and hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"30\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><rect x=\"350\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"180\" y=\"118\" font-size=\"12.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Burner power balance — modelled</text><text x=\"500\" y=\"118\" font-size=\"12.5\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\" >Magnetic well at feasible beta — open</text><line x1=\"340\" y1=\"70\" x2=\"340\" y2=\"160\" stroke=\"#E2C57E\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"75\" r=\"5\" fill=\"#E2C57E\"/><text x=\"340\" y=\"60\" font-size=\"11\" fill=\"#E2C57E\" text-anchor=\"middle\" font-weight=\"700\" >THE GATE</text><text x=\"340\" y=\"180\" font-size=\"11.5\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"600\" >resolves the plug-density condition</text><text x=\"180\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >claims allowed today</text><text x=\"500\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >no net-gain claim before this</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Why say it out loud"
+   ],
+   [
+    "ul",
+    [
+     "An engineer evaluating the burner needs to know the load-bearing assumption",
+     "Named retirement experiments exist to test exactly this condition",
+     "Hiding it would make a later negative result look like a reversal instead of a resolved gate"
+    ]
+   ],
+   [
+    "p",
+    "The burner is a design and simulation study. Its most important number is not a performance figure — it is the caveat that says which condition everything else rests on."
+   ]
+  ],
+  "related": [
+   [
+    "open-gates-list",
+    "The Open Gates"
+   ],
+   [
+    "publishing-negative-results",
+    "Publishing Negative Results"
+   ],
+   [
+    "burner-honest-status",
+    "The Burner, Honestly"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "simulation-vs-experiment",
+  "title": "Simulation Is Not Experiment",
+  "cat": "honesty-transparency",
+  "lede": "A simulation is a controlled argument from assumptions; an experiment is a question put to nature. Kronos values both and never mistakes one for the other.",
+  "body": [
+   [
+    "h2",
+    "What each one can and cannot do"
+   ],
+   [
+    "p",
+    "A simulation computes what should happen if a set of physical assumptions and models are correct. A well-built simulation can be rigorous, reproducible, and predictive. What it cannot do is discover that one of its assumptions is wrong about the real world. Only an experiment does that. Kronos designs digitally first, then tests against hardware — and keeps the two clearly separated."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 220\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The honest gate between simulation and hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"30\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><rect x=\"350\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"180\" y=\"118\" font-size=\"12.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Simulation — argument from models</text><text x=\"500\" y=\"118\" font-size=\"12.5\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\" >Experiment — question to nature</text><line x1=\"340\" y1=\"70\" x2=\"340\" y2=\"160\" stroke=\"#E2C57E\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"75\" r=\"5\" fill=\"#E2C57E\"/><text x=\"340\" y=\"60\" font-size=\"11\" fill=\"#E2C57E\" text-anchor=\"middle\" font-weight=\"700\" >THE GATE</text><text x=\"340\" y=\"180\" font-size=\"11.5\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"600\" >hardware answers the question</text><text x=\"180\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >claims allowed today</text><text x=\"500\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >no net-gain claim before this</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "The value and the limit"
+   ],
+   [
+    "ul",
+    [
+     "Simulation lets us explore a design space cheaply and safely before committing to steel",
+     "It exposes sensitivities — how an output moves when an assumption moves",
+     "It cannot certify that the modelled physics matches the built machine",
+     "So a simulated Q, TBR, or field is a prediction awaiting a verdict"
+    ]
+   ],
+   [
+    "h3",
+    "How we keep it honest"
+   ],
+   [
+    "p",
+    "Our simulation outputs are published with the code and data to reproduce them, so a reader can check the argument. They are labelled as design points. And they are paired with pre-registered predictions, so that when hardware arrives, the simulation is scored, not quietly adjusted to match."
+   ],
+   [
+    "p",
+    "The strongest thing we can say about a simulation today is that it is reproducible and self-consistent. The strongest thing we cannot yet say is that it is right."
+   ]
+  ],
+  "related": [
+   [
+    "what-a-design-study-is",
+    "What a Design Study Is"
+   ],
+   [
+    "reproducible-record",
+    "The Reproducible Record"
+   ],
+   [
+    "pre-registered-predictions",
+    "Pre-Registered Predictions"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "frozen-canon-discipline",
+  "title": "Frozen-Canon Discipline",
+  "cat": "honesty-transparency",
+  "lede": "Kronos freezes a single set of design numbers so that every paper, page, and figure quotes the same value — and no number drifts to flatter a given audience.",
+  "body": [
+   [
+    "h2",
+    "One number, everywhere"
+   ],
+   [
+    "p",
+    "A frozen canon is a locked set of design values that all Kronos materials must use verbatim. The breeder design point — Q_sci 3.424, 88.7 MW fusion power, 9.86 MA plasma current, 16.84 T peak field, negative triangularity delta -0.30 — is frozen. So is the burner's 26.49 T plug, 17 T throat, and 5.44% neutron fraction. No page invents its own variant."
+   ],
+   [
+    "h3",
+    "Why freezing is an honesty tool"
+   ],
+   [
+    "p",
+    "Unfrozen numbers drift. A slightly rosier figure creeps into an investor deck, a slightly more conservative one into a technical paper, and soon the same machine has two performance stories. Freezing the canon makes that impossible: a reader can compare any two Kronos documents and find the same design point, or find a dated, versioned change explaining why it moved."
+   ],
+   [
+    "ul",
+    [
+     "Every quoted design value traces to the frozen set",
+     "A change to the canon is deposited with a date and a reason",
+     "Automated checks flag pages that quote off-canon numbers",
+     "Conditions travel with the number — a Q without its assumptions is incomplete"
+    ]
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 560 256\" width=\"100%\" style=\"max-width:560px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Ladder of claims from verified model to hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"40\" y=\"40\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#8FA0B8\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"58\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Achieved on hardware</text><text x=\"56\" y=\"73\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >not yet — no machine built</text><text x=\"506\" y=\"66\" font-size=\"18\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"92\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4A05C\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"110\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_engineering (net electric)</text><text x=\"56\" y=\"125\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >design target only</text><text x=\"506\" y=\"118\" font-size=\"18\" fill=\"#D4A05C\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"144\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.4\" /><text x=\"56\" y=\"162\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_scientific = 3.424 (breeder)</text><text x=\"56\" y=\"177\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >simulated design point</text><text x=\"506\" y=\"170\" font-size=\"18\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >✓</text><rect x=\"40\" y=\"196\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#7FB08A\" stroke-width=\"1.4\" /><text x=\"56\" y=\"214\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Physics model verified</text><text x=\"56\" y=\"229\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >reproducible, published</text><text x=\"506\" y=\"222\" font-size=\"18\" fill=\"#7FB08A\" text-anchor=\"middle\" font-weight=\"700\" >✓</text></svg></figure>"
+   ],
+   [
+    "p",
+    "Frozen does not mean final. It means that until we deliberately, publicly update it, everyone quotes the same thing. That is the difference between a program with one honest story and a program with a story per room."
+   ]
+  ],
+  "related": [
+   [
+    "design-targets-vs-measurements",
+    "Targets vs Measurements"
+   ],
+   [
+    "correcting-the-record",
+    "Correcting the Record"
+   ],
+   [
+    "conditions-travel-with-numbers",
+    "Conditions Travel with Numbers"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "pre-registered-predictions",
+  "title": "Pre-Registered Predictions",
+  "cat": "honesty-transparency",
+  "lede": "Kronos writes down, in advance, what hardware should show — so a later result cannot be quietly reinterpreted as what we expected all along.",
+  "body": [
+   [
+    "h2",
+    "Predictions you cannot move later"
+   ],
+   [
+    "p",
+    "A pre-registered prediction is a specific, falsifiable statement about a future measurement, deposited before the measurement exists. It fixes the target so it cannot slide. When the breeder (Hyperion) produces first tritium around 2030, the prediction is already on record, and the result either matches it or does not."
+   ],
+   [
+    "h3",
+    "What makes a prediction honest"
+   ],
+   [
+    "ul",
+    [
+     "It is specific — a value with a range, not a direction",
+     "It is falsifiable — there is an outcome that would prove it wrong",
+     "It is dated and public before the data exist",
+     "It is scored afterwards, whether it holds or fails"
+    ]
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 220\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The honest gate between simulation and hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"30\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><rect x=\"350\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"180\" y=\"118\" font-size=\"12.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Prediction registered now</text><text x=\"500\" y=\"118\" font-size=\"12.5\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\" >Measurement arrives later</text><line x1=\"340\" y1=\"70\" x2=\"340\" y2=\"160\" stroke=\"#E2C57E\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"75\" r=\"5\" fill=\"#E2C57E\"/><text x=\"340\" y=\"60\" font-size=\"11\" fill=\"#E2C57E\" text-anchor=\"middle\" font-weight=\"700\" >THE GATE</text><text x=\"340\" y=\"180\" font-size=\"11.5\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"600\" >the score is settled here</text><text x=\"180\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >claims allowed today</text><text x=\"500\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >no net-gain claim before this</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Why bother"
+   ],
+   [
+    "p",
+    "Without pre-registration, it is tempting — even unconsciously — to remember one's prediction as whatever the data turned out to be. Hindsight quietly rewrites expectations. Pre-registration removes that escape hatch. It converts a design study into a series of standing bets against reality, which is what a scientific program is supposed to be."
+   ],
+   [
+    "p",
+    "A program willing to register predictions is telling you it expects to be checked. That willingness is itself evidence, separate from any single number."
+   ]
+  ],
+  "related": [
+   [
+    "falsifiability",
+    "Falsifiability"
+   ],
+   [
+    "simulation-vs-experiment",
+    "Simulation Is Not Experiment"
+   ],
+   [
+    "publishing-negative-results",
+    "Publishing Negative Results"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "falsifiability",
+  "title": "Falsifiability",
+  "cat": "honesty-transparency",
+  "lede": "A Kronos claim is only meaningful if there is a measurement that could show it to be false. We state that measurement alongside the claim.",
+  "body": [
+   [
+    "h2",
+    "The test that makes a claim real"
+   ],
+   [
+    "p",
+    "A claim that no possible observation could contradict is not a scientific claim; it is a slogan. Falsifiability is the property that a statement rules something out. Kronos ties its quantitative claims to the observations that would refute them, so a reader can see the claim is doing real work."
+   ],
+   [
+    "h3",
+    "Falsifiers we accept"
+   ],
+   [
+    "ul",
+    [
+     "If the FOAK breeder plasma does not reach its design current, the confinement model is wrong",
+     "If a built blanket breeds below 1.0, the tritium self-sufficiency case fails",
+     "If the burner cannot form a magnetic well at feasible beta, the plug-density caveat has bitten",
+     "If measured neutron fraction departs from 5.44%, the D-3He balance model needs revision"
+    ]
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 560 256\" width=\"100%\" style=\"max-width:560px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Ladder of claims from verified model to hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"40\" y=\"40\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#8FA0B8\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"58\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Achieved on hardware</text><text x=\"56\" y=\"73\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >not yet — no machine built</text><text x=\"506\" y=\"66\" font-size=\"18\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"92\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4A05C\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"110\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_engineering (net electric)</text><text x=\"56\" y=\"125\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >design target only</text><text x=\"506\" y=\"118\" font-size=\"18\" fill=\"#D4A05C\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"144\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.4\" /><text x=\"56\" y=\"162\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_scientific = 3.424 (breeder)</text><text x=\"56\" y=\"177\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >simulated design point</text><text x=\"506\" y=\"170\" font-size=\"18\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >✓</text><rect x=\"40\" y=\"196\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#7FB08A\" stroke-width=\"1.4\" /><text x=\"56\" y=\"214\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Physics model verified</text><text x=\"56\" y=\"229\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >reproducible, published</text><text x=\"506\" y=\"222\" font-size=\"18\" fill=\"#7FB08A\" text-anchor=\"middle\" font-weight=\"700\" >✓</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Why we volunteer the falsifiers"
+   ],
+   [
+    "p",
+    "Naming what would prove us wrong is a stronger signal than any positive claim. It shows the claim is exposed to reality rather than insulated from it. It also protects the reader: they do not have to reverse-engineer our assumptions to know what is at stake."
+   ],
+   [
+    "p",
+    "An honest program keeps a list of ways it could be wrong and watches for them. A program with no such list is not being careful — it is being unfalsifiable, which is worse than being wrong."
+   ]
+  ],
+  "related": [
+   [
+    "pre-registered-predictions",
+    "Pre-Registered Predictions"
+   ],
+   [
+    "open-gates-list",
+    "The Open Gates"
+   ],
+   [
+    "what-a-design-study-is",
+    "What a Design Study Is"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "reproducible-record",
+  "title": "The Reproducible Analysis Record",
+  "cat": "honesty-transparency",
+  "lede": "Kronos keeps a reproducible record of its analyses — code and data that a third party can re-run to get the same numbers — because a result you cannot reproduce is a rumor.",
+  "body": [
+   [
+    "h2",
+    "Reproducibility as honesty"
+   ],
+   [
+    "p",
+    "A number is only trustworthy if someone other than its author can regenerate it. Kronos maintains a reproducible analysis record: the code, inputs, and data behind its design points, deposited so an independent party can re-run them and obtain the same values. This turns 'trust us' into 'check us'."
+   ],
+   [
+    "h3",
+    "How the record is built"
+   ],
+   [
+    "ul",
+    [
+     "Analyses are versioned and deposited to permanent archives with DOIs",
+     "Two tiers of reproduction: byte-for-byte where possible, tolerance-based where floating point makes that impossible",
+     "Cold-repro runbooks describe environments so results regenerate on a fresh machine",
+     "Design points quoted on this site trace back to entries in that record"
+    ]
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 270\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The open-science honesty flywheel\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><circle cx=\"340\" cy=\"130\" r=\"86\" fill=\"none\" stroke=\"#D4AD5C\" stroke-width=\"1.4\" stroke-dasharray=\"3 5\"/><circle cx=\"340\" cy=\"44\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"340\" y=\"42\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Design in</text><text x=\"340\" y=\"55\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >the open</text><circle cx=\"426\" cy=\"130\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"426\" y=\"128\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Publish papers</text><text x=\"426\" y=\"141\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >+ open data</text><circle cx=\"340\" cy=\"216\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"340\" y=\"214\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Invite</text><text x=\"340\" y=\"227\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >refutation</text><circle cx=\"254\" cy=\"130\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"254\" y=\"128\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Correct &</text><text x=\"254\" y=\"141\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >re-run</text><text x=\"340\" y=\"134\" font-size=\"11\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >OPEN-SCIENCE</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "What reproducibility does not do"
+   ],
+   [
+    "p",
+    "Reproducing our calculation confirms that our reported number follows from our code and assumptions. It does not confirm that our assumptions match the real machine — that is the hardware gate. We are careful to claim only the first: our published results are reproducible, and they remain design points until measured."
+   ],
+   [
+    "p",
+    "A reproducible record is the minimum a program owes the people it asks to believe it. It is also self-discipline: knowing an analysis must survive an outsider re-running it changes how carefully it is built."
+   ]
+  ],
+  "related": [
+   [
+    "simulation-vs-experiment",
+    "Simulation Is Not Experiment"
+   ],
+   [
+    "dois-permanent-record",
+    "DOIs & the Permanent Record"
+   ],
+   [
+    "open-data-as-a-check",
+    "Open Data as a Check"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "uncertainty-quantification",
+  "title": "Uncertainty, Stated",
+  "cat": "honesty-transparency",
+  "lede": "Every Kronos design point carries the uncertainty around it; a number without a range is only half a result, and we do not report half-results as whole ones.",
+  "body": [
+   [
+    "h2",
+    "A number is not a result without its uncertainty"
+   ],
+   [
+    "p",
+    "A design point like Q_sci 3.424 is a central estimate. On its own it hides how sensitive that value is to assumptions that are not yet pinned down by hardware. Kronos reports uncertainty — the range a value can take as inputs vary within their plausible bounds — so a reader sees the confidence, not just the estimate."
+   ],
+   [
+    "h3",
+    "Where our uncertainty comes from"
+   ],
+   [
+    "ul",
+    [
+     "Physics inputs not yet measured on a Kronos machine — confinement, breeding, transport",
+     "Model form — different valid models give somewhat different answers",
+     "Engineering tolerances in fields, geometry, and materials",
+     "The gap, unquantifiable today, between any model and the built machine"
+    ]
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 245\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"TBR scanned across 1.1, 1.5 and 1.8\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><text x=\"340\" y=\"28\" font-size=\"12.5\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >Tritium breeding ratio — treated as a design LEVER, not a fact</text><rect x=\"82\" y=\"113\" width=\"76\" height=\"77\" rx=\"4\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"120\" y=\"205\" font-size=\"12\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >TBR 1.1</text><text x=\"120\" y=\"108\" font-size=\"12\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >1.1</text><rect x=\"302\" y=\"85\" width=\"76\" height=\"105\" rx=\"4\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"340\" y=\"205\" font-size=\"12\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >TBR 1.5</text><text x=\"340\" y=\"80\" font-size=\"12\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >1.5</text><rect x=\"522\" y=\"64\" width=\"76\" height=\"126\" rx=\"4\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"560\" y=\"205\" font-size=\"12\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >TBR 1.8</text><text x=\"560\" y=\"59\" font-size=\"12\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >1.8</text><line x1=\"60\" y1=\"120\" x2=\"620\" y2=\"120\" stroke=\"#8FA0B8\" stroke-width=\"1\" stroke-dasharray=\"4 4\"/><text x=\"624\" y=\"124\" font-size=\"10.5\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >1.0 = self-sufficiency</text><text x=\"340\" y=\"230\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >We report the range and its assumptions, not one flattering number.</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Honest confidence"
+   ],
+   [
+    "p",
+    "We attach explicit confidence to forward-looking claims rather than implying certainty. Some of our own confidence figures on the harder milestones are deliberately modest — around the level you would expect for physics that hardware has not yet settled. Reporting a modest confidence is more honest than reporting none."
+   ],
+   [
+    "p",
+    "The point of quantifying uncertainty is not to hedge everything into meaninglessness. It is to say precisely how much weight a number can bear, so no one builds on it more heavily than the evidence allows."
+   ]
+  ],
+  "related": [
+   [
+    "tbr-as-a-lever",
+    "TBR as a Design Lever"
+   ],
+   [
+    "confidence-statement",
+    "The Confidence Statement"
+   ],
+   [
+    "error-bars",
+    "Error Bars, Not Point Claims"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "error-bars",
+  "title": "Error Bars, Not Point Claims",
+  "cat": "honesty-transparency",
+  "lede": "Kronos prefers a value with an honest error bar to a clean-looking single number, because the clean number implies a precision the evidence does not support.",
+  "body": [
+   [
+    "h2",
+    "The false comfort of a single number"
+   ],
+   [
+    "p",
+    "A single number looks authoritative. That is exactly why it can mislead. Reporting '88.7 MW' without a range invites the reader to treat it as pinned down, when in fact it is a design point with assumptions attached. An error bar restores the honesty by showing how much the number could move."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 560 256\" width=\"100%\" style=\"max-width:560px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Ladder of claims from verified model to hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"40\" y=\"40\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#8FA0B8\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"58\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Achieved on hardware</text><text x=\"56\" y=\"73\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >not yet — no machine built</text><text x=\"506\" y=\"66\" font-size=\"18\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"92\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4A05C\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"110\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_engineering (net electric)</text><text x=\"56\" y=\"125\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >design target only</text><text x=\"506\" y=\"118\" font-size=\"18\" fill=\"#D4A05C\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"144\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.4\" /><text x=\"56\" y=\"162\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_scientific = 3.424 (breeder)</text><text x=\"56\" y=\"177\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >simulated design point</text><text x=\"506\" y=\"170\" font-size=\"18\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >✓</text><rect x=\"40\" y=\"196\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#7FB08A\" stroke-width=\"1.4\" /><text x=\"56\" y=\"214\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Physics model verified</text><text x=\"56\" y=\"229\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >reproducible, published</text><text x=\"506\" y=\"222\" font-size=\"18\" fill=\"#7FB08A\" text-anchor=\"middle\" font-weight=\"700\" >✓</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "When we quote a precise figure"
+   ],
+   [
+    "p",
+    "Some frozen-canon values are quoted to several digits — Q_sci 3.424, neutron fraction 5.44%. Those digits describe the <b>model output</b>, not measurement precision. The precision is real in the sense that the calculation reproducibly returns that value; it is not a claim that a built machine will land on exactly that figure. We say which kind of precision we mean."
+   ],
+   [
+    "h3",
+    "Reading our numbers correctly"
+   ],
+   [
+    "ul",
+    [
+     "A frozen design value = the reproducible output of a specific model",
+     "Its uncertainty = how far hardware could plausibly land from it",
+     "A precise-looking figure is not a promise of precise hardware",
+     "When measurements exist, the figure gains a genuine measurement error bar"
+    ]
+   ],
+   [
+    "p",
+    "The goal is calibration: a reader should come away neither over-trusting a tidy number nor dismissing a well-founded one. The error bar is how we communicate the difference."
+   ]
+  ],
+  "related": [
+   [
+    "uncertainty-quantification",
+    "Uncertainty, Stated"
+   ],
+   [
+    "design-targets-vs-measurements",
+    "Targets vs Measurements"
+   ],
+   [
+    "conditions-travel-with-numbers",
+    "Conditions Travel with Numbers"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "confidence-statement",
+  "title": "The Confidence Statement",
+  "cat": "honesty-transparency",
+  "lede": "Kronos attaches an explicit, sometimes modest, confidence to its forward claims — because stating low confidence honestly beats implying high confidence silently.",
+  "body": [
+   [
+    "h2",
+    "Saying how sure we are"
+   ],
+   [
+    "p",
+    "A confidence statement is an explicit estimate of how likely a forward-looking claim is to hold. Kronos attaches confidence to its milestones rather than presenting every projection as equally certain. On the harder physics — reaching design performance at scale — our stated confidence is deliberately modest, reflecting that hardware has not yet spoken."
+   ],
+   [
+    "h3",
+    "Why modest confidence is the honest number"
+   ],
+   [
+    "p",
+    "It would be easy to project confidence we do not have. The breeder's near-term products rest on fusion gain we can model well; the burner's net-electric ambition rests on a plug-density condition we cannot yet demonstrate. Reporting the same high confidence for both would be false. Different claims get different, stated confidence."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 220\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The honest gate between simulation and hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"30\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><rect x=\"350\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"180\" y=\"118\" font-size=\"12.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Higher confidence — modelled well</text><text x=\"500\" y=\"118\" font-size=\"12.5\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\" >Lower confidence — hardware-gated</text><line x1=\"340\" y1=\"70\" x2=\"340\" y2=\"160\" stroke=\"#E2C57E\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"75\" r=\"5\" fill=\"#E2C57E\"/><text x=\"340\" y=\"60\" font-size=\"11\" fill=\"#E2C57E\" text-anchor=\"middle\" font-weight=\"700\" >THE GATE</text><text x=\"340\" y=\"180\" font-size=\"11.5\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"600\" >confidence rises as gates close</text><text x=\"180\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >claims allowed today</text><text x=\"500\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >no net-gain claim before this</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Confidence is not pessimism"
+   ],
+   [
+    "ul",
+    [
+     "High enough to commit to building — construction begins 2027",
+     "Modest enough to keep the open gates genuinely open",
+     "Rises as each gate closes with real data",
+     "Never rounded up to make a slide land better"
+    ]
+   ],
+   [
+    "p",
+    "A program that always sounds certain is not being confident; it is refusing to price its own risk. Stating confidence — and revising it as evidence arrives — is how an honest program keeps its word calibrated to its knowledge."
+   ]
+  ],
+  "related": [
+   [
+    "uncertainty-quantification",
+    "Uncertainty, Stated"
+   ],
+   [
+    "open-gates-list",
+    "The Open Gates"
+   ],
+   [
+    "honest-timeline",
+    "The Honest Timeline"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "honest-timeline",
+  "title": "The Honest Timeline",
+  "cat": "honesty-transparency",
+  "lede": "Kronos states one timeline everywhere: construction Q2 2027, FOAK first tritium ~2030, then NOAK and BOAK — with no net-gain claim before FOAK.",
+  "body": [
+   [
+    "h2",
+    "One timeline, stated plainly"
+   ],
+   [
+    "p",
+    "A program's dates are a claim like any other, and they drift toward optimism unless pinned. Kronos uses one frozen timeline in every document. Breeder construction begins <b>Q2 2027</b>. The first-of-a-kind (FOAK) machine targets <b>first tritium around 2030</b>. A next-of-a-kind (NOAK) and best-of-a-kind (BOAK) follow. The burner test comes later still."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 700 170\" width=\"100%\" style=\"max-width:700px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Honest timeline of the breeder program\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><line x1=\"60\" y1=\"90\" x2=\"640\" y2=\"90\" stroke=\"#8FA0B8\" stroke-width=\"2\"/><circle cx=\"80\" cy=\"90\" r=\"7\" fill=\"#D4AD5C\"/><text x=\"80\" y=\"72\" font-size=\"12\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >Q2 2027</text><text x=\"80\" y=\"112\" font-size=\"11\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Construction begins</text><circle cx=\"300\" cy=\"90\" r=\"7\" fill=\"#E2C57E\"/><text x=\"300\" y=\"72\" font-size=\"12\" fill=\"#E2C57E\" text-anchor=\"middle\" font-weight=\"700\" >~2030</text><text x=\"300\" y=\"112\" font-size=\"11\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >FOAK first tritium</text><circle cx=\"470\" cy=\"90\" r=\"7\" fill=\"#8FA0B8\"/><text x=\"470\" y=\"72\" font-size=\"12\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"700\" >then</text><text x=\"470\" y=\"112\" font-size=\"11\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >NOAK</text><circle cx=\"600\" cy=\"90\" r=\"7\" fill=\"#8FA0B8\"/><text x=\"600\" y=\"72\" font-size=\"12\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"700\" >then</text><text x=\"600\" y=\"112\" font-size=\"11\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >BOAK</text><rect x=\"285\" y=\"120\" width=\"360\" height=\"30\" rx=\"5\" fill=\"none\" stroke=\"#D4A05C\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><text x=\"465\" y=\"140\" font-size=\"11.5\" fill=\"#D4A05C\" text-anchor=\"middle\" font-weight=\"600\" >no hardware net-gain claim before FOAK</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "What the dates are and are not"
+   ],
+   [
+    "ul",
+    [
+     "They are targets for a design and construction program, not achieved milestones",
+     "'First tritium ~2030' is when hardware first speaks — before that, everything is simulation",
+     "No hardware net-gain claim is made before FOAK",
+     "Retired framings, like earlier net-gain dates, are not quietly reused"
+    ]
+   ],
+   [
+    "h3",
+    "Keeping the timeline honest"
+   ],
+   [
+    "p",
+    "The same dates appear on technical pages and outward-facing materials alike; we do not show an aggressive timeline in one venue and a cautious one in another. If a date moves, it moves everywhere, with a reason. A reader who sees two Kronos timelines has found a bug, and we want them to be able to."
+   ],
+   [
+    "p",
+    "Timelines are where hope most often leaks into stated fact. Freezing one, and refusing to attach hardware claims to pre-hardware dates, is how we keep the leak sealed."
+   ]
+  ],
+  "related": [
+   [
+    "never-claiming-net-gain-before-foak",
+    "No Net-Gain Before FOAK"
+   ],
+   [
+    "what-foak-will-prove",
+    "What FOAK Will and Won't Prove"
+   ],
+   [
+    "frozen-canon-discipline",
+    "Frozen-Canon Discipline"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "what-foak-will-prove",
+  "title": "What FOAK Will and Won't Prove",
+  "cat": "honesty-transparency",
+  "lede": "The first-of-a-kind breeder will settle some questions and leave others open; Kronos says in advance which is which.",
+  "body": [
+   [
+    "h2",
+    "Scoping the first machine honestly"
+   ],
+   [
+    "p",
+    "The first-of-a-kind (FOAK) breeder (Hyperion) is the moment simulation meets steel. It is important to say in advance what it will and will not decide, so its results are read correctly rather than over- or under-interpreted when they arrive around 2030."
+   ],
+   [
+    "h3",
+    "What FOAK is positioned to prove"
+   ],
+   [
+    "ul",
+    [
+     "Whether the plasma reaches its design current and confinement in a real machine",
+     "First measured tritium production — the product the breeder exists to make",
+     "Behaviour of a physical blanket, giving a first real breeding-ratio measurement",
+     "Integrated operation of magnets, heating, and control together"
+    ]
+   ],
+   [
+    "h3",
+    "What FOAK will not prove"
+   ],
+   [
+    "ul",
+    [
+     "Net-electric gain — that is not the breeder's purpose",
+     "Long-term component lifetime under fluence — that needs sustained runtime",
+     "NOAK and BOAK improvements — those are later machines",
+     "The burner's physics — a separate device and a separate program"
+    ]
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 220\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The honest gate between simulation and hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"30\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><rect x=\"350\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"180\" y=\"118\" font-size=\"12.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >FOAK answers these</text><text x=\"500\" y=\"118\" font-size=\"12.5\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\" >These stay open after FOAK</text><line x1=\"340\" y1=\"70\" x2=\"340\" y2=\"160\" stroke=\"#E2C57E\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"75\" r=\"5\" fill=\"#E2C57E\"/><text x=\"340\" y=\"60\" font-size=\"11\" fill=\"#E2C57E\" text-anchor=\"middle\" font-weight=\"700\" >THE GATE</text><text x=\"340\" y=\"180\" font-size=\"11.5\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"600\" >first tritium ~2030</text><text x=\"180\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >claims allowed today</text><text x=\"500\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >no net-gain claim before this</text></svg></figure>"
+   ],
+   [
+    "p",
+    "A first machine that is honestly scoped cannot 'disappoint' by failing to do things it was never meant to do. Setting expectations correctly now is how we make sure FOAK's real results are judged on their real merits."
+   ]
+  ],
+  "related": [
+   [
+    "honest-timeline",
+    "The Honest Timeline"
+   ],
+   [
+    "never-claiming-net-gain-before-foak",
+    "No Net-Gain Before FOAK"
+   ],
+   [
+    "open-gates-list",
+    "The Open Gates"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "tritium-self-sufficiency",
+  "title": "Tritium Self-Sufficiency, Honestly",
+  "cat": "honesty-transparency",
+  "lede": "Whether the breeder can fuel itself depends on a breeding ratio nobody has yet measured in a physical Kronos blanket — so we state it as a condition, not a fact.",
+  "body": [
+   [
+    "h2",
+    "The condition behind the product"
+   ],
+   [
+    "p",
+    "The breeder (Hyperion) is designed to breed tritium — a product near the 4 kg/yr class, plus a helium-3 coproduct near 1.97 kg/yr. Whether it also fuels itself depends on the tritium breeding ratio (TBR) exceeding 1.0 in a real blanket. That is a condition to be measured, not a settled property, and we present it that way."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 245\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"TBR scanned across 1.1, 1.5 and 1.8\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><text x=\"340\" y=\"28\" font-size=\"12.5\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >Tritium breeding ratio — treated as a design LEVER, not a fact</text><rect x=\"82\" y=\"113\" width=\"76\" height=\"77\" rx=\"4\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"120\" y=\"205\" font-size=\"12\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >TBR 1.1</text><text x=\"120\" y=\"108\" font-size=\"12\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >1.1</text><rect x=\"302\" y=\"85\" width=\"76\" height=\"105\" rx=\"4\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"340\" y=\"205\" font-size=\"12\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >TBR 1.5</text><text x=\"340\" y=\"80\" font-size=\"12\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >1.5</text><rect x=\"522\" y=\"64\" width=\"76\" height=\"126\" rx=\"4\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"560\" y=\"205\" font-size=\"12\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >TBR 1.8</text><text x=\"560\" y=\"59\" font-size=\"12\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >1.8</text><line x1=\"60\" y1=\"120\" x2=\"620\" y2=\"120\" stroke=\"#8FA0B8\" stroke-width=\"1\" stroke-dasharray=\"4 4\"/><text x=\"624\" y=\"124\" font-size=\"10.5\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >1.0 = self-sufficiency</text><text x=\"340\" y=\"230\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >We report the range and its assumptions, not one flattering number.</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "What we can and cannot say"
+   ],
+   [
+    "ul",
+    [
+     "We can say: the design targets a TBR above 1.0, scanned across 1.1 / 1.5 / 1.8",
+     "We can say: the product yields quoted assume a given breeding case",
+     "We cannot say: the machine is self-sufficient — no blanket has been measured",
+     "We flag openly: a local-versus-net TBR framing needs reconciliation"
+    ]
+   ],
+   [
+    "h3",
+    "Why the honesty matters here"
+   ],
+   [
+    "p",
+    "Tritium self-sufficiency is often quoted as if it were a solved property of a design. It is not; it is one of the hardest things a D-T machine has to prove. Presenting it as a measured range with an open reconciliation, rather than a single confident number, keeps the product story tied to evidence rather than hope."
+   ],
+   [
+    "p",
+    "When FOAK's blanket is measured, the range collapses to a value with error bars, and this condition becomes — one way or the other — a result."
+   ]
+  ],
+  "related": [
+   [
+    "tbr-as-a-lever",
+    "TBR as a Design Lever"
+   ],
+   [
+    "what-foak-will-prove",
+    "What FOAK Will and Won't Prove"
+   ],
+   [
+    "uncertainty-quantification",
+    "Uncertainty, Stated"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "neutron-fraction-honesty",
+  "title": "The 5.44% Neutron Fraction",
+  "cat": "honesty-transparency",
+  "lede": "The burner's 5.44% neutron fraction is a specific, honest number that rules out the word aneutronic and keeps shielding and lifetime engineering on the table.",
+  "body": [
+   [
+    "h2",
+    "A number with consequences"
+   ],
+   [
+    "p",
+    "The burner (Aegis / MetroVolt) design carries a neutron fraction of <b>5.44%</b> — the share of fusion power that appears as neutrons rather than charged particles. It is low compared with a D-T machine, and it is not zero. That single figure carries several honest consequences we state rather than gloss."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 175\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Low-neutron spectrum, not aneutronic\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"40\" y=\"70\" width=\"600\" height=\"34\" rx=\"4\" fill=\"#28323f\" stroke=\"rgba(231,235,242,.18)\"/><rect x=\"40\" y=\"70\" width=\"33\" height=\"34\" rx=\"4\" fill=\"#D4A05C\"/><text x=\"56\" y=\"92\" font-size=\"11\" fill=\"#232C39\" text-anchor=\"middle\" font-weight=\"700\" >5.44%</text><text x=\"360\" y=\"92\" font-size=\"12\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >charged-particle energy — direct conversion</text><text x=\"340\" y=\"50\" font-size=\"12.5\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >Burner (Aegis / MetroVolt): D-3He, LOW-neutron</text><text x=\"72\" y=\"128\" font-size=\"10.5\" fill=\"#D4A05C\" text-anchor=\"middle\" font-weight=\"400\" >neutrons</text><text x=\"340\" y=\"150\" font-size=\"11.5\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\" >Low-neutron is not zero-neutron. We never say aneutronic.</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "What 5.44% implies"
+   ],
+   [
+    "ul",
+    [
+     "Neutron shielding is still required — the machine is not aneutronic",
+     "Material activation and neutron-driven wear still occur, at reduced levels",
+     "The large charged-particle majority is what enables direct energy conversion",
+     "Lifetime engineering must account for real, if lower, fluence"
+    ]
+   ],
+   [
+    "h3",
+    "Reconciling reported figures"
+   ],
+   [
+    "p",
+    "Neutron fraction can be quoted at different points in a design — for instance a design point value versus a figure that includes additional reactions or a different operating assumption. Where two figures appear, we reconcile them in public rather than picking whichever reads better. The frozen design-point value is 5.44%, and any other figure is explained against it."
+   ],
+   [
+    "p",
+    "A precise neutron fraction is more useful to an engineer than a reassuring adjective. 5.44% tells them how much shielding to design; 'aneutronic' would tell them to design none, and be wrong."
+   ]
+  ],
+  "related": [
+   [
+    "low-neutron-not-aneutronic",
+    "Low-Neutron, Not Aneutronic"
+   ],
+   [
+    "direct-energy-conversion-honesty",
+    "Direct Energy Conversion, Honestly"
+   ],
+   [
+    "correcting-the-record",
+    "Correcting the Record"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "direct-energy-conversion-honesty",
+  "title": "Direct Energy Conversion, Honestly",
+  "cat": "honesty-transparency",
+  "lede": "Direct energy conversion is a real advantage of the D-3He burner and a design goal, not a demonstrated result — Kronos states it as both.",
+  "body": [
+   [
+    "h2",
+    "A real principle, not yet a measured plant"
+   ],
+   [
+    "p",
+    "Direct energy conversion captures the kinetic energy of charged fusion products as electricity without a thermal cycle. Because the burner (Aegis / MetroVolt) runs D-3He with only a 5.44% neutron fraction, most of its energy is in charged particles that direct conversion can, in principle, capture efficiently. That is a genuine reason to pursue this fuel and geometry."
+   ],
+   [
+    "h3",
+    "What is design goal vs result"
+   ],
+   [
+    "ul",
+    [
+     "Design goal: net-electric output via direct conversion of charged particles",
+     "Design goal: high conversion efficiency enabled by the low neutron fraction",
+     "Not a result: no burner has been built or measured",
+     "Gated by: the plug-density condition and magnetic-well question"
+    ]
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 560 256\" width=\"100%\" style=\"max-width:560px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Ladder of claims from verified model to hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"40\" y=\"40\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#8FA0B8\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"58\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Achieved on hardware</text><text x=\"56\" y=\"73\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >not yet — no machine built</text><text x=\"506\" y=\"66\" font-size=\"18\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"92\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4A05C\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"110\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_engineering (net electric)</text><text x=\"56\" y=\"125\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >design target only</text><text x=\"506\" y=\"118\" font-size=\"18\" fill=\"#D4A05C\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"144\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.4\" /><text x=\"56\" y=\"162\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_scientific = 3.424 (breeder)</text><text x=\"56\" y=\"177\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >simulated design point</text><text x=\"506\" y=\"170\" font-size=\"18\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >✓</text><rect x=\"40\" y=\"196\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#7FB08A\" stroke-width=\"1.4\" /><text x=\"56\" y=\"214\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Physics model verified</text><text x=\"56\" y=\"229\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >reproducible, published</text><text x=\"506\" y=\"222\" font-size=\"18\" fill=\"#7FB08A\" text-anchor=\"middle\" font-weight=\"700\" >✓</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Why we separate the two"
+   ],
+   [
+    "p",
+    "Direct energy conversion is compelling enough that it invites overstatement — describing an efficient charged-particle plant as if it exists. It does not. The physics motivation is strong and the engineering is unproven. Both statements are true at once, and we make both, so the reader neither dismisses the idea nor mistakes it for a finished machine."
+   ],
+   [
+    "p",
+    "The honest summary: the burner's fuel and conversion path are well-motivated design choices, and turning them into a net-electric machine remains ahead of us, behind gates we have named."
+   ]
+  ],
+  "related": [
+   [
+    "low-neutron-not-aneutronic",
+    "Low-Neutron, Not Aneutronic"
+   ],
+   [
+    "plug-density-caveat",
+    "The Plug-Density Caveat"
+   ],
+   [
+    "q-sci-vs-q-eng",
+    "Q_sci vs Q_eng"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "peak-field-honesty",
+  "title": "Peak Field and On-Axis Field",
+  "cat": "honesty-transparency",
+  "lede": "Kronos quotes the breeder's 16.84 T peak field and 8 T on-axis field distinctly, because peak and on-axis field are different quantities and conflating them overstates the magnet.",
+  "body": [
+   [
+    "h2",
+    "Two fields, two meanings"
+   ],
+   [
+    "p",
+    "Magnetic field in a tokamak is not a single number. The <b>peak field</b> is the highest field the conductor sees, at the magnet; the <b>on-axis field</b> is the field at the plasma centre. For the breeder (Hyperion) these are 16.84 T peak and 8 T on-axis. Quoting one where the other belongs either flatters or undersells the magnet, so we always say which."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 560 256\" width=\"100%\" style=\"max-width:560px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Ladder of claims from verified model to hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"40\" y=\"40\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#8FA0B8\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"58\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Achieved on hardware</text><text x=\"56\" y=\"73\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >not yet — no machine built</text><text x=\"506\" y=\"66\" font-size=\"18\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"92\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4A05C\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"110\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_engineering (net electric)</text><text x=\"56\" y=\"125\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >design target only</text><text x=\"506\" y=\"118\" font-size=\"18\" fill=\"#D4A05C\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"144\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.4\" /><text x=\"56\" y=\"162\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_scientific = 3.424 (breeder)</text><text x=\"56\" y=\"177\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >simulated design point</text><text x=\"506\" y=\"170\" font-size=\"18\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >✓</text><rect x=\"40\" y=\"196\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#7FB08A\" stroke-width=\"1.4\" /><text x=\"56\" y=\"214\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Physics model verified</text><text x=\"56\" y=\"229\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >reproducible, published</text><text x=\"506\" y=\"222\" font-size=\"18\" fill=\"#7FB08A\" text-anchor=\"middle\" font-weight=\"700\" >✓</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Why the distinction is load-bearing"
+   ],
+   [
+    "ul",
+    [
+     "Peak field sets the engineering demand on the conductor and structure",
+     "On-axis field is what the plasma physics actually experiences",
+     "A high peak field quoted as on-axis would overstate confinement performance",
+     "A low on-axis field quoted as peak would understate the magnet challenge"
+    ]
+   ],
+   [
+    "h3",
+    "The honest presentation"
+   ],
+   [
+    "p",
+    "When we cite field, we name the location: 16.84 T at the coil, 8 T at the axis. Both are design targets from the frozen canon, not measured values — the magnets are not yet built. Keeping the pair distinct lets a magnet engineer and a plasma physicist each read the number that is relevant to them without being misled."
+   ],
+   [
+    "p",
+    "It is a small discipline that prevents a common sleight of hand: using whichever field number makes a given point look strongest."
+   ]
+  ],
+  "related": [
+   [
+    "frozen-canon-discipline",
+    "Frozen-Canon Discipline"
+   ],
+   [
+    "design-targets-vs-measurements",
+    "Targets vs Measurements"
+   ],
+   [
+    "plasma-current-target",
+    "The Plasma Current Target"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "plasma-current-target",
+  "title": "The Plasma Current Target",
+  "cat": "honesty-transparency",
+  "lede": "The breeder's 9.86 MA plasma current is a design target the first machine must actually reach; Kronos treats reaching it as an open, falsifiable gate.",
+  "body": [
+   [
+    "h2",
+    "A target, not an achievement"
+   ],
+   [
+    "p",
+    "The breeder (Hyperion) design point specifies a plasma current of <b>9.86 MA</b>. Plasma current is central to confinement and to the whole gain story. It is a design target computed from our models — and whether a built machine reaches and holds it is one of the first things FOAK will test."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 220\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The honest gate between simulation and hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"30\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><rect x=\"350\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"180\" y=\"118\" font-size=\"12.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >9.86 MA in the design model</text><text x=\"500\" y=\"118\" font-size=\"12.5\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\" >Reaching 9.86 MA in hardware</text><line x1=\"340\" y1=\"70\" x2=\"340\" y2=\"160\" stroke=\"#E2C57E\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"75\" r=\"5\" fill=\"#E2C57E\"/><text x=\"340\" y=\"60\" font-size=\"11\" fill=\"#E2C57E\" text-anchor=\"middle\" font-weight=\"700\" >THE GATE</text><text x=\"340\" y=\"180\" font-size=\"11.5\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"600\" >FOAK tests this first</text><text x=\"180\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >claims allowed today</text><text x=\"500\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >no net-gain claim before this</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "What rests on this number"
+   ],
+   [
+    "ul",
+    [
+     "Confinement quality, and therefore the Q_sci 3.424 design point",
+     "The neutron flux that drives breeding and product output",
+     "Plasma stability under the negative-triangularity (delta -0.30) shaping",
+     "Integrated operation with the 8 T on-axis field"
+    ]
+   ],
+   [
+    "h3",
+    "How we frame it"
+   ],
+   [
+    "p",
+    "We do not say the machine 'has' 9.86 MA; we say the design targets it and FOAK will measure it. If the built plasma falls short, the confinement model is wrong and much downstream of it must be revisited — which is exactly why this is a registered, falsifiable prediction rather than a settled fact."
+   ],
+   [
+    "p",
+    "Naming the current as a gate, not a property, keeps the reader's expectation aligned with the evidence: strong on paper, unproven in steel until 2030."
+   ]
+  ],
+  "related": [
+   [
+    "peak-field-honesty",
+    "Peak & On-Axis Field"
+   ],
+   [
+    "falsifiability",
+    "Falsifiability"
+   ],
+   [
+    "what-foak-will-prove",
+    "What FOAK Will and Won't Prove"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "function-first-naming",
+  "title": "Function-First Naming",
+  "cat": "honesty-transparency",
+  "lede": "Kronos names its machines by what they do — breeder and burner — before their product names, so no one mistakes a brand for a capability.",
+  "body": [
+   [
+    "h2",
+    "Say the function first"
+   ],
+   [
+    "p",
+    "Kronos uses a function-first naming standard: <b>breeder (Hyperion)</b> and <b>burner (Aegis / MetroVolt)</b>. The function comes first, the product name in parentheses. We do not write 'Hyperion, a breeder' as if the name were primary. The point is that a reader always knows what a machine does before they know what it is called."
+   ],
+   [
+    "h3",
+    "Why order matters"
+   ],
+   [
+    "ul",
+    [
+     "A product name can imply capabilities it has not earned; a function word cannot",
+     "'Breeder' says the machine's job is to make isotopes and neutrons",
+     "'Burner' says the machine's job is to convert D-3He energy",
+     "Aegis names fixed defense installations; MetroVolt names data-center generators — two housings of one burner"
+    ]
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 560 256\" width=\"100%\" style=\"max-width:560px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Ladder of claims from verified model to hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"40\" y=\"40\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#8FA0B8\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"58\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Achieved on hardware</text><text x=\"56\" y=\"73\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >not yet — no machine built</text><text x=\"506\" y=\"66\" font-size=\"18\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"92\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4A05C\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"110\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_engineering (net electric)</text><text x=\"56\" y=\"125\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >design target only</text><text x=\"506\" y=\"118\" font-size=\"18\" fill=\"#D4A05C\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"144\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.4\" /><text x=\"56\" y=\"162\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_scientific = 3.424 (breeder)</text><text x=\"56\" y=\"177\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >simulated design point</text><text x=\"506\" y=\"170\" font-size=\"18\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >✓</text><rect x=\"40\" y=\"196\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#7FB08A\" stroke-width=\"1.4\" /><text x=\"56\" y=\"214\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Physics model verified</text><text x=\"56\" y=\"229\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >reproducible, published</text><text x=\"506\" y=\"222\" font-size=\"18\" fill=\"#7FB08A\" text-anchor=\"middle\" font-weight=\"700\" >✓</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Avoiding withdrawn names"
+   ],
+   [
+    "p",
+    "We also retire names cleanly. Where an earlier name was withdrawn — for instance because it collided with an existing project — we do not keep it in circulation. Using a stale or withdrawn name would create a false impression of a separate product, so naming discipline is part of honesty, not just branding."
+   ],
+   [
+    "p",
+    "Function-first naming is a small habit with a large payoff: it makes it structurally harder to sell a name as if it were a proven machine."
+   ]
+  ],
+  "related": [
+   [
+    "frozen-canon-discipline",
+    "Frozen-Canon Discipline"
+   ],
+   [
+    "avoiding-hype",
+    "Avoiding Hype"
+   ],
+   [
+    "burner-honest-status",
+    "The Burner, Honestly"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "avoiding-breakthrough-language",
+  "title": "Against Breakthrough Language",
+  "cat": "honesty-transparency",
+  "lede": "Kronos does not describe its work as a breakthrough, revolution, or leap — those words assert importance the evidence has to earn on its own.",
+  "body": [
+   [
+    "h2",
+    "Words that do the reader's thinking for them"
+   ],
+   [
+    "p",
+    "'Breakthrough', 'revolutionary', 'leap', 'game-changing' — these words tell a reader how to feel about a result instead of giving them the result. They are conclusions dressed as descriptions. Kronos does not use them. If our work matters, the numbers and their conditions should make that clear without an adjective doing the arguing."
+   ],
+   [
+    "h3",
+    "What breakthrough language hides"
+   ],
+   [
+    "ul",
+    [
+     "It skips the conditions — a 'breakthrough' rarely comes with its assumptions attached",
+     "It flattens the gate between simulation and hardware",
+     "It borrows the credibility of past real breakthroughs to dress up an unproven one",
+     "It ages badly — the word stays after the claim is walked back"
+    ]
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 175\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Low-neutron spectrum, not aneutronic\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"40\" y=\"70\" width=\"600\" height=\"34\" rx=\"4\" fill=\"#28323f\" stroke=\"rgba(231,235,242,.18)\"/><rect x=\"40\" y=\"70\" width=\"33\" height=\"34\" rx=\"4\" fill=\"#D4A05C\"/><text x=\"56\" y=\"92\" font-size=\"11\" fill=\"#232C39\" text-anchor=\"middle\" font-weight=\"700\" >5.44%</text><text x=\"360\" y=\"92\" font-size=\"12\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >charged-particle energy — direct conversion</text><text x=\"340\" y=\"50\" font-size=\"12.5\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >Burner (Aegis / MetroVolt): D-3He, LOW-neutron</text><text x=\"72\" y=\"128\" font-size=\"10.5\" fill=\"#D4A05C\" text-anchor=\"middle\" font-weight=\"400\" >neutrons</text><text x=\"340\" y=\"150\" font-size=\"11.5\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\" >Low-neutron is not zero-neutron. We never say aneutronic.</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "The replacement"
+   ],
+   [
+    "p",
+    "Instead of 'a breakthrough in fusion gain', we write 'a design point of Q_sci 3.424 in simulation, targeting 88.7 MW, construction from 2027'. It is longer, plainer, and it lets the reader judge. If the reader concludes it is important, that conclusion is theirs and it is earned."
+   ],
+   [
+    "p",
+    "We would rather be described as understated and correct than as breakthrough-laden and later embarrassed. Restraint is a form of respect for the reader's judgment."
+   ]
+  ],
+  "related": [
+   [
+    "avoiding-hype",
+    "Avoiding Hype"
+   ],
+   [
+    "cost-of-overclaiming",
+    "The Cost of Overclaiming"
+   ],
+   [
+    "measurement-language",
+    "Measurement Language"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "citing-model-limits",
+  "title": "Citing the Limits of Our Models",
+  "cat": "honesty-transparency",
+  "lede": "Every model has a domain where it is trustworthy and edges where it is not; Kronos states the edges rather than extrapolating past them silently.",
+  "body": [
+   [
+    "h2",
+    "Where the model stops being reliable"
+   ],
+   [
+    "p",
+    "A physics or engineering model is valid within a range of conditions and degrades outside it. Honest use of a model means stating that range. Kronos cites the limits of its models — the regimes where confinement scalings, transport assumptions, or blanket neutronics are well-founded, and where they become extrapolations."
+   ],
+   [
+    "h3",
+    "Limits we name"
+   ],
+   [
+    "ul",
+    [
+     "Confinement scalings calibrated on existing devices, extrapolated to the breeder's regime",
+     "Blanket neutronics that depend on materials and geometry not yet built",
+     "A two-point-to-three-point extrapolation flagged in our burner analysis, not hidden",
+     "Any operating point outside the validated range, labelled as extrapolation"
+    ]
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 220\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The honest gate between simulation and hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"30\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><rect x=\"350\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"180\" y=\"118\" font-size=\"12.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Inside the validated range</text><text x=\"500\" y=\"118\" font-size=\"12.5\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\" >Outside — extrapolation</text><line x1=\"340\" y1=\"70\" x2=\"340\" y2=\"160\" stroke=\"#E2C57E\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"75\" r=\"5\" fill=\"#E2C57E\"/><text x=\"340\" y=\"60\" font-size=\"11\" fill=\"#E2C57E\" text-anchor=\"middle\" font-weight=\"700\" >THE GATE</text><text x=\"340\" y=\"180\" font-size=\"11.5\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"600\" >hardware extends the range</text><text x=\"180\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >claims allowed today</text><text x=\"500\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >no net-gain claim before this</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Why volunteer the weaknesses"
+   ],
+   [
+    "p",
+    "A model quoted without its limits invites the reader to trust it everywhere, including where it is least reliable. That is how confident-sounding projections quietly rest on their weakest assumption. Naming the edge lets a reader discount appropriately and lets a critic aim at the real soft spot rather than a strawman."
+   ],
+   [
+    "p",
+    "Stating a model's limits does not weaken the strong parts. It concentrates trust where trust is earned, which is exactly where we want it."
+   ]
+  ],
+  "related": [
+   [
+    "simulation-vs-experiment",
+    "Simulation Is Not Experiment"
+   ],
+   [
+    "uncertainty-quantification",
+    "Uncertainty, Stated"
+   ],
+   [
+    "extrapolation-honesty",
+    "Honest Extrapolation"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "open-data-as-a-check",
+  "title": "Open Data as a Check",
+  "cat": "honesty-transparency",
+  "lede": "Kronos publishes the data behind its results so that anyone — supporter or skeptic — can check the work rather than take our word for it.",
+  "body": [
+   [
+    "h2",
+    "Data that anyone can inspect"
+   ],
+   [
+    "p",
+    "Open data means the inputs, intermediate values, and outputs of an analysis are published, not just the conclusion. Kronos deposits its datasets to permanent archives alongside the papers that use them. The purpose is verification: a reader does not have to trust a plotted line when they can download the numbers behind it."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 270\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The open-science honesty flywheel\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><circle cx=\"340\" cy=\"130\" r=\"86\" fill=\"none\" stroke=\"#D4AD5C\" stroke-width=\"1.4\" stroke-dasharray=\"3 5\"/><circle cx=\"340\" cy=\"44\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"340\" y=\"42\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Design in</text><text x=\"340\" y=\"55\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >the open</text><circle cx=\"426\" cy=\"130\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"426\" y=\"128\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Publish papers</text><text x=\"426\" y=\"141\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >+ open data</text><circle cx=\"340\" cy=\"216\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"340\" y=\"214\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Invite</text><text x=\"340\" y=\"227\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >refutation</text><circle cx=\"254\" cy=\"130\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"254\" y=\"128\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Correct &</text><text x=\"254\" y=\"141\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >re-run</text><text x=\"340\" y=\"134\" font-size=\"11\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >OPEN-SCIENCE</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "What open data enables"
+   ],
+   [
+    "ul",
+    [
+     "Independent re-analysis — someone else can test our conclusion against our own numbers",
+     "Error-finding — mistakes are caught faster when the data are visible",
+     "Reuse — other researchers can build on the record, including competitors",
+     "Accountability — a claim and its data are permanently linked by DOI"
+    ]
+   ],
+   [
+    "h3",
+    "The honesty in the exposure"
+   ],
+   [
+    "p",
+    "Publishing data is a standing invitation to be corrected. It removes the ability to quietly adjust numbers after the fact, because the deposited version is fixed and dated. A program that publishes its data is telling you it expects the data to hold up — and accepts the consequences if they do not."
+   ],
+   [
+    "p",
+    "There are limits: we keep economics out of the public record entirely, and some engineering detail is held back for legitimate reasons. But the physics results that support our claims travel with the data needed to check them."
+   ]
+  ],
+  "related": [
+   [
+    "reproducible-record",
+    "The Reproducible Record"
+   ],
+   [
+    "dois-permanent-record",
+    "DOIs & the Permanent Record"
+   ],
+   [
+    "designing-in-the-open-link",
+    "Designing in the Open"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "dois-permanent-record",
+  "title": "DOIs and the Permanent Record",
+  "cat": "honesty-transparency",
+  "lede": "Kronos deposits its papers and data with DOIs so every claim has a permanent, versioned address that cannot be silently edited or withdrawn.",
+  "body": [
+   [
+    "h2",
+    "A citable, permanent address"
+   ],
+   [
+    "p",
+    "A DOI is a permanent identifier that points to a specific, fixed version of a document or dataset. By depositing to DOI-issuing archives, Kronos gives every claim an address that will resolve years from now and that cannot be quietly rewritten. A correction becomes a new version with a new DOI, while the old one stays visible."
+   ],
+   [
+    "h3",
+    "Why permanence serves honesty"
+   ],
+   [
+    "ul",
+    [
+     "A claim cannot be edited after the fact without leaving a versioned trail",
+     "Readers can cite exactly what they read, not a moving target",
+     "A superseded result stays on the record with a pointer to its replacement",
+     "The date of a prediction is fixed, which is what makes pre-registration meaningful"
+    ]
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 220\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The honest gate between simulation and hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"30\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><rect x=\"350\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"180\" y=\"118\" font-size=\"12.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Version 1 — deposited, dated</text><text x=\"500\" y=\"118\" font-size=\"12.5\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\" >Version 2 — correction, new DOI</text><line x1=\"340\" y1=\"70\" x2=\"340\" y2=\"160\" stroke=\"#E2C57E\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"75\" r=\"5\" fill=\"#E2C57E\"/><text x=\"340\" y=\"60\" font-size=\"11\" fill=\"#E2C57E\" text-anchor=\"middle\" font-weight=\"700\" >THE GATE</text><text x=\"340\" y=\"180\" font-size=\"11.5\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"600\" >the trail stays visible</text><text x=\"180\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >claims allowed today</text><text x=\"500\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >no net-gain claim before this</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Versioning as candor"
+   ],
+   [
+    "p",
+    "When we revise a paper — for example depositing a corrected edition after a reconciliation — the new DOI does not erase the old one. Anyone can see what changed. That is the opposite of a silent edit, and it is deliberate: the permanent record is how we make our corrections auditable rather than convenient."
+   ],
+   [
+    "p",
+    "A program that commits its claims to permanent, versioned records is accepting that its past statements will be remembered. We think that accountability is exactly the right pressure."
+   ]
+  ],
+  "related": [
+   [
+    "correcting-the-record",
+    "Correcting the Record"
+   ],
+   [
+    "open-data-as-a-check",
+    "Open Data as a Check"
+   ],
+   [
+    "reproducible-record",
+    "The Reproducible Record"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "inviting-refutation",
+  "title": "Inviting Refutation",
+  "cat": "honesty-transparency",
+  "lede": "Kronos publishes in a way that makes it easy to be proven wrong — clear claims, open data, named falsifiers — because that is how real confidence looks.",
+  "body": [
+   [
+    "h2",
+    "Making ourselves easy to check"
+   ],
+   [
+    "p",
+    "There are two ways to publish: to be hard to disprove, or to be easy to check. Kronos chooses the second. We state claims specifically, expose the data, and name what would falsify each one. This is not a weakness to be managed; it is the point. A claim that invites refutation and survives is worth far more than one that dodges the test."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 270\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The open-science honesty flywheel\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><circle cx=\"340\" cy=\"130\" r=\"86\" fill=\"none\" stroke=\"#D4AD5C\" stroke-width=\"1.4\" stroke-dasharray=\"3 5\"/><circle cx=\"340\" cy=\"44\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"340\" y=\"42\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Design in</text><text x=\"340\" y=\"55\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >the open</text><circle cx=\"426\" cy=\"130\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"426\" y=\"128\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Publish papers</text><text x=\"426\" y=\"141\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >+ open data</text><circle cx=\"340\" cy=\"216\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"340\" y=\"214\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Invite</text><text x=\"340\" y=\"227\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >refutation</text><circle cx=\"254\" cy=\"130\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"254\" y=\"128\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Correct &</text><text x=\"254\" y=\"141\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >re-run</text><text x=\"340\" y=\"134\" font-size=\"11\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >OPEN-SCIENCE</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "How we invite it"
+   ],
+   [
+    "ul",
+    [
+     "Specific numbers with conditions, not vague directional claims",
+     "Open data and reproducible code so a critic can re-run the analysis",
+     "Named falsifiers — the measurement that would prove each claim wrong",
+     "Correspondence open to challenge, with a real address for disagreement"
+    ]
+   ],
+   [
+    "h3",
+    "What we do with refutation"
+   ],
+   [
+    "p",
+    "When someone shows a result is wrong, the honest response is to correct it in public and thank them, not to defend the indefensible. A refuted claim that we fix strengthens the rest of the record; a refuted claim we cling to poisons all of it. We would rather lose an argument and keep our credibility."
+   ],
+   [
+    "p",
+    "Confidence that cannot survive being checked is not confidence. Publishing to be checked is how a program earns the trust it is asking for."
+   ]
+  ],
+  "related": [
+   [
+    "falsifiability",
+    "Falsifiability"
+   ],
+   [
+    "open-data-as-a-check",
+    "Open Data as a Check"
+   ],
+   [
+    "correcting-the-record",
+    "Correcting the Record"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "goal-vs-result",
+  "title": "Goal vs Result",
+  "cat": "honesty-transparency",
+  "lede": "A goal is what Kronos is trying to achieve; a result is what has been achieved. The whole program depends on never printing one as the other.",
+  "body": [
+   [
+    "h2",
+    "The single most important distinction"
+   ],
+   [
+    "p",
+    "Almost every honesty rule on this site reduces to one distinction: a goal is not a result. A goal is a target the program is working toward; a result is an outcome that has occurred and been measured. Kronos has ambitious goals and, in hardware terms, few results yet — because the machines are not built. Saying so clearly is the whole game."
+   ],
+   [
+    "truth",
+    [
+     [
+      "Kind of statement",
+      "Honest label"
+     ],
+     [
+      [
+       "Q_sci 3.424 design point",
+       "goal / target"
+      ],
+      [
+       "Net-electric burner via direct conversion",
+       "goal"
+      ],
+      [
+       "Reproducible published analysis",
+       "result"
+      ],
+      [
+       "First tritium ~2030",
+       "future goal, not yet result"
+      ]
+     ]
+    ]
+   ],
+   [
+    "h3",
+    "How goals masquerade as results"
+   ],
+   [
+    "ul",
+    [
+     "Achievement verbs ('achieved', 'demonstrated') attached to targets",
+     "Present tense for future capability ('the machine produces...')",
+     "Dropping the word 'design' or 'target' from a design target",
+     "Quoting a projected number without its date or conditions"
+    ]
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 560 256\" width=\"100%\" style=\"max-width:560px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Ladder of claims from verified model to hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"40\" y=\"40\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#8FA0B8\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"58\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Achieved on hardware</text><text x=\"56\" y=\"73\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >not yet — no machine built</text><text x=\"506\" y=\"66\" font-size=\"18\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"92\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4A05C\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"110\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_engineering (net electric)</text><text x=\"56\" y=\"125\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >design target only</text><text x=\"506\" y=\"118\" font-size=\"18\" fill=\"#D4A05C\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"144\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.4\" /><text x=\"56\" y=\"162\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_scientific = 3.424 (breeder)</text><text x=\"56\" y=\"177\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >simulated design point</text><text x=\"506\" y=\"170\" font-size=\"18\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >✓</text><rect x=\"40\" y=\"196\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#7FB08A\" stroke-width=\"1.4\" /><text x=\"56\" y=\"214\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Physics model verified</text><text x=\"56\" y=\"229\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >reproducible, published</text><text x=\"506\" y=\"222\" font-size=\"18\" fill=\"#7FB08A\" text-anchor=\"middle\" font-weight=\"700\" >✓</text></svg></figure>"
+   ],
+   [
+    "p",
+    "A program with honest goals and honest results is trustworthy even when its results are modest. A program that dresses goals as results is untrustworthy even when its goals are excellent. We would rather be the first kind."
+   ]
+  ],
+  "related": [
+   [
+    "design-targets-vs-measurements",
+    "Targets vs Measurements"
+   ],
+   [
+    "simulated-projected-achieved",
+    "Simulated / Projected / Achieved"
+   ],
+   [
+    "measurement-language",
+    "Measurement Language"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "what-fusion-cannot-do-yet",
+  "title": "What Fusion Cannot Do Yet",
+  "cat": "honesty-transparency",
+  "lede": "Being honest about fusion means saying plainly what no fusion machine — including ours — can do today, not only what ours is designed to do.",
+  "body": [
+   [
+    "h2",
+    "The honest state of the art"
+   ],
+   [
+    "p",
+    "Fusion is real physics and an unfinished engineering problem. Being honest about Kronos requires being honest about the field. Today, no fusion machine anywhere delivers sustained net electricity to a grid. Kronos's machines are design and simulation studies; construction of the first begins in 2027. Nothing here changes that baseline."
+   ],
+   [
+    "h3",
+    "What is not yet possible — for anyone"
+   ],
+   [
+    "ul",
+    [
+     "Sustained net-electric power from fusion on a grid",
+     "A commercially fuelled, self-sufficient tritium cycle proven at scale",
+     "Long-run component survival under sustained 14 MeV fluence",
+     "A demonstrated D-3He net-electric generator"
+    ]
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 220\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The honest gate between simulation and hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"30\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><rect x=\"350\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"180\" y=\"118\" font-size=\"12.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >What physics and design can show</text><text x=\"500\" y=\"118\" font-size=\"12.5\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\" >What no machine has yet done</text><line x1=\"340\" y1=\"70\" x2=\"340\" y2=\"160\" stroke=\"#E2C57E\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"75\" r=\"5\" fill=\"#E2C57E\"/><text x=\"340\" y=\"60\" font-size=\"11\" fill=\"#E2C57E\" text-anchor=\"middle\" font-weight=\"700\" >THE GATE</text><text x=\"340\" y=\"180\" font-size=\"11.5\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"600\" >hardware, over years, closes this</text><text x=\"180\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >claims allowed today</text><text x=\"500\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >no net-gain claim before this</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Why we say the hard part out loud"
+   ],
+   [
+    "p",
+    "A reader who only hears what our machines are designed to do, and never hears what the field cannot yet do, will over-estimate how close the finish line is. Placing our program honestly inside the real state of fusion is more useful — and more durable — than presenting it as if the surrounding problems were solved."
+   ],
+   [
+    "p",
+    "Our distinctive claim is narrower and truer: the breeder's product is isotopes and neutrons, which fusion gain can make before net electricity is solved. That is a real path, and it does not require pretending the rest is finished."
+   ]
+  ],
+  "related": [
+   [
+    "never-claiming-net-gain-before-foak",
+    "No Net-Gain Before FOAK"
+   ],
+   [
+    "scale-and-availability",
+    "Scale & Availability Caveats"
+   ],
+   [
+    "honest-competitive-framing",
+    "Honest Competitive Framing"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "scale-and-availability",
+  "title": "Scale and Availability Caveats",
+  "cat": "honesty-transparency",
+  "lede": "A design point at one machine is not a fleet, and a peak performance is not an availability; Kronos keeps these caveats attached to its numbers.",
+  "body": [
+   [
+    "h2",
+    "Two caveats that change everything"
+   ],
+   [
+    "p",
+    "Two honest caveats sit behind almost every performance number. <b>Scale</b>: a result for one machine does not automatically hold for a fleet, and a fleet raises questions a single unit does not. <b>Availability</b>: a peak or design-point performance is not the same as sustained, high-duty-cycle operation over years. Kronos keeps both caveats attached."
+   ],
+   [
+    "h3",
+    "The scale caveat"
+   ],
+   [
+    "ul",
+    [
+     "A single FOAK breeder is a proof of principle, not a supply chain",
+     "Fleet-level outputs assume repeated builds that have not happened",
+     "A comparison between our single machine and a rival fleet is not like-for-like"
+    ]
+   ],
+   [
+    "h3",
+    "The availability caveat"
+   ],
+   [
+    "ul",
+    [
+     "A design point describes performance under design conditions, not annual average",
+     "Duty cycle and availability are genuinely open — a top open question for the breeder",
+     "A capacity figure is not an energy-delivered figure without availability"
+    ]
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 560 256\" width=\"100%\" style=\"max-width:560px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Ladder of claims from verified model to hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"40\" y=\"40\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#8FA0B8\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"58\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Achieved on hardware</text><text x=\"56\" y=\"73\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >not yet — no machine built</text><text x=\"506\" y=\"66\" font-size=\"18\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"92\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4A05C\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"110\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_engineering (net electric)</text><text x=\"56\" y=\"125\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >design target only</text><text x=\"506\" y=\"118\" font-size=\"18\" fill=\"#D4A05C\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"144\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.4\" /><text x=\"56\" y=\"162\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_scientific = 3.424 (breeder)</text><text x=\"56\" y=\"177\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >simulated design point</text><text x=\"506\" y=\"170\" font-size=\"18\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >✓</text><rect x=\"40\" y=\"196\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#7FB08A\" stroke-width=\"1.4\" /><text x=\"56\" y=\"214\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Physics model verified</text><text x=\"56\" y=\"229\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >reproducible, published</text><text x=\"506\" y=\"222\" font-size=\"18\" fill=\"#7FB08A\" text-anchor=\"middle\" font-weight=\"700\" >✓</text></svg></figure>"
+   ],
+   [
+    "p",
+    "These caveats are unglamorous and they are where optimistic projections most often quietly go wrong — by treating a peak as an average, or one machine as many. We state them so a reader does not have to supply them, and so our own numbers stay honest about what they describe."
+   ]
+  ],
+  "related": [
+   [
+    "what-fusion-cannot-do-yet",
+    "What Fusion Cannot Do Yet"
+   ],
+   [
+    "comparing-like-with-like",
+    "Comparing Like with Like"
+   ],
+   [
+    "uncertainty-quantification",
+    "Uncertainty, Stated"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "no-free-energy",
+  "title": "No Free Energy, No Perpetual Motion",
+  "cat": "honesty-transparency",
+  "lede": "Fusion is hard because it obeys thermodynamics like everything else; Kronos never implies limitless or effortless energy.",
+  "body": [
+   [
+    "h2",
+    "Fusion obeys the same laws as everything"
+   ],
+   [
+    "p",
+    "Fusion releases energy by binding light nuclei, but it does not suspend thermodynamics. Every Kronos machine must be heated, confined, and maintained with real input power, and it faces real losses. There is no free energy and no perpetual motion. Any framing that implies otherwise is not just hype — it is physically false."
+   ],
+   [
+    "h3",
+    "What we never imply"
+   ],
+   [
+    "ul",
+    [
+     "'Unlimited' or 'limitless' energy — real machines have finite output and finite lifetime",
+     "Energy without input — every machine has recirculating power to overcome",
+     "A closed loop that runs itself forever — components wear and fuel must be supplied",
+     "A gain figure that ignores where the input power went"
+    ]
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 220\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The honest gate between simulation and hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"30\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><rect x=\"350\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"180\" y=\"118\" font-size=\"12.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Energy in (heating, magnets, plant)</text><text x=\"500\" y=\"118\" font-size=\"12.5\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\" >Energy out (useful)</text><line x1=\"340\" y1=\"70\" x2=\"340\" y2=\"160\" stroke=\"#E2C57E\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"75\" r=\"5\" fill=\"#E2C57E\"/><text x=\"340\" y=\"60\" font-size=\"11\" fill=\"#E2C57E\" text-anchor=\"middle\" font-weight=\"700\" >THE GATE</text><text x=\"340\" y=\"180\" font-size=\"11.5\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"600\" >gain lives in this comparison</text><text x=\"180\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >claims allowed today</text><text x=\"500\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >no net-gain claim before this</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Why this matters for gain claims"
+   ],
+   [
+    "p",
+    "The temptation in fusion communication is to quote fusion power while ignoring input power — to imply energy appeared from nowhere. That is why we distinguish Q_sci from Q_eng so carefully: the honest question is always output relative to everything that went in. A gain claim that hides the denominator is a free-energy claim in disguise."
+   ],
+   [
+    "p",
+    "Fusion is worth pursuing precisely because it is hard and bounded, not because it is magic. Saying so keeps expectations tethered to physics."
+   ]
+  ],
+  "related": [
+   [
+    "q-sci-vs-q-eng",
+    "Q_sci vs Q_eng"
+   ],
+   [
+    "avoiding-hype",
+    "Avoiding Hype"
+   ],
+   [
+    "what-fusion-cannot-do-yet",
+    "What Fusion Cannot Do Yet"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "comparing-like-with-like",
+  "title": "Comparing Like with Like",
+  "cat": "honesty-transparency",
+  "lede": "A fair comparison holds fuel, gain definition, scale, and maturity constant; Kronos refuses comparisons that quietly vary them to win.",
+  "body": [
+   [
+    "h2",
+    "The most common way comparisons cheat"
+   ],
+   [
+    "p",
+    "Comparisons mislead not by lying about a number but by comparing things that are not comparable. A Q_sci against a Q_eng. A single machine against a fleet. A design point against a measured result. A D-T device against a D-3He device on a metric that favors one fuel. Kronos holds these constant, or names the difference."
+   ],
+   [
+    "truth",
+    [
+     [
+      "Axis",
+      "Must match"
+     ],
+     [
+      [
+       "Gain type",
+       "Q_sci vs Q_sci, or Q_eng vs Q_eng"
+      ],
+      [
+       "Maturity",
+       "design vs design, or measured vs measured"
+      ],
+      [
+       "Scale",
+       "single unit vs single unit"
+      ],
+      [
+       "Fuel",
+       "D-T and D-3He compared on fuel-fair metrics"
+      ]
+     ]
+    ]
+   ],
+   [
+    "h3",
+    "How we handle unavoidable differences"
+   ],
+   [
+    "p",
+    "Sometimes the honest comparison is between things that genuinely differ — our breeder is a D-T isotope foundry, a rival may be a D-T power device. When we cannot make the axes identical, we say what differs and why it matters, rather than picking a metric that hides it. The reader sees the mismatch instead of being steered around it."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 560 256\" width=\"100%\" style=\"max-width:560px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Ladder of claims from verified model to hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"40\" y=\"40\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#8FA0B8\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"58\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Achieved on hardware</text><text x=\"56\" y=\"73\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >not yet — no machine built</text><text x=\"506\" y=\"66\" font-size=\"18\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"92\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4A05C\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"110\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_engineering (net electric)</text><text x=\"56\" y=\"125\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >design target only</text><text x=\"506\" y=\"118\" font-size=\"18\" fill=\"#D4A05C\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"144\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.4\" /><text x=\"56\" y=\"162\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_scientific = 3.424 (breeder)</text><text x=\"56\" y=\"177\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >simulated design point</text><text x=\"506\" y=\"170\" font-size=\"18\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >✓</text><rect x=\"40\" y=\"196\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#7FB08A\" stroke-width=\"1.4\" /><text x=\"56\" y=\"214\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Physics model verified</text><text x=\"56\" y=\"229\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >reproducible, published</text><text x=\"506\" y=\"222\" font-size=\"18\" fill=\"#7FB08A\" text-anchor=\"middle\" font-weight=\"700\" >✓</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Our own wedge, fairly stated"
+   ],
+   [
+    "p",
+    "Our real advantage survives a fair comparison: the breeder delivers value from isotopes and neutrons, which need fusion gain rather than net-electric output. Stated on a level field, that is a genuine and defensible difference — which is why we do not need an unlevel one."
+   ]
+  ],
+  "related": [
+   [
+    "honest-competitive-framing",
+    "Honest Competitive Framing"
+   ],
+   [
+    "q-sci-vs-q-eng",
+    "Q_sci vs Q_eng"
+   ],
+   [
+    "scale-and-availability",
+    "Scale & Availability Caveats"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "honest-about-competitor-strengths",
+  "title": "Crediting Competitors' Strengths",
+  "cat": "honesty-transparency",
+  "lede": "Kronos names what other fusion efforts do well, because a comparison that credits no rival strength is advertising, not analysis.",
+  "body": [
+   [
+    "h2",
+    "Credit is a credibility test"
+   ],
+   [
+    "p",
+    "A quick way to tell analysis from advertising is whether it can name a competitor's genuine strength. Kronos does. Other efforts lead on high-field magnet demonstrations, on plasma performance records, on public-sector integration, on manufacturing scale-up. Acknowledging these does not weaken our case; it shows our case was built with eyes open."
+   ],
+   [
+    "h3",
+    "What we credit plainly"
+   ],
+   [
+    "ul",
+    [
+     "Programs that have run large plasmas and set confinement or field records",
+     "Public and international programs advancing shared fusion science",
+     "Efforts further along a net-electric path than any isotope foundry needs to be",
+     "Work whose open results we ourselves build on"
+    ]
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 560 256\" width=\"100%\" style=\"max-width:560px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Ladder of claims from verified model to hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"40\" y=\"40\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#8FA0B8\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"58\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Achieved on hardware</text><text x=\"56\" y=\"73\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >not yet — no machine built</text><text x=\"506\" y=\"66\" font-size=\"18\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"92\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4A05C\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"110\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_engineering (net electric)</text><text x=\"56\" y=\"125\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >design target only</text><text x=\"506\" y=\"118\" font-size=\"18\" fill=\"#D4A05C\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"144\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.4\" /><text x=\"56\" y=\"162\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_scientific = 3.424 (breeder)</text><text x=\"56\" y=\"177\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >simulated design point</text><text x=\"506\" y=\"170\" font-size=\"18\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >✓</text><rect x=\"40\" y=\"196\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#7FB08A\" stroke-width=\"1.4\" /><text x=\"56\" y=\"214\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Physics model verified</text><text x=\"56\" y=\"229\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >reproducible, published</text><text x=\"506\" y=\"222\" font-size=\"18\" fill=\"#7FB08A\" text-anchor=\"middle\" font-weight=\"700\" >✓</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Why it strengthens us"
+   ],
+   [
+    "p",
+    "A reader who sees us credit a rival's real advantage will trust the rest of our comparison more, because we have shown we are not simply cheerleading. It also keeps us honest internally: a program that studies competitors' strengths seriously makes better decisions than one that dismisses them."
+   ],
+   [
+    "p",
+    "Our differentiation does not require anyone else to be bad. The breeder sells materials that need fusion gain, not net electricity — that stands on its own merits, alongside, not against, the field's genuine achievements."
+   ]
+  ],
+  "related": [
+   [
+    "honest-competitive-framing",
+    "Honest Competitive Framing"
+   ],
+   [
+    "comparing-like-with-like",
+    "Comparing Like with Like"
+   ],
+   [
+    "cost-of-overclaiming",
+    "The Cost of Overclaiming"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "cost-of-overclaiming",
+  "title": "The Cost of Overclaiming",
+  "cat": "honesty-transparency",
+  "lede": "Overclaiming borrows credibility from the future and spends it now; when the future arrives short, the whole field pays — which is why Kronos will not.",
+  "body": [
+   [
+    "h2",
+    "Why hype is expensive"
+   ],
+   [
+    "p",
+    "Overclaiming is not a harmless marketing choice. Each exaggerated fusion claim borrows against a future that has to deliver. When it does not, the reader learns to discount the next claim — including the true ones, and including everyone else's. Credibility is a shared resource in a young field, and hype depletes it for all."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 175\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Low-neutron spectrum, not aneutronic\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"40\" y=\"70\" width=\"600\" height=\"34\" rx=\"4\" fill=\"#28323f\" stroke=\"rgba(231,235,242,.18)\"/><rect x=\"40\" y=\"70\" width=\"33\" height=\"34\" rx=\"4\" fill=\"#D4A05C\"/><text x=\"56\" y=\"92\" font-size=\"11\" fill=\"#232C39\" text-anchor=\"middle\" font-weight=\"700\" >5.44%</text><text x=\"360\" y=\"92\" font-size=\"12\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >charged-particle energy — direct conversion</text><text x=\"340\" y=\"50\" font-size=\"12.5\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >Burner (Aegis / MetroVolt): D-3He, LOW-neutron</text><text x=\"72\" y=\"128\" font-size=\"10.5\" fill=\"#D4A05C\" text-anchor=\"middle\" font-weight=\"400\" >neutrons</text><text x=\"340\" y=\"150\" font-size=\"11.5\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\" >Low-neutron is not zero-neutron. We never say aneutronic.</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "The specific damages"
+   ],
+   [
+    "ul",
+    [
+     "A public that stops believing fusion timelines after enough missed ones",
+     "Serious partners who must spend effort separating real claims from inflated ones",
+     "Honest programs penalized for sounding less exciting than dishonest ones",
+     "A later correction that reads as failure because the claim was oversold to begin with"
+    ]
+   ],
+   [
+    "h3",
+    "The discipline as self-interest"
+   ],
+   [
+    "p",
+    "Refusing to overclaim is not only ethics; it is strategy. A program that has never had to walk back a claim can be taken at its word, which is worth more over time than any single impressive headline. We are deliberately building that kind of track record: modest, specific, and durable."
+   ],
+   [
+    "p",
+    "We would rather under-promise and let the results speak than over-promise and spend the rest of the program apologizing for it."
+   ]
+  ],
+  "related": [
+   [
+    "avoiding-hype",
+    "Avoiding Hype"
+   ],
+   [
+    "avoiding-breakthrough-language",
+    "Breakthrough Language"
+   ],
+   [
+    "inviting-refutation",
+    "Inviting Refutation"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "measurement-language",
+  "title": "Measurement Language Discipline",
+  "cat": "honesty-transparency",
+  "lede": "Kronos reserves measurement verbs for measurements; a value from a solver is computed, predicted, or targeted — never measured, achieved, or demonstrated.",
+  "body": [
+   [
+    "h2",
+    "Verbs carry evidence"
+   ],
+   [
+    "p",
+    "The verb attached to a number tells the reader what kind of evidence stands behind it. 'Measured', 'achieved', 'demonstrated', 'observed' claim that hardware produced the value. 'Computed', 'predicted', 'simulated', 'targeted', 'designed for' claim that a model produced it. Kronos keeps these vocabularies separate, and checks pages for slips."
+   ],
+   [
+    "truth",
+    [
+     [
+      "Verb",
+      "Legitimate for"
+     ],
+     [
+      [
+       "measured / observed",
+       "hardware data only"
+      ],
+      [
+       "achieved / demonstrated",
+       "a real machine result"
+      ],
+      [
+       "predicted / simulated",
+       "a model output"
+      ],
+      [
+       "targeted / designed for",
+       "a design goal"
+      ]
+     ]
+    ]
+   ],
+   [
+    "h3",
+    "The mechanical check"
+   ],
+   [
+    "p",
+    "This is not left to good intentions. Our build process scans page text for achievement verbs attached to design values and flags them. A sentence that says the breeder 'achieves Q_sci 3.424' fails the check; 'is designed for Q_sci 3.424' passes. Automating the discipline means it holds even when a human writer is in a hurry."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 560 256\" width=\"100%\" style=\"max-width:560px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Ladder of claims from verified model to hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"40\" y=\"40\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#8FA0B8\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"58\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Achieved on hardware</text><text x=\"56\" y=\"73\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >not yet — no machine built</text><text x=\"506\" y=\"66\" font-size=\"18\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"92\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4A05C\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"110\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_engineering (net electric)</text><text x=\"56\" y=\"125\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >design target only</text><text x=\"506\" y=\"118\" font-size=\"18\" fill=\"#D4A05C\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"144\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.4\" /><text x=\"56\" y=\"162\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_scientific = 3.424 (breeder)</text><text x=\"56\" y=\"177\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >simulated design point</text><text x=\"506\" y=\"170\" font-size=\"18\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >✓</text><rect x=\"40\" y=\"196\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#7FB08A\" stroke-width=\"1.4\" /><text x=\"56\" y=\"214\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Physics model verified</text><text x=\"56\" y=\"229\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >reproducible, published</text><text x=\"506\" y=\"222\" font-size=\"18\" fill=\"#7FB08A\" text-anchor=\"middle\" font-weight=\"700\" >✓</text></svg></figure>"
+   ],
+   [
+    "p",
+    "It sounds pedantic until you notice how much of fusion's credibility problem comes from a single wrong verb — a simulation described with an achievement word, repeated until everyone forgets it was a simulation. Guarding the verbs guards the truth."
+   ]
+  ],
+  "related": [
+   [
+    "design-targets-vs-measurements",
+    "Targets vs Measurements"
+   ],
+   [
+    "simulated-projected-achieved",
+    "Simulated / Projected / Achieved"
+   ],
+   [
+    "goal-vs-result",
+    "Goal vs Result"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "simulated-projected-achieved",
+  "title": "Simulated, Projected, Achieved",
+  "cat": "honesty-transparency",
+  "lede": "Kronos uses three distinct words for three distinct things: simulated (a model output), projected (a forward estimate), and achieved (a hardware result).",
+  "body": [
+   [
+    "h2",
+    "Three words, three evidence levels"
+   ],
+   [
+    "p",
+    "Precision about evidence needs more than two categories. Kronos distinguishes <b>simulated</b> — a value a model produces under stated assumptions; <b>projected</b> — a forward estimate that may fold in scaling, engineering margins, or fleet assumptions; and <b>achieved</b> — a value a built machine has produced and that was measured. Each word signals a different distance from hardware."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 560 256\" width=\"100%\" style=\"max-width:560px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Ladder of claims from verified model to hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"40\" y=\"40\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#8FA0B8\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"58\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Achieved on hardware</text><text x=\"56\" y=\"73\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >not yet — no machine built</text><text x=\"506\" y=\"66\" font-size=\"18\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"92\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4A05C\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"110\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_engineering (net electric)</text><text x=\"56\" y=\"125\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >design target only</text><text x=\"506\" y=\"118\" font-size=\"18\" fill=\"#D4A05C\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"144\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.4\" /><text x=\"56\" y=\"162\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_scientific = 3.424 (breeder)</text><text x=\"56\" y=\"177\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >simulated design point</text><text x=\"506\" y=\"170\" font-size=\"18\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >✓</text><rect x=\"40\" y=\"196\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#7FB08A\" stroke-width=\"1.4\" /><text x=\"56\" y=\"214\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Physics model verified</text><text x=\"56\" y=\"229\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >reproducible, published</text><text x=\"506\" y=\"222\" font-size=\"18\" fill=\"#7FB08A\" text-anchor=\"middle\" font-weight=\"700\" >✓</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "How they apply to Kronos"
+   ],
+   [
+    "ul",
+    [
+     "Simulated: Q_sci 3.424, the 5.44% neutron fraction, field and current design points",
+     "Projected: fleet-level outputs, forward timelines, availability estimates",
+     "Achieved: today, our reproducible published analyses — hardware results do not yet exist",
+     "First achieved hardware value: measured tritium from FOAK, targeted ~2030"
+    ]
+   ],
+   [
+    "h3",
+    "Why three, not two"
+   ],
+   [
+    "p",
+    "Collapsing 'projected' into 'simulated' would hide the extra assumptions a forward estimate carries — scaling, repeated builds, duty cycle. Collapsing it into 'achieved' would be far worse, implying it happened. Keeping the three separate lets a reader see exactly how many layers of assumption sit between a number and a measurement."
+   ],
+   [
+    "p",
+    "When we quote a number, the word we choose is not decoration. It is the shortest honest statement of what kind of thing the number is."
+   ]
+  ],
+  "related": [
+   [
+    "measurement-language",
+    "Measurement Language"
+   ],
+   [
+    "goal-vs-result",
+    "Goal vs Result"
+   ],
+   [
+    "scale-and-availability",
+    "Scale & Availability Caveats"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "honest-scorecard",
+  "title": "The Honest Scorecard Principle",
+  "cat": "honesty-transparency",
+  "lede": "When Kronos scores options against each other, it grades itself on the same ruler it applies to everyone, including a verdict column that can go against us.",
+  "body": [
+   [
+    "h2",
+    "One ruler, applied to yourself too"
+   ],
+   [
+    "p",
+    "A scorecard compares options across criteria and reaches a verdict. It is honest only if the maker is graded on the same ruler as everyone else — and if the verdict column is allowed to go against the maker on rows where it should. Kronos builds scorecards that include our own open gates as scored rows, not footnotes."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 560 256\" width=\"100%\" style=\"max-width:560px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Ladder of claims from verified model to hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"40\" y=\"40\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#8FA0B8\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"58\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Achieved on hardware</text><text x=\"56\" y=\"73\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >not yet — no machine built</text><text x=\"506\" y=\"66\" font-size=\"18\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"92\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4A05C\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"110\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_engineering (net electric)</text><text x=\"56\" y=\"125\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >design target only</text><text x=\"506\" y=\"118\" font-size=\"18\" fill=\"#D4A05C\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"144\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.4\" /><text x=\"56\" y=\"162\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_scientific = 3.424 (breeder)</text><text x=\"56\" y=\"177\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >simulated design point</text><text x=\"506\" y=\"170\" font-size=\"18\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >✓</text><rect x=\"40\" y=\"196\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#7FB08A\" stroke-width=\"1.4\" /><text x=\"56\" y=\"214\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Physics model verified</text><text x=\"56\" y=\"229\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >reproducible, published</text><text x=\"506\" y=\"222\" font-size=\"18\" fill=\"#7FB08A\" text-anchor=\"middle\" font-weight=\"700\" >✓</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "What keeps a scorecard honest"
+   ],
+   [
+    "ul",
+    [
+     "The same criteria and evidence standard apply to every option, ours included",
+     "Cells trace to public, citable sources — the comparison is checkable",
+     "A verdict column states the call plainly, and can rule against us on a row",
+     "Our open questions — TBR, plug density, availability — appear as scored rows"
+    ]
+   ],
+   [
+    "h3",
+    "Why we like this format"
+   ],
+   [
+    "p",
+    "A well-built scorecard is the most compact honest comparison there is: it forces every option onto the same axes and shows the trade-offs directly. The discipline is refusing to quietly soften our own rows. A scorecard where we win everything is not a scorecard; it is a trophy case, and readers can tell the difference."
+   ],
+   [
+    "p",
+    "The verdict that matters is not 'we win' but 'here is the true shape of the trade-offs, including where we are behind'. That is the comparison worth trusting."
+   ]
+  ],
+  "related": [
+   [
+    "honest-competitive-framing",
+    "Honest Competitive Framing"
+   ],
+   [
+    "comparing-like-with-like",
+    "Comparing Like with Like"
+   ],
+   [
+    "honest-about-competitor-strengths",
+    "Competitors' Strengths"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "what-a-design-study-is",
+  "title": "What a Design Study Is",
+  "cat": "honesty-transparency",
+  "lede": "Kronos's machines are design and simulation studies — rigorous, reproducible, and not yet built. Saying so is not a disclaimer; it is the accurate description.",
+  "body": [
+   [
+    "h2",
+    "The accurate description of our work"
+   ],
+   [
+    "p",
+    "A design study works out, in detail and by calculation, how a machine could be built and how it should perform, before any steel is cut. It is real, rigorous engineering. It is also not a built machine. Kronos's breeder (Hyperion) and burner (Aegis / MetroVolt) are design and simulation studies today; construction of the first begins in 2027."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 220\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The honest gate between simulation and hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"30\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><rect x=\"350\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"180\" y=\"118\" font-size=\"12.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Design study — detailed, reproducible</text><text x=\"500\" y=\"118\" font-size=\"12.5\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\" >Built machine — measured</text><line x1=\"340\" y1=\"70\" x2=\"340\" y2=\"160\" stroke=\"#E2C57E\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"75\" r=\"5\" fill=\"#E2C57E\"/><text x=\"340\" y=\"60\" font-size=\"11\" fill=\"#E2C57E\" text-anchor=\"middle\" font-weight=\"700\" >THE GATE</text><text x=\"340\" y=\"180\" font-size=\"11.5\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"600\" >construction begins Q2 2027</text><text x=\"180\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >claims allowed today</text><text x=\"500\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >no net-gain claim before this</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "What a design study delivers"
+   ],
+   [
+    "ul",
+    [
+     "A specified design point with its assumptions — Q_sci 3.424, fields, current, yields",
+     "Reproducible analyses that others can check",
+     "Identified open gates that construction will resolve",
+     "Falsifiable predictions to score against future hardware"
+    ]
+   ],
+   [
+    "h3",
+    "What it does not deliver"
+   ],
+   [
+    "p",
+    "It does not deliver measurements, net gain, or operating experience — those require the machine. Describing our program as a design study is not hedging; it is the correct noun for what it is. A reader who knows they are reading a design study will weigh it correctly, which is all we ask."
+   ],
+   [
+    "p",
+    "Great design studies are how every real machine begins. Ours are meant to be the honest, checkable front end of a program that ends in built hardware — not a substitute for it."
+   ]
+  ],
+  "related": [
+   [
+    "simulation-vs-experiment",
+    "Simulation Is Not Experiment"
+   ],
+   [
+    "design-targets-vs-measurements",
+    "Targets vs Measurements"
+   ],
+   [
+    "reader-verification-guide",
+    "How to Check Us"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "burner-honest-status",
+  "title": "The Burner, Honestly",
+  "cat": "honesty-transparency",
+  "lede": "The burner (Aegis / MetroVolt) is a well-motivated D-3He design gated on a real physics question — Kronos states both the promise and the gate.",
+  "body": [
+   [
+    "h2",
+    "Promise and gate, together"
+   ],
+   [
+    "p",
+    "The burner (Aegis / MetroVolt) is a D-3He tandem-mirror generator designed for net-electric output via direct energy conversion, with a low 5.44% neutron fraction and high-field plugs at 26.49 T (17 T at the throat). That is the promise. The gate is that, at feasible beta, forming the magnetic well the machine needs is not yet established — the plug-density caveat."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 220\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The honest gate between simulation and hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"30\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><rect x=\"350\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"180\" y=\"118\" font-size=\"12.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Burner design & motivation — strong</text><text x=\"500\" y=\"118\" font-size=\"12.5\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\" >Magnetic well at feasible beta — open</text><line x1=\"340\" y1=\"70\" x2=\"340\" y2=\"160\" stroke=\"#E2C57E\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"75\" r=\"5\" fill=\"#E2C57E\"/><text x=\"340\" y=\"60\" font-size=\"11\" fill=\"#E2C57E\" text-anchor=\"middle\" font-weight=\"700\" >THE GATE</text><text x=\"340\" y=\"180\" font-size=\"11.5\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"600\" >named retirement experiments test this</text><text x=\"180\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >claims allowed today</text><text x=\"500\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >no net-gain claim before this</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "What we can honestly say today"
+   ],
+   [
+    "ul",
+    [
+     "The fuel and conversion path are well-motivated design choices",
+     "The design point exists in simulation, with its assumptions stated",
+     "The central physics gate — the plug-density condition — is named, not hidden",
+     "The burner is a later-stage program than the breeder; its test comes after FOAK"
+    ]
+   ],
+   [
+    "h3",
+    "What we will not say"
+   ],
+   [
+    "p",
+    "We will not present the burner as a working generator, imply it is aneutronic, or quote its performance without the caveat that everything rests on the plug-density condition. Our own closure work is explicit that this is the load-bearing open question, and honesty means leading with it, not burying it."
+   ],
+   [
+    "p",
+    "The burner is a serious design with a serious open gate. Both halves of that sentence are true, and we say both."
+   ]
+  ],
+  "related": [
+   [
+    "plug-density-caveat",
+    "The Plug-Density Caveat"
+   ],
+   [
+    "direct-energy-conversion-honesty",
+    "Direct Energy Conversion, Honestly"
+   ],
+   [
+    "low-neutron-not-aneutronic",
+    "Low-Neutron, Not Aneutronic"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "extrapolation-honesty",
+  "title": "Honest Extrapolation",
+  "cat": "honesty-transparency",
+  "lede": "Extrapolating beyond measured or validated conditions is sometimes necessary, but Kronos labels it as extrapolation rather than presenting it as established.",
+  "body": [
+   [
+    "h2",
+    "When you must go beyond the data"
+   ],
+   [
+    "p",
+    "Design requires reaching beyond conditions anyone has measured — that is what makes it design. Extrapolation is legitimate. What is not legitimate is presenting an extrapolated result with the same confidence as a validated one. Kronos labels extrapolation as extrapolation and states how far past the validated range it reaches."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 220\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The honest gate between simulation and hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"30\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><rect x=\"350\" y=\"90\" width=\"300\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"180\" y=\"118\" font-size=\"12.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Validated range</text><text x=\"500\" y=\"118\" font-size=\"12.5\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\" >Extrapolated region</text><line x1=\"340\" y1=\"70\" x2=\"340\" y2=\"160\" stroke=\"#E2C57E\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"75\" r=\"5\" fill=\"#E2C57E\"/><text x=\"340\" y=\"60\" font-size=\"11\" fill=\"#E2C57E\" text-anchor=\"middle\" font-weight=\"700\" >THE GATE</text><text x=\"340\" y=\"180\" font-size=\"11.5\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"600\" >measurements extend the line</text><text x=\"180\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >claims allowed today</text><text x=\"500\" y=\"205\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"400\" >no net-gain claim before this</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Extrapolations we flag"
+   ],
+   [
+    "ul",
+    [
+     "Confinement scalings taken to the breeder's regime beyond existing devices",
+     "A two-point-to-three-point extrapolation flagged explicitly in our burner analysis",
+     "Fleet-level projections built from single-machine design points",
+     "Long-term lifetime inferred from short-term irradiation models"
+    ]
+   ],
+   [
+    "h3",
+    "The honest way to extrapolate"
+   ],
+   [
+    "p",
+    "State the anchor points, the direction of the extrapolation, and the assumption that carries it. Show how the result moves if that assumption is wrong. Then let the reader weigh it. The failure mode is a smooth curve that hides where the data stopped and the assumption began — so we mark that boundary explicitly."
+   ],
+   [
+    "p",
+    "An extrapolation honestly labelled is a hypothesis worth testing. The same extrapolation presented as fact is a claim waiting to embarrass its author."
+   ]
+  ],
+  "related": [
+   [
+    "citing-model-limits",
+    "Citing Model Limits"
+   ],
+   [
+    "simulation-vs-experiment",
+    "Simulation Is Not Experiment"
+   ],
+   [
+    "uncertainty-quantification",
+    "Uncertainty, Stated"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "conditions-travel-with-numbers",
+  "title": "Conditions Travel with the Number",
+  "cat": "honesty-transparency",
+  "lede": "A Kronos number is never quoted alone; the assumptions and conditions that make it true travel with it, because a number without its conditions can mean anything.",
+  "body": [
+   [
+    "h2",
+    "A number is only true under its conditions"
+   ],
+   [
+    "p",
+    "Every design value is true only under a set of conditions — operating point, model assumptions, scale, maturity. Strip those away and the number floats free, ready to be misread. Kronos keeps conditions attached: Q_sci 3.424 travels with 'in simulation, at the design point'; the neutron fraction travels with 'design-point D-3He'; yields travel with the assumed breeding case."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 560 256\" width=\"100%\" style=\"max-width:560px;display:block;margin:0 auto\" role=\"img\" aria-label=\"Ladder of claims from verified model to hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"40\" y=\"40\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#8FA0B8\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"58\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Achieved on hardware</text><text x=\"56\" y=\"73\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >not yet — no machine built</text><text x=\"506\" y=\"66\" font-size=\"18\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"92\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4A05C\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"56\" y=\"110\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_engineering (net electric)</text><text x=\"56\" y=\"125\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >design target only</text><text x=\"506\" y=\"118\" font-size=\"18\" fill=\"#D4A05C\" text-anchor=\"middle\" font-weight=\"700\" >○</text><rect x=\"40\" y=\"144\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.4\" /><text x=\"56\" y=\"162\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Q_scientific = 3.424 (breeder)</text><text x=\"56\" y=\"177\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >simulated design point</text><text x=\"506\" y=\"170\" font-size=\"18\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >✓</text><rect x=\"40\" y=\"196\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#7FB08A\" stroke-width=\"1.4\" /><text x=\"56\" y=\"214\" font-size=\"13\" fill=\"#E7EBF2\" text-anchor=\"start\" font-weight=\"600\" >Physics model verified</text><text x=\"56\" y=\"229\" font-size=\"11\" fill=\"#8FA0B8\" text-anchor=\"start\" font-weight=\"400\" >reproducible, published</text><text x=\"506\" y=\"222\" font-size=\"18\" fill=\"#7FB08A\" text-anchor=\"middle\" font-weight=\"700\" >✓</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Conditions we always carry"
+   ],
+   [
+    "ul",
+    [
+     "Source: simulated, projected, or measured",
+     "Operating point: the design point, and the assumptions defining it",
+     "Maturity: design study today, not built",
+     "Dependencies: which open gate the number rests on (e.g. TBR, plug density)"
+    ]
+   ],
+   [
+    "h3",
+    "Why this defeats the most common misuse"
+   ],
+   [
+    "p",
+    "The easiest way to misrepresent a real number is to quote it without its conditions — a design-point gain repeated as a plant capability, a peak repeated as an average, a single machine's figure repeated as a fleet's. Binding the conditions to the number makes that harder to do by accident and obvious when done on purpose."
+   ],
+   [
+    "p",
+    "A number with its conditions is a complete statement. A number without them is a decoration, and decorations are where honesty quietly leaks away."
+   ]
+  ],
+  "related": [
+   [
+    "frozen-canon-discipline",
+    "Frozen-Canon Discipline"
+   ],
+   [
+    "error-bars",
+    "Error Bars, Not Point Claims"
+   ],
+   [
+    "measurement-language",
+    "Measurement Language"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "reader-verification-guide",
+  "title": "How to Check Us",
+  "cat": "honesty-transparency",
+  "lede": "A practical guide for a reader who wants to verify Kronos claims rather than trust them — the sources, the data, and the questions to ask.",
+  "body": [
+   [
+    "h2",
+    "Do not trust us — check us"
+   ],
+   [
+    "p",
+    "The honest position is that a reader should be able to verify our claims independently. This page is a practical guide to doing exactly that. If any step below is impossible for a claim we make, that is a bug in our transparency, and we want to hear about it."
+   ],
+   [
+    "h3",
+    "Steps to verify a Kronos claim"
+   ],
+   [
+    "ul",
+    [
+     "Find the claim's source: is it a paper with a DOI, or a page citing one?",
+     "Check the verb: is the number simulated, projected, or measured? It should say",
+     "Pull the open data and, where provided, re-run the analysis to reproduce the number",
+     "Look for the conditions: operating point, scale, maturity, and the gate it depends on",
+     "Ask what would falsify it — a well-made claim names its own falsifier"
+    ]
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 270\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The open-science honesty flywheel\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><circle cx=\"340\" cy=\"130\" r=\"86\" fill=\"none\" stroke=\"#D4AD5C\" stroke-width=\"1.4\" stroke-dasharray=\"3 5\"/><circle cx=\"340\" cy=\"44\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"340\" y=\"42\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Design in</text><text x=\"340\" y=\"55\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >the open</text><circle cx=\"426\" cy=\"130\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"426\" y=\"128\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Publish papers</text><text x=\"426\" y=\"141\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >+ open data</text><circle cx=\"340\" cy=\"216\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"340\" y=\"214\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Invite</text><text x=\"340\" y=\"227\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >refutation</text><circle cx=\"254\" cy=\"130\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"254\" y=\"128\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Correct &</text><text x=\"254\" y=\"141\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >re-run</text><text x=\"340\" y=\"134\" font-size=\"11\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >OPEN-SCIENCE</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Questions worth asking"
+   ],
+   [
+    "ul",
+    [
+     "Is this a design target or a hardware measurement?",
+     "Which Q is this — scientific or engineering?",
+     "What is the uncertainty, and which assumption dominates it?",
+     "Is this one machine or a fleet, a peak or an average?"
+    ]
+   ],
+   [
+    "p",
+    "A claim that survives these questions is worth taking seriously. A claim that dodges them is not — even ours. We built the record so that this kind of checking is possible, because a program that cannot be checked has not earned the trust it asks for."
+   ]
+  ],
+  "related": [
+   [
+    "open-data-as-a-check",
+    "Open Data as a Check"
+   ],
+   [
+    "dois-permanent-record",
+    "DOIs & the Permanent Record"
+   ],
+   [
+    "reproducible-record",
+    "The Reproducible Record"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "honesty-charter",
+  "title": "The Honesty Charter",
+  "cat": "honesty-transparency",
+  "lede": "A short statement of the honesty and transparency commitments Kronos holds itself to — the standard every page in this section is meant to meet.",
+  "body": [
+   [
+    "h2",
+    "What we commit to"
+   ],
+   [
+    "p",
+    "This section describes many rules; they reduce to a few commitments. Kronos states them plainly so a reader knows the standard to hold us to — and so we are on record if we fall short."
+   ],
+   [
+    "h3",
+    "The commitments"
+   ],
+   [
+    "ul",
+    [
+     "We label every number by its evidence: simulated, projected, or measured",
+     "We make no hardware net-gain claim before the first machine is built and measured",
+     "We use one frozen set of design values everywhere, and version any change",
+     "We publish our data and code so anyone can check the work",
+     "We name our open gates and what would prove each claim wrong",
+     "We correct mistakes in public, in the place they were published",
+     "We compare fairly, credit rivals, and grade ourselves on the same ruler",
+     "We say low-neutron, not aneutronic; scientific gain, not net gain; goal, not result",
+     "We keep economics out of this record entirely",
+     "We avoid hype — no breakthrough language, no unlimited-energy framing, no filler"
+    ]
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 270\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The open-science honesty flywheel\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><circle cx=\"340\" cy=\"130\" r=\"86\" fill=\"none\" stroke=\"#D4AD5C\" stroke-width=\"1.4\" stroke-dasharray=\"3 5\"/><circle cx=\"340\" cy=\"44\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"340\" y=\"42\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Design in</text><text x=\"340\" y=\"55\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >the open</text><circle cx=\"426\" cy=\"130\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"426\" y=\"128\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Publish papers</text><text x=\"426\" y=\"141\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >+ open data</text><circle cx=\"340\" cy=\"216\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"340\" y=\"214\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Invite</text><text x=\"340\" y=\"227\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >refutation</text><circle cx=\"254\" cy=\"130\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"254\" y=\"128\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Correct &</text><text x=\"254\" y=\"141\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >re-run</text><text x=\"340\" y=\"134\" font-size=\"11\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >OPEN-SCIENCE</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Why write it down"
+   ],
+   [
+    "p",
+    "A commitment that is not written down is not a commitment; it is a mood. Putting the standard in public converts our intentions into obligations a reader can enforce. If a Kronos statement anywhere violates one of these, it is an error to be corrected — and this charter is the yardstick to catch it."
+   ],
+   [
+    "p",
+    "We would rather be judged against a high standard we sometimes miss than a low one we always clear. This is the standard."
+   ]
+  ],
+  "related": [
+   [
+    "honest-gates-overview",
+    "The Honest Gates"
+   ],
+   [
+    "reader-verification-guide",
+    "How to Check Us"
+   ],
+   [
+    "inviting-refutation",
+    "Inviting Refutation"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "designing-in-the-open-link",
+  "title": "Designing in the Open",
+  "cat": "honesty-transparency",
+  "lede": "Kronos does its engineering where people can see it — open papers, open data, open licenses — because a design worth trusting is a design worth showing.",
+  "body": [
+   [
+    "h2",
+    "Doing the work in public"
+   ],
+   [
+    "p",
+    "Designing in the open means the record of how a machine was designed is public as the design proceeds, not released as a polished summary after the fact. Kronos publishes papers, deposits data with DOIs, and applies open licenses to its content and code. The reasoning, not just the conclusion, is on the table."
+   ],
+   [
+    "h3",
+    "What 'in the open' includes"
+   ],
+   [
+    "ul",
+    [
+     "Papers describing the physics and engineering basis, openly available",
+     "Data and reproducible analyses deposited to permanent archives",
+     "Open licenses — content and code others may reuse and check",
+     "Correspondence open for challenge and correction"
+    ]
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 270\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The open-science honesty flywheel\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><circle cx=\"340\" cy=\"130\" r=\"86\" fill=\"none\" stroke=\"#D4AD5C\" stroke-width=\"1.4\" stroke-dasharray=\"3 5\"/><circle cx=\"340\" cy=\"44\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"340\" y=\"42\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Design in</text><text x=\"340\" y=\"55\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >the open</text><circle cx=\"426\" cy=\"130\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"426\" y=\"128\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Publish papers</text><text x=\"426\" y=\"141\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >+ open data</text><circle cx=\"340\" cy=\"216\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"340\" y=\"214\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Invite</text><text x=\"340\" y=\"227\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >refutation</text><circle cx=\"254\" cy=\"130\" r=\"30\" fill=\"#28323f\" stroke=\"#E2C57E\" stroke-width=\"1.3\"/><text x=\"254\" y=\"128\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >Correct &</text><text x=\"254\" y=\"141\" font-size=\"10.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\" >re-run</text><text x=\"340\" y=\"134\" font-size=\"11\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\" >OPEN-SCIENCE</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "The honesty in the openness"
+   ],
+   [
+    "p",
+    "Working in the open is a forcing function for honesty. A design that must survive public inspection as it develops cannot lean on claims it could not defend. It also lets the field build on our work, including people who disagree with us — which is how a young field advances faster than any single program could alone."
+   ],
+   [
+    "p",
+    "There are boundaries: economics stay out of the public record, and some detail is held for legitimate reasons. But the core of how the machines are designed is shown, because a design nobody is allowed to check is a design nobody has to believe."
+   ]
+  ],
+  "related": [
+   [
+    "open-data-as-a-check",
+    "Open Data as a Check"
+   ],
+   [
+    "dois-permanent-record",
+    "DOIs & the Permanent Record"
+   ],
+   [
+    "reproducible-record",
+    "The Reproducible Record"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ }
+]

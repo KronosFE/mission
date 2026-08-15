@@ -1,0 +1,2532 @@
+[
+ {
+  "slug": "open-science-strategy",
+  "title": "Designing in the Open",
+  "cat": "designing-in-the-open",
+  "lede": "Kronos publishes its designs, data, and code before either machine is built, so that anyone can check the physics rather than take our word for it.",
+  "body": [
+   [
+    "h2",
+    "The strategy in one sentence"
+   ],
+   [
+    "p",
+    "Kronos Fusion Energy designs both of its machines &mdash; the breeder (Hyperion) and the burner (Aegis / MetroVolt) &mdash; digitally, and publishes the design points, the data behind them, and the code that produced them. Neither machine is built yet. The published record is therefore the product of a <b>design-and-simulation program</b>, and we say so on every page."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 600 380\" width=\"100%\" style=\"max-width:560px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The Kronos open-science flywheel\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><defs><marker id=\"ah\" markerWidth=\"9\" markerHeight=\"9\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#D4AD5C\"/></marker></defs><circle cx=\"300\" cy=\"215\" r=\"150\" fill=\"none\" stroke=\"#3a4656\" stroke-width=\"1\"/><g font-size=\"12.5\" font-weight=\"600\" text-anchor=\"middle\"><rect x=\"228\" y=\"42\" width=\"144\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"300\" y=\"60\" fill=\"#E7EBF2\">Publish design,</text><text x=\"300\" y=\"75\" fill=\"#E7EBF2\">data &amp; code</text><rect x=\"446\" y=\"150\" width=\"150\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"521\" y=\"168\" fill=\"#E7EBF2\">Others reproduce</text><text x=\"521\" y=\"183\" fill=\"#E7EBF2\">&amp; scrutinize</text><rect x=\"404\" y=\"300\" width=\"150\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"479\" y=\"318\" fill=\"#E7EBF2\">Credibility &amp;</text><text x=\"479\" y=\"333\" fill=\"#E7EBF2\">collaboration</text><rect x=\"46\" y=\"300\" width=\"150\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"121\" y=\"318\" fill=\"#E7EBF2\">Errors found,</text><text x=\"121\" y=\"333\" fill=\"#E7EBF2\">gates sharpened</text><rect x=\"4\" y=\"150\" width=\"150\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"79\" y=\"168\" fill=\"#E7EBF2\">Better, honest</text><text x=\"79\" y=\"183\" fill=\"#E7EBF2\">design point</text></g><path d=\"M372,66 A150,150 0 0 1 512,150\" fill=\"none\" stroke=\"#D4AD5C\" stroke-width=\"1.6\" marker-end=\"url(#ah)\"/><path d=\"M540,190 A150,150 0 0 1 500,300\" fill=\"none\" stroke=\"#D4AD5C\" stroke-width=\"1.6\" marker-end=\"url(#ah)\"/><path d=\"M404,330 A150,150 0 0 1 196,330\" fill=\"none\" stroke=\"#D4AD5C\" stroke-width=\"1.6\" marker-end=\"url(#ah)\"/><path d=\"M100,300 A150,150 0 0 1 60,190\" fill=\"none\" stroke=\"#D4AD5C\" stroke-width=\"1.6\" marker-end=\"url(#ah)\"/><path d=\"M88,150 A150,150 0 0 1 228,66\" fill=\"none\" stroke=\"#D4AD5C\" stroke-width=\"1.6\" marker-end=\"url(#ah)\"/><text x=\"300\" y=\"210\" font-size=\"13\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\">OPEN-SCIENCE</text><text x=\"300\" y=\"228\" font-size=\"13\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\">FLYWHEEL</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Why open, for a hard-tech company"
+   ],
+   [
+    "p",
+    "Fusion has a long history of results that could not be checked from the outside. We take the opposite bet: a claim that cannot be reproduced is not yet evidence. By releasing the inputs, the method, and the outputs together, we let independent readers rerun the analysis and find our mistakes. Openness is not a marketing posture here; it is the mechanism by which our numbers earn trust."
+   ],
+   [
+    "h3",
+    "What the flywheel turns on"
+   ],
+   [
+    "ul",
+    [
+     "We publish the design, the open data, and the analysis code together, under open licenses.",
+     "Independent readers reproduce and scrutinize the results on their own machines.",
+     "Reproduction and peer review build credibility and invite collaboration.",
+     "Scrutiny surfaces errors and sharpens the honest gates &mdash; the lines between simulation and hardware.",
+     "The design point improves, and the cycle repeats with the next publication."
+    ]
+   ],
+   [
+    "p",
+    "Every downstream page in this section documents one turn of that wheel: the <a href=./published-papers-overview.html>papers</a>, the <a href=./zenodo-deposits-and-dois.html>open deposits</a>, the <a href=./reproducible-pipelines.html>reproducible pipelines</a>, and the <a href=./the-honest-gates.html>honest gates</a> we refuse to hide."
+   ]
+  ],
+  "related": [
+   [
+    "published-papers-overview",
+    "The Published Papers"
+   ],
+   [
+    "why-openness-builds-credibility",
+    "Why Openness Builds Credibility"
+   ],
+   [
+    "the-honest-gates",
+    "The Honest Gates"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "why-openness-builds-credibility",
+  "title": "Why Openness Builds Credibility",
+  "cat": "designing-in-the-open",
+  "lede": "A number you can rerun on your own laptop is worth more than a number you are asked to believe, so we hand over the means to check us.",
+  "body": [
+   [
+    "h2",
+    "Credibility is earned by exposure, not assertion"
+   ],
+   [
+    "p",
+    "In a field where no privately built machine has yet produced sustained net energy, a company's claims are only as good as the evidence a skeptic can independently examine. Kronos treats external reproduction as the real test. If our breeder design point &mdash; Q_sci 3.424 at 88.7 MW fusion power, 9.86 MA plasma current &mdash; only exists inside our own tooling, it is an assertion. Once the inputs and code are public and someone else recovers the same figure, it becomes a shared result."
+   ],
+   [
+    "h3",
+    "What exposure protects against"
+   ],
+   [
+    "ul",
+    [
+     "Selection effects: publishing the full pipeline makes it hard to quietly keep only the favorable runs.",
+     "Silent errors: independent reruns catch mistakes our own team is blind to.",
+     "Overclaiming: an honest gate stated in public cannot later be softened without someone noticing.",
+     "Drift: a frozen design point plus version control means the record cannot move under readers' feet."
+    ]
+   ],
+   [
+    "h3",
+    "The cost we accept"
+   ],
+   [
+    "p",
+    "Openness has real costs. Competitors read our papers. Our mistakes are visible. The four burner gates &mdash; an overstressed plug coil, an operating regime far beyond any device, a helium-3 demand with no terrestrial supply, and an availability shortfall against hyperscale uptime &mdash; are all published rather than buried. We accept this because a design program that hides its weak points cannot claim to have tested them."
+   ],
+   [
+    "p",
+    "The alternative, credibility by assertion, is exactly what has made fusion claims hard to trust. We would rather be checkable than impressive. See <a href=./independent-reproduction.html>independent reproduction</a> for how we invite outside checking, and <a href=./peer-review-first.html>peer review first</a> for how we sequence it."
+   ]
+  ],
+  "related": [
+   [
+    "independent-reproduction",
+    "Independent Reproduction"
+   ],
+   [
+    "the-honest-gates",
+    "The Honest Gates"
+   ],
+   [
+    "open-science-strategy",
+    "Designing in the Open"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "published-papers-overview",
+  "title": "The Published Papers",
+  "cat": "designing-in-the-open",
+  "lede": "Five peer-facing papers document the two machines and their enabling physics, each with an open deposit so the analysis behind it can be rerun.",
+  "body": [
+   [
+    "h2",
+    "The published record"
+   ],
+   [
+    "p",
+    "Kronos has published five technical papers, each paired with an open-data deposit on Zenodo. Together they describe the breeder (Hyperion), the burner (Aegis / MetroVolt), the high-field magnet technology, the direct energy conversion physics, and the AI and quantum methods used in the design work. Each paper carries a citable DOI and an open license so the work can be read, reused, and reproduced."
+   ],
+   [
+    "h3",
+    "The five papers"
+   ],
+   [
+    "ul",
+    [
+     "Breeder paper &mdash; the D&ndash;T spherical tokamak Hyperion; see <a href=./breeder-paper.html>the breeder paper</a>.",
+     "Burner paper &mdash; the D&ndash;&sup3;He tandem-mirror generator; see <a href=./burner-paper.html>the burner paper</a>.",
+     "REBCO magnet paper &mdash; the high-temperature-superconductor magnet basis; see <a href=./rebco-magnet-paper.html>the magnet paper</a>.",
+     "Direct energy conversion paper &mdash; converting charged-particle energy without a thermal cycle; see <a href=./direct-energy-conversion-paper.html>the DEC paper</a>.",
+     "AI &amp; quantum paper &mdash; the computational methods behind the design sweeps; see <a href=./ai-quantum-paper.html>the AI and quantum paper</a>."
+    ]
+   ],
+   [
+    "h3",
+    "What every paper carries"
+   ],
+   [
+    "p",
+    "No paper stands alone. Each is deposited with its data and, where applicable, the code that produced its figures, so a reader can move from a claim in the text to the exact input that generated it. The DOIs are catalogued on the <a href=./doi-map.html>DOI map</a>. Because these are design-and-simulation studies, each paper states plainly which results are model outputs and which would require the built machine to confirm."
+   ],
+   [
+    "p",
+    "The papers are the public spine of the program. Everything else in this section &mdash; deposits, licenses, pipelines, the technical library &mdash; exists to make them checkable."
+   ]
+  ],
+  "related": [
+   [
+    "breeder-paper",
+    "The Breeder Paper"
+   ],
+   [
+    "burner-paper",
+    "The Burner Paper"
+   ],
+   [
+    "doi-map",
+    "The DOI Map"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "breeder-paper",
+  "title": "The Breeder Paper",
+  "cat": "designing-in-the-open",
+  "lede": "Hyperion is a deuterium-tritium spherical tokamak studied as a breeder of tritium, helium-3, and 14 MeV neutrons rather than as a net-electric plant.",
+  "body": [
+   [
+    "h2",
+    "What the breeder paper describes"
+   ],
+   [
+    "p",
+    "The breeder paper presents Hyperion, a deuterium&ndash;tritium spherical tokamak. Its published design point is a scientific gain Q_sci of 3.424 at a fusion power of 88.7 MW, with a plasma current of 9.86 MA, a peak field of 16.84 T (about 8 T on-axis), and negative triangularity of delta &minus;0.30. These are simulation results for a machine whose construction is planned to begin in Q2 2027."
+   ],
+   [
+    "h3",
+    "A breeder, not a power plant"
+   ],
+   [
+    "p",
+    "Hyperion is framed as a source of products rather than of grid electricity: a tritium class of roughly 4 kg/yr, about 1.97 kg/yr of helium-3, and a flux of 14 MeV neutrons. This framing matters because it does not depend on demonstrating net electrical output first. The machine's value proposition is materials the rest of the program needs &mdash; including the helium-3 the burner would consume."
+   ],
+   [
+    "h3",
+    "The open question the paper states"
+   ],
+   [
+    "p",
+    "The paper treats the tritium breeding ratio as a <b>design lever</b>, examined across values of 1.1, 1.5, and 1.8, rather than as a settled figure. Whether the machine is net tritium self-sufficient once realistic three-dimensional geometry, ports, and losses are included is an open reconciliation, stated in the open. See <a href=./tbr-as-a-design-lever.html>TBR as a design lever</a> and <a href=./breeder-open-questions.html>the breeder open questions</a>."
+   ],
+   [
+    "h3",
+    "Where the honest gate falls"
+   ],
+   [
+    "p",
+    "No net-gain claim is made for hardware before the first-of-a-kind machine produces first tritium, targeted around 2030. Everything in the paper before that is a design-and-simulation finding. The deposit and DOI are listed on the <a href=./doi-map.html>DOI map</a> (breeder, and its version two)."
+   ]
+  ],
+  "related": [
+   [
+    "tbr-as-a-design-lever",
+    "TBR as a Design Lever"
+   ],
+   [
+    "breeder-open-questions",
+    "The Breeder Open Questions"
+   ],
+   [
+    "burner-paper",
+    "The Burner Paper"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "burner-paper",
+  "title": "The Burner Paper",
+  "cat": "designing-in-the-open",
+  "lede": "The burner is a deuterium-helium-3 tandem-mirror generator with direct energy conversion, published together with the four physics gates that make it hard.",
+  "body": [
+   [
+    "h2",
+    "What the burner paper describes"
+   ],
+   [
+    "p",
+    "The burner paper presents a deuterium&ndash;helium-3 tandem-mirror generator in two housings: Aegis, for fixed defense installations, and MetroVolt, for data centers. Its design point uses a 26.49 T plug field, a 17 T throat field, and direct energy conversion &mdash; recovering charged-particle energy without a conventional thermal cycle. Because the fuel is largely aneutronic, the neutron fraction is about 5.44%."
+   ],
+   [
+    "h3",
+    "Published with its gates"
+   ],
+   [
+    "p",
+    "The burner is the harder of the two machines, and the paper does not hide it. Four physics gates are stated as design-and-simulation findings, each linked here in full:"
+   ],
+   [
+    "ul",
+    [
+     "The plug coil is overstressed by roughly 3&ndash;3.9x at the design bore &mdash; infeasible as specified; see <a href=./burner-gate-plug-coil.html>the plug-coil gate</a>.",
+     "The plug operating regime is 166&ndash;830x beyond any existing device &mdash; un-post-dictable today; see <a href=./burner-gate-operating-regime.html>the operating-regime gate</a>.",
+     "Helium-3 demand is about 400x domestic supply per commercial unit; see <a href=./burner-gate-he3-supply.html>the fuel-supply gate</a>.",
+     "Availability of about 0.86&ndash;0.995 falls 30&ndash;100x short of hyperscale Tier III uptime; see <a href=./burner-gate-availability.html>the availability gate</a>."
+    ]
+   ],
+   [
+    "h3",
+    "Why publish a design with open gates"
+   ],
+   [
+    "p",
+    "A design study earns nothing by concealing where it breaks. Stating the gates in the paper does two things: it tells honest readers exactly what would have to change for the machine to be real, and it explains why the breeder and lunar helium-3 supply are part of the same program &mdash; the burner cannot be fueled at terrestrial scale today. The deposit and DOI are on the <a href=./doi-map.html>DOI map</a>."
+   ],
+   [
+    "p",
+    "The burner is a target, not a claim. The paper is written so that no reader could mistake a simulated tandem-mirror point for a built generator."
+   ]
+  ],
+  "related": [
+   [
+    "burner-gate-plug-coil",
+    "The Plug-Coil Gate"
+   ],
+   [
+    "burner-gate-he3-supply",
+    "The Fuel-Supply Gate"
+   ],
+   [
+    "breeder-paper",
+    "The Breeder Paper"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "rebco-magnet-paper",
+  "title": "The REBCO Magnet Paper",
+  "cat": "designing-in-the-open",
+  "lede": "The high-field design points both machines assume depend on rare-earth barium copper oxide superconductors, documented in their own peer-facing paper.",
+  "body": [
+   [
+    "h2",
+    "Why a separate magnet paper"
+   ],
+   [
+    "p",
+    "Both machines are built around fields that only high-temperature superconductors make plausible: the breeder's 16.84 T peak field and the burner's 26.49 T plug. Rather than assert those numbers, Kronos published a dedicated paper on the rare-earth barium copper oxide (REBCO) magnet basis, so the enabling technology can be judged on its own terms."
+   ],
+   [
+    "h3",
+    "What the paper covers"
+   ],
+   [
+    "ul",
+    [
+     "The superconductor choice and the field levels each machine's design point requires.",
+     "How field, stress, and geometry trade against one another in a high-field coil.",
+     "The stress margins that turn into an honest gate when a coil is pushed past them."
+    ]
+   ],
+   [
+    "h3",
+    "Where it connects to a gate"
+   ],
+   [
+    "p",
+    "The magnet physics is exactly where the burner's hardest gate lives. At the burner's design bore, the plug coil is overstressed by roughly 3&ndash;3.9x &mdash; infeasible as specified. That is not an economic statement; it is a structural one, and it is stated in the open so that any reader can see the coil, not the marketing, is the limit. See <a href=./burner-gate-plug-coil.html>the plug-coil gate</a>."
+   ],
+   [
+    "h3",
+    "An honest but enabling result"
+   ],
+   [
+    "p",
+    "The magnet paper is a case study in the whole open-science posture: the same technology that makes the breeder's field credible also draws a hard line under the burner as currently specified. Publishing both facts in one place lets readers weigh them together. The deposit and DOI (REBCO) are catalogued on the <a href=./doi-map.html>DOI map</a>."
+   ],
+   [
+    "p",
+    "Magnets are the backbone of both designs, and their limits are published rather than assumed away."
+   ]
+  ],
+  "related": [
+   [
+    "burner-gate-plug-coil",
+    "The Plug-Coil Gate"
+   ],
+   [
+    "breeder-paper",
+    "The Breeder Paper"
+   ],
+   [
+    "doi-map",
+    "The DOI Map"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "direct-energy-conversion-paper",
+  "title": "The Direct Energy Conversion Paper",
+  "cat": "designing-in-the-open",
+  "lede": "The burner's efficiency case rests on converting charged-particle energy directly to electricity, a physics claim published as its own paper.",
+  "body": [
+   [
+    "h2",
+    "What direct energy conversion is"
+   ],
+   [
+    "p",
+    "A conventional plant turns fusion heat into steam and steam into electricity, paying a thermodynamic tax at every step. The burner instead relies on <b>direct energy conversion</b> (DEC): recovering the kinetic energy of charged fusion products as electricity without a thermal cycle. Because the deuterium&ndash;helium-3 reaction is largely aneutronic &mdash; a neutron fraction of about 5.44% &mdash; most of the energy is carried by charged particles that a direct converter can, in principle, collect."
+   ],
+   [
+    "h3",
+    "Why it needs its own paper"
+   ],
+   [
+    "p",
+    "DEC is central to why a tandem-mirror burner is worth studying at all, so its physics deserves separate, checkable treatment rather than a single line in the burner paper. The DEC paper documents the conversion concept and the assumptions behind it, so readers can test the efficiency case independently of the confinement case."
+   ],
+   [
+    "h3",
+    "Honest scope"
+   ],
+   [
+    "ul",
+    [
+     "DEC is a design-and-simulation result, not a measurement from a built converter at these conditions.",
+     "It does not resolve the burner's confinement gates &mdash; the plug coil and the operating regime remain the harder problems.",
+     "It matters most precisely because the fuel is aneutronic, which is also why the fuel-supply gate exists."
+    ]
+   ],
+   [
+    "p",
+    "The DEC paper and the burner paper are meant to be read together: one describes how energy would be extracted, the other describes why extracting it at scale is still gated. See <a href=./burner-paper.html>the burner paper</a> and <a href=./burner-gate-he3-supply.html>the fuel-supply gate</a>. The deposit and DOI (DEC) are on the <a href=./doi-map.html>DOI map</a>."
+   ],
+   [
+    "p",
+    "Direct conversion is the burner's most attractive idea and, on its own, its least contested one &mdash; which is why it is published where it can be examined separately."
+   ]
+  ],
+  "related": [
+   [
+    "burner-paper",
+    "The Burner Paper"
+   ],
+   [
+    "burner-gate-he3-supply",
+    "The Fuel-Supply Gate"
+   ],
+   [
+    "doi-map",
+    "The DOI Map"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "ai-quantum-paper",
+  "title": "The AI and Quantum Paper",
+  "cat": "designing-in-the-open",
+  "lede": "The design sweeps that found both machines' operating points were driven by computational methods, documented and deposited so the search itself can be rerun.",
+  "body": [
+   [
+    "h2",
+    "The methods behind the design points"
+   ],
+   [
+    "p",
+    "A fusion design point is the output of a large search over plasma, geometry, and field parameters. The AI and quantum paper documents the computational methods Kronos used to run those sweeps and to locate the breeder and burner operating points. Publishing the method, not just the winning configuration, is what lets a reader ask whether the search was fair and whether the reported point is really where the design lives."
+   ],
+   [
+    "h3",
+    "Why the search matters as much as the answer"
+   ],
+   [
+    "p",
+    "Any optimizer can be steered, consciously or not, toward a flattering result. The defense against that is to expose the objective, the parameter ranges, and the code. When the search is public, a skeptic can widen a range, change a constraint, and see whether the design point survives. That is a stronger form of honesty than reporting a single number."
+   ],
+   [
+    "h3",
+    "Reproducibility discipline"
+   ],
+   [
+    "ul",
+    [
+     "The deposit follows a cold-reproduction runbook across multiple environments; see <a href=./cold-reproduction-runbook.html>the cold-reproduction runbook</a>.",
+     "Results are checked at two tiers &mdash; exact byte match where possible, numerical tolerance where not; see <a href=./two-tier-reproduction.html>two-tier reproduction</a>.",
+     "The methods feed the <a href=./public-3d-model.html>public 3D model</a> and the design tooling used elsewhere in the program."
+    ]
+   ],
+   [
+    "p",
+    "The AI and quantum paper is where the open-science posture reaches the tooling itself: not only the results are public, but the machinery that produced them. The deposit and DOI (AI and quantum) are on the <a href=./doi-map.html>DOI map</a>."
+   ],
+   [
+    "p",
+    "If the search cannot be rerun, the design point is a claim about our code rather than about the machine. So we release the search."
+   ]
+  ],
+  "related": [
+   [
+    "cold-reproduction-runbook",
+    "The Cold-Reproduction Runbook"
+   ],
+   [
+    "two-tier-reproduction",
+    "Two-Tier Reproduction"
+   ],
+   [
+    "reproducible-pipelines",
+    "Reproducible Pipelines"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "preprints-and-arxiv",
+  "title": "Preprints and the Public Record",
+  "cat": "designing-in-the-open",
+  "lede": "We put the work into the public record early through preprints and open deposits, so scrutiny starts before any external stamp of approval.",
+  "body": [
+   [
+    "h2",
+    "Getting the work in front of readers early"
+   ],
+   [
+    "p",
+    "A preprint is a paper released publicly before, or alongside, formal peer review. Kronos uses preprints and open deposits so that the work enters the public record early and can be examined by anyone, not only by assigned reviewers. Early exposure is consistent with the whole strategy: the sooner an independent reader can find an error, the cheaper it is to fix."
+   ],
+   [
+    "h3",
+    "How this fits peer review"
+   ],
+   [
+    "p",
+    "Preprinting is not a substitute for peer review; it precedes and complements it. Kronos's stance is peer-review-first as the standard of credibility, with preprints and deposits ensuring that the underlying data and code are already open when review happens. See <a href=./peer-review-first.html>peer review first</a>."
+   ],
+   [
+    "h3",
+    "What early publication commits us to"
+   ],
+   [
+    "ul",
+    [
+     "A timestamped record: the design point and its gates are on file with a date, and cannot be quietly revised after the fact.",
+     "Versioning: when a result changes, a new version is deposited rather than the old one edited in place; the breeder paper, for example, has a version two.",
+     "Traceability: every preprint points to the deposit that backs it, catalogued on the <a href=./doi-map.html>DOI map</a>."
+    ]
+   ],
+   [
+    "h3",
+    "Why timestamps matter for honesty"
+   ],
+   [
+    "p",
+    "A pre-registered, dated prediction is falsifiable in a way that a claim made after the fact is not. The public record fixes what we said and when, so the honest gates and the <a href=./pre-registered-predictions.html>pre-registered predictions</a> can be checked against reality as the program proceeds toward first-of-a-kind first tritium around 2030."
+   ],
+   [
+    "p",
+    "The point of the public record is not to look finished. It is to be on the hook, in writing, for what we claim."
+   ]
+  ],
+  "related": [
+   [
+    "peer-review-first",
+    "Peer Review First"
+   ],
+   [
+    "pre-registered-predictions",
+    "Pre-Registered Predictions"
+   ],
+   [
+    "zenodo-deposits-and-dois",
+    "Zenodo Deposits and DOIs"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "zenodo-deposits-and-dois",
+  "title": "Zenodo Deposits and DOIs",
+  "cat": "designing-in-the-open",
+  "lede": "Every paper is deposited on Zenodo with a permanent DOI, so a citation resolves to the exact data and code behind the claim, not a broken link.",
+  "body": [
+   [
+    "h2",
+    "Why deposit, and why DOIs"
+   ],
+   [
+    "p",
+    "A paper describes a result; a deposit preserves the evidence for it. Kronos deposits each paper's data and, where applicable, code on <b>Zenodo</b>, a long-term open repository operated in the research-infrastructure community. Each deposit receives a Digital Object Identifier (DOI) &mdash; a permanent, citable handle that resolves to a fixed version of the files, so a reference will still reach the exact evidence years later."
+   ],
+   [
+    "h3",
+    "The Kronos community"
+   ],
+   [
+    "p",
+    "The deposits are collected in a Zenodo community, <b>kronos_fusion_energy</b>, so the full set of papers and their data can be found in one place. The community holds the physics record only; consistent with our firewall, it contains no economics. See <a href=./what-we-dont-publish.html>what we don't publish</a>."
+   ],
+   [
+    "h3",
+    "Versioning done right"
+   ],
+   [
+    "ul",
+    [
+     "Each deposit is a fixed snapshot: once published, its files do not change under a reader.",
+     "When the analysis is revised, a new version is deposited with its own DOI, while a concept DOI points to the latest &mdash; the breeder paper carries a version two.",
+     "Files are checksum-verified so a reader can confirm they downloaded exactly what we deposited."
+    ]
+   ],
+   [
+    "h3",
+    "From claim to evidence in two clicks"
+   ],
+   [
+    "p",
+    "The intent is that a reader can move from a sentence in a paper to the file that backs it without contacting us. The full catalogue of DOIs is on the <a href=./doi-map.html>DOI map</a>; the reproduction discipline that makes the files runnable is described under <a href=./reproducible-pipelines.html>reproducible pipelines</a>."
+   ],
+   [
+    "p",
+    "A DOI is a promise that the evidence will still be there. We keep it by depositing, versioning, and checksumming everything we cite."
+   ]
+  ],
+  "related": [
+   [
+    "doi-map",
+    "The DOI Map"
+   ],
+   [
+    "reproducible-pipelines",
+    "Reproducible Pipelines"
+   ],
+   [
+    "metadata-and-citation",
+    "Metadata and Citation"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "doi-map",
+  "title": "The DOI Map",
+  "cat": "designing-in-the-open",
+  "lede": "A single catalogue of the permanent identifiers behind the published record, so any Kronos claim can be traced to a fixed, citable deposit.",
+  "body": [
+   [
+    "h2",
+    "The catalogue of record"
+   ],
+   [
+    "p",
+    "Every published Kronos paper resolves to a permanent DOI on Zenodo. This page is the map from paper to identifier. Because the deposits are fixed snapshots, a DOI is the safest way to cite a Kronos result: it will reach the exact files we published, not a page that may have moved."
+   ],
+   [
+    "h3",
+    "The five live papers"
+   ],
+   [
+    "ul",
+    [
+     "Breeder (Hyperion, D&ndash;T spherical tokamak): 10.5281/zenodo.21746157; version two: 10.5281/zenodo.21795620.",
+     "Burner (Aegis / MetroVolt, D&ndash;&sup3;He tandem mirror): 10.5281/zenodo.21746479.",
+     "REBCO magnets: 10.5281/zenodo.21842514.",
+     "Direct energy conversion: 10.5281/zenodo.21842864.",
+     "AI and quantum methods: 10.5281/zenodo.21842371."
+    ]
+   ],
+   [
+    "h3",
+    "Retired identifier"
+   ],
+   [
+    "p",
+    "One earlier deposit, 10.5281/zenodo.21248916, has been retired in favor of the current set. It is listed here for completeness so that anyone who encountered the old identifier can find the superseding record. Retiring rather than deleting keeps the trail honest."
+   ],
+   [
+    "h3",
+    "How to use the map"
+   ],
+   [
+    "p",
+    "Cite the specific version DOI when you need to point at an exact snapshot; cite the concept identifier when you mean the paper as a living record. Guidance on constructing a clean citation is under <a href=./metadata-and-citation.html>metadata and citation</a>, and the deposit mechanics are under <a href=./zenodo-deposits-and-dois.html>Zenodo deposits and DOIs</a>."
+   ],
+   [
+    "h3",
+    "Why a map at all"
+   ],
+   [
+    "p",
+    "Papers reference each other, and readers arrive from many directions &mdash; a preprint, a figure reused elsewhere, a citation in someone else's work. A single catalogue means none of them has to guess which deposit backs which claim, or whether an identifier they hold is current. Keeping the map complete, including the retired entry, is part of the same provenance discipline that governs the rest of the record; see <a href=./version-control-and-provenance.html>version control and provenance</a>."
+   ],
+   [
+    "p",
+    "All of these deposits live in the <b>kronos_fusion_energy</b> Zenodo community and carry the physics record only &mdash; no economics, by policy. The identifiers above are the durable address of the published program: if any Kronos claim cannot be traced to one of them, treat it as unverified."
+   ]
+  ],
+  "related": [
+   [
+    "zenodo-deposits-and-dois",
+    "Zenodo Deposits and DOIs"
+   ],
+   [
+    "metadata-and-citation",
+    "Metadata and Citation"
+   ],
+   [
+    "published-papers-overview",
+    "The Published Papers"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "open-data-philosophy",
+  "title": "The Open-Data Philosophy",
+  "cat": "designing-in-the-open",
+  "lede": "We publish the inputs and outputs, not just the conclusions, because a result you cannot inspect the data behind is a result you have to take on faith.",
+  "body": [
+   [
+    "h2",
+    "Data first, conclusions second"
+   ],
+   [
+    "p",
+    "A conclusion is the end of an argument; the data is the argument. Kronos publishes the data behind each paper so that a reader can reconstruct the reasoning rather than accept the headline. For a design-and-simulation program, the data includes the parameter inputs, the intermediate results of the sweeps, and the outputs that become the figures in the paper."
+   ],
+   [
+    "h3",
+    "What open data has to include to be useful"
+   ],
+   [
+    "ul",
+    [
+     "The inputs: the exact parameter values that define a design point, such as the breeder's 9.86 MA plasma current and delta &minus;0.30 triangularity.",
+     "The provenance: which code version and environment produced each file; see <a href=./version-control-and-provenance.html>version control and provenance</a>.",
+     "The checks: checksums so a reader can confirm the download matches the deposit.",
+     "The scope: a clear statement that these are simulation outputs, not hardware measurements."
+    ]
+   ],
+   [
+    "h3",
+    "Open, but bounded"
+   ],
+   [
+    "p",
+    "Open data does not mean everything. The deposits carry the physics record and deliberately exclude economics and any confidential material, per the firewall described in <a href=./what-we-dont-publish.html>what we don't publish</a>. The boundary is itself stated openly, so no reader is left guessing whether something was withheld."
+   ],
+   [
+    "h3",
+    "Why this is the honest default"
+   ],
+   [
+    "p",
+    "When only conclusions are published, disagreements cannot be resolved &mdash; two parties simply assert different numbers. When the data is public, a disagreement becomes a shared, checkable question. That is the entire point of the <a href=./open-science-strategy.html>open-science strategy</a>: to convert claims into things that can be settled by rerunning them."
+   ],
+   [
+    "p",
+    "We would rather publish a dataset that exposes a weakness than a conclusion that hides one."
+   ]
+  ],
+  "related": [
+   [
+    "what-we-dont-publish",
+    "What We Don't Publish"
+   ],
+   [
+    "version-control-and-provenance",
+    "Version Control and Provenance"
+   ],
+   [
+    "reproducible-pipelines",
+    "Reproducible Pipelines"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "cc-by-content-license",
+  "title": "Content Under CC BY",
+  "cat": "designing-in-the-open",
+  "lede": "Papers, data, and the technical library are released under Creative Commons Attribution, so anyone may reuse them provided they credit the source.",
+  "body": [
+   [
+    "h2",
+    "What CC BY grants"
+   ],
+   [
+    "p",
+    "Kronos releases its written and data content under the <b>Creative Commons Attribution</b> license (CC BY). Under it, anyone may copy, redistribute, adapt, and build upon the material &mdash; including for commercial purposes &mdash; provided they give appropriate credit and indicate any changes. It is one of the most permissive standard content licenses, and it is deliberate: content that cannot be freely reused cannot be freely checked."
+   ],
+   [
+    "h3",
+    "Why the most permissive content license"
+   ],
+   [
+    "ul",
+    [
+     "Reproduction requires copying: a reviewer must be able to duplicate figures and data to test them.",
+     "Reuse compounds credibility: when others cite and extend the work, the record spreads with attribution intact.",
+     "Attribution keeps provenance clean: reuse is fine, but the origin of a claim stays traceable."
+    ]
+   ],
+   [
+    "h3",
+    "What it applies to"
+   ],
+   [
+    "p",
+    "CC BY covers the papers, the open datasets, and the <a href=./public-technical-library.html>public technical library</a>. Code is handled separately, under an open-source software license better suited to source; see <a href=./apache-code-license.html>code under Apache</a> and <a href=./license-choice-rationale.html>the license-choice rationale</a>."
+   ],
+   [
+    "h3",
+    "The obligation that comes with reuse"
+   ],
+   [
+    "p",
+    "The single condition &mdash; attribution &mdash; is the mechanism that keeps the open record honest as it travels. If a downstream author reuses a Kronos figure, the credit line points a reader back to the deposit and its stated scope, including the honest gates. Guidance on how to attribute cleanly is under <a href=./metadata-and-citation.html>metadata and citation</a>."
+   ],
+   [
+    "p",
+    "Open content is only useful if it can be moved. CC BY lets it move while keeping its source attached."
+   ]
+  ],
+  "related": [
+   [
+    "apache-code-license",
+    "Code Under Apache"
+   ],
+   [
+    "license-choice-rationale",
+    "The License-Choice Rationale"
+   ],
+   [
+    "metadata-and-citation",
+    "Metadata and Citation"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "apache-code-license",
+  "title": "Code Under Apache",
+  "cat": "designing-in-the-open",
+  "lede": "Analysis and simulation code is released under Apache 2.0, a permissive open-source license that also grants an explicit patent license to users.",
+  "body": [
+   [
+    "h2",
+    "Why a software license for the code"
+   ],
+   [
+    "p",
+    "Content licenses like CC BY are written for prose and data; source code needs a license written for software. Kronos releases its analysis and simulation code under the <b>Apache License 2.0</b>. It is permissive &mdash; users may run, modify, and redistribute the code, including in their own products &mdash; while adding protections that matter specifically for software."
+   ],
+   [
+    "h3",
+    "What Apache 2.0 adds over a bare permissive license"
+   ],
+   [
+    "ul",
+    [
+     "An explicit patent grant: contributors license any patents their contribution reads on, reducing patent risk for users.",
+     "A patent-retaliation clause: the grant is structured to discourage patent suits over the covered code.",
+     "A clear notice and attribution mechanism via the NOTICE file, keeping provenance intact.",
+     "Compatibility with common downstream licenses, so the code can be combined and reused broadly."
+    ]
+   ],
+   [
+    "h3",
+    "Why the patent grant matters here"
+   ],
+   [
+    "p",
+    "A hard-tech company sits close to patentable subject matter. Releasing code under a license with an explicit patent grant tells users they can rely on the code without an ambush later. That is the credible way to let outsiders rerun our pipelines &mdash; the reproduction is worthless if using the code is legally hazardous. See <a href=./reproducible-pipelines.html>reproducible pipelines</a>."
+   ],
+   [
+    "h3",
+    "The split with content"
+   ],
+   [
+    "p",
+    "Keeping code under Apache and content under CC BY is a deliberate separation, explained in <a href=./license-choice-rationale.html>the license-choice rationale</a>. The short version: each artifact gets the license designed for its kind, so both remain genuinely reusable."
+   ],
+   [
+    "p",
+    "Open code that is risky to use is not really open. Apache 2.0 makes using our code safe as well as permitted."
+   ]
+  ],
+  "related": [
+   [
+    "cc-by-content-license",
+    "Content Under CC BY"
+   ],
+   [
+    "license-choice-rationale",
+    "The License-Choice Rationale"
+   ],
+   [
+    "reproducible-pipelines",
+    "Reproducible Pipelines"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "license-choice-rationale",
+  "title": "The License-Choice Rationale",
+  "cat": "designing-in-the-open",
+  "lede": "Content and code carry different licenses on purpose: each artifact gets the license built for its kind, so reuse and reproduction both stay clean.",
+  "body": [
+   [
+    "h2",
+    "One repository, two kinds of artifact"
+   ],
+   [
+    "p",
+    "A Kronos deposit typically holds two very different things: written content and data, and executable code. They have different legal needs, so Kronos applies two licenses &mdash; Creative Commons Attribution for content and Apache 2.0 for code &mdash; rather than stretching one license over both. Applying a content license to source code, or a code license to prose, produces ambiguity that undermines reuse."
+   ],
+   [
+    "h3",
+    "The mapping"
+   ],
+   [
+    "ul",
+    [
+     "Papers, figures, datasets, and the technical library &rarr; CC BY; see <a href=./cc-by-content-license.html>content under CC BY</a>.",
+     "Analysis code, simulation scripts, and pipelines &rarr; Apache 2.0; see <a href=./apache-code-license.html>code under Apache</a>.",
+     "The 3D model follows the public/private split described under <a href=./public-3d-model.html>the public 3D model</a>."
+    ]
+   ],
+   [
+    "h3",
+    "Why permissive over restrictive"
+   ],
+   [
+    "p",
+    "A more restrictive, copyleft-style license would force downstream users to open their own work in turn. That can be the right choice for some projects, but it raises the cost of reproducing and citing our results. Because the goal here is maximal independent checking, Kronos chose permissive licenses on both sides, accepting that competitors may reuse the work. Openness that only permits friendly reuse is not openness."
+   ],
+   [
+    "h3",
+    "Getting it right per repository"
+   ],
+   [
+    "p",
+    "License files are set per repository so the terms are unambiguous for each artifact, and the code's patent grant travels with it. This discipline is part of the same provenance practice as version control; see <a href=./version-control-and-provenance.html>version control and provenance</a>."
+   ],
+   [
+    "p",
+    "The rule is simple: give every artifact the license designed for it, and make both permissive enough that checking us is easy."
+   ]
+  ],
+  "related": [
+   [
+    "cc-by-content-license",
+    "Content Under CC BY"
+   ],
+   [
+    "apache-code-license",
+    "Code Under Apache"
+   ],
+   [
+    "version-control-and-provenance",
+    "Version Control and Provenance"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "reproducible-pipelines",
+  "title": "Reproducible Pipelines",
+  "cat": "designing-in-the-open",
+  "lede": "A result is only ours to claim if someone else can rerun the pipeline that produced it and get the same answer; we build the pipelines to make that possible.",
+  "body": [
+   [
+    "h2",
+    "From inputs to figures, on someone else's machine"
+   ],
+   [
+    "p",
+    "A reproducible pipeline is the full chain from raw inputs to the figures in a paper, packaged so that an independent reader can run it end to end and recover the published result. Kronos treats this as the acceptance test for a claim: if the pipeline does not reproduce, the number is not yet evidence. This is the practical core of <a href=./open-science-strategy.html>designing in the open</a> &mdash; the theory made runnable."
+   ],
+   [
+    "h3",
+    "What goes into the deposit"
+   ],
+   [
+    "ul",
+    [
+     "The code, under an open license, so it can legally be run; see <a href=./apache-code-license.html>code under Apache</a>.",
+     "The input data and parameters that define the design point.",
+     "A pinned environment so the code runs the same way elsewhere; see <a href=./environment-pinning.html>environment pinning</a>.",
+     "A runbook that walks a reader from download to reproduced figure; see <a href=./cold-reproduction-runbook.html>the cold-reproduction runbook</a>.",
+     "A verification step that reports whether the reproduction matched; see <a href=./the-verify-function.html>the verify function</a>."
+    ]
+   ],
+   [
+    "h3",
+    "A worked idea of what a runbook does"
+   ],
+   [
+    "code",
+    [
+     "python",
+     "# reproduce a published design point, end to end\nfrom kronos_repro import load_inputs, run_sweep, verify\n\ninputs = load_inputs('breeder/design_point.yaml')   # exact published parameters\nresult = run_sweep(inputs)                            # rerun the search\n\n# Q_sci, fusion power, plasma current recovered from the rerun\nprint(result.Q_sci, result.P_fus_MW, result.Ip_MA)   # -> 3.424 88.7 9.86\n\nverify(result, reference='breeder/reference.json')    # tiered check, must pass"
+    ]
+   ],
+   [
+    "h3",
+    "Two tiers of success"
+   ],
+   [
+    "p",
+    "Not every result can match to the last bit; floating-point and hardware differences make that unrealistic across environments. Kronos therefore checks reproduction at two tiers &mdash; exact byte match where achievable, numerical tolerance otherwise &mdash; described under <a href=./two-tier-reproduction.html>two-tier reproduction</a>. The tier for each output is fixed in advance, so success has a defined meaning rather than a negotiated one."
+   ],
+   [
+    "h3",
+    "What a working pipeline forces on us"
+   ],
+   [
+    "p",
+    "Building for external reproduction changes how the work is done, not just how it is shipped. A parameter cannot be a number in someone's notebook; it must live in a versioned input file. An analysis cannot depend on a step performed by hand; it must be scripted end to end. A figure cannot be touched up after the fact; it must fall out of the code. That discipline is demanding, and it is exactly what makes a design-and-simulation result trustworthy: there is no manual stage where an unrecorded choice could quietly shape the answer."
+   ],
+   [
+    "p",
+    "The pipeline is the claim. Everything else is commentary on it."
+   ]
+  ],
+  "related": [
+   [
+    "cold-reproduction-runbook",
+    "The Cold-Reproduction Runbook"
+   ],
+   [
+    "two-tier-reproduction",
+    "Two-Tier Reproduction"
+   ],
+   [
+    "the-verify-function",
+    "The Verify Function"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "cold-reproduction-runbook",
+  "title": "The Cold-Reproduction Runbook",
+  "cat": "designing-in-the-open",
+  "lede": "The test that matters is a cold start: a reader with no access to us downloads the deposit and reproduces the result across independent environments.",
+  "body": [
+   [
+    "h2",
+    "What 'cold' means"
+   ],
+   [
+    "p",
+    "A warm reproduction reruns code on the same machine that produced it &mdash; a weak test, because the environment is already tuned. A <b>cold reproduction</b> starts from nothing: a reader downloads the deposit onto a fresh environment, follows a written runbook, and recovers the result without any help from Kronos. That is the reproduction that actually demonstrates the work stands on its own."
+   ],
+   [
+    "h3",
+    "The runbook's structure"
+   ],
+   [
+    "ul",
+    [
+     "Fetch: download the deposit by DOI and verify checksums against the published values.",
+     "Build: recreate the pinned environment so the code has the dependencies it expects; see <a href=./environment-pinning.html>environment pinning</a>.",
+     "Run: execute the pipeline from inputs to outputs with a single documented command.",
+     "Verify: compare outputs to the reference using the tiered check; see <a href=./the-verify-function.html>the verify function</a>."
+    ]
+   ],
+   [
+    "h3",
+    "Across multiple environments"
+   ],
+   [
+    "p",
+    "Kronos's deposits are exercised across more than one independent environment before release &mdash; the AI and quantum deposit, for instance, follows a multi-environment cold-reproduction procedure. Running in several environments catches results that depend on a hidden feature of one machine, which is exactly the kind of fragility a design study must find before hardware does."
+   ],
+   [
+    "h3",
+    "Why we invest in the runbook"
+   ],
+   [
+    "p",
+    "A deposit without a runbook is a pile of files a motivated expert might eventually reassemble. A deposit with a clear cold-reproduction runbook is an invitation any competent reader can accept. Lowering that barrier is how we turn openness from a claim into a practice; see <a href=./independent-reproduction.html>independent reproduction</a>."
+   ],
+   [
+    "p",
+    "If a stranger cannot reproduce it cold, we do not consider it reproduced."
+   ]
+  ],
+  "related": [
+   [
+    "environment-pinning",
+    "Environment Pinning"
+   ],
+   [
+    "two-tier-reproduction",
+    "Two-Tier Reproduction"
+   ],
+   [
+    "independent-reproduction",
+    "Independent Reproduction"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "two-tier-reproduction",
+  "title": "Two-Tier Reproduction",
+  "cat": "designing-in-the-open",
+  "lede": "We check reproductions two ways: an exact byte-for-byte match where the computation allows it, and a numerical-tolerance match where it does not.",
+  "body": [
+   [
+    "h2",
+    "Why one standard is not enough"
+   ],
+   [
+    "p",
+    "Reproducibility sounds binary &mdash; either you got the same answer or you didn't &mdash; but computation is not that clean. Some outputs are deterministic and should match exactly; others involve floating-point operations whose last digits legitimately differ across hardware and libraries. Holding both to a single standard would either reject honest reproductions or accept sloppy ones. Kronos therefore checks at two tiers."
+   ],
+   [
+    "h3",
+    "The two tiers"
+   ],
+   [
+    "ul",
+    [
+     "Tier 1, byte match: for deterministic artifacts, the reproduced file must be byte-for-byte identical to the deposited reference &mdash; verified by checksum.",
+     "Tier 2, tolerance match: for numerical results, the reproduced values must fall within a stated tolerance of the reference, so honest floating-point variation passes while a real discrepancy fails."
+    ]
+   ],
+   [
+    "h3",
+    "How the tier is chosen"
+   ],
+   [
+    "p",
+    "The tier is assigned per artifact, not left to the reader's judgment. A configuration file or a fixed table is a Tier 1 artifact; a swept physical quantity is a Tier 2 artifact with an explicit tolerance. Publishing which tier applies to which output removes the ambiguity that lets a marginal reproduction be spun as a success."
+   ],
+   [
+    "h3",
+    "Where this runs"
+   ],
+   [
+    "p",
+    "The two-tier check is what the <a href=./the-verify-function.html>verify function</a> performs at the end of a reproduction, and it is the last step in <a href=./reproducible-pipelines.html>the reproducible pipelines</a> and <a href=./cold-reproduction-runbook.html>the cold-reproduction runbook</a>. Together they turn 'we reproduced it' into a statement with a defined, checkable meaning."
+   ],
+   [
+    "p",
+    "An honest reproducibility claim needs an honest definition of a match. Two tiers give us one."
+   ]
+  ],
+  "related": [
+   [
+    "the-verify-function",
+    "The Verify Function"
+   ],
+   [
+    "reproducible-pipelines",
+    "Reproducible Pipelines"
+   ],
+   [
+    "cold-reproduction-runbook",
+    "The Cold-Reproduction Runbook"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "the-verify-function",
+  "title": "The Verify Function",
+  "cat": "designing-in-the-open",
+  "lede": "A single verify step decides whether a reproduction passed and whether a public deposit is clean of anything it must not contain.",
+  "body": [
+   [
+    "h2",
+    "One gate, machine-checked"
+   ],
+   [
+    "p",
+    "Human judgment about whether a reproduction 'looks right' is exactly where wishful thinking enters. Kronos moves that judgment into code: a <b>verify</b> step that compares reproduced outputs to the deposited reference and returns pass or fail. It applies the two-tier standard &mdash; byte match where deterministic, tolerance match where numerical &mdash; so the result is defined rather than argued; see <a href=./two-tier-reproduction.html>two-tier reproduction</a>."
+   ],
+   [
+    "h3",
+    "A second job: the firewall"
+   ],
+   [
+    "p",
+    "The same verification discipline guards the boundary of what may be published. Before a public artifact ships, a verify pass confirms it is <b>clean</b> &mdash; that it carries the physics record and none of the material the firewall excludes, above all economics. A public technical build that must contain no cost figures is checked by a verifier that reports clean before release. See <a href=./what-we-dont-publish.html>what we don't publish</a>."
+   ],
+   [
+    "h3",
+    "What a verify run reports"
+   ],
+   [
+    "ul",
+    [
+     "Reproduction status: which outputs matched at Tier 1, which matched within tolerance at Tier 2, and which failed.",
+     "Cleanliness status: whether any excluded content &mdash; economics, confidential material &mdash; was detected in a public artifact.",
+     "A single verdict: the artifact is released only when both come back clean."
+    ]
+   ],
+   [
+    "h3",
+    "Why encode it"
+   ],
+   [
+    "p",
+    "A rule that lives only in a reviewer's head is a rule that eventually gets skipped under pressure. Encoding both the reproduction check and the firewall check means the standard is applied the same way every time and leaves a record. It is the enforcement layer beneath the <a href=./open-science-strategy.html>open-science strategy</a>."
+   ],
+   [
+    "p",
+    "We do not ship a public deposit until verify says both that it reproduces and that it is clean."
+   ]
+  ],
+  "related": [
+   [
+    "two-tier-reproduction",
+    "Two-Tier Reproduction"
+   ],
+   [
+    "what-we-dont-publish",
+    "What We Don't Publish"
+   ],
+   [
+    "auditability-and-sourcing",
+    "Auditability and Lawsuit-Safe Sourcing"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "frozen-design-discipline",
+  "title": "Frozen-Design Discipline",
+  "cat": "designing-in-the-open",
+  "lede": "Once a design point is frozen, its numbers do not drift; every public figure traces to that fixed set, so the record cannot move under a reader.",
+  "body": [
+   [
+    "h2",
+    "What freezing a design means"
+   ],
+   [
+    "p",
+    "A design under active study changes daily. A published record cannot. Kronos resolves the tension by <b>freezing</b> a design point: fixing the canonical numbers &mdash; the breeder's Q_sci 3.424, 88.7 MW, 9.86 MA, 16.84 T, delta &minus;0.30; the burner's 26.49 T plug, 17 T throat, 5.44% neutron fraction &mdash; and requiring every public figure, page, and deposit to use exactly those values. A frozen set is the single source of truth for everything downstream."
+   ],
+   [
+    "h3",
+    "Why discipline, not just a spreadsheet"
+   ],
+   [
+    "ul",
+    [
+     "Consistency: a reader who sees 88.7 MW on one page and a different figure on another loses trust immediately; freezing forbids the mismatch.",
+     "Traceability: because the numbers are fixed and versioned, any figure can be traced back to the frozen set that produced it.",
+     "Honesty about change: when the design genuinely moves, a new freeze is issued as a new version rather than editing the old numbers in place."
+    ]
+   ],
+   [
+    "h3",
+    "How a change is handled"
+   ],
+   [
+    "p",
+    "Freezing does not mean the design is final &mdash; these are design-and-simulation studies that will evolve. It means changes are deliberate and dated. When a result is revised, a new frozen set and a new deposit version capture it, exactly as the breeder paper's version two did. Nothing is quietly overwritten; see <a href=./version-control-and-provenance.html>version control and provenance</a>."
+   ],
+   [
+    "h3",
+    "The tie to the gates"
+   ],
+   [
+    "p",
+    "Freezing also fixes the honest gates. The four burner gates are stated against the frozen design bore and regime, so they cannot be softened by shifting the design under them. See <a href=./the-honest-gates.html>the honest gates</a>."
+   ],
+   [
+    "p",
+    "A frozen design point is a promise that the numbers you check today are the numbers we stand behind."
+   ]
+  ],
+  "related": [
+   [
+    "version-control-and-provenance",
+    "Version Control and Provenance"
+   ],
+   [
+    "the-honest-gates",
+    "The Honest Gates"
+   ],
+   [
+    "design-before-build",
+    "Design Before Build"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "design-before-build",
+  "title": "Design Before Build",
+  "cat": "designing-in-the-open",
+  "lede": "Kronos designs and simulates both machines fully before construction, and labels every result as a simulation finding until hardware can settle it.",
+  "body": [
+   [
+    "h2",
+    "Simulate first, build second"
+   ],
+   [
+    "p",
+    "Kronos's method is to complete the design and simulation of a machine before committing metal to it, and to be explicit that the published results are simulation findings until the machine exists. Breeder construction is planned to begin in Q2 2027, with first-of-a-kind first tritium targeted around 2030. Everything published before that milestone is, by definition, design and simulation &mdash; and it is labeled that way."
+   ],
+   [
+    "h3",
+    "Why the order matters"
+   ],
+   [
+    "ul",
+    [
+     "Cheap failure: a design that breaks in simulation costs a rerun, not a machine. The four burner gates were found this way.",
+     "Honest scoping: separating what a model shows from what hardware must prove keeps claims inside their evidence.",
+     "Public checking: a simulation-stage program can be reproduced by anyone, long before a built machine could be visited."
+    ]
+   ],
+   [
+    "h3",
+    "The gate that never moves"
+   ],
+   [
+    "p",
+    "No hardware net-gain claim is made before first-of-a-kind first tritium. That is the line the whole record respects: a simulated Q_sci of 3.424 is a design result, not a demonstration of net energy from a built machine. Blurring the two is the error we most want to avoid; see <a href=./the-honest-gates.html>the honest gates</a>."
+   ],
+   [
+    "h3",
+    "Design as a public artifact"
+   ],
+   [
+    "p",
+    "Because the design comes first and is published, the public can examine the machine as a design before it is a fact. The <a href=./public-3d-model.html>public 3D model</a> and the <a href=./public-technical-library.html>public technical library</a> are the readable form of that design; the deposits are its checkable form."
+   ],
+   [
+    "p",
+    "Designing in the open only works if you design before you build. We do, and we say which stage every number belongs to."
+   ]
+  ],
+  "related": [
+   [
+    "frozen-design-discipline",
+    "Frozen-Design Discipline"
+   ],
+   [
+    "the-honest-gates",
+    "The Honest Gates"
+   ],
+   [
+    "public-3d-model",
+    "The Public 3D Model"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "public-technical-library",
+  "title": "The Public Technical Library",
+  "cat": "designing-in-the-open",
+  "lede": "A large, on-brand public knowledge base documents the physics, components, and methods of both machines in plain, citable pages.",
+  "body": [
+   [
+    "h2",
+    "A knowledge base, not a brochure"
+   ],
+   [
+    "p",
+    "Alongside the papers, Kronos publishes a <b>public technical library</b>: a structured knowledge base of over a thousand pages spanning physics, components, engineering, materials, validation, methodology, devices, standards, safety, applications, a glossary, and more. It is written for readers who want the mechanism, not the marketing, and it is generated from the same frozen canon as the papers so the numbers agree everywhere."
+   ],
+   [
+    "h3",
+    "What it is built to do"
+   ],
+   [
+    "ul",
+    [
+     "Explain the machines at depth: how the breeder and burner work, component by component.",
+     "Stay consistent: every page draws on the frozen design point, so 88.7 MW means the same thing throughout.",
+     "Remain honest: the honest gates appear in the library, not only in the papers.",
+     "Carry no economics: the library is subject to the same firewall as every public artifact; see <a href=./what-we-dont-publish.html>what we don't publish</a>."
+    ]
+   ],
+   [
+    "h3",
+    "Generated, verified, and clean"
+   ],
+   [
+    "p",
+    "The library is produced by a documented generator and passes a verification step before release, confirming it is clean of excluded content; see <a href=./the-verify-function.html>the verify function</a>. Generating it from source modules rather than hand-editing a thousand pages is how the frozen canon stays uniform across the whole corpus; see <a href=./frozen-design-discipline.html>frozen-design discipline</a>."
+   ],
+   [
+    "h3",
+    "Why publish this much"
+   ],
+   [
+    "p",
+    "A reader who can only see conclusions cannot judge them. A deep, honest reference lets a serious reader trace a claim from a paper into the underlying physics and back out again. It is the readable companion to the reproducible deposits, and part of the same posture of <a href=./open-science-strategy.html>designing in the open</a>."
+   ],
+   [
+    "p",
+    "The library exists so that understanding the machines does not require our permission."
+   ]
+  ],
+  "related": [
+   [
+    "public-3d-model",
+    "The Public 3D Model"
+   ],
+   [
+    "what-we-dont-publish",
+    "What We Don't Publish"
+   ],
+   [
+    "the-verify-function",
+    "The Verify Function"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "public-3d-model",
+  "title": "The Public 3D Model",
+  "cat": "designing-in-the-open",
+  "lede": "A public build of the machine's 3D model lets anyone inspect its geometry, while sensitive detail stays behind a clearly drawn line.",
+  "body": [
+   [
+    "h2",
+    "Seeing the machine, not just reading about it"
+   ],
+   [
+    "p",
+    "Kronos publishes a 3D model of the machine so that its geometry can be examined directly, not only described in text. The public build exposes the parts of the design that support external understanding and vetting; a private build retains the full detail. The split is explicit, so no reader is misled about what the public model does and does not show."
+   ],
+   [
+    "h3",
+    "The public/private split"
+   ],
+   [
+    "ul",
+    [
+     "The public build carries a small set of blueprint-level sheets and a model with sensitive computer-aided-design detail physically removed, not merely hidden.",
+     "The private build retains the complete sheet set and full CAD for internal and controlled use.",
+     "A documented build process produces the public version, so the boundary is enforced by tooling rather than by memory."
+    ]
+   ],
+   [
+    "h3",
+    "Why strip rather than hide"
+   ],
+   [
+    "p",
+    "Hiding detail behind a viewer setting is not protection &mdash; the data is still shipped. The public build instead removes sensitive geometry before release, so what is not shown is genuinely not present. This is the same principle as the <a href=./the-verify-function.html>verify function</a>: the boundary is a property of the artifact, not a promise about how it will be viewed."
+   ],
+   [
+    "h3",
+    "Openness with an honest edge"
+   ],
+   [
+    "p",
+    "Publishing a real, inspectable model &mdash; while stating clearly where the public line falls &mdash; is more credible than either hiding the machine or pretending everything is public. It matches the license split described in <a href=./license-choice-rationale.html>the license-choice rationale</a> and the firewall in <a href=./what-we-dont-publish.html>what we don't publish</a>."
+   ],
+   [
+    "p",
+    "You can look at the machine. Where you cannot, we say so plainly rather than blur it."
+   ]
+  ],
+  "related": [
+   [
+    "public-technical-library",
+    "The Public Technical Library"
+   ],
+   [
+    "what-we-dont-publish",
+    "What We Don't Publish"
+   ],
+   [
+    "license-choice-rationale",
+    "The License-Choice Rationale"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "independent-reproduction",
+  "title": "Independent Reproduction",
+  "cat": "designing-in-the-open",
+  "lede": "The strongest evidence for a Kronos result is a stranger reproducing it, so we build every deposit to be reproduced without our help.",
+  "body": [
+   [
+    "h2",
+    "The result we want most"
+   ],
+   [
+    "p",
+    "The purpose of publishing data, code, licenses, and runbooks is a single outcome: someone with no connection to Kronos downloads a deposit and recovers our result on their own machine. Independent reproduction is the evidence that a claim is about the physics, not about our tooling or our team. It is the test the whole <a href=./open-science-strategy.html>open-science strategy</a> is built to invite."
+   ],
+   [
+    "h3",
+    "What we do to make it possible"
+   ],
+   [
+    "ul",
+    [
+     "Permissive licenses, so running our code and reusing our content is legal; see <a href=./apache-code-license.html>code under Apache</a>.",
+     "Pinned environments, so the code runs the same elsewhere; see <a href=./environment-pinning.html>environment pinning</a>.",
+     "Cold-reproduction runbooks, so a reader is walked from download to reproduced figure; see <a href=./cold-reproduction-runbook.html>the cold-reproduction runbook</a>.",
+     "A verify step, so 'reproduced' has a defined meaning; see <a href=./the-verify-function.html>the verify function</a>."
+    ]
+   ],
+   [
+    "h3",
+    "Reproduction includes finding us wrong"
+   ],
+   [
+    "p",
+    "An honest invitation to reproduce is also an invitation to falsify. If an outside reader reruns a sweep and cannot recover a published design point, that is a finding we want, not one we resist. The <a href=./pre-registered-predictions.html>pre-registered predictions</a> and the honest gates exist precisely so that being wrong is detectable from the outside."
+   ],
+   [
+    "h3",
+    "Why not just trust the internal check"
+   ],
+   [
+    "p",
+    "An internal reproduction shares our blind spots. An external one does not. Only outside reproduction tests whether the result survives contact with a different environment, a different reader, and a skeptic's incentives. That is the difference between checking our work and proving it."
+   ],
+   [
+    "p",
+    "We consider a result fully published only once someone outside Kronos could reproduce it &mdash; and we would like them to try."
+   ]
+  ],
+  "related": [
+   [
+    "cold-reproduction-runbook",
+    "The Cold-Reproduction Runbook"
+   ],
+   [
+    "pre-registered-predictions",
+    "Pre-Registered Predictions"
+   ],
+   [
+    "why-openness-builds-credibility",
+    "Why Openness Builds Credibility"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "pre-registered-predictions",
+  "title": "Pre-Registered Predictions",
+  "cat": "designing-in-the-open",
+  "lede": "We commit, in the dated public record, to falsifiable predictions about the machines, so the built hardware can prove us right or wrong.",
+  "body": [
+   [
+    "h2",
+    "Saying what would prove us wrong"
+   ],
+   [
+    "p",
+    "A prediction is only meaningful if it can fail. Kronos pre-registers falsifiable predictions in the dated public record so that, as the program reaches hardware, reality can test them. Pre-registration &mdash; stating a prediction before the result is known &mdash; is what separates a genuine forecast from a claim adjusted after the fact. The timestamps come from the preprints and deposits; see <a href=./preprints-and-arxiv.html>preprints and the public record</a>."
+   ],
+   [
+    "h3",
+    "What makes a prediction falsifiable here"
+   ],
+   [
+    "ul",
+    [
+     "It is quantitative: tied to specific figures such as breeding ratio, fusion power, or field, not vague direction.",
+     "It is dated: fixed in the record before the machine exists, so it cannot be retrofitted.",
+     "It states the condition of failure: what measurement, at what milestone, would contradict it.",
+     "It is checkable against the built machine, not only against another simulation."
+    ]
+   ],
+   [
+    "h3",
+    "The milestone that tests them"
+   ],
+   [
+    "p",
+    "The clearest test is first-of-a-kind first tritium, targeted around 2030 after construction begins in Q2 2027. Predictions about the breeder's products &mdash; the tritium class near 4 kg/yr, the roughly 1.97 kg/yr of helium-3 &mdash; and the open breeding-ratio question become checkable once hardware runs. Until then they are, and are labeled as, design-and-simulation predictions."
+   ],
+   [
+    "h3",
+    "Why pre-register at all"
+   ],
+   [
+    "p",
+    "Pre-registration is uncomfortable on purpose: it removes the option to quietly move the goalposts. That discomfort is the point. It is the honesty analogue of the frozen design point &mdash; both fix what we said so the record cannot drift. See <a href=./frozen-design-discipline.html>frozen-design discipline</a> and <a href=./the-honest-gates.html>the honest gates</a>."
+   ],
+   [
+    "p",
+    "We would rather be on record with a prediction that hardware can refute than be safely vague."
+   ]
+  ],
+  "related": [
+   [
+    "preprints-and-arxiv",
+    "Preprints and the Public Record"
+   ],
+   [
+    "the-honest-gates",
+    "The Honest Gates"
+   ],
+   [
+    "frozen-design-discipline",
+    "Frozen-Design Discipline"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "the-honest-gates",
+  "title": "The Honest Gates",
+  "cat": "designing-in-the-open",
+  "lede": "An honest gate is the stated line between what a model has solved and what only hardware can prove, and we publish every one of ours.",
+  "body": [
+   [
+    "h2",
+    "The line we refuse to blur"
+   ],
+   [
+    "p",
+    "Kronos designs digitally before building, which produces two kinds of statement: results that follow from models we can publish and reproduce, and results that only real hardware can settle. An <b>honest gate</b> is the explicit boundary between them. Every quantitative claim is labeled by which side it sits on, and the gates are published as findings rather than hidden as risks."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 680 180\" width=\"100%\" style=\"max-width:680px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The honest gate between simulation and hardware\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><rect x=\"30\" y=\"70\" width=\"300\" height=\"46\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.3\"/><rect x=\"350\" y=\"70\" width=\"300\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"#8FA0B8\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"180\" y=\"98\" font-size=\"12.5\" fill=\"#E7EBF2\" text-anchor=\"middle\" font-weight=\"600\">Design &amp; simulation &mdash; solved on paper</text><text x=\"500\" y=\"98\" font-size=\"12.5\" fill=\"#8FA0B8\" text-anchor=\"middle\" font-weight=\"600\">Hardware &mdash; must be measured</text><line x1=\"340\" y1=\"50\" x2=\"340\" y2=\"140\" stroke=\"#D4AD5C\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"55\" r=\"5\" fill=\"#D4AD5C\"/><text x=\"340\" y=\"40\" font-size=\"11\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\">THE GATE</text><text x=\"340\" y=\"160\" font-size=\"11.5\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"600\">FOAK first tritium ~2030</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "The breeder's open question"
+   ],
+   [
+    "p",
+    "On the breeder, the central gate is tritium self-sufficiency: the breeding ratio is treated as a design lever across 1.1, 1.5, and 1.8, and whether the machine breeds net-positive under realistic geometry is an open reconciliation. See <a href=./breeder-open-questions.html>the breeder open questions</a>."
+   ],
+   [
+    "h3",
+    "The burner's four gates"
+   ],
+   [
+    "ul",
+    [
+     "Plug coil overstressed ~3&ndash;3.9x at the design bore &mdash; <a href=./burner-gate-plug-coil.html>infeasible as specified</a>.",
+     "Operating regime 166&ndash;830x beyond any device &mdash; <a href=./burner-gate-operating-regime.html>un-post-dictable today</a>.",
+     "Helium-3 demand ~400x domestic supply per commercial unit &mdash; <a href=./burner-gate-he3-supply.html>gated on a fuel that doesn't yet exist at scale</a>.",
+     "Availability ~0.86&ndash;0.995 vs Tier III 0.99982 &mdash; <a href=./burner-gate-availability.html>30&ndash;100x short on downtime</a>."
+    ]
+   ],
+   [
+    "h3",
+    "Why a gate is a feature, not a confession"
+   ],
+   [
+    "p",
+    "A gate is not an admission that the program is failing; it is evidence that the program is honest about its own state of knowledge. Any serious design study of an unbuilt machine will contain results a model cannot yet settle. The choice is only whether to name them or to let a reader discover them later. Kronos names them, with figures, so that the boundary between solved and unproven is drawn by us rather than by an eventual embarrassment."
+   ],
+   [
+    "p",
+    "These are physics facts, not economics, and never translated into cost. Publishing them is how a design study proves it actually tested itself. A program willing to state exactly where it is not yet right is a program worth checking where it claims to be."
+   ]
+  ],
+  "related": [
+   [
+    "breeder-open-questions",
+    "The Breeder Open Questions"
+   ],
+   [
+    "burner-gate-plug-coil",
+    "The Plug-Coil Gate"
+   ],
+   [
+    "design-before-build",
+    "Design Before Build"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "burner-gate-plug-coil",
+  "title": "The Plug-Coil Gate",
+  "cat": "designing-in-the-open",
+  "lede": "At the burner's design bore, the plug coil is overstressed by roughly three to four times its limit, so the machine is infeasible exactly as specified.",
+  "body": [
+   [
+    "h2",
+    "The gate, stated plainly"
+   ],
+   [
+    "p",
+    "The burner relies on an extreme mirror field &mdash; a 26.49 T plug and a 17 T throat &mdash; to confine the plasma. Producing that field at the design bore places the plug coil under mechanical stress roughly <b>3 to 3.9 times</b> what the conductor and structure can bear. At the geometry as specified, the coil cannot survive its own field. The machine is therefore infeasible as currently designed."
+   ],
+   [
+    "h3",
+    "Why this is a structural fact, not a cost"
+   ],
+   [
+    "p",
+    "This gate lives in the mechanics of the magnet, not in any budget. A coil that is overstressed by three to four times fails structurally regardless of resources; no amount of anything makes an over-limit conductor hold. That is why the gate is stated as a stress ratio and never translated into an economic statement. See <a href=./rebco-magnet-paper.html>the REBCO magnet paper</a> for the magnet basis."
+   ],
+   [
+    "h3",
+    "What would have to change"
+   ],
+   [
+    "ul",
+    [
+     "The bore, field, or coil configuration would need to change enough to bring the stress within limits.",
+     "Any such change would ripple into confinement, and must be re-checked against the other three burner gates.",
+     "None of this is claimed to be solved; it is stated as the open problem the design faces."
+    ]
+   ],
+   [
+    "h3",
+    "Why publish an infeasibility"
+   ],
+   [
+    "p",
+    "A design study that hides where its central component fails has not really studied it. Stating the plug-coil gate tells any honest reader that the burner, as specified, is a target rather than a working design &mdash; and points precisely at the physics that must move. See the other gates from <a href=./the-honest-gates.html>the honest gates</a>."
+   ],
+   [
+    "p",
+    "The coil, not the marketing, is the limit &mdash; and we say so in the paper."
+   ]
+  ],
+  "related": [
+   [
+    "rebco-magnet-paper",
+    "The REBCO Magnet Paper"
+   ],
+   [
+    "burner-gate-operating-regime",
+    "The Operating-Regime Gate"
+   ],
+   [
+    "the-honest-gates",
+    "The Honest Gates"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "burner-gate-operating-regime",
+  "title": "The Operating-Regime Gate",
+  "cat": "designing-in-the-open",
+  "lede": "The burner's plug would run 166 to 830 times beyond any regime a real device has reached, so today's models cannot post-dict its behavior.",
+  "body": [
+   [
+    "h2",
+    "Beyond the reach of any existing device"
+   ],
+   [
+    "p",
+    "Confinement models earn trust by reproducing what real machines have already done &mdash; post-diction. The burner's plug operating point sits <b>166 to 830 times</b> beyond the regime any existing device has ever reached. There is no measured data at those conditions, so no model can be validated there today. The plug's behavior is, in the honest sense, un-post-dictable at present."
+   ],
+   [
+    "h3",
+    "What un-post-dictable means"
+   ],
+   [
+    "ul",
+    [
+     "A model can be run at those conditions, but its output cannot be checked against any experiment, because none exists.",
+     "Confidence intervals from extrapolating so far past the data are not meaningful in the usual way.",
+     "The claim is not that the physics is impossible &mdash; it is that it is currently unverifiable."
+    ]
+   ],
+   [
+    "h3",
+    "Why this is a physics gate, not a cost"
+   ],
+   [
+    "p",
+    "This gate is about the state of knowledge, not resources. Even with unlimited effort, a regime hundreds of times beyond any device cannot be validated without an experiment that reaches it. Stating the multiple &mdash; 166 to 830x &mdash; keeps the gate quantitative and refuses to soften it into a hand-wave about future progress."
+   ],
+   [
+    "h3",
+    "How it interacts with the other gates"
+   ],
+   [
+    "p",
+    "The operating-regime gate compounds the <a href=./burner-gate-plug-coil.html>plug-coil gate</a>: even if the coil could be built, its regime could not yet be trusted. This is why the burner is presented as a design-and-simulation target requiring named retirement experiments before any claim about it could stand. See <a href=./the-honest-gates.html>the honest gates</a>."
+   ],
+   [
+    "p",
+    "We can simulate the plug. We cannot yet check the simulation against reality, and we say so."
+   ]
+  ],
+  "related": [
+   [
+    "burner-gate-plug-coil",
+    "The Plug-Coil Gate"
+   ],
+   [
+    "burner-gate-availability",
+    "The Availability Gate"
+   ],
+   [
+    "the-honest-gates",
+    "The Honest Gates"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "burner-gate-he3-supply",
+  "title": "The Fuel-Supply Gate",
+  "cat": "designing-in-the-open",
+  "lede": "A single commercial burner would demand roughly 400 times the domestic helium-3 supply, so it is gated on a fuel that does not yet exist at terrestrial scale.",
+  "body": [
+   [
+    "h2",
+    "The fuel problem, quantified"
+   ],
+   [
+    "p",
+    "The burner runs on deuterium and helium-3. Helium-3 is extraordinarily scarce on Earth: a single commercial burner unit would demand roughly <b>400 times</b> the entire domestic supply. The machine is therefore gated on a fuel that simply does not exist at terrestrial scale &mdash; a physical supply fact, stated in the open."
+   ],
+   [
+    "h3",
+    "Why this ties the two machines together"
+   ],
+   [
+    "p",
+    "The fuel gate is the reason the breeder and burner are one program rather than two products. The breeder (Hyperion) is designed to produce about 1.97 kg/yr of helium-3 as one of its products, and a lunar helium-3 supply is part of the long-range picture. The burner cannot be fueled from existing terrestrial stocks; a bred and off-world supply is what the gate points toward. See <a href=./breeder-paper.html>the breeder paper</a>."
+   ],
+   [
+    "h3",
+    "A supply fact, never a price"
+   ],
+   [
+    "ul",
+    [
+     "The gate is expressed as a ratio of demand to available supply &mdash; about 400x &mdash; not as a cost.",
+     "It would remain true regardless of resources, because the material is not present in the needed quantity.",
+     "It is why helium-3 is treated as strategically enabling rather than as something that can be bought today."
+    ]
+   ],
+   [
+    "h3",
+    "Why publish it"
+   ],
+   [
+    "p",
+    "A generator with no fuel is not a working machine, and pretending otherwise would be the opposite of designing in the open. Stating the 400x gate explains, honestly, why the burner is a longer-horizon target and why the breeder's product mix matters to the whole program. See the full set at <a href=./the-honest-gates.html>the honest gates</a>."
+   ],
+   [
+    "p",
+    "The burner's fuel does not yet exist at the scale it needs. We put that number in the paper."
+   ]
+  ],
+  "related": [
+   [
+    "breeder-paper",
+    "The Breeder Paper"
+   ],
+   [
+    "burner-gate-availability",
+    "The Availability Gate"
+   ],
+   [
+    "the-honest-gates",
+    "The Honest Gates"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "burner-gate-availability",
+  "title": "The Availability Gate",
+  "cat": "designing-in-the-open",
+  "lede": "The burner's projected uptime falls 30 to 100 times short of hyperscale Tier III reliability, so it is not a sole source for a data center today.",
+  "body": [
+   [
+    "h2",
+    "Uptime is its own gate"
+   ],
+   [
+    "p",
+    "One burner housing, MetroVolt, is aimed at data centers, which measure reliability in fractions of a percent of downtime. Hyperscale Tier III operation targets an availability of about 0.99982. The burner's projected availability is roughly <b>0.86 to 0.995</b> &mdash; short of that standard by 30 to 100 times in downtime terms. As specified, it could not serve as a sole Tier III power source."
+   ],
+   [
+    "h3",
+    "Reading the numbers honestly"
+   ],
+   [
+    "ul",
+    [
+     "0.99982 availability means downtime measured in a handful of minutes per year.",
+     "0.86 to 0.995 means downtime measured in hours to weeks per year &mdash; a different regime entirely.",
+     "The 30&ndash;100x figure is the ratio of the downtime gap, stated as a reliability fact rather than a cost."
+    ]
+   ],
+   [
+    "h3",
+    "What the gate does and does not say"
+   ],
+   [
+    "p",
+    "The gate does not say the burner is useless; it says the burner, at its projected availability, is not a standalone Tier III source. A role alongside other supply is a different claim than a role replacing it, and the honest statement distinguishes them. This is a reliability engineering fact, kept clear of any economic translation."
+   ],
+   [
+    "h3",
+    "Why it belongs with the others"
+   ],
+   [
+    "p",
+    "Availability sits alongside the <a href=./burner-gate-plug-coil.html>plug-coil</a>, <a href=./burner-gate-operating-regime.html>operating-regime</a>, and <a href=./burner-gate-he3-supply.html>fuel-supply</a> gates because a data-center generator must clear all four to matter. Publishing the uptime gap keeps the MetroVolt case honest about what it would take to be relied upon. See <a href=./the-honest-gates.html>the honest gates</a>."
+   ],
+   [
+    "p",
+    "A data center needs near-perfect uptime. We state exactly how far the current design is from it."
+   ]
+  ],
+  "related": [
+   [
+    "burner-gate-plug-coil",
+    "The Plug-Coil Gate"
+   ],
+   [
+    "burner-gate-operating-regime",
+    "The Operating-Regime Gate"
+   ],
+   [
+    "the-honest-gates",
+    "The Honest Gates"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "breeder-open-questions",
+  "title": "The Breeder Open Questions",
+  "cat": "designing-in-the-open",
+  "lede": "The breeder's central unknown is whether it breeds enough tritium to sustain itself once realistic geometry is included, and we keep that question open.",
+  "body": [
+   [
+    "h2",
+    "The self-sufficiency question"
+   ],
+   [
+    "p",
+    "A deuterium&ndash;tritium machine consumes tritium, so a breeder must produce at least as much as it burns to be self-sustaining. Whether Hyperion does so is the breeder's central open question. Kronos treats the tritium breeding ratio as a <b>design lever</b> examined across 1.1, 1.5, and 1.8, rather than reporting a single settled figure, because the honest answer depends on assumptions still being reconciled."
+   ],
+   [
+    "h3",
+    "Why the number is a lever, not a fact"
+   ],
+   [
+    "ul",
+    [
+     "An idealized blanket can look net-positive, but ports, structure, and realistic three-dimensional geometry reduce achievable breeding.",
+     "The distinction between a local breeding ratio and a net, machine-wide ratio is exactly where the reconciliation lives.",
+     "Reporting a range of lever values keeps the uncertainty visible instead of hiding it inside one confident number."
+    ]
+   ],
+   [
+    "h3",
+    "The honest framing"
+   ],
+   [
+    "p",
+    "The breeder gate is quieter than the burner's four, but it is stated with the same candor: net tritium self-sufficiency under realistic geometry is not claimed as solved. It is an open reconciliation the design program is working, and it is published as such. See <a href=./tbr-as-a-design-lever.html>TBR as a design lever</a> for how the lever is used."
+   ],
+   [
+    "h3",
+    "When it gets answered"
+   ],
+   [
+    "p",
+    "This is a question hardware helps settle. First-of-a-kind first tritium, around 2030, and the machines that follow are where the breeding picture moves from simulation to measurement. Until then the breeding ratio is a design-and-simulation result, tied to the <a href=./pre-registered-predictions.html>pre-registered predictions</a> and the <a href=./the-honest-gates.html>honest gates</a>."
+   ],
+   [
+    "p",
+    "We do not claim the breeder closes its own tritium loop. We show the lever and keep the question open."
+   ]
+  ],
+  "related": [
+   [
+    "tbr-as-a-design-lever",
+    "TBR as a Design Lever"
+   ],
+   [
+    "breeder-paper",
+    "The Breeder Paper"
+   ],
+   [
+    "the-honest-gates",
+    "The Honest Gates"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "tbr-as-a-design-lever",
+  "title": "TBR as a Design Lever",
+  "cat": "designing-in-the-open",
+  "lede": "The tritium breeding ratio is studied across 1.1, 1.5, and 1.8 as a design variable, so readers see how self-sufficiency depends on it rather than one number.",
+  "body": [
+   [
+    "h2",
+    "What a breeding ratio is"
+   ],
+   [
+    "p",
+    "The tritium breeding ratio (TBR) is the amount of tritium a machine breeds per unit it consumes. A TBR above one is the threshold for self-sufficiency, with margin needed to cover losses and to start up other units. Rather than assert a single value for Hyperion, Kronos studies TBR as a lever across three points &mdash; 1.1, 1.5, and 1.8 &mdash; and reports how the breeder's product and self-sufficiency picture changes across them."
+   ],
+   [
+    "h3",
+    "Why sweep instead of state"
+   ],
+   [
+    "ul",
+    [
+     "1.1 is barely self-sufficient: little margin for losses or for seeding new machines.",
+     "1.5 provides working margin under favorable assumptions.",
+     "1.8 is an optimistic upper anchor used to bound the design space, not a promise.",
+     "Presenting all three shows the reader the sensitivity, which a single number conceals."
+    ]
+   ],
+   [
+    "h3",
+    "The reconciliation it exposes"
+   ],
+   [
+    "p",
+    "Sweeping the lever is what makes the open question legible: the gap between an idealized local breeding ratio and a realistic net ratio, once geometry and ports are included, is visible when the range is on the page. That gap is the breeder's central reconciliation; see <a href=./breeder-open-questions.html>the breeder open questions</a>."
+   ],
+   [
+    "h3",
+    "How the lever ties to the products"
+   ],
+   [
+    "p",
+    "The breeder's product framing &mdash; a tritium class near 4 kg/yr, about 1.97 kg/yr of helium-3, and 14 MeV neutrons &mdash; sits on top of the breeding assumption. Because those products, especially helium-3, feed the burner and its <a href=./burner-gate-he3-supply.html>fuel-supply gate</a>, being honest about the breeding lever matters to the whole program. The lever values are frozen canon; see <a href=./frozen-design-discipline.html>frozen-design discipline</a>."
+   ],
+   [
+    "p",
+    "We publish TBR as a dial with its uncertainty shown, not as a single confident figure."
+   ]
+  ],
+  "related": [
+   [
+    "breeder-open-questions",
+    "The Breeder Open Questions"
+   ],
+   [
+    "burner-gate-he3-supply",
+    "The Fuel-Supply Gate"
+   ],
+   [
+    "breeder-paper",
+    "The Breeder Paper"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "open-source-ethos-hardtech",
+  "title": "The Open-Source Ethos for Hard Tech",
+  "cat": "designing-in-the-open",
+  "lede": "Software learned that open source builds trust and speeds correction; Kronos applies the same ethos to a machine, with the boundaries hardware demands.",
+  "body": [
+   [
+    "h2",
+    "Borrowing a proven practice"
+   ],
+   [
+    "p",
+    "Open-source software demonstrated something durable: code that anyone can read, run, and fix tends to be more trustworthy and more correct than code kept private. Kronos brings that ethos to a hard-tech program &mdash; publishing designs, data, and code under open licenses &mdash; because the same forces apply. Many eyes find errors; permissive licenses let the work spread; reproduction turns claims into shared results."
+   ],
+   [
+    "h3",
+    "What carries over cleanly"
+   ],
+   [
+    "ul",
+    [
+     "Open licenses on both content and code; see <a href=./cc-by-content-license.html>content under CC BY</a> and <a href=./apache-code-license.html>code under Apache</a>.",
+     "Public version control and provenance, so the record's history is visible; see <a href=./version-control-and-provenance.html>version control and provenance</a>.",
+     "Reproducible builds and runbooks, so anyone can rebuild the result; see <a href=./reproducible-pipelines.html>reproducible pipelines</a>.",
+     "A bias toward disclosing problems early rather than hiding them until forced."
+    ]
+   ],
+   [
+    "h3",
+    "Where hard tech differs"
+   ],
+   [
+    "p",
+    "A machine is not pure software. Some detail is genuinely sensitive, and a physical build cannot be forked in an afternoon. So the ethos comes with honest boundaries: a firewall that keeps economics and confidential material out of public artifacts, and a public/private split on the 3D model. See <a href=./what-we-dont-publish.html>what we don't publish</a> and <a href=./public-3d-model.html>the public 3D model</a>."
+   ],
+   [
+    "h3",
+    "The ethos, not just the license"
+   ],
+   [
+    "p",
+    "Open source is a habit of mind before it is a license file: default to disclosure, invite correction, treat outside reproduction as the goal. That habit is what the rest of this section documents in practice, and what makes <a href=./open-science-strategy.html>designing in the open</a> a method rather than a slogan."
+   ],
+   [
+    "p",
+    "We took what worked in software and applied it to a machine &mdash; with the limits a machine honestly requires."
+   ]
+  ],
+  "related": [
+   [
+    "version-control-and-provenance",
+    "Version Control and Provenance"
+   ],
+   [
+    "what-we-dont-publish",
+    "What We Don't Publish"
+   ],
+   [
+    "open-science-strategy",
+    "Designing in the Open"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "what-we-dont-publish",
+  "title": "What We Don't Publish",
+  "cat": "designing-in-the-open",
+  "lede": "Openness has a boundary: public artifacts carry the physics record and never economics or confidential material, and the boundary is machine-enforced.",
+  "body": [
+   [
+    "h2",
+    "A stated, enforced boundary"
+   ],
+   [
+    "p",
+    "Designing in the open does not mean publishing everything. Kronos draws an explicit line: public artifacts carry the physics and engineering record, and never carry economics or confidential material. Stating the boundary openly &mdash; and enforcing it in code &mdash; is itself part of the honesty. A reader is never left to wonder whether something was silently withheld."
+   ],
+   [
+    "h3",
+    "What stays out of public artifacts"
+   ],
+   [
+    "ul",
+    [
+     "Economics of any kind: no prices, costs, funding, valuations, or financial projections appear in public papers, the technical library, the 3D model, or media.",
+     "Confidential material: legal, personnel, and other protected content never enters the public or publication corpus.",
+     "Sensitive design detail: some geometry is stripped from the public 3D build rather than shipped; see <a href=./public-3d-model.html>the public 3D model</a>."
+    ]
+   ],
+   [
+    "h3",
+    "How the boundary is enforced"
+   ],
+   [
+    "p",
+    "The firewall is not a matter of remembering to be careful. A verification step checks that a public artifact is <b>clean</b> before release &mdash; that no excluded content is present &mdash; and blocks the release otherwise. See <a href=./the-verify-function.html>the verify function</a>. Enforcing the rule in tooling is what makes it reliable across a corpus of over a thousand pages."
+   ],
+   [
+    "h3",
+    "Why exclude economics specifically"
+   ],
+   [
+    "p",
+    "The public record's job is to let readers check the physics. Economics belongs to a different conversation and a different audience, and mixing it into the technical record would muddy exactly the claims we want reproduced. Keeping it out sharpens the open science rather than limiting it. The honest gates are physics facts and are never translated into cost; see <a href=./the-honest-gates.html>the honest gates</a>."
+   ],
+   [
+    "p",
+    "We publish the physics fully and the economics not at all &mdash; and we check every artifact to be sure."
+   ]
+  ],
+  "related": [
+   [
+    "the-verify-function",
+    "The Verify Function"
+   ],
+   [
+    "public-3d-model",
+    "The Public 3D Model"
+   ],
+   [
+    "auditability-and-sourcing",
+    "Auditability and Lawsuit-Safe Sourcing"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "version-control-and-provenance",
+  "title": "Version Control and Provenance",
+  "cat": "designing-in-the-open",
+  "lede": "Every published number can be traced to the code version and inputs that produced it, and revisions become new versions rather than silent edits.",
+  "body": [
+   [
+    "h2",
+    "Knowing where a number came from"
+   ],
+   [
+    "p",
+    "Provenance is the ability to answer, for any published figure, exactly which code and which inputs produced it. Kronos keeps its analysis under version control and ties each deposit to a specific state of that history, so a claim in a paper can be traced back to the commit and parameters behind it. Without provenance, an open dataset is a pile of files; with it, the dataset is auditable."
+   ],
+   [
+    "h3",
+    "Revisions are versions, not overwrites"
+   ],
+   [
+    "ul",
+    [
+     "When a result changes, a new deposit version is published with its own DOI, while the old version remains reachable; the breeder paper carries a version two.",
+     "The frozen design point is versioned, so 'the numbers' always refers to a specific, dated set; see <a href=./frozen-design-discipline.html>frozen-design discipline</a>.",
+     "Retired identifiers are marked retired, not deleted, so old references still resolve; see <a href=./doi-map.html>the DOI map</a>."
+    ]
+   ],
+   [
+    "h3",
+    "Why never overwrite"
+   ],
+   [
+    "p",
+    "Silently editing a published number in place is the quiet way records lose their integrity: a reader who cited the old value can no longer tell what changed. Publishing a new version instead keeps the full history honest and lets anyone diff what moved and why. It is the same discipline as pre-registration &mdash; the past record is fixed."
+   ],
+   [
+    "h3",
+    "Provenance across the whole corpus"
+   ],
+   [
+    "p",
+    "Because the technical library and figures are generated from source modules against the frozen canon, provenance extends beyond the deposits to the public pages themselves: regenerate from the same source and canon, and you get the same output. This is what lets the <a href=./reproducible-pipelines.html>reproducible pipelines</a> and the <a href=./the-verify-function.html>verify function</a> actually work."
+   ],
+   [
+    "p",
+    "Every published number has an address in our history. Nothing important is edited without leaving a trace."
+   ]
+  ],
+  "related": [
+   [
+    "frozen-design-discipline",
+    "Frozen-Design Discipline"
+   ],
+   [
+    "doi-map",
+    "The DOI Map"
+   ],
+   [
+    "reproducible-pipelines",
+    "Reproducible Pipelines"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "environment-pinning",
+  "title": "Environment Pinning",
+  "cat": "designing-in-the-open",
+  "lede": "Code that runs differently on different machines is not reproducible, so deposits pin their software environment to make a cold rerun match.",
+  "body": [
+   [
+    "h2",
+    "The hidden variable in reproduction"
+   ],
+   [
+    "p",
+    "The same code can produce different results on different machines when its dependencies differ in version or behavior. That variability is the enemy of reproduction. Kronos <b>pins</b> the software environment of each deposit &mdash; recording the exact versions of the tools and libraries the pipeline needs &mdash; so an outside reader can recreate the environment and get the same answer rather than a subtly different one."
+   ],
+   [
+    "h3",
+    "What pinning records"
+   ],
+   [
+    "ul",
+    [
+     "The language runtime and its version.",
+     "Every library the pipeline depends on, at a fixed version.",
+     "Any configuration that affects numerical behavior.",
+     "Enough of the environment that a fresh machine can be brought to the same state from the runbook."
+    ]
+   ],
+   [
+    "h3",
+    "Why it enables the two-tier check"
+   ],
+   [
+    "p",
+    "Environment pinning is what makes the <a href=./two-tier-reproduction.html>two-tier check</a> meaningful. If the environment were free to vary, even a correct reproduction might drift outside tolerance, and a real error might hide inside it. Pinning narrows the sources of difference to the ones that matter, so a Tier 1 byte match is achievable where it should be and a Tier 2 tolerance match is trustworthy where it is used."
+   ],
+   [
+    "h3",
+    "Pinning plus multiple environments"
+   ],
+   [
+    "p",
+    "Pinning does not mean testing in only one place. Kronos exercises deposits across more than one independent environment; the AI and quantum deposit follows a multi-environment cold-reproduction procedure. The combination &mdash; pin the environment, then confirm the result holds across several &mdash; is how a reproduction is shown to be robust rather than lucky. See <a href=./cold-reproduction-runbook.html>the cold-reproduction runbook</a>."
+   ],
+   [
+    "p",
+    "A reproducible result must specify the environment it reproduces in. We pin ours so a stranger can match it."
+   ]
+  ],
+  "related": [
+   [
+    "two-tier-reproduction",
+    "Two-Tier Reproduction"
+   ],
+   [
+    "cold-reproduction-runbook",
+    "The Cold-Reproduction Runbook"
+   ],
+   [
+    "reproducible-pipelines",
+    "Reproducible Pipelines"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "metadata-and-citation",
+  "title": "Metadata and Citation",
+  "cat": "designing-in-the-open",
+  "lede": "Clean metadata and a clear way to cite each deposit let a reference point precisely at a fixed version of the evidence, not a vague gesture at our site.",
+  "body": [
+   [
+    "h2",
+    "A citation is a promise to a future reader"
+   ],
+   [
+    "p",
+    "Good metadata is what turns a deposit into something a scholar can rely on. Each Kronos deposit carries structured metadata &mdash; title, authors and roles, license, version, and its DOI &mdash; so a citation resolves to a fixed snapshot of the evidence rather than to a page that may change. A reference that cannot reach the exact files it names is not a citation; it is a hope."
+   ],
+   [
+    "h3",
+    "How to cite a Kronos result"
+   ],
+   [
+    "ul",
+    [
+     "Cite by DOI, from the <a href=./doi-map.html>DOI map</a>, not by a bare web link.",
+     "Use the version DOI when you mean a specific snapshot; use the concept identifier when you mean the living record.",
+     "Include the license note, since reuse under <a href=./cc-by-content-license.html>CC BY</a> requires attribution.",
+     "State that the cited result is a design-and-simulation finding where that matters to your argument."
+    ]
+   ],
+   [
+    "h3",
+    "Roles and attribution"
+   ],
+   [
+    "p",
+    "Deposit metadata records author roles so credit is accurate and provenance is clear &mdash; part of the same ongoing metadata work that keeps the record clean, including reconciling contributor roles across the magnet and other papers. Accurate roles matter for a program that invites reuse: a downstream author should be able to attribute correctly without guessing."
+   ],
+   [
+    "h3",
+    "Why this is part of openness"
+   ],
+   [
+    "p",
+    "Openness fails at the last step if a reader who wants to cite or reproduce the work cannot address it precisely. Clean metadata and DOI-based citation are the plumbing that makes the whole <a href=./open-science-strategy.html>open-science strategy</a> usable by others &mdash; the difference between publishing and being cited correctly. See also <a href=./zenodo-deposits-and-dois.html>Zenodo deposits and DOIs</a>."
+   ],
+   [
+    "p",
+    "We make our work easy to cite exactly, because a precise citation is how a result travels without distortion."
+   ]
+  ],
+  "related": [
+   [
+    "doi-map",
+    "The DOI Map"
+   ],
+   [
+    "cc-by-content-license",
+    "Content Under CC BY"
+   ],
+   [
+    "zenodo-deposits-and-dois",
+    "Zenodo Deposits and DOIs"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "peer-review-first",
+  "title": "Peer Review First",
+  "cat": "designing-in-the-open",
+  "lede": "Kronos treats independent peer review as the primary standard of credibility, with open deposits ensuring the evidence is public when reviewers look.",
+  "body": [
+   [
+    "h2",
+    "The standard we hold ourselves to"
+   ],
+   [
+    "p",
+    "Kronos's credibility strategy is peer-review-first: the primary bar for a claim is scrutiny by independent experts through the established review process, not a company announcement. Preprints and open deposits support that process rather than replace it &mdash; they ensure the underlying data and code are already public when reviewers, and everyone else, examine the work."
+   ],
+   [
+    "h3",
+    "Why review comes first"
+   ],
+   [
+    "ul",
+    [
+     "Independent reviewers apply expertise and incentives we do not have &mdash; including the incentive to find fault.",
+     "Review disciplines claims to their evidence, which is exactly what a design-and-simulation program needs.",
+     "A reviewed result carries a credential a press release cannot.",
+     "Open deposits let reviewers, and later readers, reproduce rather than merely read; see <a href=./independent-reproduction.html>independent reproduction</a>."
+    ]
+   ],
+   [
+    "h3",
+    "How it fits the rest of the strategy"
+   ],
+   [
+    "p",
+    "Peer review and open reproduction are complementary tests: review checks the reasoning, reproduction checks the computation. Kronos does both, and sequences preprints and deposits so that neither has to wait on the other. See <a href=./preprints-and-arxiv.html>preprints and the public record</a>."
+   ],
+   [
+    "h3",
+    "Beyond a single venue"
+   ],
+   [
+    "p",
+    "Peer-review-first also shapes where the work goes: toward venues that subject it to genuine expert scrutiny, mapped by machine and topic, rather than toward the easiest possible outlet. The point is not a stamp; it is exposure to reviewers who can and will push back. That exposure, added to public reproduction, is what earns the credibility the whole <a href=./open-science-strategy.html>open-science strategy</a> is after."
+   ],
+   [
+    "p",
+    "We want our claims reviewed by people paid to doubt them, with the evidence open while they look."
+   ]
+  ],
+  "related": [
+   [
+    "preprints-and-arxiv",
+    "Preprints and the Public Record"
+   ],
+   [
+    "independent-reproduction",
+    "Independent Reproduction"
+   ],
+   [
+    "why-openness-builds-credibility",
+    "Why Openness Builds Credibility"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "auditability-and-sourcing",
+  "title": "Auditability and Lawsuit-Safe Sourcing",
+  "cat": "designing-in-the-open",
+  "lede": "Claims about others rest on public, citable sources, and claims about ourselves rest on reproducible deposits, so the whole record can withstand an audit.",
+  "body": [
+   [
+    "h2",
+    "Making the record auditable end to end"
+   ],
+   [
+    "p",
+    "An open program invites scrutiny, so its record must survive being audited &mdash; by reviewers, by competitors, and if necessary in a dispute. Kronos builds for that: claims about the machines trace to reproducible deposits, and any claim about other parties rests on public, citable sources rather than on assertion. The whole record is meant to be checkable by someone who assumes nothing on our say-so."
+   ],
+   [
+    "h3",
+    "Two kinds of claim, two kinds of backing"
+   ],
+   [
+    "ul",
+    [
+     "Claims about our own machines &rarr; backed by reproducible deposits and pinned pipelines; see <a href=./reproducible-pipelines.html>reproducible pipelines</a>.",
+     "Claims that touch other organizations &rarr; backed by public, verifiable sources, so each statement can be independently confirmed.",
+     "The honest gates &rarr; stated as physics facts with explicit figures, never softened, so an auditor finds the same numbers we published."
+    ]
+   ],
+   [
+    "h3",
+    "Why sourcing this way matters"
+   ],
+   [
+    "p",
+    "Comparisons and context inevitably reference others' work. Sourcing every such statement to a public record keeps the material fair and defensible: anyone can follow the citation and check it, and nothing depends on a private view or an unverifiable assertion. It is the same discipline as DOI-based citation, applied outward; see <a href=./metadata-and-citation.html>metadata and citation</a>."
+   ],
+   [
+    "h3",
+    "The firewall is part of auditability"
+   ],
+   [
+    "p",
+    "An auditable public record is also a bounded one. The <a href=./what-we-dont-publish.html>firewall</a> keeps economics and confidential material out of public artifacts, and the <a href=./the-verify-function.html>verify function</a> confirms each artifact is clean before release. A record that mixed in what it should not carry would fail an audit for a different reason."
+   ],
+   [
+    "p",
+    "Everything we publish is meant to hold up when someone checks it against the sources &mdash; because someone will."
+   ]
+  ],
+  "related": [
+   [
+    "metadata-and-citation",
+    "Metadata and Citation"
+   ],
+   [
+    "what-we-dont-publish",
+    "What We Don't Publish"
+   ],
+   [
+    "reproducible-pipelines",
+    "Reproducible Pipelines"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ },
+ {
+  "slug": "the-open-science-flywheel",
+  "title": "The Open-Science Flywheel",
+  "cat": "designing-in-the-open",
+  "lede": "Publishing, reproduction, credibility, scrutiny, and a better design form a self-reinforcing loop; each turn makes the next publication stronger.",
+  "body": [
+   [
+    "h2",
+    "How the pieces reinforce each other"
+   ],
+   [
+    "p",
+    "The individual practices in this section &mdash; papers, deposits, licenses, pipelines, gates &mdash; are not a checklist. They form a loop in which each step feeds the next. Publishing openly invites reproduction; reproduction and review build credibility; credibility draws collaboration and harder scrutiny; scrutiny sharpens the design and its honest gates; the improved design becomes the next publication. This is the <b>open-science flywheel</b>."
+   ],
+   [
+    "html",
+    "<figure style=\"margin:20px 0\"><svg viewBox=\"0 0 600 380\" width=\"100%\" style=\"max-width:560px;display:block;margin:0 auto\" role=\"img\" aria-label=\"The Kronos open-science flywheel\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Space Grotesk,system-ui,Arial,sans-serif\"><defs><marker id=\"ah\" markerWidth=\"9\" markerHeight=\"9\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#D4AD5C\"/></marker></defs><circle cx=\"300\" cy=\"215\" r=\"150\" fill=\"none\" stroke=\"#3a4656\" stroke-width=\"1\"/><g font-size=\"12.5\" font-weight=\"600\" text-anchor=\"middle\"><rect x=\"228\" y=\"42\" width=\"144\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"300\" y=\"60\" fill=\"#E7EBF2\">Publish design,</text><text x=\"300\" y=\"75\" fill=\"#E7EBF2\">data &amp; code</text><rect x=\"446\" y=\"150\" width=\"150\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"521\" y=\"168\" fill=\"#E7EBF2\">Others reproduce</text><text x=\"521\" y=\"183\" fill=\"#E7EBF2\">&amp; scrutinize</text><rect x=\"404\" y=\"300\" width=\"150\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"479\" y=\"318\" fill=\"#E7EBF2\">Credibility &amp;</text><text x=\"479\" y=\"333\" fill=\"#E7EBF2\">collaboration</text><rect x=\"46\" y=\"300\" width=\"150\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"121\" y=\"318\" fill=\"#E7EBF2\">Errors found,</text><text x=\"121\" y=\"333\" fill=\"#E7EBF2\">gates sharpened</text><rect x=\"4\" y=\"150\" width=\"150\" height=\"40\" rx=\"6\" fill=\"#28323f\" stroke=\"#D4AD5C\" stroke-width=\"1.2\"/><text x=\"79\" y=\"168\" fill=\"#E7EBF2\">Better, honest</text><text x=\"79\" y=\"183\" fill=\"#E7EBF2\">design point</text></g><path d=\"M372,66 A150,150 0 0 1 512,150\" fill=\"none\" stroke=\"#D4AD5C\" stroke-width=\"1.6\" marker-end=\"url(#ah)\"/><path d=\"M540,190 A150,150 0 0 1 500,300\" fill=\"none\" stroke=\"#D4AD5C\" stroke-width=\"1.6\" marker-end=\"url(#ah)\"/><path d=\"M404,330 A150,150 0 0 1 196,330\" fill=\"none\" stroke=\"#D4AD5C\" stroke-width=\"1.6\" marker-end=\"url(#ah)\"/><path d=\"M100,300 A150,150 0 0 1 60,190\" fill=\"none\" stroke=\"#D4AD5C\" stroke-width=\"1.6\" marker-end=\"url(#ah)\"/><path d=\"M88,150 A150,150 0 0 1 228,66\" fill=\"none\" stroke=\"#D4AD5C\" stroke-width=\"1.6\" marker-end=\"url(#ah)\"/><text x=\"300\" y=\"210\" font-size=\"13\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\">OPEN-SCIENCE</text><text x=\"300\" y=\"228\" font-size=\"13\" fill=\"#D4AD5C\" text-anchor=\"middle\" font-weight=\"700\">FLYWHEEL</text></svg></figure>"
+   ],
+   [
+    "h3",
+    "Reading the loop"
+   ],
+   [
+    "ul",
+    [
+     "Publish: designs, data, and code go out under open licenses with permanent DOIs.",
+     "Reproduce: independent readers rerun the pipelines cold and check the results; see <a href=./independent-reproduction.html>independent reproduction</a>.",
+     "Credibility: reproduced, peer-reviewed results earn trust and invite collaboration; see <a href=./peer-review-first.html>peer review first</a>.",
+     "Scrutinize: outside eyes find errors and pressure-test the gates; see <a href=./the-honest-gates.html>the honest gates</a>.",
+     "Improve: the design point and its honest gates get sharper, and the next publication is stronger."
+    ]
+   ],
+   [
+    "h3",
+    "Why it is a flywheel, not a line"
+   ],
+   [
+    "p",
+    "A one-time disclosure is a press event; a flywheel is a habit that compounds. Each turn lowers the cost of the next: reusable pipelines, a frozen canon, and clean metadata mean the next publication starts from a stronger base. The momentum is the point &mdash; credibility built this way accumulates rather than resets."
+   ],
+   [
+    "h3",
+    "Where it is heading"
+   ],
+   [
+    "p",
+    "The flywheel is spinning during the design-and-simulation stage and is meant to keep spinning through construction, which begins in Q2 2027, and first-of-a-kind first tritium around 2030 &mdash; when reproduction is joined by measurement. That is when the <a href=./pre-registered-predictions.html>pre-registered predictions</a> meet hardware."
+   ],
+   [
+    "p",
+    "Openness is not a single act here. It is a wheel we keep turning, and every turn is meant to leave the record more trustworthy than before."
+   ]
+  ],
+  "related": [
+   [
+    "open-science-strategy",
+    "Designing in the Open"
+   ],
+   [
+    "independent-reproduction",
+    "Independent Reproduction"
+   ],
+   [
+    "the-honest-gates",
+    "The Honest Gates"
+   ]
+  ],
+  "seo_type": "TechArticle"
+ }
+]

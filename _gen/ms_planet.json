@@ -1,0 +1,2685 @@
+[
+{
+"slug": "clean-firm-power-and-climate",
+"title": "Clean Firm Power and the Climate Question",
+"cat": "environment-and-planet",
+"lede": "Deep decarbonization needs a source that runs when the wind is still and the sky is dark; firm clean power is the missing piece.",
+"body": [
+[
+"h2",
+"The gap intermittency leaves"
+],
+[
+"p",
+"Wind and solar are essential and already the fastest-growing new generation in many places. But a grid built to fully decarbonize still has hours, days, and cold cloudy weeks when variable output falls short. Filling that gap with storage alone becomes difficult at the tail of the distribution. A source of <b>clean firm power</b> — dispatchable, weather-independent, low-carbon — narrows the hardest part of the problem."
+],
+[
+"p",
+"Fusion is one candidate for that role, alongside advanced fission, geothermal, and long-duration storage. Kronos does not claim fusion is the only answer or a finished one. Both of our machines are today <b>design and simulation studies</b>, not built plants. The honest framing is that fusion could contribute to the firm-power tier if the physics and engineering close."
+],
+[
+"h3",
+"What firm means"
+],
+[
+"ul",
+[
+"Available on demand, not only when weather permits",
+"Sited near demand, reducing long transmission dependence",
+"Steady output that complements variable renewables rather than competing with them"
+]
+],
+[
+"p",
+"The breeder (Hyperion) and the burner (Aegis / MetroVolt) are studied as steady thermal and electric sources. Neither has demonstrated hardware net gain, and we make no such claim before first-of-a-kind operation. The value proposition is conditional on results we are still working to earn."
+],
+[
+"p",
+"See also <a href=./firm-power-vs-intermittency.html>firm power versus intermittency</a> and <a href=./why-firm-power-matters.html>why firm power matters</a> for the systems view."
+]
+],
+"related": [
+[
+"firm-power-vs-intermittency",
+"Firm vs. Intermittent"
+],
+[
+"why-firm-power-matters",
+"Why Firm Power Matters"
+],
+[
+"the-clean-planet-case",
+"The Clean-Planet Case"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "the-clean-planet-case",
+"title": "The Clean-Planet Case",
+"cat": "environment-and-planet",
+"lede": "A steady, low-emission energy source that uses little land and no combustion could relieve several planetary pressures at once.",
+"body": [
+[
+"h2",
+"Energy is upstream of almost everything"
+],
+[
+"p",
+"Food, water, shelter, health, and mobility all depend on energy. So do the emissions, land use, and pollution that stress the biosphere. Because energy sits upstream, a cleaner energy system propagates benefits downstream across many systems at once. That is the core of the clean-planet case."
+],
+[
+"p",
+"The case for fusion is specific and bounded. Its fuels are abundant, it produces no carbon dioxide at the point of generation, and it needs no combustion. These are structural properties of the physics, not marketing. What remains unproven is whether the machines can be built to run reliably at useful output — which is exactly what our program is trying to establish, in the open."
+],
+[
+"h3",
+"A diagram of the argument"
+],
+[
+"p",
+"<svg viewBox='0 0 440 200' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Energy upstream of biosphere pressures'><rect x='16' y='80' width='96' height='40' rx='6' fill='#232C39'/><text x='64' y='105' fill='#D4AD5C' font-family='Georgia,serif' font-size='13' text-anchor='middle'>Clean energy</text><line x1='112' y1='100' x2='168' y2='40' stroke='#232C39' stroke-width='2'/><line x1='112' y1='100' x2='168' y2='100' stroke='#232C39' stroke-width='2'/><line x1='112' y1='100' x2='168' y2='160' stroke='#232C39' stroke-width='2'/><rect x='168' y='24' width='120' height='32' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='228' y='45' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Lower emissions</text><rect x='168' y='84' width='120' height='32' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='228' y='105' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Cleaner air</text><rect x='168' y='144' width='120' height='32' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='228' y='165' fill='#232C39' font-family='Georgia,serif' font-size='12' text-anchor='middle'>Less land stress</text></svg>"
+],
+[
+"p",
+"No single technology heals a planet. The honest ambition is contribution: adding a firm, clean option to a portfolio that already includes renewables, storage, efficiency, and conservation."
+],
+[
+"p",
+"The argument is also modest in a second way: benefit is conditional on the machines working. A design that stays on paper relieves nothing. That is why the clean-planet case, for us, is inseparable from the discipline of actually building and proving the hardware, in stages, in public, rather than resting on the elegance of the idea."
+],
+[
+"p",
+"Read the aspiration that anchors this work in <a href=./the-healed-earth-aspiration.html>the healed-Earth aspiration</a>."
+]
+],
+"related": [
+[
+"clean-firm-power-and-climate",
+"Clean Firm Power"
+],
+[
+"energy-and-the-biosphere",
+"Energy and the Biosphere"
+],
+[
+"the-healed-earth-aspiration",
+"The Healed-Earth Aspiration"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "stewardship-as-engineering-discipline",
+"title": "Stewardship as an Engineering Discipline",
+"cat": "environment-and-planet",
+"lede": "Stewardship is not a slogan; it is a set of design choices, measurements, and honest limits carried through every stage of the work.",
+"body": [
+[
+"h2",
+"From value to practice"
+],
+[
+"p",
+"It is easy to state environmental values and hard to encode them into engineering. Kronos treats stewardship as a discipline: choices about materials, siting, lifecycle, and disclosure that are made explicitly and recorded, not left implicit. A value that never changes a decision is decoration."
+],
+[
+"h3",
+"Where stewardship shows up"
+],
+[
+"ul",
+[
+"Material selection weighed for activation and end-of-life, not only performance",
+"Designs frozen and versioned so environmental claims attach to a specific configuration",
+"Predictions pre-registered so results can be checked against them",
+"Data and methods published so outside reviewers can audit the footprint"
+]
+],
+[
+"p",
+"The breeder (Hyperion) and burner (Aegis / MetroVolt) are studied as whole systems, including what happens to their materials over a lifetime. We treat decommissioning and activation as first-class design inputs, discussed in <a href=./activation-and-materials-choices.html>activation and materials choices</a> and <a href=./decommissioning-thinking.html>decommissioning thinking</a>."
+],
+[
+"p",
+"Stewardship also means restraint in claims. We do not assert environmental benefits that depend on machines behaving in ways we have not demonstrated. Where a number is contested or uncertain, we say so rather than round toward the flattering answer."
+],
+[
+"p",
+"The test we apply to any stewardship claim is simple: did it change a decision? A material we would have chosen anyway, described afterward as an environmental choice, is decoration. A material we selected specifically because it activates less, at some cost to convenience, is stewardship. We try to keep our record on the second side of that line."
+],
+[
+"p",
+"This connects directly to our environment, health, and safety practices — see <a href=./the-ehs-connection.html>the EHS connection</a>."
+]
+],
+"related": [
+[
+"activation-and-materials-choices",
+"Activation & Materials"
+],
+[
+"decommissioning-thinking",
+"Decommissioning"
+],
+[
+"the-ehs-connection",
+"The EHS Connection"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "the-healed-earth-aspiration",
+"title": "The Healed-Earth Aspiration",
+"cat": "environment-and-planet",
+"lede": "The long horizon that motivates this work: a biosphere given room to recover, powered by energy that does not cost the planet to produce.",
+"body": [
+[
+"h2",
+"An aspiration, stated honestly"
+],
+[
+"p",
+"We hold a long-horizon aspiration: a world where abundant clean energy relieves the pressures that drive habitat loss, pollution, and warming, giving ecosystems room to recover. We call it the healed-Earth aspiration to name the direction, not to promise a destination or a date."
+],
+[
+"p",
+"Aspiration is not prediction. Fusion, if it works, would be one input among many — renewables, restoration, efficiency, changed practices, and time. Healing a biosphere is a civilizational project measured in generations, and no energy technology accomplishes it alone."
+],
+[
+"h3",
+"Why abundance matters to recovery"
+],
+[
+"p",
+"Many restoration tasks are energy-intensive: desalinating water for stressed regions, recycling materials instead of mining them, running carbon removal, powering dense cities without combustion. Abundant clean energy does not do these things by itself, but it removes the emissions penalty that currently makes them costly to the atmosphere."
+],
+[
+"p",
+"<svg viewBox='0 0 420 160' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Pressure relieved allows recovery'><path d='M20 120 Q120 40 220 120 T420 120' fill='none' stroke='#D4AD5C' stroke-width='2.5'/><line x1='20' y1='120' x2='400' y2='120' stroke='#232C39' stroke-width='1.5'/><text x='30' y='140' fill='#232C39' font-family='Georgia,serif' font-size='12'>today</text><text x='300' y='140' fill='#232C39' font-family='Georgia,serif' font-size='12'>with room to recover</text><circle cx='120' cy='72' r='4' fill='#232C39'/><circle cx='320' cy='96' r='4' fill='#232C39'/></svg>"
+],
+[
+"p",
+"We are wary of the language of salvation that surrounds new energy technologies. An aspiration held honestly is a compass, not a promise. It tells us which problems are worth choosing and which claims we have not yet earned. The distance between the compass and the destination is exactly the work still in front of us."
+],
+[
+"p",
+"We keep this page deliberately modest. The aspiration guides which problems we choose; the discipline in <a href=./stewardship-as-engineering-discipline.html>stewardship as engineering</a> keeps us honest about how far we have actually come."
+]
+],
+"related": [
+[
+"the-clean-planet-case",
+"The Clean-Planet Case"
+],
+[
+"building-to-uplift-humanity",
+"Building to Uplift Humanity"
+],
+[
+"the-long-now-perspective",
+"The Long Now"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "energy-and-the-biosphere",
+"title": "Energy and the Biosphere",
+"cat": "environment-and-planet",
+"lede": "How a civilization gets its energy shapes the air, the land, the water, and the living systems that share the planet with it.",
+"body": [
+[
+"h2",
+"The coupling is physical"
+],
+[
+"p",
+"Every energy system draws on the biosphere and returns something to it: emissions to the air, heat to water and atmosphere, disturbance to land, and material demand to the crust. There is no zero-impact energy. The honest question is the shape and size of the footprint, and whether it fits within the planet's capacity to absorb it."
+],
+[
+"h3",
+"Four channels of impact"
+],
+[
+"ul",
+[
+"Air: combustion adds carbon dioxide and particulates; fusion involves no combustion",
+"Land: extraction, siting, and transmission all occupy space",
+"Water: cooling and processing draw on freshwater in many designs",
+"Materials: construction and fuel cycles demand mining and refining"
+]
+],
+[
+"p",
+"Fusion's structural advantages are in the air and materials channels: no combustion products, and fuels drawn from abundant sources. It is not free of land, water, or material demands, and we treat those honestly on their own pages — see <a href=./land-and-footprint.html>land and footprint</a>, <a href=./water-and-fusion.html>water and fusion</a>, and <a href=./materials-and-the-earth.html>materials and the Earth</a>."
+],
+[
+"p",
+"The breeder and burner are being designed with these channels in view. Because the machines are not yet built, our footprint figures are engineering estimates tied to frozen designs, not measured plant data. We flag that distinction wherever numbers appear."
+],
+[
+"p",
+"Thermodynamics also sets a ceiling worth naming: all energy use eventually becomes waste heat. See <a href=./the-biosphere-and-thermal-limits.html>the biosphere and thermal limits</a>."
+]
+],
+"related": [
+[
+"land-and-footprint",
+"Land & Footprint"
+],
+[
+"water-and-fusion",
+"Water & Fusion"
+],
+[
+"the-biosphere-and-thermal-limits",
+"Thermal Limits"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "why-firm-power-matters",
+"title": "Why Firm Power Matters",
+"cat": "environment-and-planet",
+"lede": "Society runs on power that is there when needed; the last stretch of decarbonization is dominated by the hardest hours to cover.",
+"body": [
+[
+"h2",
+"The tail is the hard part"
+],
+[
+"p",
+"Getting a grid from dirty to mostly clean is largely about deploying renewables. Getting it from mostly clean to deeply clean is a different problem: covering the residual hours when demand is high and variable supply is low. That residual is small in energy but demanding in reliability, and it is where firm clean sources earn their place."
+],
+[
+"h3",
+"What loses reliability first"
+],
+[
+"p",
+"Hospitals, water treatment, cold-chain, heating in winter, and industrial processes cannot pause when the weather changes. A grid that cannot serve them at all hours is not decarbonized in any meaningful sense; it has just moved the problem to backup fossil plants that run at the worst moments."
+],
+[
+"p",
+"<svg viewBox='0 0 440 180' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Variable supply with firm baseline'><line x1='30' y1='150' x2='420' y2='150' stroke='#232C39' stroke-width='1.5'/><line x1='30' y1='20' x2='30' y2='150' stroke='#232C39' stroke-width='1.5'/><path d='M30 120 Q90 60 150 110 T270 100 T390 120' fill='none' stroke='#232C39' stroke-width='2'/><rect x='30' y='120' width='360' height='30' fill='#D4AD5C' opacity='0.5'/><text x='40' y='140' fill='#232C39' font-family='Georgia,serif' font-size='11'>firm clean floor</text><text x='250' y='70' fill='#232C39' font-family='Georgia,serif' font-size='11'>variable output</text></svg>"
+],
+[
+"p",
+"Firm clean power raises the floor so that variable sources can do the rest without fossil backup. Fusion is studied as one way to supply that floor, alongside geothermal, advanced fission, and long-duration storage. We do not claim it is proven — see <a href=./clean-firm-power-and-climate.html>clean firm power and the climate question</a>."
+],
+[
+"p",
+"Firm capacity is also what keeps a decarbonizing grid from quietly leaning on fossil peaker plants during the worst hours. Those plants run precisely when demand is highest and renewables are lowest, so a small number of stressed hours can carry an outsized share of a grid's total emissions. Raising the clean floor is how that hidden dependence is removed."
+],
+[
+"p",
+"The burner housings target two demanding firm loads directly: <a href=./data-centers-and-clean-power.html>data centers (MetroVolt)</a> and <a href=./defense-installations-and-clean-power.html>fixed defense installations (Aegis)</a>."
+]
+],
+"related": [
+[
+"firm-power-vs-intermittency",
+"Firm vs. Intermittent"
+],
+[
+"grid-resilience-and-climate-adaptation",
+"Grid Resilience"
+],
+[
+"clean-firm-power-and-climate",
+"Clean Firm Power"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "fusion-and-the-carbon-question",
+"title": "Fusion and the Carbon Question",
+"cat": "environment-and-planet",
+"lede": "Fusion produces no carbon dioxide at the point of generation; the honest accounting extends to construction and fuel-cycle emissions.",
+"body": [
+[
+"h2",
+"No combustion, no generation-point CO2"
+],
+[
+"p",
+"A fusion reaction fuses light nuclei; it does not burn carbon. There is no carbon dioxide, no methane, and no particulate exhaust from the reaction itself. That is a structural property of the physics, true for both the breeder (Hyperion) D-T reaction and the burner (Aegis / MetroVolt) D-3He reaction."
+],
+[
+"h3",
+"But lifecycle carbon is not zero"
+],
+[
+"p",
+"Honest carbon accounting looks beyond the point of generation. Building a plant uses steel, concrete, superconductors, and specialized materials, all of which carry embodied emissions from today's industrial supply chains. Operating and eventually decommissioning a plant also has a footprint. A credible clean-energy claim must include these, not hide behind the clean reaction."
+],
+[
+"ul",
+[
+"Generation-point CO2: none, for both machines",
+"Embodied CO2: real, from construction and materials — shared with all large infrastructure",
+"Fuel-cycle CO2: small, tied to processing and enrichment energy sources"
+]
+],
+[
+"p",
+"We treat these on <a href=./lifecycle-thinking.html>lifecycle thinking</a> and <a href=./honest-environmental-accounting.html>honest environmental accounting</a>. As the grid that supplies construction energy itself decarbonizes, embodied emissions of new clean plants fall — a virtuous coupling, but not something to claim as already achieved."
+],
+[
+"p",
+"We make no operating-emissions comparison from real plant data, because neither machine is built. The claim we stand behind is narrow and physical: the reaction emits no carbon dioxide."
+]
+],
+"related": [
+[
+"lifecycle-thinking",
+"Lifecycle Thinking"
+],
+[
+"honest-environmental-accounting",
+"Honest Accounting"
+],
+[
+"air-quality-and-combustion",
+"Air Quality"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "land-and-footprint",
+"title": "Land and Footprint",
+"cat": "environment-and-planet",
+"lede": "Energy density lets a power source do more on less land; we treat siting footprint as a design property, stated without inflation.",
+"body": [
+[
+"h2",
+"Density and land"
+],
+[
+"p",
+"Land is finite and contested. An energy source that delivers steady power from a compact site leaves more land for habitat, agriculture, and communities. High energy density is one of fusion's structural attractions: the fuel carries enormous energy per unit mass, so the fuel-handling footprint is small."
+],
+[
+"h3",
+"The full footprint is more than the fuel"
+],
+[
+"p",
+"A fair land accounting includes the plant site, its safety and support areas, transmission to load, and the upstream mining and refining that supply construction materials. It is not only the reactor building. Because siting a plant near demand reduces transmission needs, the burner housings — <a href=./data-centers-and-clean-power.html>MetroVolt</a> and <a href=./defense-installations-and-clean-power.html>Aegis</a> — are studied as co-located firm sources, which can lower the transmission share of the footprint."
+],
+[
+"p",
+"<svg viewBox='0 0 420 150' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Compact site plus upstream footprint'><rect x='30' y='60' width='60' height='50' fill='#232C39'/><text x='60' y='130' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>plant site</text><rect x='120' y='75' width='90' height='35' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='165' y='130' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>support</text><rect x='240' y='50' width='150' height='60' fill='none' stroke='#D4AD5C' stroke-width='2'/><text x='315' y='130' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>upstream mining</text></svg>"
+],
+[
+"p",
+"We do not publish a headline acres-per-megawatt figure, because the machines are not built and such figures are easy to game by choosing boundaries. What we commit to is drawing the boundary honestly when we do report footprint, per <a href=./honest-environmental-accounting.html>honest environmental accounting</a>."
+],
+[
+"p",
+"A further honesty is that density is a claim about the fuel and the reactor, not automatically about the whole enterprise. We commit to counting the site, its support and safety areas, the path to load, and the upstream supply chain, so that a compact core is never mistaken for a compact footprint overall."
+],
+[
+"p",
+"Land also intersects biodiversity: less disturbed ground means more intact habitat. See <a href=./energy-and-the-biosphere.html>energy and the biosphere</a>."
+]
+],
+"related": [
+[
+"materials-and-the-earth",
+"Materials & the Earth"
+],
+[
+"honest-environmental-accounting",
+"Honest Accounting"
+],
+[
+"energy-and-the-biosphere",
+"Energy & the Biosphere"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "water-and-fusion",
+"title": "Water and Fusion",
+"cat": "environment-and-planet",
+"lede": "Thermal power plants use water for cooling; we treat water draw as a real constraint and a design choice, not an afterthought.",
+"body": [
+[
+"h2",
+"Water is not free"
+],
+[
+"p",
+"Most thermal power plants — fossil, fission, and thermal fusion alike — reject heat to the environment, and many do so using water. In water-stressed regions this is a genuine environmental constraint. Any honest clean-energy program has to name its water demand rather than assume it away."
+],
+[
+"h3",
+"Design choices affect the draw"
+],
+[
+"ul",
+[
+"Cooling method: once-through, wet-tower, dry, or hybrid — each trades water for efficiency and land",
+"Siting: coastal and industrial sites change what water is available and at what ecological cost",
+"The burner's direct energy conversion converts part of the output without a full thermal cycle, which can reduce the heat that must be rejected"
+]
+],
+[
+"p",
+"The burner (Aegis / MetroVolt) uses <a href=./helium-3-and-the-planet.html>D-3He</a> with a direct-energy-conversion stage, so a portion of its output bypasses the steam cycle. That structurally reduces the thermal load compared with a purely thermal machine of the same output, though it does not eliminate cooling needs. The breeder (Hyperion) is a thermal machine and would follow conventional thermal-plant water practice."
+],
+[
+"p",
+"<svg viewBox='0 0 420 150' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Direct conversion reduces heat rejected'><rect x='30' y='40' width='100' height='60' rx='6' fill='#232C39'/><text x='80' y='75' fill='#D4AD5C' font-family='Georgia,serif' font-size='12' text-anchor='middle'>plasma</text><line x1='130' y1='60' x2='210' y2='60' stroke='#D4AD5C' stroke-width='2'/><text x='170' y='52' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>direct</text><line x1='130' y1='90' x2='210' y2='90' stroke='#232C39' stroke-width='2'/><text x='170' y='110' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>thermal</text><rect x='210' y='70' width='90' height='40' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='255' y='95' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>cooling</text></svg>"
+],
+[
+"p",
+"We report no plant water figures, because no plant exists. The commitment here is to treat water as a first-class constraint in siting and design — part of <a href=./stewardship-as-engineering-discipline.html>stewardship as engineering</a>."
+]
+],
+"related": [
+[
+"helium-3-and-the-planet",
+"Helium-3 & the Planet"
+],
+[
+"land-and-footprint",
+"Land & Footprint"
+],
+[
+"stewardship-as-engineering-discipline",
+"Stewardship"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "materials-and-the-earth",
+"title": "Materials and the Earth",
+"cat": "environment-and-planet",
+"lede": "Every machine is drawn from the crust; responsible design weighs what it takes to build, run, and eventually retire the hardware.",
+"body": [
+[
+"h2",
+"Extraction has a footprint"
+],
+[
+"p",
+"Superconducting magnets, structural steel, shielding, and specialized alloys all begin as mined ore. A clean-energy machine is not clean if we ignore what it costs the Earth to construct. Kronos treats material demand as part of the environmental ledger, alongside emissions and land."
+],
+[
+"h3",
+"The choices that matter"
+],
+[
+"ul",
+[
+"Quantity: compact, high-field designs aim to do more with less structural mass",
+"Recyclability: favoring materials that can re-enter supply chains at end of life",
+"Activation: choosing materials that become less problematic when exposed to neutrons",
+"Supply resilience: avoiding dependence on the most constrained materials where alternatives exist"
+]
+],
+[
+"p",
+"The breeder's high peak field of 16.84 T and the burner's 26.49 T plug are demanding on magnet materials, including rare-earth barium copper oxide (REBCO) superconductors. We are open that these are material-intensive components and study their sourcing and end-of-life explicitly, rather than treating magnets as an environmental free lunch."
+],
+[
+"p",
+"Neutron exposure changes materials over time — see <a href=./activation-and-materials-choices.html>activation and materials choices</a>. Planning for retirement from the start is covered in <a href=./decommissioning-thinking.html>decommissioning thinking</a>."
+],
+[
+"p",
+"We are candid that a compact, high-field machine is materially demanding in a different way than a large, low-field one: it asks less total mass but more from specialized components. The environmental ledger is therefore a trade, not a free win, and we treat it as one to be optimized openly rather than a headline to be claimed."
+],
+[
+"p",
+"The larger shift we work toward is described in <a href=./from-extraction-to-stewardship.html>from extraction to stewardship</a>: using abundant energy to recycle rather than perpetually mine."
+]
+],
+"related": [
+[
+"activation-and-materials-choices",
+"Activation & Materials"
+],
+[
+"from-extraction-to-stewardship",
+"Extraction to Stewardship"
+],
+[
+"decommissioning-thinking",
+"Decommissioning"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "fusion-fuel-and-abundance",
+"title": "Fusion Fuel and Abundance",
+"cat": "environment-and-planet",
+"lede": "Fusion draws on some of the most abundant materials available; abundance reduces the geopolitical and extractive pressure of fuel supply.",
+"body": [
+[
+"h2",
+"Where the fuel comes from"
+],
+[
+"p",
+"The breeder (Hyperion) runs on deuterium and tritium. Deuterium is a stable hydrogen isotope present in ordinary water; tritium is bred in-machine from lithium. The breeder is designed to make its own tritium, with a tritium breeding ratio studied as a design lever across values of 1.1, 1.5, and 1.8. The burner (Aegis / MetroVolt) runs on deuterium and helium-3."
+],
+[
+"h3",
+"Why abundance is an environmental property"
+],
+[
+"p",
+"Scarce fuels drive extraction into ever more marginal and damaging deposits, and concentrate supply in few hands. Abundant fuels relieve both pressures. Deuterium is effectively inexhaustible on human timescales, and lithium, while finite, is widely distributed. This does not make the fuel cycle impact-free, but it changes its character."
+],
+[
+"p",
+"<svg viewBox='0 0 420 150' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Deuterium from water, tritium bred from lithium'><circle cx='70' cy='75' r='30' fill='none' stroke='#232C39' stroke-width='2'/><text x='70' y='80' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>water</text><line x1='100' y1='75' x2='150' y2='75' stroke='#D4AD5C' stroke-width='2'/><text x='125' y='65' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>D</text><rect x='150' y='55' width='90' height='40' rx='6' fill='#232C39'/><text x='195' y='80' fill='#D4AD5C' font-family='Georgia,serif' font-size='11' text-anchor='middle'>breeder</text><circle cx='340' cy='75' r='30' fill='none' stroke='#232C39' stroke-width='2'/><text x='340' y='80' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>lithium</text><line x1='310' y1='75' x2='240' y2='75' stroke='#D4AD5C' stroke-width='2'/><text x='275' y='65' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>T bred</text></svg>"
+],
+[
+"p",
+"Helium-3 for the burner is genuinely scarce on Earth. We are candid that a large burner fleet would depend on a helium-3 supply that does not yet exist at scale. That is a real gate on the burner path, discussed in <a href=./helium-3-and-the-planet.html>helium-3 and the planet</a>, not something we paper over."
+],
+[
+"p",
+"Abundance also changes the politics of energy. Fuels concentrated in a few deposits invite competition and coercion over their supply; fuels drawn from ordinary water and widely distributed lithium are harder to weaponize. That is an environmental benefit in the broad sense, because conflict over resources is itself a driver of ecological harm."
+],
+[
+"p",
+"See <a href=./the-tritium-cycle-and-the-planet.html>the tritium cycle and the planet</a> for how breeding closes the fuel loop."
+]
+],
+"related": [
+[
+"the-tritium-cycle-and-the-planet",
+"Tritium Cycle"
+],
+[
+"helium-3-and-the-planet",
+"Helium-3 & the Planet"
+],
+[
+"materials-and-the-earth",
+"Materials & the Earth"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "no-long-lived-fusion-waste-honest",
+"title": "Fusion Waste, Stated Honestly",
+"cat": "environment-and-planet",
+"lede": "Fusion produces no long-lived high-level fuel waste, but neutron activation of structures is real; we describe both plainly.",
+"body": [
+[
+"h2",
+"What fusion does and does not produce"
+],
+[
+"p",
+"Fusion does not produce the long-lived, high-level spent fuel associated with fission. There is no chain reaction to run away and no actinide waste stream from the fuel. That is a genuine and important difference. But fusion is not waste-free, and saying so would be dishonest."
+],
+[
+"h3",
+"The real waste channel: activation"
+],
+[
+"p",
+"The breeder (Hyperion) is a D-T machine, and D-T fusion releases 14 MeV neutrons. Those neutrons activate the surrounding structure over time, making some components radioactive. The relevant waste is therefore <b>activated structural material</b>, not spent fuel. Its hazard is generally shorter-lived than fission high-level waste and depends strongly on which materials are chosen."
+],
+[
+"ul",
+[
+"No high-level spent-fuel waste stream",
+"Activated structures: real, material-dependent, generally shorter-lived hazard",
+"The burner has a much lower neutron fraction (5.44%), reducing activation relative to a D-T machine of similar output"
+]
+],
+[
+"p",
+"Because the burner's D-3He reaction is largely aneutronic, only 5.44% of its energy appears as neutrons. This materially reduces its activation burden compared with the breeder — a structural advantage we can state, though the burner depends on scarce helium-3 as noted in <a href=./helium-3-and-the-planet.html>helium-3 and the planet</a>."
+],
+[
+"p",
+"Choosing low-activation materials is an active design lever — see <a href=./activation-and-materials-choices.html>activation and materials choices</a> and <a href=./radiological-honesty.html>radiological honesty</a>."
+]
+],
+"related": [
+[
+"activation-and-materials-choices",
+"Activation & Materials"
+],
+[
+"radiological-honesty",
+"Radiological Honesty"
+],
+[
+"decommissioning-thinking",
+"Decommissioning"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "air-quality-and-combustion",
+"title": "Air Quality and the End of Combustion",
+"cat": "environment-and-planet",
+"lede": "Combustion harms health long before it changes the climate; a source that does not burn anything removes that local burden entirely.",
+"body": [
+[
+"h2",
+"The near-term human cost of burning"
+],
+[
+"p",
+"Long before carbon dioxide warms the planet, combustion products harm people who breathe them. Fine particulates, nitrogen oxides, sulfur oxides, and other pollutants from burning fossil fuels and biomass are linked to respiratory and cardiovascular harm. This is a present, local cost paid disproportionately by communities near power plants and busy roads."
+],
+[
+"h3",
+"Fusion involves no combustion"
+],
+[
+"p",
+"Neither the breeder (Hyperion) nor the burner (Aegis / MetroVolt) burns fuel. The reactions fuse light nuclei; there is no flue gas, no particulate exhaust, and no products of combustion to release into the air. For local air quality, a non-combustion firm source is categorically different from a fossil plant."
+],
+[
+"p",
+"<svg viewBox='0 0 420 150' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Combustion exhaust versus none'><rect x='40' y='60' width='50' height='60' fill='#232C39'/><path d='M55 60 q-8 -20 6 -30 q10 -8 4 -20' fill='none' stroke='#232C39' stroke-width='2'/><path d='M75 60 q-8 -18 6 -28' fill='none' stroke='#232C39' stroke-width='2'/><text x='65' y='138' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>combustion</text><rect x='250' y='60' width='50' height='60' rx='6' fill='none' stroke='#D4AD5C' stroke-width='2.5'/><text x='275' y='95' fill='#232C39' font-family='Georgia,serif' font-size='14' text-anchor='middle'>—</text><text x='275' y='138' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>no exhaust</text></svg>"
+],
+[
+"p",
+"This is one of the clearest, least contested environmental statements we can make, because it follows directly from the physics rather than from plant performance. It holds whether or not the machines ever reach economic net gain."
+],
+[
+"p",
+"The health burden of combustion is not evenly distributed. Communities beside highways, ports, and power plants breathe more of it, and often have the least say in where such infrastructure is built. A firm source that emits nothing at the point of generation is therefore not only an air-quality improvement but a matter of who bears the cost of the power everyone uses."
+],
+[
+"p",
+"The climate side of the same coin is covered in <a href=./fusion-and-the-carbon-question.html>fusion and the carbon question</a>."
+]
+],
+"related": [
+[
+"fusion-and-the-carbon-question",
+"The Carbon Question"
+],
+[
+"the-moral-case-for-clean-energy",
+"The Moral Case"
+],
+[
+"energy-and-the-biosphere",
+"Energy & the Biosphere"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "the-energy-poverty-problem",
+"title": "The Energy-Poverty Problem",
+"cat": "environment-and-planet",
+"lede": "Hundreds of millions live with too little reliable energy; a clean-planet vision that ignores their needs is neither just nor durable.",
+"body": [
+[
+"h2",
+"Clean and enough are both required"
+],
+[
+"p",
+"Environmental strategy sometimes speaks only of reducing energy use. But large parts of the world use too little energy for health, education, and dignity. A vision of a healed planet that quietly assumes everyone consumes as little as the poorest is neither just nor stable. People will and should seek more energy; the task is to make more energy clean."
+],
+[
+"h3",
+"Why firm clean power is relevant here"
+],
+[
+"p",
+"Communities building out energy for the first time need reliability as much as cleanliness. Intermittent supply without storage cannot run a clinic's cold chain or a school's evening classes. Firm clean sources — fusion among several candidates — could let regions leapfrog toward energy that is both sufficient and low-emission, rather than choosing between the two."
+],
+[
+"ul",
+[
+"Enough energy is a precondition for health, education, and opportunity",
+"Clean and firm together avoid the false choice between poverty and pollution",
+"Compact, sited generation reduces dependence on long, fragile transmission"
+]
+],
+[
+"p",
+"We hold no illusion that fusion, unbuilt, serves anyone today. This page states a value that shapes what we are building toward: energy abundance as a route out of both poverty and pollution, not a luxury for the already-rich. See <a href=./building-to-uplift-humanity.html>building to uplift humanity</a>."
+],
+[
+"p",
+"The equity dimension continues in <a href=./the-moral-case-for-clean-energy.html>the moral case for clean energy</a>."
+]
+],
+"related": [
+[
+"building-to-uplift-humanity",
+"Building to Uplift Humanity"
+],
+[
+"the-moral-case-for-clean-energy",
+"The Moral Case"
+],
+[
+"energy-return-and-society",
+"Energy Return & Society"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "firm-power-vs-intermittency",
+"title": "Firm Power vs. Intermittency",
+"cat": "environment-and-planet",
+"lede": "Variable and firm generation are complements, not rivals; the cleanest grids will likely use both, matched to what each does best.",
+"body": [
+[
+"h2",
+"A complement, not a competitor"
+],
+[
+"p",
+"It is tempting to frame the energy debate as renewables versus everything else. The systems view is different: variable renewables and firm clean sources solve different parts of the same problem. Renewables provide abundant energy when conditions allow; firm sources cover the residual reliably. A grid using both can be cleaner and more resilient than one leaning entirely on either."
+],
+[
+"h3",
+"Matching source to role"
+],
+[
+"p",
+"<svg viewBox='0 0 440 170' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Variable plus firm equals reliable clean grid'><rect x='30' y='40' width='110' height='90' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='85' y='30' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>variable</text><path d='M40 100 Q65 60 90 100 T140 100' fill='none' stroke='#232C39' stroke-width='2'/><text x='190' y='90' fill='#232C39' font-family='Georgia,serif' font-size='18' text-anchor='middle'>+</text><rect x='240' y='40' width='110' height='90' rx='6' fill='none' stroke='#D4AD5C' stroke-width='2'/><text x='295' y='30' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>firm</text><rect x='250' y='95' width='90' height='25' fill='#D4AD5C' opacity='0.5'/><text x='400' y='90' fill='#232C39' font-family='Georgia,serif' font-size='18' text-anchor='middle'>=</text></svg>"
+],
+[
+"p",
+"This framing keeps us honest about our own place. Kronos is not building a rival to solar; we are studying a firm clean source that could complement it. Fusion sits among candidate firm technologies — geothermal, advanced fission, long-duration storage — and must earn its role on merit, which for us means first building and proving the machines."
+],
+[
+"p",
+"The complementarity is quantitative, not merely rhetorical. As a grid adds more variable generation, the value of each additional panel or turbine during already-sunny or already-windy hours falls, while the value of capacity that can cover the remaining dark, still hours rises. Firm clean sources and renewables therefore grow more useful to each other, not less, as decarbonization deepens."
+],
+[
+"p",
+"See <a href=./fusion-among-clean-technologies.html>fusion among clean technologies</a> for why we reject either-or thinking, and <a href=./why-firm-power-matters.html>why firm power matters</a> for the reliability case."
+]
+],
+"related": [
+[
+"why-firm-power-matters",
+"Why Firm Power Matters"
+],
+[
+"fusion-among-clean-technologies",
+"Among Clean Technologies"
+],
+[
+"grid-resilience-and-climate-adaptation",
+"Grid Resilience"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "decarbonizing-hard-to-abate",
+"title": "Decarbonizing the Hard-to-Abate",
+"cat": "environment-and-planet",
+"lede": "Some sectors resist electrification and variable renewables; high-temperature, dispatchable clean heat and power could reach them.",
+"body": [
+[
+"h2",
+"The stubborn sectors"
+],
+[
+"p",
+"Much of the emissions conversation focuses on electricity and light transport, where renewables and batteries are winning. Harder to reach are heavy industry, high-temperature process heat, and continuous industrial loads that cannot tolerate interruption. These hard-to-abate sectors are a large share of remaining emissions and lack easy substitutes."
+],
+[
+"h3",
+"What a firm high-grade source offers"
+],
+[
+"ul",
+[
+"Continuous operation for processes that cannot cycle with the weather",
+"High-grade heat for industry that electric resistance struggles to supply economically",
+"Siting near industrial load, reducing transmission dependence"
+]
+],
+[
+"p",
+"A thermal fusion source like the breeder (Hyperion) produces high-grade heat, not only electricity, which is relevant to industrial heat demand. The burner (Aegis / MetroVolt) targets continuous electric loads directly. Neither is proven, and we make no claim that fusion has abated any emissions to date; the point is which problems the technology is aimed at if it succeeds."
+],
+[
+"p",
+"<svg viewBox='0 0 420 140' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Firm source serving continuous industrial load'><rect x='30' y='50' width='90' height='50' rx='6' fill='#232C39'/><text x='75' y='80' fill='#D4AD5C' font-family='Georgia,serif' font-size='11' text-anchor='middle'>firm source</text><line x1='120' y1='75' x2='200' y2='75' stroke='#D4AD5C' stroke-width='3'/><rect x='200' y='45' width='100' height='60' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='250' y='80' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>industry</text></svg>"
+],
+[
+"p",
+"These sectors matter disproportionately because they are where emissions concentrate once electricity and light transport are addressed. A clean firm source that supplies both continuous power and high-grade heat could reach loads that batteries and variable renewables struggle to serve, though whether fusion fills that role depends entirely on the machines closing the physics first."
+],
+[
+"p",
+"Data centers are a fast-growing continuous load; the burner housing MetroVolt targets them directly — see <a href=./data-centers-and-clean-power.html>data centers and clean power</a>."
+]
+],
+"related": [
+[
+"data-centers-and-clean-power",
+"Data Centers"
+],
+[
+"why-firm-power-matters",
+"Why Firm Power Matters"
+],
+[
+"clean-firm-power-and-climate",
+"Clean Firm Power"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "data-centers-and-clean-power",
+"title": "Data Centers and Clean Power",
+"cat": "environment-and-planet",
+"lede": "Computing demand is growing fast and runs continuously; the burner housing MetroVolt is studied as a co-located firm clean source.",
+"body": [
+[
+"h2",
+"A continuous, growing load"
+],
+[
+"p",
+"Data centers run around the clock and their electricity demand is rising quickly. Powering them with fossil generation ties a growing digital economy to a growing emissions source. Powering them with variable renewables alone is hard because the load never pauses. This is a textbook case for firm clean power sited near demand."
+],
+[
+"h3",
+"MetroVolt: the burner for compute"
+],
+[
+"p",
+"MetroVolt is one of the two housings for the burner (Aegis / MetroVolt), the D-3He tandem-mirror generator. Its intended role is a compact, co-located firm source for data-center-scale continuous load. Co-location reduces transmission dependence, and the burner's direct energy conversion and low neutron fraction (5.44%) shape its environmental profile favorably relative to a purely thermal machine."
+],
+[
+"p",
+"<svg viewBox='0 0 420 140' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Co-located generator and data center'><rect x='40' y='50' width='80' height='55' rx='6' fill='#232C39'/><text x='80' y='82' fill='#D4AD5C' font-family='Georgia,serif' font-size='10' text-anchor='middle'>MetroVolt</text><line x1='120' y1='77' x2='190' y2='77' stroke='#D4AD5C' stroke-width='3'/><g stroke='#232C39' stroke-width='1.5' fill='none'><rect x='200' y='50' width='20' height='55'/><rect x='230' y='50' width='20' height='55'/><rect x='260' y='50' width='20' height='55'/></g><text x='240' y='125' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>data center</text></svg>"
+],
+[
+"p",
+"We are careful with claims: MetroVolt is a design and simulation study. It has not been built, and we assert no operating performance. The environmental argument is conditional — <i>if</i> the burner closes, it could supply continuous compute load without combustion. The helium-3 dependence remains a real gate; see <a href=./helium-3-and-the-planet.html>helium-3 and the planet</a>."
+],
+[
+"p",
+"There is a further reason siting matters for compute. Moving large amounts of power over long distances loses energy and exposes the load to grid disturbances. A firm source next to the racks it feeds shortens that path. It also means the environmental profile of the computing can be tied to a single, auditable generation source rather than an averaged grid mix."
+],
+[
+"p",
+"The defense counterpart is <a href=./defense-installations-and-clean-power.html>Aegis</a>."
+]
+],
+"related": [
+[
+"defense-installations-and-clean-power",
+"Aegis"
+],
+[
+"helium-3-and-the-planet",
+"Helium-3 & the Planet"
+],
+[
+"decarbonizing-hard-to-abate",
+"Hard-to-Abate"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "defense-installations-and-clean-power",
+"title": "Defense Installations and Clean Power",
+"cat": "environment-and-planet",
+"lede": "Fixed installations need power that is firm, secure, and low-emission; the burner housing Aegis is studied for that role.",
+"body": [
+[
+"h2",
+"Firm power where fuel logistics are a liability"
+],
+[
+"p",
+"Fixed installations often depend on delivered fuel and long supply lines, which are both an emissions source and a vulnerability. A firm clean source generated on site changes that equation: continuous power without a fuel convoy and without combustion. Aegis is the burner housing studied for fixed defense installations — not naval platforms."
+],
+[
+"h3",
+"Aegis: the fixed-installation burner"
+],
+[
+"p",
+"Aegis and MetroVolt are two housings of the same burner (Aegis / MetroVolt), the D-3He tandem-mirror generator with a 26.49 T plug and direct energy conversion. Aegis targets fixed sites where reliability and reduced logistical dependence matter. Its low neutron fraction (5.44%) and direct conversion shape a favorable environmental profile relative to a purely thermal machine of similar output."
+],
+[
+"ul",
+[
+"On-site firm power reduces reliance on delivered fuel",
+"No combustion means no local exhaust at the installation",
+"Co-location reduces transmission exposure"
+]
+],
+[
+"p",
+"The environmental relevance is that reducing fuel logistics reduces both emissions and disturbance associated with moving and burning fuel. As with all our claims, this is conditional on the burner closing; Aegis is a design and simulation study, not built hardware, and depends on a helium-3 supply that does not yet exist at scale — see <a href=./helium-3-and-the-planet.html>helium-3 and the planet</a>."
+],
+[
+"p",
+"The compute counterpart is <a href=./data-centers-and-clean-power.html>MetroVolt</a>."
+]
+],
+"related": [
+[
+"data-centers-and-clean-power",
+"MetroVolt"
+],
+[
+"helium-3-and-the-planet",
+"Helium-3 & the Planet"
+],
+[
+"grid-resilience-and-climate-adaptation",
+"Grid Resilience"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "the-tritium-cycle-and-the-planet",
+"title": "The Tritium Cycle and the Planet",
+"cat": "environment-and-planet",
+"lede": "The breeder makes its own tritium from lithium; a closed fuel loop reduces external supply demand and its environmental reach.",
+"body": [
+[
+"h2",
+"Closing the loop"
+],
+[
+"p",
+"Tritium is scarce in nature and radioactive with a short half-life. Rather than depend on an external tritium supply, the breeder (Hyperion) is designed to breed tritium in place from lithium using the neutrons the D-T reaction produces. A machine that makes its own fuel reduces the extraction, transport, and handling that an external supply would require."
+],
+[
+"h3",
+"Breeding ratio as a design lever"
+],
+[
+"p",
+"The tritium breeding ratio (TBR) is how much tritium the machine produces per unit consumed. Kronos studies TBR as a design lever across 1.1, 1.5, and 1.8 rather than asserting a single value. A ratio above one means the machine can sustain itself and, in principle, provision the next machine — a property with fuel-security and environmental implications."
+],
+[
+"ul",
+[
+"Self-breeding reduces reliance on scarce external tritium",
+"Lithium is the feedstock, widely distributed though finite",
+"TBR treated honestly as a range, not a settled number"
+]
+],
+[
+"p",
+"<svg viewBox='0 0 420 150' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Tritium bred from lithium inside breeder'><circle cx='210' cy='75' r='55' fill='none' stroke='#232C39' stroke-width='2'/><path d='M210 20 A55 55 0 0 1 258 100' fill='none' stroke='#D4AD5C' stroke-width='3' marker-end='url(#a)'/><defs><marker id='a' markerWidth='8' markerHeight='8' refX='4' refY='4' orient='auto'><path d='M0 0 L8 4 L0 8 z' fill='#D4AD5C'/></marker></defs><text x='210' y='72' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>Li + n</text><text x='210' y='90' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>&#8594; T</text></svg>"
+],
+[
+"p",
+"Handling any breeding blanket and tritium inventory demands care, and we do not minimize that. But the environmental logic of breeding is sound: a machine that manufactures its own fuel from a widely distributed feedstock avoids the mining, transport, and handling that an external tritium supply chain would otherwise impose across many sites."
+],
+[
+"p",
+"Tritium handling carries real safety and environmental responsibilities, which we treat under <a href=./radiological-honesty.html>radiological honesty</a>. Fuel abundance more broadly is covered in <a href=./fusion-fuel-and-abundance.html>fusion fuel and abundance</a>."
+]
+],
+"related": [
+[
+"fusion-fuel-and-abundance",
+"Fuel & Abundance"
+],
+[
+"radiological-honesty",
+"Radiological Honesty"
+],
+[
+"neutrons-for-medicine-and-the-planet",
+"Neutrons for Medicine"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "helium-3-and-the-planet",
+"title": "Helium-3 and the Planet",
+"cat": "environment-and-planet",
+"lede": "The burner's fuel is largely aneutronic and clean in reaction, but helium-3 is scarce on Earth; we name that gate plainly.",
+"body": [
+[
+"h2",
+"A cleaner reaction, a harder supply"
+],
+[
+"p",
+"The burner (Aegis / MetroVolt) fuses deuterium with helium-3. This reaction is largely aneutronic: only 5.44% of its energy appears as neutrons, compared with the neutron-dominated D-T reaction. Fewer neutrons means less activation of surrounding structure and a lighter waste burden. Direct energy conversion further shapes a favorable environmental profile."
+],
+[
+"h3",
+"The honest gate: supply"
+],
+[
+"p",
+"Helium-3 is genuinely scarce on Earth. A large burner fleet would require a helium-3 supply that does not currently exist at scale. We do not hide this behind the clean reaction. It is a real, unresolved gate on the burner path, and any environmental benefit of the burner is conditional on that supply problem being solved."
+],
+[
+"ul",
+[
+"Reaction advantage: low neutron fraction (5.44%), less activation",
+"Conversion advantage: direct energy conversion reduces thermal load",
+"Supply constraint: helium-3 scarcity is a genuine, unsolved gate"
+]
+],
+[
+"p",
+"<svg viewBox='0 0 420 140' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Low neutron fraction of D-He3'><rect x='40' y='55' width='300' height='30' fill='none' stroke='#232C39' stroke-width='1.5'/><rect x='40' y='55' width='16' height='30' fill='#D4AD5C'/><text x='48' y='105' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>5.44% n</text><text x='210' y='105' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>~95% charged particles &#8594; direct conversion</text></svg>"
+],
+[
+"p",
+"We keep the two facts deliberately side by side so neither hides the other. The reaction's cleanliness is a genuine physics advantage that would matter if the burner closes. The supply scarcity is a genuine obstacle that no amount of clean-reaction language dissolves. Honest communication about the burner means always presenting both, which is why this page refuses to lead with only the good half."
+],
+[
+"p",
+"We treat the reaction's cleanliness as a physics fact and the supply as an open problem, side by side. Neither cancels the other. See <a href=./no-long-lived-fusion-waste-honest.html>fusion waste, stated honestly</a> and <a href=./what-we-will-not-claim.html>what we will not claim</a>."
+]
+],
+"related": [
+[
+"no-long-lived-fusion-waste-honest",
+"Fusion Waste"
+],
+[
+"what-we-will-not-claim",
+"What We Won't Claim"
+],
+[
+"fusion-fuel-and-abundance",
+"Fuel & Abundance"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "neutrons-for-medicine-and-the-planet",
+"title": "Neutrons, Isotopes, and Human Health",
+"cat": "environment-and-planet",
+"lede": "The breeder's 14 MeV neutrons can produce medical and industrial isotopes, extending the machine's benefit beyond electricity.",
+"body": [
+[
+"h2",
+"A byproduct with human value"
+],
+[
+"p",
+"The breeder (Hyperion) produces 14 MeV neutrons as an inherent part of the D-T reaction. Beyond breeding tritium, those neutrons can produce isotopes used in medicine and industry. Some medical isotopes today depend on aging reactors and fragile supply chains; a neutron source designed for reliability could steady that supply."
+],
+[
+"h3",
+"Why this belongs on an environment page"
+],
+[
+"p",
+"Environmental stewardship and human health are not separate goals. A machine whose neutrons support diagnostics, treatment, and materials analysis delivers benefit that is not measured in megawatt-hours. It also means the breeder's value does not rest solely on grid electricity, which matters while the electricity case is still being proven."
+],
+[
+"ul",
+[
+"Medical isotopes for diagnosis and treatment",
+"Industrial isotopes for materials analysis and quality control",
+"A more resilient supply than aging single-purpose reactors"
+]
+],
+[
+"p",
+"The breeder's product set is studied as roughly 4 kg/yr of tritium-class output plus about 1.97 kg/yr of helium-3, together with the 14 MeV neutron flux. These are design-study figures tied to a frozen configuration, not measured plant output; the machine is not built."
+],
+[
+"p",
+"<svg viewBox='0 0 420 130' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Neutrons branching to uses'><rect x='30' y='50' width='90' height='40' rx='6' fill='#232C39'/><text x='75' y='75' fill='#D4AD5C' font-family='Georgia,serif' font-size='11' text-anchor='middle'>14 MeV n</text><line x1='120' y1='60' x2='190' y2='35' stroke='#D4AD5C' stroke-width='2'/><line x1='120' y1='70' x2='190' y2='70' stroke='#D4AD5C' stroke-width='2'/><line x1='120' y1='80' x2='190' y2='105' stroke='#D4AD5C' stroke-width='2'/><text x='260' y='40' fill='#232C39' font-family='Georgia,serif' font-size='11'>medical isotopes</text><text x='260' y='74' fill='#232C39' font-family='Georgia,serif' font-size='11'>tritium breeding</text><text x='260' y='110' fill='#232C39' font-family='Georgia,serif' font-size='11'>materials analysis</text></svg>"
+],
+[
+"p",
+"Framing this honestly matters: isotope production is a demonstrated use of neutron sources generally, but the breeder itself is unbuilt, so we describe a designed capability rather than delivered doses. What the design offers is optionality — value that does not depend solely on the electricity case, and that keeps human health within view of a machine whose primary job is energy."
+],
+[
+"p",
+"See <a href=./the-tritium-cycle-and-the-planet.html>the tritium cycle</a> for how the same neutrons close the fuel loop."
+]
+],
+"related": [
+[
+"the-tritium-cycle-and-the-planet",
+"Tritium Cycle"
+],
+[
+"building-to-uplift-humanity",
+"Uplift Humanity"
+],
+[
+"from-extraction-to-stewardship",
+"Extraction to Stewardship"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "lifecycle-thinking",
+"title": "Lifecycle Thinking",
+"cat": "environment-and-planet",
+"lede": "A plant's footprint spans construction, operation, and retirement; we account for the whole life, not the flattering middle.",
+"body": [
+[
+"h2",
+"Cradle to grave, not cradle to switch-on"
+],
+[
+"p",
+"The temptation in clean-energy communication is to report only the clean operating phase and ignore the emissions and materials of building and retiring the plant. Lifecycle thinking rejects that. The honest footprint of any energy source spans mining and manufacturing, construction, operation, maintenance, and decommissioning."
+],
+[
+"h3",
+"The phases we account for"
+],
+[
+"ul",
+[
+"Materials: mining, refining, and manufacturing of components",
+"Construction: energy and emissions to build the plant",
+"Operation: fuel cycle, water, and maintenance over the plant's life",
+"End of life: decommissioning and disposal or recycling of activated material"
+]
+],
+[
+"p",
+"<svg viewBox='0 0 440 120' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Lifecycle phases'><line x1='30' y1='70' x2='410' y2='70' stroke='#232C39' stroke-width='2'/><g fill='#D4AD5C'><circle cx='70' cy='70' r='6'/><circle cx='170' cy='70' r='6'/><circle cx='270' cy='70' r='6'/><circle cx='370' cy='70' r='6'/></g><g fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'><text x='70' y='95'>materials</text><text x='170' y='95'>build</text><text x='270' y='95'>operate</text><text x='370' y='95'>retire</text></g></svg>"
+],
+[
+"p",
+"For fusion, the operating phase is structurally clean — no combustion, no high-level fuel waste. The honest work is in the other phases: embodied emissions of magnets and structure, and activated material at end of life. We treat these on <a href=./activation-and-materials-choices.html>activation and materials</a> and <a href=./decommissioning-thinking.html>decommissioning thinking</a>."
+],
+[
+"p",
+"The discipline cuts against a common failure mode in clean-energy claims, where the clean operating phase is advertised and the dirty construction phase is omitted. By insisting on the whole life, we make it harder to flatter ourselves, and we give reviewers a complete boundary to check rather than a curated slice designed to look good."
+],
+[
+"p",
+"Because the machines are design studies, our lifecycle figures are estimates tied to frozen designs. We say so, per <a href=./honest-environmental-accounting.html>honest environmental accounting</a>."
+]
+],
+"related": [
+[
+"honest-environmental-accounting",
+"Honest Accounting"
+],
+[
+"decommissioning-thinking",
+"Decommissioning"
+],
+[
+"fusion-and-the-carbon-question",
+"The Carbon Question"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "honest-environmental-accounting",
+"title": "Honest Environmental Accounting",
+"cat": "environment-and-planet",
+"lede": "The boundary you draw determines the number you get; we set boundaries transparently and refuse to publish figures we cannot defend.",
+"body": [
+[
+"h2",
+"The boundary problem"
+],
+[
+"p",
+"Almost any environmental metric can be made to look good or bad by choosing where to draw the system boundary. Count only the reaction and fusion looks pristine; count global supply chains and every technology carries a footprint. Honest accounting means stating the boundary explicitly and applying it consistently across comparisons."
+],
+[
+"h3",
+"Our accounting commitments"
+],
+[
+"ul",
+[
+"State the system boundary whenever we report a footprint metric",
+"Apply the same boundary to ourselves and to comparisons",
+"Distinguish measured data from design-study estimates",
+"Publish the method so others can check the number"
+]
+],
+[
+"p",
+"Because neither the breeder nor the burner is built, we currently have no measured plant data. Any environmental figure we give is an engineering estimate tied to a specific frozen design, and we label it that way. We will not present an estimate as if it were an operating measurement."
+],
+[
+"p",
+"This discipline mirrors our scientific practice: pre-registered predictions, published data with DOIs, and reproducible analysis. Environmental honesty is the same honesty applied to footprint. See <a href=./reproducibility-as-environmental-trust.html>reproducibility as environmental trust</a> and <a href=./what-we-will-not-claim.html>what we will not claim</a>."
+],
+[
+"p",
+"The failure we most want to avoid is the comparison that quietly uses one boundary for our technology and a wider one for the alternative. Such comparisons are technically true and deeply misleading. Committing in advance to a single, disclosed boundary for both sides is the simplest guard against that kind of dishonesty."
+],
+[
+"p",
+"<svg viewBox='0 0 420 130' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Same boundary applied consistently'><rect x='40' y='40' width='150' height='60' fill='none' stroke='#232C39' stroke-width='1.5' stroke-dasharray='5 4'/><text x='115' y='75' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>our system</text><rect x='230' y='40' width='150' height='60' fill='none' stroke='#D4AD5C' stroke-width='2' stroke-dasharray='5 4'/><text x='305' y='75' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>comparison</text><text x='210' y='118' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>same boundary both sides</text></svg>"
+]
+],
+"related": [
+[
+"reproducibility-as-environmental-trust",
+"Reproducibility"
+],
+[
+"lifecycle-thinking",
+"Lifecycle Thinking"
+],
+[
+"what-we-will-not-claim",
+"What We Won't Claim"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "the-precautionary-approach",
+"title": "The Precautionary Approach",
+"cat": "environment-and-planet",
+"lede": "Where consequences could be serious and knowledge is incomplete, we design conservatively and test before we scale.",
+"body": [
+[
+"h2",
+"Caution scaled to stakes"
+],
+[
+"p",
+"The precautionary approach holds that when an action could cause serious harm and the science is incomplete, the burden is on demonstrating safety rather than on proving harm first. For an energy technology handling radioactive materials and high energy densities, this is not optional caution; it is the responsible default."
+],
+[
+"h3",
+"How it shapes our program"
+],
+[
+"ul",
+[
+"Design and simulate exhaustively before building hardware",
+"Prove behavior at small scale before committing to fleets",
+"Choose conservative materials and margins where uncertainty is high",
+"Pre-register predictions so surprises are visible, not buried"
+]
+],
+[
+"p",
+"Our staged timeline embodies this: breeder construction begins Q2 2027, a first-of-a-kind machine targets first tritium around 2030, and only-then-proven designs progress to next-of-a-kind and beyond. We make no hardware net-gain claim before the first-of-a-kind operates. Scaling follows demonstration, not hope."
+],
+[
+"p",
+"The precautionary approach also disciplines our language. We do not describe unbuilt machines as if their environmental benefits were realized. See <a href=./humility-about-what-we-dont-know.html>humility about what we don't know</a> and <a href=./digital-before-physical.html>designing digitally before building</a>."
+],
+[
+"p",
+"Applied poorly, precaution becomes an excuse for paralysis. We reject that reading. The point is not to avoid all action but to sequence it so that the largest, least reversible commitments come after the evidence that justifies them. Testing a first-of-a-kind machine before committing to a fleet is precaution and progress at once."
+],
+[
+"p",
+"<svg viewBox='0 0 440 120' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Simulate, small-scale, fleet in order'><g font-family='Georgia,serif' font-size='11' fill='#232C39' text-anchor='middle'><rect x='30' y='45' width='90' height='40' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='75' y='70'>simulate</text><rect x='170' y='45' width='90' height='40' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='215' y='70'>prove small</text><rect x='310' y='45' width='90' height='40' rx='6' fill='none' stroke='#D4AD5C' stroke-width='2'/><text x='355' y='70'>then scale</text></g><line x1='120' y1='65' x2='170' y2='65' stroke='#232C39' stroke-width='1.5'/><line x1='260' y1='65' x2='310' y2='65' stroke='#232C39' stroke-width='1.5'/></svg>"
+]
+],
+"related": [
+[
+"humility-about-what-we-dont-know",
+"Humility"
+],
+[
+"digital-before-physical",
+"Digital Before Physical"
+],
+[
+"frozen-design-discipline",
+"Frozen Design"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "designing-in-the-open-for-the-planet",
+"title": "Designing in the Open, for the Planet",
+"cat": "environment-and-planet",
+"lede": "Environmental claims deserve public scrutiny; we publish papers, data, and DOIs so anyone can check our footprint reasoning.",
+"body": [
+[
+"h2",
+"Openness as accountability"
+],
+[
+"p",
+"A private claim of environmental benefit asks the public to trust an assertion it cannot verify. Kronos works differently. We publish our physics papers, open our data, register digital object identifiers (DOIs), and license our work openly so that outside reviewers can examine not just our performance claims but the reasoning behind our environmental ones."
+],
+[
+"h3",
+"What open design gives the environment"
+],
+[
+"ul",
+[
+"External review can catch errors before they scale into hardware",
+"Footprint methods can be audited, not just asserted",
+"Other teams can build on verified results rather than repeat mistakes",
+"The public can hold specific, dated claims to account"
+]
+],
+[
+"p",
+"This is the same open-science flywheel that drives our technical credibility, applied to environmental trust. Publishing a claim with its data and method is a stronger environmental commitment than any slogan, because it can be checked and, if wrong, corrected."
+],
+[
+"p",
+"<svg viewBox='0 0 420 150' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Publish, data, DOI, review cycle'><circle cx='210' cy='75' r='58' fill='none' stroke='#232C39' stroke-width='2'/><g font-family='Georgia,serif' font-size='10' fill='#232C39' text-anchor='middle'><text x='210' y='28'>publish</text><text x='283' y='80'>open data</text><text x='210' y='130'>DOI</text><text x='135' y='80'>review</text></g><circle cx='210' cy='17' r='4' fill='#D4AD5C'/><circle cx='268' cy='75' r='4' fill='#D4AD5C'/><circle cx='210' cy='133' r='4' fill='#D4AD5C'/><circle cx='152' cy='75' r='4' fill='#D4AD5C'/></svg>"
+],
+[
+"p",
+"Openness carries a real cost in effort and exposure: publishing means inviting criticism and admitting error in public. We accept that cost because the alternative — asking the public to trust unverifiable environmental claims — is exactly the pattern that has eroded confidence in so many industrial promises. Verifiability is the burden and the point."
+],
+[
+"p",
+"See <a href=./the-open-science-flywheel.html>the open-science flywheel</a> and <a href=./reproducibility-as-environmental-trust.html>reproducibility as environmental trust</a> for how this works in practice."
+]
+],
+"related": [
+[
+"the-open-science-flywheel",
+"Open-Science Flywheel"
+],
+[
+"reproducibility-as-environmental-trust",
+"Reproducibility"
+],
+[
+"pre-registered-predictions-and-honesty",
+"Pre-Registered Predictions"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "reproducibility-as-environmental-trust",
+"title": "Reproducibility as Environmental Trust",
+"cat": "environment-and-planet",
+"lede": "A result others can reproduce is one the public can trust; our reproducible analysis record extends to environmental reasoning.",
+"body": [
+[
+"h2",
+"Trust is earned by reproducibility"
+],
+[
+"p",
+"In science, a result matters only if others can reproduce it from the same inputs. Kronos maintains a reproducible analysis record — a documented set of analyses that can be re-run to obtain the same outputs. This is the backbone of technical credibility, and it applies equally to environmental claims that rest on those analyses."
+],
+[
+"h3",
+"Why it matters for the planet"
+],
+[
+"p",
+"Environmental decisions are high-stakes and often irreversible. A footprint estimate that cannot be reproduced is an opinion. One that can be re-run, checked, and challenged is evidence. Reproducibility turns environmental communication from persuasion into verification."
+],
+[
+"ul",
+[
+"Inputs, methods, and code documented so analyses can be re-run",
+"Outputs traceable to specific frozen design configurations",
+"Errors, once found, correctable in the open rather than hidden",
+"The same rigor for footprint reasoning as for physics results"
+]
+],
+[
+"p",
+"<svg viewBox='0 0 420 130' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Same inputs reproduce same result'><rect x='30' y='45' width='90' height='40' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='75' y='70' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>inputs</text><line x1='120' y1='65' x2='300' y2='65' stroke='#232C39' stroke-width='1.5'/><rect x='300' y='45' width='90' height='40' rx='6' fill='none' stroke='#D4AD5C' stroke-width='2'/><text x='345' y='70' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>same result</text><text x='210' y='55' fill='#232C39' font-family='Georgia,serif' font-size='9' text-anchor='middle'>re-run &#8594;</text></svg>"
+],
+[
+"p",
+"Our reproducible record spans dozens of analyses, each documented so it can be re-run rather than merely believed. When an environmental claim rests on one of those analyses, the claim inherits that same standard: it can be checked at its source. This is what separates a footprint we can defend from a footprint we merely assert."
+],
+[
+"p",
+"This record is anchored to our published papers and their DOIs — see <a href=./designing-in-the-open-for-the-planet.html>designing in the open</a> and <a href=./honest-environmental-accounting.html>honest environmental accounting</a>."
+]
+],
+"related": [
+[
+"designing-in-the-open-for-the-planet",
+"Designing in the Open"
+],
+[
+"honest-environmental-accounting",
+"Honest Accounting"
+],
+[
+"pre-registered-predictions-and-honesty",
+"Pre-Registered Predictions"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "the-open-science-flywheel",
+"title": "The Open-Science Flywheel",
+"cat": "environment-and-planet",
+"lede": "Publishing, sharing data, and inviting replication compound into trust and better designs — the engine behind our environmental credibility.",
+"body": [
+[
+"h2",
+"How openness compounds"
+],
+[
+"p",
+"Open science is not charity; it is a flywheel. Each published result, with its data and DOI, invites replication. Replication catches errors and confirms strengths. Confirmed results attract collaboration, which produces better designs, which produce more results worth publishing. Turn after turn, credibility and quality compound."
+],
+[
+"h3",
+"The turn of the wheel"
+],
+[
+"ul",
+[
+"Publish results with methods and data",
+"Register DOIs so the work is citable and permanent",
+"Invite replication and external review",
+"Improve the design from what is learned, then publish again"
+]
+],
+[
+"p",
+"<svg viewBox='0 0 300 240' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Open science flywheel'><circle cx='150' cy='120' r='80' fill='none' stroke='#232C39' stroke-width='2'/><path d='M150 40 A80 80 0 0 1 230 120' fill='none' stroke='#D4AD5C' stroke-width='3'/><path d='M226 110 l6 12 l-13 -2 z' fill='#D4AD5C'/><g font-family='Georgia,serif' font-size='12' fill='#232C39' text-anchor='middle'><text x='150' y='30'>publish</text><text x='250' y='124'>replicate</text><text x='150' y='218'>improve</text><text x='50' y='124'>collaborate</text></g><g fill='#D4AD5C'><circle cx='150' cy='40' r='5'/><circle cx='230' cy='120' r='5'/><circle cx='150' cy='200' r='5'/><circle cx='70' cy='120' r='5'/></g></svg>"
+],
+[
+"p",
+"For the planet, this matters because environmental trust cannot be asserted; it accrues through verifiable openness. The same wheel that builds our physics credibility builds the credibility of our environmental claims. See <a href=./designing-in-the-open-for-the-planet.html>designing in the open, for the planet</a>."
+],
+[
+"p",
+"The flywheel has inertia in both directions, which is why we guard it. A single unreproducible or overstated result slows every later turn by making replication harder and trust scarcer. Keeping each turn honest — data attached, predictions pre-registered, errors corrected in public — is what lets the wheel keep gaining speed instead of seizing."
+],
+[
+"p",
+"It is also why we do not treat competitors as enemies: shared open results lift the whole field — see <a href=./fusion-among-clean-technologies.html>fusion among clean technologies</a>."
+]
+],
+"related": [
+[
+"designing-in-the-open-for-the-planet",
+"Designing in the Open"
+],
+[
+"reproducibility-as-environmental-trust",
+"Reproducibility"
+],
+[
+"pre-registered-predictions-and-honesty",
+"Pre-Registered Predictions"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "pre-registered-predictions-and-honesty",
+"title": "Pre-Registered Predictions and Honesty",
+"cat": "environment-and-planet",
+"lede": "We state falsifiable predictions before results arrive, so success and failure are both visible — the same honesty we owe the planet.",
+"body": [
+[
+"h2",
+"Committing before the answer"
+],
+[
+"p",
+"It is easy to explain any result after the fact. Pre-registration means stating a falsifiable prediction before the experiment or analysis, so that the outcome can genuinely confirm or refute it. Kronos maintains pre-registered, falsifiable predictions as a matter of scientific discipline. This makes our claims accountable rather than retrofitted."
+],
+[
+"h3",
+"Why this is an environmental commitment"
+],
+[
+"p",
+"Environmental trust is repeatedly eroded by predictions that quietly move after results disappoint. Pre-registration is the antidote: if a machine misses a target, the record shows it plainly. A program willing to be proven wrong in public is one whose environmental claims can be believed when they are right."
+],
+[
+"ul",
+[
+"Predictions stated before results, with clear pass/fail criteria",
+"Outcomes recorded against the original prediction, not a revised one",
+"Failures kept visible, not reframed as successes"
+]
+],
+[
+"p",
+"<svg viewBox='0 0 420 130' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Prediction then result compared'><rect x='30' y='45' width='120' height='40' rx='6' fill='#232C39'/><text x='90' y='70' fill='#D4AD5C' font-family='Georgia,serif' font-size='11' text-anchor='middle'>prediction</text><line x1='150' y1='65' x2='270' y2='65' stroke='#232C39' stroke-width='1.5' stroke-dasharray='4 4'/><rect x='270' y='45' width='120' height='40' rx='6' fill='none' stroke='#D4AD5C' stroke-width='2'/><text x='330' y='70' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>result</text><text x='210' y='105' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>compared honestly</text></svg>"
+],
+[
+"p",
+"There is a quiet cost to this practice: pre-registration means we cannot retroactively claim we expected whatever happened. That is precisely its value. A field that only ever explains results after the fact accumulates confidence it has not earned. By fixing the target first, we let reality grade us, and we let the public watch it happen."
+],
+[
+"p",
+"This connects to our staged timeline: we predict, we build, we check. No hardware net-gain claim precedes the first-of-a-kind machine. See <a href=./what-we-will-not-claim.html>what we will not claim</a> and <a href=./the-open-science-flywheel.html>the open-science flywheel</a>."
+]
+],
+"related": [
+[
+"what-we-will-not-claim",
+"What We Won't Claim"
+],
+[
+"the-open-science-flywheel",
+"Open-Science Flywheel"
+],
+[
+"humility-about-what-we-dont-know",
+"Humility"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "frozen-design-discipline",
+"title": "Frozen-Design Discipline",
+"cat": "environment-and-planet",
+"lede": "We attach every claim to a specific, versioned design, so environmental statements refer to a real configuration, not a moving target.",
+"body": [
+[
+"h2",
+"A claim needs a subject"
+],
+[
+"p",
+"An environmental claim is meaningless if the design it describes keeps changing. Kronos practices frozen-design discipline: key configurations are fixed and versioned, and claims attach to a specific frozen design. When we cite the breeder's fusion power of 88.7 MW or the burner's 26.49 T plug, those numbers belong to a defined configuration, not a shifting sketch."
+],
+[
+"h3",
+"Why freezing serves honesty"
+],
+[
+"ul",
+[
+"Every performance and footprint claim references a specific configuration",
+"Changes are versioned, so old claims can be traced to old designs",
+"Comparisons are fair because both sides name their configuration",
+"Reproducibility is possible because the subject of analysis is fixed"
+]
+],
+[
+"p",
+"The frozen canon includes the breeder's Q_sci of 3.424, plasma current of 9.86 MA, peak field of 16.84 T, and negative triangularity of -0.30, together with the burner's parameters. Freezing these lets outside reviewers check our work against a stable target — a precondition for the reproducibility that underlies environmental trust."
+],
+[
+"p",
+"<svg viewBox='0 0 420 120' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Versioned frozen designs'><g font-family='Georgia,serif' font-size='11' fill='#232C39' text-anchor='middle'><rect x='40' y='40' width='90' height='45' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='85' y='67'>v1 frozen</text><rect x='165' y='40' width='90' height='45' rx='6' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='210' y='67'>v2 frozen</text><rect x='290' y='40' width='90' height='45' rx='6' fill='#D4AD5C' opacity='0.4' stroke='#D4AD5C' stroke-width='2'/><text x='335' y='67'>current</text></g><line x1='130' y1='62' x2='165' y2='62' stroke='#232C39' stroke-width='1'/><line x1='255' y1='62' x2='290' y2='62' stroke='#232C39' stroke-width='1'/></svg>"
+],
+[
+"p",
+"Freezing does not mean refusing to improve; it means improving in versioned steps rather than in an untracked drift. Each frozen configuration is a checkpoint against which claims, footprints, and predictions can be pinned. When the design advances, the old claims remain traceable to the old design, so the record never quietly rewrites itself."
+],
+[
+"p",
+"See <a href=./reproducibility-as-environmental-trust.html>reproducibility as environmental trust</a> and <a href=./digital-before-physical.html>designing digitally before building</a>."
+]
+],
+"related": [
+[
+"reproducibility-as-environmental-trust",
+"Reproducibility"
+],
+[
+"digital-before-physical",
+"Digital Before Physical"
+],
+[
+"honest-environmental-accounting",
+"Honest Accounting"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "digital-before-physical",
+"title": "Designing Digitally Before Building",
+"cat": "environment-and-planet",
+"lede": "Simulating exhaustively before cutting metal saves materials, energy, and risk — an environmental practice as much as an engineering one.",
+"body": [
+[
+"h2",
+"Iterate in software, not in steel"
+],
+[
+"p",
+"Every physical prototype consumes materials and energy and, if it fails, produces waste. Every simulation consumes only computation. Kronos designs and tests digitally before building, iterating in software where iteration is fast and reversible. This is standard good engineering, but it is also an environmental practice: fewer wasted physical builds."
+],
+[
+"h3",
+"What we do before hardware"
+],
+[
+"ul",
+[
+"Model plasma physics and machine behavior in simulation",
+"Explore design levers digitally, such as the breeder's tritium breeding ratio range",
+"Catch failure modes before they are built into metal",
+"Freeze a design only when the digital case is strong"
+]
+],
+[
+"p",
+"Both machines are, today, design and simulation studies. Breeder construction begins Q2 2027; before then, the work is digital. This ordering means the physical resources committed to construction go toward a design already stress-tested in software, not toward a first guess."
+],
+[
+"p",
+"<svg viewBox='0 0 420 120' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Simulate many, build one'><g fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'><circle cx='60' cy='40' r='10' fill='none' stroke='#232C39' stroke-width='1.5'/><circle cx='60' cy='70' r='10' fill='none' stroke='#232C39' stroke-width='1.5'/><circle cx='60' cy='100' r='10' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='60' y='18'>simulate many</text><line x1='75' y1='70' x2='200' y2='70' stroke='#232C39' stroke-width='1.5'/><rect x='200' y='55' width='40' height='30' rx='4' fill='#D4AD5C'/><text x='300' y='73'>build the proven one</text></g></svg>"
+],
+[
+"p",
+"The environmental savings compound with the engineering ones. A failed physical prototype is not only lost time; it is embodied material and energy converted into scrap. Exhausting the reversible failures in simulation means the material failures happen far less often. Good sequencing is itself a form of resource stewardship."
+],
+[
+"p",
+"This underpins our digital-twin work and connects to <a href=./the-precautionary-approach.html>the precautionary approach</a> and <a href=./frozen-design-discipline.html>frozen-design discipline</a>."
+]
+],
+"related": [
+[
+"the-precautionary-approach",
+"Precautionary Approach"
+],
+[
+"frozen-design-discipline",
+"Frozen Design"
+],
+[
+"materials-and-the-earth",
+"Materials & the Earth"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "the-ehs-connection",
+"title": "The EHS Connection",
+"cat": "environment-and-planet",
+"lede": "Environment, health, and safety are one discipline; our planetary mission and our EHS practice share the same evidence and standards.",
+"body": [
+[
+"h2",
+"One discipline, three names"
+],
+[
+"p",
+"Environment, health, and safety (EHS) are often treated as separate compliance boxes. In practice they are one discipline: protecting people and ecosystems from the hazards of an energy technology. Our planetary mission and our EHS practice draw on the same evidence, the same conservative design margins, and the same honesty about risk."
+],
+[
+"h3",
+"Where environment meets health and safety"
+],
+[
+"ul",
+[
+"Radiological safety governs tritium handling and neutron shielding",
+"Materials choices affect both worker safety and end-of-life environmental burden",
+"Water and effluent management protect ecosystems and communities alike",
+"Honest hazard disclosure serves both regulators and the public"
+]
+],
+[
+"p",
+"The breeder's 14 MeV neutrons and tritium inventory, and the burner's lower but nonzero neutron fraction of 5.44%, are the central EHS considerations. We treat them as design inputs from the start, not as problems to manage after the fact — see <a href=./radiological-honesty.html>radiological honesty</a> and <a href=./activation-and-materials-choices.html>activation and materials choices</a>."
+],
+[
+"p",
+"<svg viewBox='0 0 260 200' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Environment health safety overlap'><circle cx='100' cy='80' r='55' fill='#232C39' opacity='0.18'/><circle cx='160' cy='80' r='55' fill='#232C39' opacity='0.18'/><circle cx='130' cy='130' r='55' fill='#D4AD5C' opacity='0.25'/><g font-family='Georgia,serif' font-size='12' fill='#232C39' text-anchor='middle'><text x='75' y='60'>Env</text><text x='185' y='60'>Health</text><text x='130' y='160'>Safety</text></g></svg>"
+],
+[
+"p",
+"Treating these as one discipline has a practical payoff: a decision made for safety, such as robust neutron shielding, often improves environmental outcomes too, and vice versa. Separating them into unrelated compliance exercises tends to miss those shared gains and to let each domain assume the others are someone else's problem."
+],
+[
+"p",
+"This is why stewardship at Kronos is inseparable from safety — see <a href=./stewardship-as-engineering-discipline.html>stewardship as an engineering discipline</a>."
+]
+],
+"related": [
+[
+"radiological-honesty",
+"Radiological Honesty"
+],
+[
+"stewardship-as-engineering-discipline",
+"Stewardship"
+],
+[
+"activation-and-materials-choices",
+"Activation & Materials"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "radiological-honesty",
+"title": "Radiological Honesty",
+"cat": "environment-and-planet",
+"lede": "Fusion involves radioactive materials; we describe tritium and neutron hazards plainly and design to contain and minimize them.",
+"body": [
+[
+"h2",
+"Naming the Hazard"
+],
+[
+"p",
+"Fusion is often described as clean, and in important ways it is. But it is not free of radiological hazard, and pretending otherwise would betray the honesty this mission is built on. The breeder (Hyperion) handles tritium, which is radioactive, and produces 14 MeV neutrons that activate structures. These are real hazards that responsible design contains and minimizes."
+],
+[
+"h3",
+"What the hazards are, and are not"
+],
+[
+"ul",
+[
+"Tritium: radioactive, mobile, short half-life; requires careful containment",
+"Neutron activation: makes structures radioactive over time; material-dependent",
+"Not present: the long-lived high-level spent-fuel waste of fission",
+"Not present: any runaway chain reaction; fusion stops when conditions are not maintained"
+]
+],
+[
+"p",
+"The burner (Aegis / MetroVolt) has a far smaller neutron burden, with only 5.44% of its energy as neutrons, which reduces activation relative to a D-T machine. But smaller is not zero, and we say so. Honest radiological communication states both the reduction and the residual."
+],
+[
+"p",
+"<svg viewBox='0 0 420 120' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Containment layers'><circle cx='120' cy='60' r='12' fill='#D4AD5C'/><circle cx='120' cy='60' r='26' fill='none' stroke='#232C39' stroke-width='1.5'/><circle cx='120' cy='60' r='40' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='250' y='50' fill='#232C39' font-family='Georgia,serif' font-size='11'>source</text><text x='250' y='72' fill='#232C39' font-family='Georgia,serif' font-size='11'>shielding</text><text x='250' y='94' fill='#232C39' font-family='Georgia,serif' font-size='11'>containment</text></svg>"
+],
+[
+"p",
+"The honest framing is comparative and specific rather than reassuring in the abstract. Fusion's radiological profile differs from fission's in kind, not merely degree: no spent-fuel waste stream, no chain reaction to arrest, but real tritium and activation hazards that demand serious containment. Stating exactly which risks apply, and which do not, is what earns the word clean."
+],
+[
+"p",
+"Containment and material selection are the levers; see <a href=./activation-and-materials-choices.html>activation and materials choices</a> and <a href=./no-long-lived-fusion-waste-honest.html>fusion waste, stated honestly</a>."
+]
+],
+"related": [
+[
+"no-long-lived-fusion-waste-honest",
+"Fusion Waste"
+],
+[
+"activation-and-materials-choices",
+"Activation & Materials"
+],
+[
+"the-ehs-connection",
+"The EHS Connection"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "activation-and-materials-choices",
+"title": "Activation and Materials Choices",
+"cat": "environment-and-planet",
+"lede": "Neutrons make structures radioactive; choosing low-activation materials shortens how long that material stays hazardous.",
+"body": [
+[
+"h2",
+"The activation problem"
+],
+[
+"p",
+"When neutrons strike a material, they can transmute its atoms into radioactive isotopes — a process called activation. For the breeder (Hyperion), with its 14 MeV neutron flux, activation of the surrounding structure is the principal source of radioactive waste. How bad and how long-lived that waste is depends heavily on which materials are used."
+],
+[
+"h3",
+"Materials as a design lever"
+],
+[
+"p",
+"Some materials activate into short-lived isotopes that decay to safe levels relatively quickly; others produce long-lived isotopes that remain hazardous for far longer. Choosing low-activation materials is therefore one of the most consequential environmental decisions in the design, and we treat it as such rather than defaulting to whatever is easiest to fabricate."
+],
+[
+"ul",
+[
+"Prefer materials that activate into shorter-lived isotopes",
+"Weigh activation against structural and thermal performance",
+"Account for end-of-life handling from the start",
+"Reduce total activated mass through compact design"
+]
+],
+[
+"p",
+"The burner's low neutron fraction of 5.44% means much less activation to begin with, which is a structural advantage of the D-3He reaction — though it depends on scarce helium-3, as noted in <a href=./helium-3-and-the-planet.html>helium-3 and the planet</a>."
+],
+[
+"p",
+"<svg viewBox='0 0 420 120' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Decay of activated material over time'><line x1='30' y1='95' x2='400' y2='95' stroke='#232C39' stroke-width='1.5'/><line x1='30' y1='20' x2='30' y2='95' stroke='#232C39' stroke-width='1.5'/><path d='M30 30 C120 90 220 92 400 93' fill='none' stroke='#D4AD5C' stroke-width='2.5'/><text x='210' y='115' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>time &#8594; hazard falls with good material choice</text></svg>"
+],
+[
+"p",
+"Because activation depends on both flux and material, the same neutron environment can leave one component safe within decades and another hazardous for far longer. Treating material selection as an environmental decision, weighed alongside strength and cost of fabrication, is how the eventual waste burden is minimized before a single neutron is ever produced."
+],
+[
+"p",
+"This decision propagates into <a href=./decommissioning-thinking.html>decommissioning thinking</a> and links to <a href=./materials-and-the-earth.html>materials and the Earth</a>."
+]
+],
+"related": [
+[
+"decommissioning-thinking",
+"Decommissioning"
+],
+[
+"materials-and-the-earth",
+"Materials & the Earth"
+],
+[
+"no-long-lived-fusion-waste-honest",
+"Fusion Waste"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "decommissioning-thinking",
+"title": "Decommissioning Thinking",
+"cat": "environment-and-planet",
+"lede": "A plant's end of life is a design input, not an afterthought; we plan for retirement while the machine is still on paper.",
+"body": [
+[
+"h2",
+"Designing for the end at the beginning"
+],
+[
+"p",
+"Many industrial legacies are burdens precisely because no one planned for their end. Kronos treats decommissioning as a design input from the start. How components will be removed, how activated material will be handled, and how much can be recycled are questions we ask while the machine is still a design, not after it has operated for decades."
+],
+[
+"h3",
+"What good end-of-life design looks like"
+],
+[
+"ul",
+[
+"Modular components that can be removed and replaced without demolishing the whole",
+"Low-activation materials so retired structures reach safe levels sooner",
+"Maximized recyclability to return material to supply chains",
+"Clear records of what was exposed to neutrons and for how long"
+]
+],
+[
+"p",
+"Because the breeder produces activated structural material, decommissioning is where its main waste stream is finally handled. Planning for that stream in advance — including the material choices in <a href=./activation-and-materials-choices.html>activation and materials choices</a> — is how a machine avoids becoming a legacy problem."
+],
+[
+"p",
+"<svg viewBox='0 0 420 120' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Modular removal and recycling'><rect x='40' y='40' width='40' height='50' fill='#232C39'/><rect x='85' y='40' width='40' height='50' fill='#232C39' opacity='0.6'/><rect x='130' y='40' width='40' height='50' fill='#232C39' opacity='0.3'/><line x1='185' y1='65' x2='250' y2='65' stroke='#D4AD5C' stroke-width='2'/><circle cx='320' cy='65' r='30' fill='none' stroke='#D4AD5C' stroke-width='2'/><path d='M320 40 A25 25 0 0 1 344 68' fill='none' stroke='#D4AD5C' stroke-width='2'/><text x='320' y='70' fill='#232C39' font-family='Georgia,serif' font-size='9' text-anchor='middle'>recycle</text></svg>"
+],
+[
+"p",
+"The contrast we want to avoid is the industrial site left as a burden because its end was never designed. By making removal, sorting, and recycling explicit design requirements now, the eventual retirement becomes a planned operation rather than an inherited problem. A machine designed for its own end is a smaller legacy than one that was not."
+],
+[
+"p",
+"End-of-life planning is part of <a href=./lifecycle-thinking.html>lifecycle thinking</a> and <a href=./from-extraction-to-stewardship.html>from extraction to stewardship</a>."
+]
+],
+"related": [
+[
+"activation-and-materials-choices",
+"Activation & Materials"
+],
+[
+"lifecycle-thinking",
+"Lifecycle Thinking"
+],
+[
+"from-extraction-to-stewardship",
+"Extraction to Stewardship"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "the-long-now-perspective",
+"title": "The Long-Now Perspective",
+"cat": "environment-and-planet",
+"lede": "Energy decisions echo for generations; we try to act as good ancestors, weighing consequences on the timescale of the biosphere.",
+"body": [
+[
+"h2",
+"Deciding on a longer clock"
+],
+[
+"p",
+"The infrastructure we build now shapes emissions, land, and materials for generations. A long-now perspective asks whether a decision will look wise not next quarter but in fifty or a hundred years — the timescale on which climate and ecosystems actually respond. This is the clock the biosphere keeps."
+],
+[
+"h3",
+"What the long clock changes"
+],
+[
+"ul",
+[
+"Preferring fuels abundant enough to last centuries, not decades",
+"Designing for end of life so we do not bequeath cleanup burdens",
+"Choosing reversible, testable steps over irreversible bets",
+"Publishing openly so future teams inherit knowledge, not just hardware"
+]
+],
+[
+"p",
+"Our staged, cautious timeline reflects this: build a first-of-a-kind, prove it, then scale. We do not rush to fleets before the physics is demonstrated, because a mistake made at scale echoes far longer than the time saved by hurrying. The breeder's construction start in Q2 2027 and first-tritium target around 2030 are steps on a much longer road."
+],
+[
+"p",
+"<svg viewBox='0 0 440 100' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Long timeline of consequences'><line x1='20' y1='55' x2='420' y2='55' stroke='#232C39' stroke-width='2'/><circle cx='60' cy='55' r='5' fill='#D4AD5C'/><text x='60' y='80' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>now</text><circle cx='240' cy='55' r='4' fill='#232C39'/><text x='240' y='80' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>decades</text><circle cx='400' cy='55' r='4' fill='#232C39'/><text x='400' y='80' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>generations</text></svg>"
+],
+[
+"p",
+"Acting as a good ancestor is a demanding standard because the people it serves cannot speak for themselves today. It argues for reversible steps, honest records, and fuels abundant enough to last, so that a future generation inherits capability and knowledge rather than cleanup and depletion. The long clock is unforgiving of shortcuts taken to save a little time now."
+],
+[
+"p",
+"This connects to <a href=./the-healed-earth-aspiration.html>the healed-Earth aspiration</a> and <a href=./building-to-uplift-humanity.html>building to uplift humanity</a>."
+]
+],
+"related": [
+[
+"the-healed-earth-aspiration",
+"Healed-Earth Aspiration"
+],
+[
+"building-to-uplift-humanity",
+"Uplift Humanity"
+],
+[
+"planetary-boundaries-framing",
+"Planetary Boundaries"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "planetary-boundaries-framing",
+"title": "The Planetary-Boundaries Framing",
+"cat": "environment-and-planet",
+"lede": "The biosphere has limits humanity should stay within; clean firm energy touches several of those boundaries at once.",
+"body": [
+[
+"h2",
+"Limits worth respecting"
+],
+[
+"p",
+"The planetary-boundaries framing describes environmental limits — for climate, land use, freshwater, biogeochemical flows, and more — within which humanity can operate safely. Crossing them risks destabilizing the systems life depends on. Energy is entangled with several of these boundaries simultaneously, which is why the energy choice matters so broadly."
+],
+[
+"h3",
+"How energy touches the boundaries"
+],
+[
+"ul",
+[
+"Climate change: driven largely by combustion emissions",
+"Land-system change: extraction and siting occupy and disturb land",
+"Freshwater use: thermal generation draws on water",
+"Biogeochemical flows: pollution from combustion alters nitrogen and other cycles"
+]
+],
+[
+"p",
+"A clean firm source can ease pressure on the climate boundary directly and on the pollution boundaries by ending combustion. It does not by itself resolve land, water, or material boundaries — those depend on how the technology is built and sited, which we treat honestly on their own pages. No energy technology sits comfortably inside every boundary."
+],
+[
+"p",
+"<svg viewBox='0 0 240 240' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Boundaries as concentric safe operating space'><circle cx='120' cy='120' r='90' fill='none' stroke='#232C39' stroke-width='1.5' stroke-dasharray='4 4'/><circle cx='120' cy='120' r='55' fill='#D4AD5C' opacity='0.2' stroke='#D4AD5C' stroke-width='2'/><text x='120' y='118' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>safe operating</text><text x='120' y='134' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>space</text><text x='120' y='30' fill='#232C39' font-family='Georgia,serif' font-size='9' text-anchor='middle'>boundary</text></svg>"
+],
+[
+"p",
+"No single technology, including ours, sits comfortably within every boundary at once; each involves trade-offs among them. The value of the framing is that it forces those trade-offs into view rather than letting a benefit on one boundary hide a cost on another. We use it to keep our own accounting honest across more than just the climate axis."
+],
+[
+"p",
+"See <a href=./energy-and-the-biosphere.html>energy and the biosphere</a> and <a href=./the-biosphere-and-thermal-limits.html>the biosphere and thermal limits</a>."
+]
+],
+"related": [
+[
+"energy-and-the-biosphere",
+"Energy & the Biosphere"
+],
+[
+"the-biosphere-and-thermal-limits",
+"Thermal Limits"
+],
+[
+"the-long-now-perspective",
+"The Long Now"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "energy-return-and-society",
+"title": "Energy Return and Society",
+"cat": "environment-and-planet",
+"lede": "A source worth building must return far more usable energy than it takes to build and run it; that surplus is what powers civilization.",
+"body": [
+[
+"h2",
+"Surplus is the point"
+],
+[
+"p",
+"An energy source is only useful if it returns substantially more energy over its life than was invested to build, fuel, and run it. That surplus is what runs hospitals, farms, and cities beyond the energy sector itself. A source that barely breaks even, no matter how clean, cannot carry a civilization."
+],
+[
+"h3",
+"Why we are candid about this"
+],
+[
+"p",
+"For fusion, the honest statement is that net energy return is exactly what remains to be demonstrated in hardware. The breeder's scientific gain figure, Q_sci of 3.424, is a plasma-physics result from design study, not a whole-plant energy return, and not yet a hardware measurement. We make no hardware net-gain claim before the first-of-a-kind machine operates around 2030."
+],
+[
+"ul",
+[
+"Surplus energy is what makes a source worth building",
+"Plasma gain is not the same as whole-plant net energy return",
+"We claim no hardware net gain before first-of-a-kind operation"
+]
+],
+[
+"p",
+"<svg viewBox='0 0 420 120' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Energy invested versus returned'><rect x='60' y='60' width='40' height='30' fill='#232C39'/><text x='80' y='108' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>invested</text><rect x='200' y='30' width='40' height='60' fill='#D4AD5C'/><text x='220' y='108' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>returned</text><text x='150' y='55' fill='#232C39' font-family='Georgia,serif' font-size='14'>&#8594;</text><text x='300' y='60' fill='#232C39' font-family='Georgia,serif' font-size='10'>surplus powers society</text></svg>"
+],
+[
+"p",
+"The distinction between plasma gain and whole-plant return is one we insist on because it is so often blurred. A machine can reach an impressive plasma-physics result and still not deliver net usable energy once the whole plant is accounted for. Which is why our gain figure is presented as what it is — a design-study physics result, not a demonstrated societal surplus."
+],
+[
+"p",
+"This candor is central to <a href=./what-we-will-not-claim.html>what we will not claim</a> and to <a href=./the-energy-poverty-problem.html>the energy-poverty problem</a>, which needs real surplus to solve."
+]
+],
+"related": [
+[
+"what-we-will-not-claim",
+"What We Won't Claim"
+],
+[
+"the-energy-poverty-problem",
+"Energy Poverty"
+],
+[
+"clean-firm-power-and-climate",
+"Clean Firm Power"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "grid-resilience-and-climate-adaptation",
+"title": "Grid Resilience and Climate Adaptation",
+"cat": "environment-and-planet",
+"lede": "A warming world brings harsher weather to the grid; firm, sited generation can make power systems more resilient, not just cleaner.",
+"body": [
+[
+"h2",
+"Two problems at once"
+],
+[
+"p",
+"Climate action is usually framed as mitigation — cutting emissions. But a changing climate also stresses the systems we already depend on, including the electricity grid, through heat waves, storms, and shifting demand. Adaptation matters alongside mitigation. Firm, sited clean generation can serve both: it cuts emissions and it hardens the grid."
+],
+[
+"h3",
+"How firm sited power helps"
+],
+[
+"ul",
+[
+"Weather-independent output when storms cut variable generation",
+"On-site or near-load generation reduces exposure to long transmission lines",
+"Continuous supply for critical loads during extreme events",
+"Diversity of sources makes the whole system harder to knock out"
+]
+],
+[
+"p",
+"The burner housings are studied for exactly such sited, critical loads: <a href=./data-centers-and-clean-power.html>MetroVolt</a> for continuous compute and <a href=./defense-installations-and-clean-power.html>Aegis</a> for fixed installations. Reducing dependence on long, storm-exposed transmission is a resilience benefit distinct from the emissions benefit."
+],
+[
+"p",
+"<svg viewBox='0 0 420 130' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Sited generation resilient to storm'><path d='M60 30 q20 15 0 30 q-20 15 0 30' fill='none' stroke='#232C39' stroke-width='1.5'/><rect x='150' y='55' width='70' height='40' rx='6' fill='#D4AD5C'/><text x='185' y='80' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>firm site</text><rect x='260' y='55' width='90' height='40' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='305' y='80' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>critical load</text><line x1='220' y1='75' x2='260' y2='75' stroke='#D4AD5C' stroke-width='3'/></svg>"
+],
+[
+"p",
+"Resilience and cleanliness usually get argued separately, as if adaptation and mitigation competed for attention. Firm, sited clean generation collapses that trade-off: the same asset that lowers emissions also keeps critical load served when a storm takes down the lines. Designing for both at once is more honest about the world these machines would actually operate in."
+],
+[
+"p",
+"We claim no operating resilience record, because the machines are unbuilt. The point is design intent: firm, sited clean power addresses adaptation and mitigation together. See <a href=./why-firm-power-matters.html>why firm power matters</a>."
+]
+],
+"related": [
+[
+"why-firm-power-matters",
+"Why Firm Power Matters"
+],
+[
+"data-centers-and-clean-power",
+"MetroVolt"
+],
+[
+"firm-power-vs-intermittency",
+"Firm vs. Intermittent"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "the-moral-case-for-clean-energy",
+"title": "The Moral Case for Clean Energy",
+"cat": "environment-and-planet",
+"lede": "Pollution and climate harm fall hardest on those least responsible; clean, abundant energy is a question of justice as well as ecology.",
+"body": [
+[
+"h2",
+"Harm is not shared equally"
+],
+[
+"p",
+"The costs of dirty energy — polluted air, climate disruption, degraded land — fall most heavily on communities that contributed least to causing them and can least afford to escape them. A clean-energy mission that ignores this distribution addresses ecology while sidestepping justice. We do not separate the two."
+],
+[
+"h3",
+"Two obligations at once"
+],
+[
+"ul",
+[
+"Stop imposing pollution on those who did not choose it",
+"Extend enough clean energy to those who currently have too little"
+]
+],
+[
+"p",
+"This is why we reject a framing of environmentalism as pure restraint. Restraint asked only of those with little is not justice. The moral case is for abundant clean energy widely shared, so that health and opportunity do not require burning fuel that harms someone downwind. See <a href=./the-energy-poverty-problem.html>the energy-poverty problem</a>."
+],
+[
+"p",
+"<svg viewBox='0 0 420 120' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Balancing harm and access'><line x1='210' y1='30' x2='210' y2='95' stroke='#232C39' stroke-width='2'/><line x1='120' y1='55' x2='300' y2='55' stroke='#232C39' stroke-width='2'/><circle cx='120' cy='55' r='6' fill='#232C39'/><circle cx='300' cy='55' r='6' fill='#D4AD5C'/><text x='120' y='85' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>less harm</text><text x='300' y='85' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>more access</text></svg>"
+],
+[
+"p",
+"We are careful not to launder a business into a moral crusade. The obligation described here is a reason to build well and share widely, not a certificate that we already have. The machines are unbuilt and the justice they might serve is prospective. What the moral case does is set the standard against which we expect to be judged if we succeed."
+],
+[
+"p",
+"We hold this as a value that shapes what we build toward, not a benefit we have delivered. The machines are unbuilt. The obligation is to build them, if we can, in service of that justice — see <a href=./building-to-uplift-humanity.html>building to uplift humanity</a>."
+]
+],
+"related": [
+[
+"the-energy-poverty-problem",
+"Energy Poverty"
+],
+[
+"building-to-uplift-humanity",
+"Uplift Humanity"
+],
+[
+"air-quality-and-combustion",
+"Air Quality"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "humility-about-what-we-dont-know",
+"title": "Humility About What We Don't Know",
+"cat": "environment-and-planet",
+"lede": "Fusion is hard and unfinished; stating our uncertainties plainly is part of being trustworthy about the planet.",
+"body": [
+[
+"h2",
+"Uncertainty, stated out loud"
+],
+[
+"p",
+"Fusion energy is one of the hardest engineering problems attempted, and it is not finished. Kronos has not built a working power plant. Treating our designs as if their benefits were already realized would be dishonest, and dishonesty is corrosive to the environmental trust this mission depends on. So we state our uncertainties plainly."
+],
+[
+"h3",
+"What we do not yet know"
+],
+[
+"ul",
+[
+"Whether the machines will achieve hardware net energy gain",
+"How real components will behave over years of neutron exposure",
+"How a helium-3 supply for a burner fleet would be secured at scale",
+"How every lifecycle footprint estimate compares to eventual measured data"
+]
+],
+[
+"p",
+"Naming these is not weakness; it is the precondition for being believed when we do report a solid result. Our staged timeline, pre-registered predictions, and open data all exist so that our uncertainties are visible and our confirmed claims are trustworthy. See <a href=./pre-registered-predictions-and-honesty.html>pre-registered predictions</a> and <a href=./what-we-will-not-claim.html>what we will not claim</a>."
+],
+[
+"p",
+"<svg viewBox='0 0 420 110' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Known and unknown regions'><rect x='40' y='35' width='140' height='45' rx='6' fill='#D4AD5C' opacity='0.4' stroke='#D4AD5C' stroke-width='2'/><text x='110' y='62' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>what we know</text><rect x='230' y='35' width='150' height='45' rx='6' fill='none' stroke='#232C39' stroke-width='1.5' stroke-dasharray='5 4'/><text x='305' y='62' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>what we don't</text></svg>"
+],
+[
+"p",
+"Stated uncertainties are also a defense against our own enthusiasm. It is easy, working on something you believe in, to let hope harden into assertion. Writing down what remains unknown, and returning to that list as results arrive, is a structural check on that drift — one that keeps the confident claims rare enough to be worth something."
+],
+[
+"p",
+"Humility also keeps us open to being wrong — the heart of <a href=./the-precautionary-approach.html>the precautionary approach</a>."
+]
+],
+"related": [
+[
+"pre-registered-predictions-and-honesty",
+"Pre-Registered Predictions"
+],
+[
+"what-we-will-not-claim",
+"What We Won't Claim"
+],
+[
+"the-precautionary-approach",
+"Precautionary Approach"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "fusion-among-clean-technologies",
+"title": "Fusion Among Clean Technologies",
+"cat": "environment-and-planet",
+"lede": "We reject either-or thinking; fusion should earn a place in a broad clean-energy portfolio, not displace the technologies already working.",
+"body": [
+[
+"h2",
+"Not a silver bullet, a portfolio member"
+],
+[
+"p",
+"Some technology stories cast a favored option as the one true answer that makes all others obsolete. That framing is both wrong and harmful. The clean-energy transition needs solar, wind, storage, geothermal, advanced fission, efficiency, and grid improvements — all of them, deployed now. Fusion, if it works, joins that portfolio; it does not replace it."
+],
+[
+"h3",
+"What each does best"
+],
+[
+"ul",
+[
+"Solar and wind: abundant energy where conditions allow",
+"Storage: shifting energy across hours",
+"Geothermal and fission: firm clean power today",
+"Fusion: a candidate firm source, still to be proven"
+]
+],
+[
+"p",
+"Casting fusion as a reason to slow deployment of proven renewables would be a real environmental harm, because the atmosphere responds to emissions cut now, not to promises of a better source later. We are explicit: build what works today, and develop fusion as an addition, not an excuse."
+],
+[
+"p",
+"<svg viewBox='0 0 420 120' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Portfolio of clean sources'><g font-family='Georgia,serif' font-size='9' fill='#232C39' text-anchor='middle'><rect x='30' y='45' width='60' height='40' fill='#232C39' opacity='0.7'/><text x='60' y='100'>solar</text><rect x='100' y='45' width='60' height='40' fill='#232C39' opacity='0.55'/><text x='130' y='100'>wind</text><rect x='170' y='45' width='60' height='40' fill='#232C39' opacity='0.4'/><text x='200' y='100'>storage</text><rect x='240' y='45' width='60' height='40' fill='#232C39' opacity='0.3'/><text x='270' y='100'>geo/fission</text><rect x='310' y='45' width='60' height='40' fill='#D4AD5C'/><text x='340' y='100'>fusion</text></g></svg>"
+],
+[
+"p",
+"The strongest version of our position is that we would rather be one useful member of a diverse clean portfolio than the imagined hero of a story that slows real deployment. Emissions respond to what is built now. Any framing of fusion that discourages proven technologies today would do environmental harm even if the fusion eventually worked."
+],
+[
+"p",
+"This is the humility of <a href=./firm-power-vs-intermittency.html>firm versus intermittent</a> extended to the whole field, and it is why we practice <a href=./the-open-science-flywheel.html>open science</a> that lifts everyone."
+]
+],
+"related": [
+[
+"firm-power-vs-intermittency",
+"Firm vs. Intermittent"
+],
+[
+"the-open-science-flywheel",
+"Open-Science Flywheel"
+],
+[
+"clean-firm-power-and-climate",
+"Clean Firm Power"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "the-biosphere-and-thermal-limits",
+"title": "The Biosphere and Thermal Limits",
+"cat": "environment-and-planet",
+"lede": "All energy use ends as heat; naming this ultimate limit keeps our ambitions honest even for a carbon-free source.",
+"body": [
+[
+"h2",
+"The limit beyond carbon"
+],
+[
+"p",
+"Even a perfectly carbon-free energy source is not free of physical limits. By thermodynamics, essentially all energy humanity uses eventually degrades into waste heat delivered to the environment. Today this is a negligible effect beside greenhouse warming, but it is a real ceiling on how much energy a planet's surface can absorb without warming from the heat itself."
+],
+[
+"h3",
+"Why we name it"
+],
+[
+"p",
+"Naming this limit is a matter of intellectual honesty. It means that abundant clean energy is not a license for unbounded growth in energy use forever; it shifts the binding constraint from emissions to heat rejection at some far-off scale. Acknowledging that keeps the healed-Earth aspiration grounded rather than utopian."
+],
+[
+"ul",
+[
+"Carbon-free removes the greenhouse constraint, not the heat constraint",
+"Waste heat is negligible today, but not infinitely so",
+"Abundance still asks for wisdom about how much we use"
+]
+],
+[
+"p",
+"<svg viewBox='0 0 420 130' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Energy in becomes heat out'><circle cx='120' cy='65' r='40' fill='none' stroke='#232C39' stroke-width='2'/><text x='120' y='69' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>energy use</text><path d='M162 65 h60' stroke='#D4AD5C' stroke-width='2' marker-end='url(#h)'/><defs><marker id='h' markerWidth='8' markerHeight='8' refX='4' refY='4' orient='auto'><path d='M0 0 L8 4 L0 8 z' fill='#D4AD5C'/></marker></defs><text x='300' y='69' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>waste heat</text></svg>"
+],
+[
+"p",
+"Naming the heat limit is not fatalism; today it is far from binding and greenhouse warming dominates entirely. But acknowledging it keeps the aspiration of abundance from sliding into a fantasy of infinite growth. Even the cleanest energy asks for judgment about how much a civilization needs, not merely how cleanly it can be produced."
+],
+[
+"p",
+"This is the far horizon of <a href=./planetary-boundaries-framing.html>the planetary-boundaries framing</a> and a reason for the restraint in <a href=./the-long-now-perspective.html>the long-now perspective</a>."
+]
+],
+"related": [
+[
+"planetary-boundaries-framing",
+"Planetary Boundaries"
+],
+[
+"the-long-now-perspective",
+"The Long Now"
+],
+[
+"energy-and-the-biosphere",
+"Energy & the Biosphere"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "from-extraction-to-stewardship",
+"title": "From Extraction to Stewardship",
+"cat": "environment-and-planet",
+"lede": "Abundant clean energy could let a civilization recycle rather than perpetually mine — shifting its relationship to the Earth.",
+"body": [
+[
+"h2",
+"The extractive default"
+],
+[
+"p",
+"Industrial civilization has largely run on extraction: dig up material and fuel, use them once, discard the remains. This works only while the crust and the atmosphere seem infinite. They are not. A different relationship — stewardship — treats materials as loops to be closed and the biosphere as something to maintain, not deplete."
+],
+[
+"h3",
+"Where energy is the hinge"
+],
+[
+"p",
+"Recycling is often more energy-intensive than mining; that is a large part of why we mine instead. Abundant clean energy changes that calculation. When energy is clean and plentiful, closing material loops stops carrying an emissions penalty, and stewardship becomes practical rather than merely virtuous. Energy is the hinge on which extraction can turn into stewardship."
+],
+[
+"ul",
+[
+"Recycling trades material extraction for energy input",
+"Clean abundant energy removes the emissions penalty of that trade",
+"Fusion fuels are abundant, reinforcing the shift away from scarce extraction"
+]
+],
+[
+"p",
+"<svg viewBox='0 0 420 130' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Linear extraction versus circular stewardship'><line x1='30' y1='40' x2='180' y2='40' stroke='#232C39' stroke-width='2' marker-end='url(#l)'/><defs><marker id='l' markerWidth='8' markerHeight='8' refX='4' refY='4' orient='auto'><path d='M0 0 L8 4 L0 8 z' fill='#232C39'/></marker></defs><text x='100' y='30' fill='#232C39' font-family='Georgia,serif' font-size='9' text-anchor='middle'>extract &#8594; discard</text><circle cx='320' cy='60' r='38' fill='none' stroke='#D4AD5C' stroke-width='2.5'/><path d='M320 22 A38 38 0 0 1 355 55' fill='none' stroke='#D4AD5C' stroke-width='2.5' marker-end='url(#l)'/><text x='320' y='64' fill='#232C39' font-family='Georgia,serif' font-size='9' text-anchor='middle'>reuse</text></svg>"
+],
+[
+"p",
+"None of this happens automatically. Abundant clean energy makes stewardship possible, not inevitable; the loops still have to be designed and the incentives still have to favor closing them. But removing the emissions penalty on recycling is a genuine unlock, because it turns a choice that currently costs the atmosphere into one that no longer does."
+],
+[
+"p",
+"We design our own machines with this in mind — see <a href=./decommissioning-thinking.html>decommissioning thinking</a> and <a href=./materials-and-the-earth.html>materials and the Earth</a>."
+]
+],
+"related": [
+[
+"materials-and-the-earth",
+"Materials & the Earth"
+],
+[
+"decommissioning-thinking",
+"Decommissioning"
+],
+[
+"the-healed-earth-aspiration",
+"Healed-Earth Aspiration"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "building-to-uplift-humanity",
+"title": "Building to Uplift Humanity",
+"cat": "environment-and-planet",
+"lede": "The purpose behind the physics: energy that raises human dignity and gives the living world room to recover.",
+"body": [
+[
+"h2",
+"Why we do this"
+],
+[
+"p",
+"The physics is demanding and the timeline is long, so the purpose has to be clear. Kronos exists to help provide energy that raises human dignity — health, education, opportunity, and clean air — while giving the biosphere room to recover. That is what we mean by building to uplift humanity. It is the reason the hard work is worth doing."
+],
+[
+"h3",
+"Uplift is concrete, not vague"
+],
+[
+"ul",
+[
+"Air free of combustion products for the communities near power",
+"Enough reliable energy for clinics, schools, and industry",
+"Medical isotopes from the breeder's neutrons for human health",
+"A material economy that recycles instead of endlessly extracting"
+]
+],
+[
+"p",
+"We are careful to hold this as motivation, not as an accomplishment. The machines are design and simulation studies; they have uplifted no one yet. The honest claim is about intent and direction, backed by the discipline — open data, pre-registered predictions, staged testing — that would make the intent real if the physics closes."
+],
+[
+"p",
+"<svg viewBox='0 0 420 120' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Energy lifting human wellbeing'><line x1='30' y1='95' x2='400' y2='95' stroke='#232C39' stroke-width='1.5'/><path d='M40 90 L140 70 L240 50 L360 30' fill='none' stroke='#D4AD5C' stroke-width='2.5'/><g fill='#232C39'><circle cx='40' cy='90' r='4'/><circle cx='140' cy='70' r='4'/><circle cx='240' cy='50' r='4'/><circle cx='360' cy='30' r='4'/></g><text x='210' y='115' fill='#232C39' font-family='Georgia,serif' font-size='10' text-anchor='middle'>clean energy &#8594; human wellbeing</text></svg>"
+],
+[
+"p",
+"We separate motivation from accomplishment on purpose, because conflating them is how mission language turns into marketing. The uplift described here is a direction of travel and a test we invite others to hold us to, backed by open data and staged proof. If the physics does not close, the honest response is to say so, not to redescribe the aspiration as a result."
+],
+[
+"p",
+"This purpose sits above every technical page — see <a href=./the-healed-earth-aspiration.html>the healed-Earth aspiration</a> and <a href=./the-moral-case-for-clean-energy.html>the moral case for clean energy</a>."
+]
+],
+"related": [
+[
+"the-healed-earth-aspiration",
+"Healed-Earth Aspiration"
+],
+[
+"the-moral-case-for-clean-energy",
+"The Moral Case"
+],
+[
+"neutrons-for-medicine-and-the-planet",
+"Neutrons for Health"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "what-we-will-not-claim",
+"title": "What We Will Not Claim",
+"cat": "environment-and-planet",
+"lede": "Honesty is defined as much by restraint as by assertion; here are the environmental claims we deliberately refuse to make.",
+"body": [
+[
+"h2",
+"The discipline of restraint"
+],
+[
+"p",
+"Environmental communication is full of claims that outrun the evidence. On this mission, honesty means naming what we will not say as clearly as what we will. These refusals are not hedging; they are the boundary that makes our positive claims worth trusting."
+],
+[
+"h3",
+"Claims we refuse to make"
+],
+[
+"ul",
+[
+"That either machine has achieved hardware net energy gain — it has not; we make no such claim before the first-of-a-kind operates",
+"That fusion is entirely waste-free — the breeder produces activated structural material",
+"That a burner fleet's helium-3 supply is solved — it is not",
+"That our footprint figures are measured plant data — they are design-study estimates",
+"That fusion should displace renewables — it should complement them"
+]
+],
+[
+"p",
+"We also refuse to attach economics of any kind to environmental claims, and to present a single design number as if the design were settled when it is a studied range — as with the breeder's tritium breeding ratio across 1.1, 1.5, and 1.8."
+],
+[
+"p",
+"<svg viewBox='0 0 420 110' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Line between claimed and not claimed'><line x1='210' y1='20' x2='210' y2='90' stroke='#232C39' stroke-width='2' stroke-dasharray='5 4'/><text x='110' y='58' fill='#232C39' font-family='Georgia,serif' font-size='11' text-anchor='middle'>what we claim</text><text x='315' y='58' fill='#D4AD5C' font-family='Georgia,serif' font-size='11' text-anchor='middle'>what we won't</text></svg>"
+],
+[
+"p",
+"Keeping this list explicit and public is itself a commitment. It gives readers a fixed standard to hold us to and makes backsliding visible: if a future claim of ours crosses one of these lines, the crossing is on the record. Refusals stated in advance are harder to quietly abandon than good intentions kept only in mind."
+],
+[
+"p",
+"This page is the backstop for every other environmental claim on the site. See <a href=./humility-about-what-we-dont-know.html>humility about what we don't know</a> and <a href=./honest-environmental-accounting.html>honest environmental accounting</a>."
+]
+],
+"related": [
+[
+"humility-about-what-we-dont-know",
+"Humility"
+],
+[
+"honest-environmental-accounting",
+"Honest Accounting"
+],
+[
+"pre-registered-predictions-and-honesty",
+"Pre-Registered Predictions"
+]
+],
+"seo_type": "TechArticle"
+},
+{
+"slug": "the-mission-in-one-page",
+"title": "The Mission, in One Page",
+"cat": "environment-and-planet",
+"lede": "Clean firm energy, developed in the open with honest limits, in service of people and the biosphere — the whole argument, briefly.",
+"body": [
+[
+"h2",
+"The argument, compressed"
+],
+[
+"p",
+"Energy sits upstream of nearly every pressure on the biosphere. A clean, firm, non-combustion source could relieve several of those pressures at once — climate, air, and, if it enables recycling, materials. Fusion is a candidate for that firm role. We are studying two machines toward it, and we are honest that they are not yet built."
+],
+[
+"h3",
+"What we are building"
+],
+[
+"ul",
+[
+"Breeder (Hyperion): a D-T spherical tokamak, tritium and helium-3 and 14 MeV neutrons; construction begins Q2 2027, first tritium targeted around 2030",
+"Burner (Aegis / MetroVolt): a D-3He tandem-mirror generator with direct energy conversion and a low neutron fraction of 5.44%, for fixed installations and data centers"
+]
+],
+[
+"p",
+"We make no hardware net-gain claim before the first-of-a-kind machine operates. Where the science is unsettled — the tritium breeding ratio, the helium-3 supply — we say so. Every environmental figure we give is a design-study estimate, labeled as such."
+],
+[
+"h3",
+"How we build"
+],
+[
+"p",
+"In the open. We publish papers with DOIs, share data under open licenses, pre-register falsifiable predictions, keep a reproducible analysis record, freeze designs so claims attach to real configurations, and design digitally before cutting metal. These practices are how environmental trust is earned rather than asserted."
+],
+[
+"p",
+"<svg viewBox='0 0 420 120' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Purpose, machines, practice'><g font-family='Georgia,serif' font-size='11' fill='#232C39' text-anchor='middle'><circle cx='90' cy='60' r='34' fill='#D4AD5C' opacity='0.35' stroke='#D4AD5C' stroke-width='2'/><text x='90' y='63'>purpose</text><circle cx='210' cy='60' r='34' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='210' y='63'>machines</text><circle cx='330' cy='60' r='34' fill='none' stroke='#232C39' stroke-width='1.5'/><text x='330' y='63'>open practice</text></g></svg>"
+],
+[
+"p",
+"The purpose sits above all of it: energy that uplifts humanity and gives the Earth room to recover. See <a href=./building-to-uplift-humanity.html>building to uplift humanity</a> and <a href=./what-we-will-not-claim.html>what we will not claim</a>."
+]
+],
+"related": [
+[
+"building-to-uplift-humanity",
+"Uplift Humanity"
+],
+[
+"the-clean-planet-case",
+"The Clean-Planet Case"
+],
+[
+"what-we-will-not-claim",
+"What We Won't Claim"
+]
+],
+"seo_type": "TechArticle"
+}
+]
