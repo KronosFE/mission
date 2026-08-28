@@ -72,7 +72,7 @@
    ],
    [
     "p",
-    "In a field where no privately built machine has yet produced sustained net energy, a company's claims are only as good as the evidence a skeptic can independently examine. Kronos treats external reproduction as the real test. If our breeder design point &mdash; Q_sci 3.424 at 88.7 MW fusion power, 9.86 MA plasma current &mdash; only exists inside our own tooling, it is an assertion. Once the inputs and code are public and someone else recovers the same figure, it becomes a shared result."
+    "In a field where no privately built machine has yet produced sustained net energy, a company's claims are only as good as the evidence a skeptic can independently examine. Kronos treats external reproduction as the real test. If our breeder design point &mdash; Q_sci 3.076 at 85.0 MW fusion power, 9.66 MA plasma current &mdash; only exists inside our own tooling, it is an assertion. Once the inputs and code are public and someone else recovers the same figure, it becomes a shared result."
    ],
    [
     "h3",
@@ -185,7 +185,7 @@
    ],
    [
     "p",
-    "The breeder paper presents Hyperion, a deuterium&ndash;tritium spherical tokamak. Its published design point is a scientific gain Q_sci of 3.424 at a fusion power of 88.7 MW, with a plasma current of 9.86 MA, a peak field of 16.84 T (about 8 T on-axis), and negative triangularity of delta &minus;0.30. These are simulation results for a machine whose construction is planned to begin in Q2 2027."
+    "The breeder paper presents Hyperion, a deuterium&ndash;tritium spherical tokamak. Its published design point is a scientific gain Q_sci of 3.076 at a fusion power of 85.0 MW, with a plasma current of 9.66 MA, a peak field of 16.84 T (about 8 T on-axis), and negative triangularity of delta &minus;0.30. These are simulation results for a machine whose construction is planned to begin in Q2 2027."
    ],
    [
     "h3",
@@ -689,7 +689,7 @@
    [
     "ul",
     [
-     "The inputs: the exact parameter values that define a design point, such as the breeder's 9.86 MA plasma current and delta &minus;0.30 triangularity.",
+     "The inputs: the exact parameter values that define a design point, such as the breeder's 9.66 MA plasma current and delta &minus;0.30 triangularity.",
      "The provenance: which code version and environment produced each file; see <a href=./version-control-and-provenance.html>version control and provenance</a>.",
      "The checks: checksums so a reader can confirm the download matches the deposit.",
      "The scope: a clear statement that these are simulation outputs, not hardware measurements."
@@ -958,7 +958,7 @@
     "code",
     [
      "python",
-     "# reproduce a published design point, end to end\nfrom kronos_repro import load_inputs, run_sweep, verify\n\ninputs = load_inputs('breeder/design_point.yaml')   # exact published parameters\nresult = run_sweep(inputs)                            # rerun the search\n\n# Q_sci, fusion power, plasma current recovered from the rerun\nprint(result.Q_sci, result.P_fus_MW, result.Ip_MA)   # -> 3.424 88.7 9.86\n\nverify(result, reference='breeder/reference.json')    # tiered check, must pass"
+     "# reproduce a published design point, end to end\nfrom kronos_repro import load_inputs, run_sweep, verify\n\ninputs = load_inputs('breeder/design_point.yaml')   # exact published parameters\nresult = run_sweep(inputs)                            # rerun the search\n\n# Q_sci, fusion power, plasma current recovered from the rerun\nprint(result.Q_sci, result.P_fus_MW, result.Ip_MA)   # -> 3.076 85.0 9.66\n\nverify(result, reference='breeder/reference.json')    # tiered check, must pass"
     ]
    ],
    [
@@ -1199,7 +1199,7 @@
    ],
    [
     "p",
-    "A design under active study changes daily. A published record cannot. Kronos resolves the tension by <b>freezing</b> a design point: fixing the canonical numbers &mdash; the breeder's Q_sci 3.424, 88.7 MW, 9.86 MA, 16.84 T, delta &minus;0.30; the burner's 26.49 T plug, 17 T throat, 5.44% neutron fraction &mdash; and requiring every public figure, page, and deposit to use exactly those values. A frozen set is the single source of truth for everything downstream."
+    "A design under active study changes daily. A published record cannot. Kronos resolves the tension by <b>freezing</b> a design point: fixing the canonical numbers &mdash; the breeder's Q_sci 3.076, 85.0 MW, 9.66 MA, 16.84 T, delta &minus;0.30; the burner's 26.49 T plug, 17 T throat, 5.44% neutron fraction &mdash; and requiring every public figure, page, and deposit to use exactly those values. A frozen set is the single source of truth for everything downstream."
    ],
    [
     "h3",
@@ -1208,7 +1208,7 @@
    [
     "ul",
     [
-     "Consistency: a reader who sees 88.7 MW on one page and a different figure on another loses trust immediately; freezing forbids the mismatch.",
+     "Consistency: a reader who sees 85.0 MW on one page and a different figure on another loses trust immediately; freezing forbids the mismatch.",
      "Traceability: because the numbers are fixed and versioned, any figure can be traced back to the frozen set that produced it.",
      "Honesty about change: when the design genuinely moves, a new freeze is issued as a new version rather than editing the old numbers in place."
     ]
@@ -1282,7 +1282,7 @@
    ],
    [
     "p",
-    "No hardware net-gain claim is made before first-of-a-kind first tritium. That is the line the whole record respects: a simulated Q_sci of 3.424 is a design result, not a demonstration of net energy from a built machine. Blurring the two is the error we most want to avoid; see <a href=./the-honest-gates.html>the honest gates</a>."
+    "No hardware net-gain claim is made before first-of-a-kind first tritium. That is the line the whole record respects: a simulated Q_sci of 3.076 is a design result, not a demonstration of net energy from a built machine. Blurring the two is the error we most want to avoid; see <a href=./the-honest-gates.html>the honest gates</a>."
    ],
    [
     "h3",
@@ -1335,7 +1335,7 @@
     "ul",
     [
      "Explain the machines at depth: how the breeder and burner work, component by component.",
-     "Stay consistent: every page draws on the frozen design point, so 88.7 MW means the same thing throughout.",
+     "Stay consistent: every page draws on the frozen design point, so 85.0 MW means the same thing throughout.",
      "Remain honest: the honest gates appear in the library, not only in the papers.",
      "Carry no economics: the library is subject to the same firewall as every public artifact; see <a href=./what-we-dont-publish.html>what we don't publish</a>."
     ]

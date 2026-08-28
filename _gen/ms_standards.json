@@ -58,7 +58,7 @@
    ],
    [
     "p",
-    "A fusion device couples plasma physics, electromagnetics, neutron transport, heat transfer, and structural mechanics. Rigor begins by naming which equations govern each part, in what regime they hold, and where we knowingly approximate. The breeder (Hyperion) is a D-T spherical tokamak with plasma current 9.86 MA, peak field 16.84 T (8 T on-axis), and negative triangularity delta -0.30; each of those is an input or output of a specific model, not a round number chosen for effect."
+    "A fusion device couples plasma physics, electromagnetics, neutron transport, heat transfer, and structural mechanics. Rigor begins by naming which equations govern each part, in what regime they hold, and where we knowingly approximate. The breeder (Hyperion) is a D-T spherical tokamak with plasma current 9.66 MA, peak field 16.84 T (8 T on-axis), and negative triangularity delta -0.30; each of those is an input or output of a specific model, not a round number chosen for effect."
    ],
    [
     "h3",
@@ -66,7 +66,7 @@
    ],
    [
     "p",
-    "Every model carries assumptions: a transport closure, an equation of state, a boundary condition, a materials property at temperature. We list them. A reader who disagrees with an assumption can see exactly which result it touches. The design figures for fusion power (88.7 MW) and scientific gain (Q_sci 3.424) are the outputs of a stated modelling chain, and the chain is the claim, not just the number at the end."
+    "Every model carries assumptions: a transport closure, an equation of state, a boundary condition, a materials property at temperature. We list them. A reader who disagrees with an assumption can see exactly which result it touches. The design figures for fusion power (85.0 MW) and scientific gain (Q_sci 3.076) are the outputs of a stated modelling chain, and the chain is the claim, not just the number at the end."
    ],
    [
     "h3",
@@ -129,7 +129,7 @@
    ],
    [
     "p",
-    "Mathematical rigor also means resisting false precision. Reporting a derived quantity to more digits than the inputs justify is itself an error; the significant figures we print are chosen to match the uncertainty, not to look authoritative. A number that reads 3.424 is stated to that precision because the analysis supports it, not because more digits look better. When the rounding, the notation, and the bounded approximations are all in order, the mathematics stops being a place errors can hide and becomes a place a reviewer can trust to be exactly as accurate as it claims."
+    "Mathematical rigor also means resisting false precision. Reporting a derived quantity to more digits than the inputs justify is itself an error; the significant figures we print are chosen to match the uncertainty, not to look authoritative. A number that reads 3.076 is stated to that precision because the analysis supports it, not because more digits look better. When the rounding, the notation, and the bounded approximations are all in order, the mathematics stops being a place errors can hide and becomes a place a reviewer can trust to be exactly as accurate as it claims."
    ]
   ],
   "related": [
@@ -168,7 +168,7 @@
    ],
    [
     "p",
-    "Before running a detailed simulation, we estimate the answer from dimensional grouping and characteristic scales. If the detailed result disagrees with the scaling estimate by an order of magnitude, one of them is wrong and we find out which before trusting either. This is how a peak field of 16.84 T or a fusion power near 88.7 MW is first bracketed: the order of magnitude has to be defensible from scaling alone."
+    "Before running a detailed simulation, we estimate the answer from dimensional grouping and characteristic scales. If the detailed result disagrees with the scaling estimate by an order of magnitude, one of them is wrong and we find out which before trusting either. This is how a peak field of 16.84 T or a fusion power near 85.0 MW is first bracketed: the order of magnitude has to be defensible from scaling alone."
    ],
    [
     "h3",
@@ -219,7 +219,7 @@
    ],
    [
     "p",
-    "For the breeder (Hyperion), the fusion power of 88.7 MW and the scientific gain Q_sci of 3.424 are two faces of one balance: power out versus power in. Those numbers only mean anything if the full accounting closes, including radiated power, conduction losses, and the heating power in the denominator of Q. We report the balance, not just the ratio."
+    "For the breeder (Hyperion), the fusion power of 85.0 MW and the scientific gain Q_sci of 3.076 are two faces of one balance: power out versus power in. Those numbers only mean anything if the full accounting closes, including radiated power, conduction losses, and the heating power in the denominator of Q. We report the balance, not just the ratio."
    ],
    [
     "h3",
@@ -343,7 +343,7 @@
    ],
    [
     "p",
-    "Verification does not tell us whether a design will work in the world. It tells us that when we report a simulated Q_sci of 3.424 or a peak field of 16.84 T, the number is the true solution of the model we specified and not an artifact of a coarse grid or a coding slip. That is a precondition for every downstream claim."
+    "Verification does not tell us whether a design will work in the world. It tells us that when we report a simulated Q_sci of 3.076 or a peak field of 16.84 T, the number is the true solution of the model we specified and not an artifact of a coarse grid or a coding slip. That is a precondition for every downstream claim."
    ]
   ],
   "related": [
@@ -532,7 +532,7 @@
    ],
    [
     "p",
-    "Propagation is what turns a deterministic design point into an honest one. The frozen values -- Q_sci 3.424, plasma current 9.86 MA -- are central estimates; the propagated uncertainty around them is part of the same result. Carrying uncertainty end to end is more work than quoting a point value, and it is the difference between a design number a reader can weigh and a number that merely looks precise while hiding how little is actually pinned down."
+    "Propagation is what turns a deterministic design point into an honest one. The frozen values -- Q_sci 3.076, plasma current 9.66 MA -- are central estimates; the propagated uncertainty around them is part of the same result. Carrying uncertainty end to end is more work than quoting a point value, and it is the difference between a design number a reader can weigh and a number that merely looks precise while hiding how little is actually pinned down."
    ]
   ],
   "related": [
@@ -627,7 +627,7 @@
    ],
    [
     "p",
-    "Q_sci is quoted as 3.424 and helium-3 output as about 1.97 kg/yr because those are outputs of a settled calculation with correspondingly small model spread. A quantity dominated by an unvalidated correlation gets fewer digits and an explicit range, because more digits would be fiction. The rule is consistency between the printed precision and the propagated uncertainty."
+    "Q_sci is quoted as 3.076 and helium-3 output as about 1.97 kg/yr because those are outputs of a settled calculation with correspondingly small model spread. A quantity dominated by an unvalidated correlation gets fewer digits and an explicit range, because more digits would be fiction. The rule is consistency between the printed precision and the propagated uncertainty."
    ],
    [
     "h3",
@@ -704,7 +704,7 @@
    ],
    [
     "p",
-    "The burner gates are the proof of practice. A plug coil overstressed 3-3.9x, He-3 demand about 400x domestic supply per commercial unit, availability short of Tier III by 30-100x -- these are the opposite of flattering, and they are published exactly as computed. Keeping them is not modesty; it is the guarantee that the flattering numbers, like Q_sci 3.424, were computed the same honest way."
+    "The burner gates are the proof of practice. A plug coil overstressed 3-3.9x, He-3 demand about 400x domestic supply per commercial unit, availability short of Tier III by 30-100x -- these are the opposite of flattering, and they are published exactly as computed. Keeping them is not modesty; it is the guarantee that the flattering numbers, like Q_sci 3.076, were computed the same honest way."
    ],
    [
     "p",
@@ -812,7 +812,7 @@
    ],
    [
     "p",
-    "Integrated results like Q_sci 3.424 or fusion power 88.7 MW are built from many functions. If any one drifts unnoticed, the headline number is silently wrong and looks fine. Unit tests convert a silent drift into an immediate, located failure, which is the difference between catching a bug in an afternoon and shipping it in a paper."
+    "Integrated results like Q_sci 3.076 or fusion power 85.0 MW are built from many functions. If any one drifts unnoticed, the headline number is silently wrong and looks fine. Unit tests convert a silent drift into an immediate, located failure, which is the difference between catching a bug in an afternoon and shipping it in a paper."
    ],
    [
     "p",
@@ -855,7 +855,7 @@
    ],
    [
     "p",
-    "Unit tests guard individual functions; regression tests guard end-to-end results. We keep reference cases whose outputs -- plasma current 9.86 MA, peak field 16.84 T, Q_sci 3.424 -- are pinned to tolerance. A refactor that leaves them unchanged is safe; one that shifts them is either a bug or a genuine design change that must go through change control."
+    "Unit tests guard individual functions; regression tests guard end-to-end results. We keep reference cases whose outputs -- plasma current 9.66 MA, peak field 16.84 T, Q_sci 3.076 -- are pinned to tolerance. A refactor that leaves them unchanged is safe; one that shifts them is either a bug or a genuine design change that must go through change control."
    ],
    [
     "h3",
@@ -1140,7 +1140,7 @@
    ],
    [
     "p",
-    "Design is coupled: change the field and the current shifts, change the geometry and the breeding ratio moves. If numbers float freely, documents silently disagree and analyses built on last month's figure are silently invalid. A freeze guarantees that Q_sci 3.424, fusion power 88.7 MW, plasma current 9.86 MA, and peak field 16.84 T all describe the same machine at the same time."
+    "Design is coupled: change the field and the current shifts, change the geometry and the breeding ratio moves. If numbers float freely, documents silently disagree and analyses built on last month's figure are silently invalid. A freeze guarantees that Q_sci 3.076, fusion power 85.0 MW, plasma current 9.66 MA, and peak field 16.84 T all describe the same machine at the same time."
    ],
    [
     "h3",
@@ -1476,7 +1476,7 @@
    ],
    [
     "p",
-    "The frozen breeder design point is itself a set of predictions: a spherical tokamak reaching Q_sci 3.424 and fusion power 88.7 MW at plasma current 9.86 MA and peak field 16.84 T (8 T on-axis), with negative triangularity delta -0.30, producing roughly 4 kg/yr tritium-class product and about 1.97 kg/yr helium-3 plus 14 MeV neutrons. First-of-a-kind first tritium around 2030 is the event that begins testing these against measurement."
+    "The frozen breeder design point is itself a set of predictions: a spherical tokamak reaching Q_sci 3.076 and fusion power 85.0 MW at plasma current 9.66 MA and peak field 16.84 T (8 T on-axis), with negative triangularity delta -0.30, producing roughly 4 kg/yr tritium-class product and about 1.97 kg/yr helium-3 plus 14 MeV neutrons. First-of-a-kind first tritium around 2030 is the event that begins testing these against measurement."
    ],
    [
     "h3",
@@ -1540,7 +1540,7 @@
    ],
    [
     "p",
-    "Q_sci 3.424 is falsifiable: FOAK will measure a gain, and a measurement well outside the predicted band with its uncertainty would refute the design. The tritium breeding ratio, carried as a lever across 1.1, 1.5, and 1.8, frames a falsifiable question about self-sufficiency that only integrated operation can settle. Naming the band and the test in advance is what makes these more than hopes."
+    "Q_sci 3.076 is falsifiable: FOAK will measure a gain, and a measurement well outside the predicted band with its uncertainty would refute the design. The tritium breeding ratio, carried as a lever across 1.1, 1.5, and 1.8, frames a falsifiable question about self-sufficiency that only integrated operation can settle. Naming the band and the test in advance is what makes these more than hopes."
    ],
    [
     "p",
@@ -1703,7 +1703,7 @@
    ],
    [
     "p",
-    "The residual discretization error at the chosen resolution is a line in the error budget, not something to ignore because it is small. We report it, so a reader knows how much of the uncertainty on a number like Q_sci 3.424 is numerical versus physical. A result quoted without evidence of convergence is incomplete."
+    "The residual discretization error at the chosen resolution is a line in the error budget, not something to ignore because it is small. We report it, so a reader knows how much of the uncertainty on a number like Q_sci 3.076 is numerical versus physical. A result quoted without evidence of convergence is incomplete."
    ],
    [
     "p",
@@ -2144,7 +2144,7 @@
    ],
    [
     "p",
-    "The point of the gate is that the reader inherits the checking. When we publish Q_sci 3.424 or the burner gates, the reader should be able to assume the internal work was done -- because it was, and because the record lets them confirm it. A gate that can be skipped under pressure is not a gate, so it is applied uniformly, including to inconvenient results and tight deadlines."
+    "The point of the gate is that the reader inherits the checking. When we publish Q_sci 3.076 or the burner gates, the reader should be able to assume the internal work was done -- because it was, and because the record lets them confirm it. A gate that can be skipped under pressure is not a gate, so it is applied uniformly, including to inconvenient results and tight deadlines."
    ],
    [
     "p",

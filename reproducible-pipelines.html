@@ -419,7 +419,7 @@ inputs = load_inputs(&#x27;breeder/design_point.yaml&#x27;)   # exact published 
 result = run_sweep(inputs)                            # rerun the search
 
 # Q_sci, fusion power, plasma current recovered from the rerun
-print(result.Q_sci, result.P_fus_MW, result.Ip_MA)   # -&gt; 3.424 88.7 9.86
+print(result.Q_sci, result.P_fus_MW, result.Ip_MA)   # -&gt; 3.076 85.0 9.66
 
 verify(result, reference=&#x27;breeder/reference.json&#x27;)    # tiered check, must pass</code></pre>
 <h3>Two tiers of success</h3>

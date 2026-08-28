@@ -1612,7 +1612,7 @@
 ],
 [
 "p",
-"An environmental claim is meaningless if the design it describes keeps changing. Kronos practices frozen-design discipline: key configurations are fixed and versioned, and claims attach to a specific frozen design. When we cite the breeder's fusion power of 88.7 MW or the burner's 26.49 T plug, those numbers belong to a defined configuration, not a shifting sketch."
+"An environmental claim is meaningless if the design it describes keeps changing. Kronos practices frozen-design discipline: key configurations are fixed and versioned, and claims attach to a specific frozen design. When we cite the breeder's fusion power of 85.0 MW or the burner's 26.49 T plug, those numbers belong to a defined configuration, not a shifting sketch."
 ],
 [
 "h3",
@@ -1629,7 +1629,7 @@
 ],
 [
 "p",
-"The frozen canon includes the breeder's Q_sci of 3.424, plasma current of 9.86 MA, peak field of 16.84 T, and negative triangularity of -0.30, together with the burner's parameters. Freezing these lets outside reviewers check our work against a stable target — a precondition for the reproducibility that underlies environmental trust."
+"The frozen canon includes the breeder's Q_sci of 3.076, plasma current of 9.66 MA, peak field of 16.84 T, and negative triangularity of -0.30, together with the burner's parameters. Freezing these lets outside reviewers check our work against a stable target — a precondition for the reproducibility that underlies environmental trust."
 ],
 [
 "p",
@@ -2104,7 +2104,7 @@
 ],
 [
 "p",
-"For fusion, the honest statement is that net energy return is exactly what remains to be demonstrated in hardware. The breeder's scientific gain figure, Q_sci of 3.424, is a plasma-physics result from design study, not a whole-plant energy return, and not yet a hardware measurement. We make no hardware net-gain claim before the first-of-a-kind machine operates around 2030."
+"For fusion, the honest statement is that net energy return is exactly what remains to be demonstrated in hardware. The breeder's scientific gain figure, Q_sci of 3.076, is a plasma-physics result from design study, not a whole-plant energy return, and not yet a hardware measurement. We make no hardware net-gain claim before the first-of-a-kind machine operates around 2030."
 ],
 [
 "ul",
